@@ -1,0 +1,246 @@
+{
+  "id": "n1-m1-a2",
+  "slug": "casas-pestana-e-cordas-soltas",
+  "level": 1,
+  "moduleId": "n1-m1",
+  "title": "Casas, pestana e cordas soltas",
+  "subtitle": "Cada traste sobe um semitom; a pestana transporta o shape — e o 0 na cifra significa corda solta, X significa parada.",
+  "durationMin": 15,
+  "prerequisites": [
+    "n1-m1-a1"
+  ],
+  "tags": [
+    "fundamentos",
+    "violao",
+    "casas"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m1a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na afinação E A D G B e, qual nota soa na 5ª corda solta e qual na 1ª?",
+      "options": [
+        {
+          "label": "5ª = Lá (A); 1ª = mi (e)",
+          "correct": true,
+          "feedbackOk": "Perfeito — você fixou o mapa vertical antes de avançar nas casas."
+        },
+        {
+          "label": "5ª = Mi (E); 1ª = Lá (A)",
+          "correct": false,
+          "feedbackErr": "Mi está na 6ª e 1ª — a 5ª solta é Lá (A)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **E** na 6ª corda solta, depois na **1ª casa** (F/Fá). Um traste = um **semitom** cromatico. Repita na 5ª corda: **A** solto → **A#** casa 1."
+    },
+    {
+      "type": "component",
+      "id": "snd-fret",
+      "componentId": "play-note",
+      "props": {
+        "title": "Mi → Fá (1 semitom)",
+        "notes": [
+          "E",
+          "F"
+        ],
+        "octave": 3
+      }
+    },
+    {
+      "type": "heading",
+      "id": "casas",
+      "title": "Casas e semitons",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "casas-text",
+      "markdown": "Cada **casa** (traste) avança **1 semitom** ao longo da corda. A **corda solta** é casa 0 — na cifra brasileira aparece como **0**.\n\n| Símbolo cifra | Significado |\n|---------------|-------------|\n| **0** | Corda solta (soa) |\n| **X** | Não tocar / parar com dedo |\n| **n** | Pressionar casa n |\n\nExemplo: **F** (1 3 3 2 1 1) usa **pestana** na 1ª casa — todas as notas pressionadas sobem 1 semitom em relação ao shape de **E** aberto."
+    },
+    {
+      "type": "component",
+      "id": "fb-casas",
+      "componentId": "fretboard",
+      "props": {
+        "key": "E",
+        "frets": 5,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "pestana",
+      "title": "Pestana e cordas paradas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pestana-text",
+      "markdown": "A **pestana** (barre) com o dedo 1 replica um shape de posição aberta mais acima. **Bm** (X 2 4 4 3 2) é o **Am** deslocado +2 casas.\n\nCordas **paradas** (X) eliminam notas que quebrariam o acorde — em **Am** (X 0 2 2 1 0) a 6ª fica muda para não soar **Mi** sobre a tônica **Lá**."
+    },
+    {
+      "type": "component",
+      "id": "chord-am",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "Am", "title": "Am — 6ª parada, Lá na 5ª solta" }
+    },
+    {
+      "type": "component",
+      "id": "chord-f",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "F", "title": "F — pestana na 1ª casa (shape de E +1 semitom)" }
+    },
+    {
+      "type": "component",
+      "id": "snd-am-f",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça Am (parada) vs F (pestana)",
+        "chords": ["Am", "F"]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-se-ela",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am  F  E7  Am",
+      "annotation": "Am com 6ª parada; F com pestana — shapes que misturam 0, X e casas numeradas."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n1-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **Am** (X 0 2 2 1 0) — ouça Lá na 5ª solta. 2. **F** (1 3 3 2 1 1) — pestana casa 1. 3. **E7** (0 2 0 1 0 0) — compare cordas 0 vs pressionadas. 4. Um compasso de cada, alternando."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na cifra do Cifra Club e do violão popular, **0** e **X** aparecem antes dos números de casa — ex.: `X02210` (Am). Choro e samba-canção misturam shapes abertos (E7, Am) com pestanas (F, Bm) na mesma música; **Se Ela Perguntar** é o modelo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "No choro e na **bossa**, pestanas curtas alternam com cordas soltas — cada **grau** mantém sua **função** (tônica, subdominante, dominante). O avanço **cromático** de 1 casa transporta o shape sem mudar a lógica harmônica."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m1a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Na cifra X 0 2 2 1 0 (Am), o que significa o X na 6ª corda?",
+      "options": [
+        {
+          "label": "Não tocar a corda — evita Mi grave sobre Lá",
+          "correct": true,
+          "feedbackOk": "Certo — parada para preservar a tônica na 5ª corda solta."
+        },
+        {
+          "label": "Tocar a corda solta forte",
+          "correct": false,
+          "feedbackErr": "X = parada, não corda solta (0)."
+        },
+        {
+          "label": "Pestana na 6ª corda",
+          "correct": false,
+          "feedbackErr": "Pestana usa número de casa — X significa mudo."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m1a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Associe símbolo da cifra ao efeito:",
+      "pairs": [
+        {
+          "left": "0",
+          "right": "Corda solta"
+        },
+        {
+          "left": "X",
+          "right": "Corda parada"
+        },
+        {
+          "left": "+1 casa",
+          "right": "+1 semitom"
+        },
+        {
+          "left": "Pestana",
+          "right": "Shape móvel"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m1a2-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as notas na 6ª corda (Mi grave), subindo 1 casa por vez:",
+      "orderAnswer": ["E", "F", "F#", "G"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça os dois acordes — qual usa pestana na 1ª casa?",
+      "playChords": ["Am", "F"],
+      "options": [
+        { "label": "F (segundo acorde)", "correct": true, "feedbackOk": "Certo — F = shape de E deslocado +1 semitom com pestana." },
+        { "label": "Am (primeiro acorde)", "correct": false, "feedbackErr": "Am usa X na 6ª e cordas soltas — sem pestana." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m1a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar Am, F e E7 lendo 0, X e casas sem confundir corda solta com parada?"
+    }
+  ]
+}

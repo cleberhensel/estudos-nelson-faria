@@ -1,0 +1,280 @@
+{
+  "id": "n5-m2-a3",
+  "slug": "ciclo-de-quintas-descendente",
+  "level": 5,
+  "moduleId": "n5-m2",
+  "title": "Ciclo de quintas descendente",
+  "subtitle": "Cada acorde é V7 do seguinte — Dm7→G7→C7M→F7M desce por quintas. Desafinado e o jazz brasileiro vivem nesse fluxo.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n5-m2-a2"
+  ],
+  "tags": [
+    "progressoes"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "Dm7",
+    "G7",
+    "C7M",
+    "F7M",
+    "Bb7",
+    "Eb7M",
+    "Ab7M",
+    "Em7",
+    "A7",
+    "D7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m2a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (SubV7): qual acorde substitui C7 mantendo a trítono?",
+      "options": [
+        {
+          "label": "Gb7",
+          "correct": true,
+          "feedbackOk": "No ciclo, cada V7 resolve no acorde a quinta abaixo."
+        },
+        {
+          "label": "F7",
+          "correct": false,
+          "feedbackErr": "F7 é subdominante, não substituto de C7."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Desça por quintas",
+      "body": "Ouça **Dm7→G7→C7M→F7M→Bb7→Eb7M**. Cada acorde funciona como V7 do próximo — fluxo inevitável, quase gravitacional."
+    },
+    {
+      "type": "component",
+      "id": "prog-ciclo",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "Em7",
+          "A7",
+          "Dm7",
+          "G7",
+          "C7M",
+          "F7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "PD",
+          "D",
+          "T",
+          "SD"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "ciclo",
+      "title": "Ciclo descendente",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "ciclo-text",
+      "markdown": "No ciclo de quintas **descendente**, cada acorde é **V7** do seguinte:\n\n**A7 → Dm7 → G7 → C7M → F7M → Bb7 → Eb7M**\n\n| Trecho | Função encadeada |\n|--------|------------------|\n| Em7–A7–Dm | II–V–I em Dm |\n| Dm7–G7–C7M | II–V–I em Dó |\n| C7M–F7M | IV em Dó (plagal invertida) |\n\n**Desafinado** usa fragmentos do ciclo com meio-diminutos: F#m7(b5)–B7–Em7–A7–D7M."
+    },
+    {
+      "type": "component",
+      "id": "snd-ciclo",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ciclo em Desafinado",
+        "chords": [
+          "F#m7(b5)",
+          "B7",
+          "Em7",
+          "A7",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "circle",
+      "componentId": "circle-fifths",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n5-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "O ciclo de quintas descendente (Dm7→G7→C7M→F7M…) é o esqueleto de **Desafinado** e de standards como \"Autumn Leaves\" na versão brasileira. MPB usa 3–5 acordes do ciclo como passagem — não o ciclo completo de 12 tonalidades."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "O ciclo completo (12 acordes) percorre todas as tonalidades. Na MPB, usamos 3–5 acordes do ciclo como progressão — 'Autumn Leaves' brasileiro."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Dm7→G7→C7M→F7M em loop. Depois Em7→A7→Dm7→G7→C7M. Nomeie cada V7 e seu alvo."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m2a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "No ciclo descendente, G7 resolve em qual acorde?",
+      "options": [
+        {
+          "label": "C7M — quinta abaixo de Sol é Dó",
+          "correct": true,
+          "feedbackOk": "V7→I — cada passo desce uma quinta."
+        },
+        {
+          "label": "D7M — quinta acima",
+          "correct": false,
+          "feedbackErr": "Quinta acima seria ciclo ascendente."
+        },
+        {
+          "label": "F7M — subdominante",
+          "correct": false,
+          "feedbackErr": "F7M é IV de C, não resolução de G7."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m2a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue V7 ao alvo no ciclo:",
+      "pairs": [
+        {
+          "left": "A7",
+          "right": "Dm7"
+        },
+        {
+          "left": "D7",
+          "right": "Gm7"
+        },
+        {
+          "left": "G7",
+          "right": "C7M"
+        },
+        {
+          "left": "C7",
+          "right": "F7M"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m2a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ciclo: Em7 → A7 → ? → G7 → C7M",
+      "orderAnswer": [
+        "Em7",
+        "A7",
+        "Dm7",
+        "G7",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o fragmento de ciclo:",
+      "playChords": [
+        "Dm7",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "II–V–I em Dó (ciclo descendente)",
+          "correct": true,
+          "feedbackOk": "Dm7→G7→C7M — três passos do ciclo."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Em Fá seria Gm7→C7→F7M."
+        },
+        {
+          "label": "Backdoor Bb7→C7M",
+          "correct": false,
+          "feedbackErr": "São 3 acordes encadeados, não backdoor."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m2a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar 5 acordes do ciclo descendente sem pausa?"
+    }
+  ]
+}

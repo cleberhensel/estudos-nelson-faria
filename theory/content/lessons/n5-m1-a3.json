@@ -1,0 +1,263 @@
+{
+  "id": "n5-m1-a3",
+  "slug": "cadencia-deceptiva",
+  "level": 5,
+  "moduleId": "n5-m1",
+  "title": "Deceptiva (V–vi)",
+  "subtitle": "A dominante que não resolve — G7 que esperávamos em C7M vai para Am7. Corcovado usa essa surpresa para manter o balanço.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n5-m1-a2"
+  ],
+  "tags": [
+    "cadencias"
+  ],
+  "relatedWorks": [
+    "corcovado"
+  ],
+  "relatedChords": [
+    "G7",
+    "Am7",
+    "C7M",
+    "F7M",
+    "Fm7",
+    "Bb7",
+    "Eb7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m1a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (II–V–I): em Fá maior, qual acorde é a pré-dominante?",
+      "options": [
+        {
+          "label": "Gm7 (ii)",
+          "correct": true,
+          "feedbackOk": "A deceptiva quebra a resolução do V."
+        },
+        {
+          "label": "C7 (V)",
+          "correct": false,
+          "feedbackErr": "C7 é dominante — a deceptiva sai do V para vi."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "A surpresa harmônica",
+      "body": "Ouça **G7 → C7M** (autêntica) e depois **G7 → Am7** (deceptiva). A tensão do G7 permanece, mas o destino muda — o ouvido 'cai' para a relativa."
+    },
+    {
+      "type": "component",
+      "id": "snd-dec",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Autêntica vs deceptiva em Dó",
+        "chords": [
+          "G7",
+          "C7M",
+          "G7",
+          "Am7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "deceptiva",
+      "title": "V → vi (deceptiva)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "dec-text",
+      "markdown": "**Cadência deceptiva:** V resolve em **vi** em vez de I.\n\n| Tom | V | Esperado (I) | Deceptiva (vi) |\n|-----|---|--------------|----------------|\n| Dó | G7 | C7M | Am7 |\n| Fá | C7 | F7M | Dm7 |\n\nEm **Corcovado** (Fá), a progressão **F7M → Fm7 → Bb7 → Eb7M** usa movimentos cromáticos que *simulam* deceptivas — a dominante não resolve onde esperamos."
+    },
+    {
+      "type": "component",
+      "id": "prog-corcovado",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "Fm7",
+          "Bb7",
+          "Eb7M"
+        ],
+        "functions": [
+          "T",
+          "SD",
+          "D",
+          "SD"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "corcovado",
+      "excerpt": "F7M  Fm7  Bb7  Eb7M",
+      "annotation": "Progressão com subdominantes de grau II em Fá.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado",
+        "lessonId": "n5-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Corcovado** usa G7→Am7 quando o ouvido esperava C7M — cadência deceptiva que mantém a canção \"flutuando\". Jobim e Chico usam V→vi para evitar fechamento prematuro; o violonista sente como \"pergunta sem resposta\"."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A deceptiva funciona porque vi compartilha 2 notas com I (em Dó: Am7 e C7M têm Dó e Sol). A tensão de G7 'resolve' parcialmente — sensação lírica, não conclusiva."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Dm7 → G7 → C7M (II–V–I). 2. Dm7 → G7 → Am7 (deceptiva). 3. Toque o verso de Corcovado e identifique onde a resolução é adiada."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m1a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Cadência deceptiva em Dó maior: G7 resolve em?",
+      "options": [
+        {
+          "label": "Am7 (vi) — em vez de C7M",
+          "correct": true,
+          "feedbackOk": "V→vi — surpresa harmônica."
+        },
+        {
+          "label": "C7M (I) — resolução normal",
+          "correct": false,
+          "feedbackErr": "Isso é autêntica, não deceptiva."
+        },
+        {
+          "label": "F7M (IV) — plagal",
+          "correct": false,
+          "feedbackErr": "Plagal é IV→I, não V→vi."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m1a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a cadência à sensação:",
+      "pairs": [
+        {
+          "left": "V → I",
+          "right": "Repouso definitivo"
+        },
+        {
+          "left": "V → vi",
+          "right": "Surpresa — continua"
+        },
+        {
+          "left": "IV → I",
+          "right": "Repouso suave (plagal)"
+        },
+        {
+          "left": "ii → V",
+          "right": "Preparação de tensão"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m1a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Deceptiva em Dó (com pré-dominante):",
+      "orderAnswer": [
+        "Dm7",
+        "G7",
+        "Am7"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça: V resolve onde?",
+      "playChords": [
+        "G7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "Deceptiva V→vi em Dó",
+          "correct": true,
+          "feedbackOk": "G7 não foi para C7M — surpresa."
+        },
+        {
+          "label": "Autêntica V→I em Dó",
+          "correct": false,
+          "feedbackErr": "I seria C7M — ouça o Am7."
+        },
+        {
+          "label": "II–V sem resolução",
+          "correct": false,
+          "feedbackErr": "Há resolução, mas em vi."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m1a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar G7→Am7 e sentir a diferença de G7→C7M?"
+    }
+  ]
+}

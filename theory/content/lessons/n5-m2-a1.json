@@ -1,0 +1,275 @@
+{
+  "id": "n5-m2-a1",
+  "slug": "dominantes-secundarias",
+  "level": 5,
+  "moduleId": "n5-m2",
+  "title": "Dominantes secundários (V7/x)",
+  "subtitle": "V7 de outro grau — E7/B em Chega é V7/ii em Dm: dominante temporária que resolve em Am7, não na tônica.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n5-m1-a4"
+  ],
+  "tags": [
+    "dominantes",
+    "mpb"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "E7",
+    "E7/B",
+    "A7",
+    "D7",
+    "B7",
+    "Am7",
+    "Dm7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m2a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (backdoor): bVII7 em Dó é qual acorde?",
+      "options": [
+        {
+          "label": "Bb7 → C7M",
+          "correct": true,
+          "feedbackOk": "Dominantes secundárias são V7 de *outro* grau."
+        },
+        {
+          "label": "G7 → C7M",
+          "correct": false,
+          "feedbackErr": "G7 é a dominante primária (V/V não secundária)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Dominante de quem?",
+      "body": "Ouça **E7 → Am7** (V7/ii em Dó) e **E7 → A7** (V7/V em Dm). A dominante secundária resolve no acorde-alvo, não na tônica."
+    },
+    {
+      "type": "component",
+      "id": "prog-sec",
+      "componentId": "progression",
+      "props": {
+        "key": "Dm",
+        "mode": "minor",
+        "chords": [
+          "E7",
+          "Am7",
+          "A7",
+          "Dm7M"
+        ],
+        "functions": [
+          "D/ii",
+          "ii",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "formula",
+      "title": "V7/x — notação",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "formula-text",
+      "markdown": "**V7/x** = dominante do grau **x**.\n\n| Cifra | Significado | Resolve em | Em Dm |\n|-------|-------------|------------|-------|\n| **E7/B** | V7/ii (com baixo Si) | Am7 | E7 → Am |\n| **A7** | V7/i | Dm7M | A7 → Dm |\n| **B7** | V7/iii | Em7 | B7 → Em |\n\nEm **Chega**, **E7/B** prepara o campo de Am antes de modalar — slash indica baixo melódico."
+    },
+    {
+      "type": "component",
+      "id": "snd-e7",
+      "componentId": "play-chord",
+      "props": {
+        "title": "E7/B e resoluções",
+        "chords": [
+          "E7",
+          "E7/B",
+          "Am7",
+          "A7",
+          "Dm7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "Dm",
+        "mode": "minor"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7",
+      "annotation": "Campo menor com modulação para Ré maior — bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade",
+        "lessonId": "n5-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**E7/B** em **Chega** é V7/ii — dominante secundária com baixo em Si que \"visita\" Lá maior antes de voltar a Ré menor. Jobim escreve slash chords para linha de baixo cromática; o violonista toca o baixo na 5ª corda enquanto mantém a dominante."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Dominante secundária = empréstimo temporário de tonalidade. E7/B em Dm 'visita' Lá maior por um ou dois compassos. O baixo em Si conecta Dm/C com E7."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Dm → Dm/C → E7/B → Am7. Sinta o E7 puxar para Am (não para Dm). Nomeie: 'E7 é V7 de qual grau?'"
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m2a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "E7 em Dm é V7 de qual grau?",
+      "options": [
+        {
+          "label": "V7/ii — resolve em Am7",
+          "correct": true,
+          "feedbackOk": "E7 = dominante de Lá (ii em Dm)."
+        },
+        {
+          "label": "V7/i — resolve em Dm",
+          "correct": false,
+          "feedbackErr": "V7/i seria A7, não E7."
+        },
+        {
+          "label": "V7/IV — resolve em Gm",
+          "correct": false,
+          "feedbackErr": "V7/IV seria D7."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m2a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a dominante secundária ao alvo em Dó maior:",
+      "pairs": [
+        {
+          "left": "D7 (V7/IV)",
+          "right": "G7M"
+        },
+        {
+          "left": "E7 (V7/V)",
+          "right": "Am7"
+        },
+        {
+          "left": "A7 (V7/ii)",
+          "right": "Dm7"
+        },
+        {
+          "left": "C7 (V7/I)",
+          "right": "F7M"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m2a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Trecho Chega: Dm → Dm/C → ? → Am",
+      "orderAnswer": [
+        "Dm7M",
+        "Dm/C",
+        "E7/B",
+        "Am7"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a dominante secundária e seu alvo:",
+      "playChords": [
+        "E7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "V7/ii → ii (E7 → Am7)",
+          "correct": true,
+          "feedbackOk": "Dominante de Lá resolve em Am."
+        },
+        {
+          "label": "V7/i → i (A7 → Dm)",
+          "correct": false,
+          "feedbackErr": "A7 seria dominante primária de Dm."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Seria Dm7→G7→C7M."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m2a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu identificar E7/B como V7/ii no contexto de Chega?"
+    }
+  ]
+}

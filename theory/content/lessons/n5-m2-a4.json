@@ -1,0 +1,286 @@
+{
+  "id": "n5-m2-a4",
+  "slug": "blues-12-compassos",
+  "level": 5,
+  "moduleId": "n5-m2",
+  "title": "Blues de doze compassos no violão",
+  "subtitle": "I – I – I – I – IV – IV – I – I – V – IV – I – V — a espinha dorsal do jazz e do samba. Samba de Uma Nota Só flutua sobre essa estrutura.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n5-m2-a3"
+  ],
+  "tags": [
+    "progressoes",
+    "violao"
+  ],
+  "relatedWorks": [
+    "samba-de-uma-nota-so"
+  ],
+  "relatedChords": [
+    "C7",
+    "F7",
+    "G7",
+    "Bb7M",
+    "Eb7M",
+    "Ab7M",
+    "Db7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m2a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (ciclo): G7 no ciclo descendente resolve em?",
+      "options": [
+        {
+          "label": "C7M — I em Dó",
+          "correct": true,
+          "feedbackOk": "Blues em C usa C7, F7, G7 — todos dominantes."
+        },
+        {
+          "label": "F7M — IV em Dó",
+          "correct": false,
+          "feedbackErr": "No blues, IV é F7 (dominante), não F7M."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "doze compassos",
+      "body": "Ouça a forma blues em **C**: C7 (4) → F7 (2) → C7 (2) → G7 F7 C7 G7 (1 cada). A tensão/blues está nas dominantes sobre I, IV e V."
+    },
+    {
+      "type": "component",
+      "id": "prog-blues",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "C7",
+          "C7",
+          "C7",
+          "C7",
+          "F7",
+          "F7",
+          "C7",
+          "C7",
+          "G7",
+          "F7",
+          "C7",
+          "G7"
+        ],
+        "functions": [
+          "T",
+          "T",
+          "T",
+          "T",
+          "SD",
+          "SD",
+          "T",
+          "T",
+          "D",
+          "SD",
+          "T",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "forma",
+      "title": "Forma de doze compassos",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "forma-text",
+      "markdown": "| Compassos | Acorde | Função em C |\n|-----------|--------|-------------|\n| 1–4 | C7 | I (blues) |\n| 5–6 | F7 | IV |\n| 7–8 | C7 | I |\n| 9 | G7 | V |\n| 10 | F7 | IV |\n| 11 | C7 | I |\n| 12 | G7 | V (turnaround) |\n\n**Samba de Uma Nota Só** usa ciclo de quintas ascendente (Bb7M→Eb7M→Ab7M→Db7M) — parente do blues, mas com 7M."
+    },
+    {
+      "type": "component",
+      "id": "snd-blues",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Blues em C (resumo)",
+        "chords": [
+          "C7",
+          "F7",
+          "C7",
+          "G7",
+          "F7",
+          "C7",
+          "G7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "samba-de-uma-nota-so",
+      "excerpt": "Bb7M  Eb7M  Ab7M  Db7M",
+      "annotation": "Ciclo de quintas ascendente.",
+      "youtube": "YacrKDzDJo4",
+      "youtubeTitle": "Samba de Uma Nota Só",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "samba-de-uma-nota-so"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "samba-de-uma-nota-so",
+        "title": "Samba de Uma Nota Só",
+        "lessonId": "n5-m2-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Samba de Uma Nota Só** herda a forma de doze compassos do blues americano, mas Jobim suaviza com 7M e modulações bossa. Violonistas brasileiros aprendem blues como ponte para jazz — I, IV e V todos dominantes (7), não maiores."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "No blues, I, IV e V são todos **dominantes** (7, não 7M) — isso cria o som 'blue'. O samba de Jobim herda a estrutura mas suaviza com 7M e modulações."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque C7→F7→C7→G7→F7→C7→G7 com shuffle leve. Depois ouça Samba de Uma Nota Só e compare a estrutura cíclica."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m2a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "No blues em C, qual acorde ocupa os compassos 5–6?",
+      "options": [
+        {
+          "label": "F7 — IV blues",
+          "correct": true,
+          "feedbackOk": "Subdominante como dominante — som blues."
+        },
+        {
+          "label": "F7M — IV maior",
+          "correct": false,
+          "feedbackErr": "Blues usa F7, não F7M."
+        },
+        {
+          "label": "G7 — V",
+          "correct": false,
+          "feedbackErr": "G7 aparece no compasso 9."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m2a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o compasso ao acorde (blues em C):",
+      "pairs": [
+        {
+          "left": "1–4",
+          "right": "C7 (I)"
+        },
+        {
+          "left": "5–6",
+          "right": "F7 (IV)"
+        },
+        {
+          "left": "9",
+          "right": "G7 (V)"
+        },
+        {
+          "left": "12",
+          "right": "G7 (turnaround)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m2a4-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Últimos 4 compassos do blues em C:",
+      "orderAnswer": [
+        "G7",
+        "F7",
+        "C7",
+        "G7"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m2a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o turnaround do blues:",
+      "playChords": [
+        "G7",
+        "F7",
+        "C7",
+        "G7"
+      ],
+      "options": [
+        {
+          "label": "V–IV–I–V turnaround em C",
+          "correct": true,
+          "feedbackOk": "Compassos 9–12 do blues."
+        },
+        {
+          "label": "II–V–I em C",
+          "correct": false,
+          "feedbackErr": "II–V–I seria Dm7→G7→C7."
+        },
+        {
+          "label": "Ciclo ascendente Jobim",
+          "correct": false,
+          "feedbackErr": "Jobim usa 7M ascendente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m2a4-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar a forma de doze compassos em C de memória?"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "n6-m3-a2",
+  "slug": "desafio-4-generos-a-mesma-progressao",
+  "level": 6,
+  "moduleId": "n6-m3",
+  "title": "Desafio: 4 gêneros, a mesma progressão",
+  "subtitle": "Dm7–G7–C7M em bossa, samba, choro e baião — o groove muda o peso dos mesmos acordes.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n6-m3-a1"
+  ],
+  "tags": [
+    "ritmo",
+    "desafio"
+  ],
+  "relatedWorks": [
+    "o-que-e-que-a-baiana-tem"
+  ],
+  "relatedChords": [
+    "Dm7",
+    "G7",
+    "C7M",
+    "F7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m3a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m3-a1): metrônomo lento treina subdivisão. Este desafio usa qual progressão fixa?",
+      "options": [
+        {
+          "label": "II–V–I em Dó (Dm7–G7–C7M).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "A progressão é Dm7→G7→C7M em todos os gêneros."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **Dm7–G7–C7M** quatro vezes: grade bossa, samba, choro, baião. Grave e compare — harmonia igual, sensação diferente."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Progressão fixa do desafio",
+        "chords": [
+          "Dm7",
+          "G7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Desafio: 4 gêneros, a mesma progressão",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Desafio N6**: mesma progressão, **quatro grooves**. O II–V–I em Dó é neutro harmonicamente — o gênero decide articulação:\n\n- **Bossa**: contratempo seco\n- **Samba**: tempo 2\n- **Choro**: semicolcheias + baixaria\n- **Baião**: 3+3+2\n\nEm **Baiana Tem** o campo é outro, mas o exercício fixa Dm7–G7–C7M para isolar ritmo."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "samba",
+        "bpm": 100
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Hermeto Pascoal brinca com 'mesma cifra, outro gênero' ao vivo — este desafio é versão didática."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "o-que-e-que-a-baiana-tem",
+      "excerpt": "A7  D7M  G7  C7M",
+      "annotation": "Samba com harmonia direta e ritmo marcante.",
+      "youtube": "ojo3I59Gn6c",
+      "youtubeTitle": "O Que É Que a Baiana Tem?",
+      "youtubeArtist": "Carmen Miranda"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "o-que-e-que-a-baiana-tem"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "o-que-e-que-a-baiana-tem",
+        "title": "O Que É Que a Baiana Tem?",
+        "lessonId": "n6-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Arranjadores brasileiros mudam gênero sem mudar cifra — você precisa ouvir o groove antes da análise."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. Dm7–G7–C7M: dois compassos bossa. 2. Repita samba, choro, baião. 3. Grave 30s e identifique qual groove ficou mais fraco."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m3a2-q1",
+      "kind": "mc",
+      "question": "No desafio 4 gêneros, o que permanece igual?",
+      "options": [
+        {
+          "label": "Sequência Dm7–G7–C7M",
+          "correct": true,
+          "feedbackOk": "Só o groove muda."
+        },
+        {
+          "label": "BPM obrigatório 130",
+          "correct": false,
+          "feedbackErr": "Cada gênero tem BPM típico diferente."
+        },
+        {
+          "label": "Levada bossa em todos",
+          "correct": false,
+          "feedbackErr": "Justamente o oposto."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "desafio-4-generos-a-mesma-progressao",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m3a2-match",
+      "kind": "match",
+      "question": "Gênero ↔ característica levada:",
+      "pairs": [
+        {
+          "left": "Bossa",
+          "right": "Contratempo 2 e 4"
+        },
+        {
+          "left": "Samba",
+          "right": "Acento tempo 2"
+        },
+        {
+          "left": "Choro",
+          "right": "Baixaria 2/4"
+        },
+        {
+          "left": "Baião",
+          "right": "3+3+2"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — mesma progressão, 4 gêneros (harmonia fixa):",
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "II–V–I em Fá — base comum bossa/samba/choro/baião",
+          "correct": true,
+          "feedbackOk": "O desafio é o groove, não os acordes."
+        },
+        {
+          "label": "Blues de doze compassos",
+          "correct": false,
+          "feedbackErr": "Progressão diatônica, não blues."
+        },
+        {
+          "label": "Ciclo completo de quintas",
+          "correct": false,
+          "feedbackErr": "Só 3 acordes — cadência, não ciclo."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m3a2-self",
+      "kind": "self_check",
+      "question": "Concluiu os 4 grooves na mesma progressão com confiança?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "n3-m1-a1",
+  "slug": "graus-romanos-i-ii-iii-iv-v-vi-vii",
+  "level": 3,
+  "moduleId": "n3-m1",
+  "title": "Graus romanos: I II III IV V VI VII",
+  "subtitle": "Números romanos nomeiam acordes pela posição na escala — a linguagem que une cifra, análise e MPB.",
+  "durationMin": 18,
+  "prerequisites": [],
+  "tags": ["campo-harmonico", "graus", "violao", "mpb"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["F7M", "Gm7", "C7", "Am7", "D7", "G7", "C7M"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m1a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (entrada N3): ao tocar F7M → Gm7 → C7 → F7M, você está ouvindo qual cadência em Fá?",
+      "options": [
+        { "label": "II–V–I em Fá maior", "correct": true, "feedbackOk": "Gm7 = ii, C7 = V, F7M = I — graus romanos nomeiam isso." },
+        { "label": "I–IV–V em Fá", "correct": false, "feedbackErr": "I–IV–V seria F7M → Bb7M → C7 — ordem diferente." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque em Fá maior: **F7M → Gm7 → C7 → F7M**. São apenas quatro acordes, mas cada um ocupa um **lugar diferente** na escala de Fá. Os algarismos romanos são o rótulo desse lugar."
+    },
+    {
+      "type": "component",
+      "id": "snd-garota",
+      "componentId": "play-chord",
+      "props": {
+        "title": "II–V–I em Fá (esqueleto de Garota de Ipanema)",
+        "chords": ["Gm7", "C7", "F7M"]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "o-que-sao",
+      "title": "O que são graus romanos?",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "o-que-sao-text",
+      "markdown": "Cada nota da escala recebe um **grau** (I a VII). O acorde construído sobre esse grau herda o número romano:\n\n- **Maiúsculo** (I, IV, V) → acorde com terça maior (maior, 7M, 7 dominante…)\n- **Minúsculo** (ii, iii, vi) → terça menor (m, m7…)\n- **Símbolos extras:** ° (diminuto), ø (meio-diminuto), + (aumentado)\n\nEm **Dó maior**: I = C7M, ii = Dm7, iii = Em7, IV = F7M, V = G7, vi = Am7, vii° = Bm7(b5).\n\nO grau é **relativo à tonalidade**. Em Fá maior, Gm7 não é \"acorde de Sol menor\" solto — é **ii**, a pré-dominante do campo de Fá."
+    },
+    {
+      "type": "component",
+      "id": "lab-c",
+      "componentId": "harmonic-lab",
+      "props": { "defaultKey": "C", "mode": "major" }
+    },
+    {
+      "type": "component",
+      "id": "lab-f",
+      "componentId": "harmonic-lab",
+      "props": { "defaultKey": "F", "mode": "major" }
+    },
+    {
+      "type": "heading",
+      "id": "maiusc-minusc",
+      "title": "Maiúsculas, minúsculas e transposição",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "transp-text",
+      "markdown": "A progressão **ii–V–I** soa igual em qualquer tom — só muda o nome dos acordes:\n\n| Tom | ii | V | I |\n|-----|----|---|----|\n| Dó | Dm7 | G7 | C7M |\n| Fá | Gm7 | C7 | F7M |\n| Ré | Em7 | A7 | D7M |\n\nPor isso analistas brasileiros escrevem graus: você lê uma cifra em **Si♭** e ainda reconhece **vi–ii–V–I** sem recalcular tudo."
+    },
+    {
+      "type": "component",
+      "id": "prog-f",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": ["Gm7", "C7", "F7M"],
+        "functions": ["ii", "V", "I"]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Graus **diatônicos** (só notas da escala) são o ponto de partida. Jobim adiciona **acordes cromáticos** (bVI, V7/V, SubV7) — mas você sempre os mede em relação ao grau tonal mais próximo. Sem graus, a análise vira lista de símbolos sem função."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na MPB: Garota de Ipanema",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "garota-text",
+      "markdown": "O refrão de **Garota de Ipanema** (tom **Fá maior**) é um laboratório de graus:\n\n```\nF7M          G7\nGm7    C7(9)    F7M\n I            ii    V      I\n```\n\nO **Gm7** é ii (pré-dominante), **C7** é V (dominante com tensão), **F7M** é I (repouso). Mesma lógica da cadência que você ouviu no início — agora com nomes romanos."
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "Em Fá maior: I → V → ii → V → I. O Gm7 (ii) prepara o C7 (V) que resolve em F7M (I).",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto (1964)"
+    },
+    {
+      "type": "component",
+      "id": "chart-garota",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl-garota",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Abrir cifra completa", "lessonId": "n3-m1-a1" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na bossa nova, compositores pensavam em **graus** mesmo escrevendo cifras americanas. João Gilberto simplificava voicings, mas a função ii–V–I está em quase todo samba-jazz. Saber romanos é ler a mente do arranjo."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **C – Am – F – G** (posição aberta). 2. Diga em voz alta: I – vi – IV – V em Dó. 3. Transponha mentalmente para Fá: **F7M – Dm7 – Bb7M – C7** — mesmos graus, outros nomes. 4. Toque o ii–V–I em Fá: **Gm7 – C7 – F7M**."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m1a1-q1",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Em Dó maior, qual grau romano representa o acorde **Am7**?",
+      "options": [
+        { "label": "vi", "correct": true, "feedbackOk": "Certo — Am7 é a relativa menor, grau vi do campo de Dó." },
+        { "label": "ii", "correct": false, "feedbackErr": "ii seria Dm7 — uma terça acima de C." },
+        { "label": "IV", "correct": false, "feedbackErr": "IV é F7M — subdominante diatônica." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m1a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Em Fá maior, associe acorde ao grau:",
+      "pairs": [
+        { "left": "F7M", "right": "I" },
+        { "left": "Gm7", "right": "ii" },
+        { "left": "C7", "right": "V" },
+        { "left": "Dm7", "right": "iii" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-mc2",
+      "exerciseId": "ex-n3-m1a1-q2",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Por que escrevemos **ii** em minúsculo e **V** em maiúsculo?",
+      "options": [
+        { "label": "Porque ii tem terça menor e V tem terça maior na escala", "correct": true, "feedbackOk": "A capitalização resume a qualidade da terça no grau." },
+        { "label": "Porque ii é menos importante que V", "correct": false, "feedbackErr": "Não é hierarquia — é convenção de qualidade harmônica." },
+        { "label": "É arbitrário — não importa", "correct": false, "feedbackErr": "Importa: vi (menor) vs VI (maior) são acordes diferentes." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m1a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene os graus diatônicos de Dó (I a IV):",
+      "orderAnswer": ["C7M", "Dm7", "Em7", "F7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m1a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a cadência em Fá e identifique os graus:",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "ii – V – I em Fá", "correct": true, "feedbackOk": "Exato — pré-dominante, dominante, tônica." },
+        { "label": "I – IV – V em Fá", "correct": false, "feedbackErr": "I–IV–V seria F7M – Bb7M – C7." },
+        { "label": "vi – IV – I em Fá", "correct": false, "feedbackErr": "Ouça o Gm7 abrindo — é o ii, não vi." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m1a1-self",
+      "kind": "self_check",
+      "question": "Consegue olhar uma cifra em Fá e marcar mentalmente I, ii, V sem consultar a tabela?"
+    }
+  ]
+}

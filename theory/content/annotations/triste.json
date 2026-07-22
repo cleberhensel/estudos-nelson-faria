@@ -1,0 +1,24 @@
+{
+  "workId": "triste",
+  "key": "Ab",
+  "sections": [
+    {
+      "label": "Tema — tons com bemóis",
+      "chords": [
+        { "symbol": "Ab7M", "degree": "I", "function": "T" },
+        { "symbol": "Db7M", "degree": "IV", "function": "SD" },
+        { "symbol": "Gb7M", "degree": "bVII", "function": "SD" },
+        { "symbol": "B7M", "degree": "III", "function": "T" }
+      ]
+    },
+    {
+      "label": "Ponte Jobim",
+      "chords": [
+        { "symbol": "Eb7M", "degree": "bVI", "function": "SD" },
+        { "symbol": "Ab7M", "degree": "I", "function": "T" },
+        { "symbol": "Fm7", "degree": "vi", "function": "T" },
+        { "symbol": "Bb7", "degree": "II7", "function": "D" }
+      ]
+    }
+  ]
+}

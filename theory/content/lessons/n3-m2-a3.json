@@ -1,0 +1,341 @@
+{
+  "id": "n3-m2-a3",
+  "slug": "campo-menor-melodico",
+  "level": 3,
+  "moduleId": "n3-m2",
+  "title": "Campo menor melódico — 6ª e 7ª elevadas",
+  "subtitle": "Na subida, Ré menor ganha F# e C# — compare as três menores no braço e ouça a ponte de Insensatez.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n3-m2-a2"
+  ],
+  "tags": [
+    "campo-harmonico",
+    "menor",
+    "melodico"
+  ],
+  "relatedWorks": [
+    "insensatez"
+  ],
+  "relatedChords": [
+    "Am7",
+    "D7",
+    "G7M",
+    "C7M",
+    "B7",
+    "E7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m2a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (menor harmônico): por que elevamos a 7ª em Ré menor?",
+      "options": [
+        {
+          "label": "Para ter A7 (V7) com 3ª maior que resolve em Dm",
+          "correct": true,
+          "feedbackOk": "Exato — agora veremos o que muda quando também elevamos a 6ª."
+        },
+        {
+          "label": "Para ter o mesmo campo que Dó maior",
+          "correct": false,
+          "feedbackErr": "Não — o campo melódico ainda é menor, com graus alterados na subida."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Três menores — ouça a diferença",
+      "body": "Toque a escala de **Lá menor** em três versões: **natural** (G), **harmônico** (G# só na subida para tônica), **melódico** (F# e G# na subida, G e F natural na descida). A cor muda — especialmente entre 6ª e 7ª graus."
+    },
+    {
+      "type": "component",
+      "id": "snd-natural",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor natural",
+        "root": "A",
+        "scale": "minor"
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-harmonic",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor harmônico",
+        "root": "A",
+        "scale": "minorHarmonic"
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-melodic",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor melódico (subida)",
+        "root": "A",
+        "scale": "minorMelodic"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tres-menores",
+      "title": "Natural, harmônico, melódico",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tres-text",
+      "markdown": "| Tipo | 6ª grau | 7ª grau | Uso principal |\n|------|---------|---------|---------------|\n| **Natural** | ♭6 (F) | ♭7 (G) | Melodia, acordes diatônicos |\n| **Harmônico** | ♭6 (F) | **♯7 (G#)** | V7→Im (cadência) |\n| **Melódico** | **♯6 (F#)** na subida | **♯7 (G#)** na subida | Passagens melódicas, pontes |\n\nNa **descida**, o melódico volta ao natural — evita intervalo aumentado entre ♭6 e ♮7."
+    },
+    {
+      "type": "component",
+      "id": "fb-natural",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minor",
+        "frets": 12,
+        "title": "Lá menor natural"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-harmonic",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minorHarmonic",
+        "frets": 12,
+        "title": "Lá menor harmônico"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-melodic",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minorMelodic",
+        "frets": 12,
+        "title": "Lá menor melódico"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "campo-melodico",
+      "title": "Harmonia do menor melódico",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "campo-text",
+      "markdown": "Com **6ª e 7ª elevadas**, nascem acordes \"maiores\" inesperados no campo menor:\n\n- **IV7** (D7 em Lá menor melódico) — subdominante com 7ª\n- **VI7** (F#7) — dominante de II\n- **II7** (B7) — usado como dominante secundária\n\nCompositores da MPB usam esses acordes como **passagem**, não como campo inteiro — a sensação continua menor."
+    },
+    {
+      "type": "component",
+      "id": "lab-am-mel",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "A",
+        "mode": "minorMelodic"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "insensatez",
+      "title": "Insensatez — ponte com graus elevados",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "ins-text",
+      "markdown": "A progressão principal de **Insensatez** (Sol maior) é **Am7–D7–G7M–C7M** — ii–V–I–IV clássica.\n\nNa **ponte**, Jobim introduz **B7** e **E7** — dominantes com 3ª maior que coloram a passagem sem mudar o centro tonal. São ecos do **menor melódico** aplicados harmonicamente."
+    },
+    {
+      "type": "component",
+      "id": "snd-ins",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Insensatez — verso",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-insensatez",
+      "workId": "insensatez",
+      "excerpt": "Am7  D7  G7M  C7M\n\nB7  E7  Am7  D7",
+      "annotation": "Verso: ii–V–I–IV em Sol. Ponte: B7 (III7) e E7 (VI7) — cores do menor melódico em contexto maior.",
+      "youtube": "PHIe9B5plDI",
+      "youtubeTitle": "Insensatez",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "insensatez"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "insensatez",
+        "title": "Insensatez — cifra",
+        "lessonId": "n3-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Jobim em **Insensatez** mantém Sol maior no verso, mas a ponte traz **B7** e **E7** — dominantes com 3ª maior típicas do menor melódico. Não é modulação: são **passagens cromáticas** que coloram antes de voltar ao ii–V–I."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "**VI7** (F#7 em Lá menor melódico) funciona como dominante de **II** — útil em reharmonizações. Na MPB aparece pontualmente; o campo inteiro continua sendo menor natural + harmônico na cadência."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (7 min)",
+      "body": "1. Toque Lá menor natural (5ª casa) e marque F e G. 2. Substitua F→F# e G→G# na subida — ouça o \"brilho\". 3. Am7–D7–G7M–C7M devagar (Insensatez). 4. Na ponte, isole B7→E7→Am7 — sinta a cor dominante."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m2a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "No menor melódico ascendente, quais graus são elevados?",
+      "options": [
+        {
+          "label": "6ª e 7ª (F→F#, G→G# em Lá menor)",
+          "correct": true,
+          "feedbackOk": "Isso — na descida voltam ao natural."
+        },
+        {
+          "label": "Apenas a 7ª",
+          "correct": false,
+          "feedbackErr": "Só a 7ª é o menor harmônico."
+        },
+        {
+          "label": "2ª e 5ª",
+          "correct": false,
+          "feedbackErr": "2ª e 5ª não mudam entre as três menores."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m2a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Associe tipo de menor à alteração:",
+      "pairs": [
+        {
+          "left": "Natural",
+          "right": "♭6 e ♭7"
+        },
+        {
+          "left": "Harmônico",
+          "right": "♭6 e ♯7"
+        },
+        {
+          "left": "Melódico (subida)",
+          "right": "♯6 e ♯7"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q2",
+      "exerciseId": "ex-n3-m2a3-q2",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Insensatez, Am7–D7–G7M–C7M em Sol maior são:",
+      "options": [
+        {
+          "label": "ii–V–I–IV",
+          "correct": true,
+          "feedbackOk": "Cadência bossa clássica — pré-dominante, dominante, tônica, subdominante."
+        },
+        {
+          "label": "I–VI–II–V",
+          "correct": false,
+          "feedbackErr": "Turn-around em Dó — tom diferente."
+        },
+        {
+          "label": "iiø–V7–Im",
+          "correct": false,
+          "feedbackErr": "Cadência menor harmônica — Insensatez está em Sol maior."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — verso de Insensatez (Sol maior):",
+      "playChords": [
+        "Am7",
+        "D7",
+        "G7M",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "ii–V–I–IV em Sol",
+          "correct": true,
+          "feedbackOk": "Cadência bossa — graus diatônicos puros."
+        },
+        {
+          "label": "iiø–V7–Im em Ré menor",
+          "correct": false,
+          "feedbackErr": "Tom maior — ouça o G7M repousando."
+        },
+        {
+          "label": "I–VI–II–V em Dó",
+          "correct": false,
+          "feedbackErr": "Turn-around — falta o vi inicial."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m2a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar as três escalas menores de Lá no braço e explicar quando cada uma aparece na MPB?"
+    }
+  ]
+}

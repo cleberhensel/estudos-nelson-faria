@@ -1,0 +1,1641 @@
+{
+  "id": "main",
+  "version": "2.0.0",
+  "generatedAt": "2026-06-08T22:49:15.402Z",
+  "levels": [
+    {
+      "id": "n1",
+      "number": 1,
+      "title": "O violão como mapa",
+      "description": "Notas, cordas, intervalos no braço",
+      "modules": [
+        {
+          "id": "n1-m1",
+          "title": "Afinação e anatomia",
+          "lessons": [
+            {
+              "id": "n1-m1-a1",
+              "title": "As 6 cordas e a afinação E A D G B e",
+              "durationMin": 15,
+              "prerequisites": [],
+              "tags": [
+                "fundamentos",
+                "violao"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar"
+              ]
+            },
+            {
+              "id": "n1-m1-a2",
+              "title": "Casas, pestana e cordas soltas",
+              "durationMin": 14,
+              "prerequisites": [
+                "n1-m1-a1"
+              ],
+              "tags": [
+                "fundamentos",
+                "violao"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar"
+              ]
+            },
+            {
+              "id": "n1-m1-a3",
+              "title": "Ler shapes na cifra brasileira",
+              "durationMin": 14,
+              "prerequisites": [
+                "n1-m1-a2"
+              ],
+              "tags": [
+                "fundamentos",
+                "cifra"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1-m2",
+          "title": "Notas no braço",
+          "lessons": [
+            {
+              "id": "n1-m2-a1",
+              "title": "Nomenclatura PT/EN: Dó, Ré, Mi…",
+              "durationMin": 13,
+              "prerequisites": [
+                "n1-m1-a3"
+              ],
+              "tags": [
+                "notas",
+                "violao"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n1-m2-a2",
+              "title": "Notas nas cordas Mi e Ré (até o 12º)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n1-m2-a1"
+              ],
+              "tags": [
+                "notas",
+                "violao"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n1-m2-a3",
+              "title": "Mapa completo — oitavas que se repetem",
+              "durationMin": 16,
+              "prerequisites": [
+                "n1-m2-a2"
+              ],
+              "tags": [
+                "notas",
+                "violao"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1-m3",
+          "title": "Intervalos",
+          "lessons": [
+            {
+              "id": "n1-m3-a1",
+              "title": "Segunda, terça e quarta — ouvir e localizar",
+              "durationMin": 15,
+              "prerequisites": [
+                "n1-m2-a3"
+              ],
+              "tags": [
+                "intervalos"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n1-m3-a2",
+              "title": "Quinta e oitava — os alicerces",
+              "durationMin": 14,
+              "prerequisites": [
+                "n1-m3-a1"
+              ],
+              "tags": [
+                "intervalos"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar"
+              ]
+            },
+            {
+              "id": "n1-m3-a3",
+              "title": "Semitom vs tom — o cromático no 1º traste",
+              "durationMin": 13,
+              "prerequisites": [
+                "n1-m3-a2"
+              ],
+              "tags": [
+                "intervalos"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n1-m3-a4",
+              "title": "Desafio: todas as quintas de Lá no braço",
+              "durationMin": 12,
+              "prerequisites": [
+                "n1-m3-a3"
+              ],
+              "tags": [
+                "intervalos",
+                "desafio"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "number": 2,
+      "title": "Escalas e tonalidade",
+      "description": "Maior/menor, armaduras, CAGED",
+      "modules": [
+        {
+          "id": "n2-m1",
+          "title": "Escala maior",
+          "lessons": [
+            {
+              "id": "n2-m1-a1",
+              "title": "A fórmula T-T-S-T-T-T-S",
+              "durationMin": 16,
+              "prerequisites": [],
+              "tags": [
+                "escalas"
+              ],
+              "relatedWorks": [
+                "lilas"
+              ]
+            },
+            {
+              "id": "n2-m1-a2",
+              "title": "Dó maior no braço (posição aberta)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n2-m1-a1"
+              ],
+              "tags": [
+                "escalas",
+                "violao"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n2-m1-a3",
+              "title": "Sol e Ré maior — shapes móveis",
+              "durationMin": 16,
+              "prerequisites": [
+                "n2-m1-a2"
+              ],
+              "tags": [
+                "escalas",
+                "violao"
+              ],
+              "relatedWorks": [
+                "lilas"
+              ]
+            },
+            {
+              "id": "n2-m1-a4",
+              "title": "Círculo de quintas e armaduras",
+              "durationMin": 18,
+              "prerequisites": [
+                "n2-m1-a3"
+              ],
+              "tags": [
+                "escalas",
+                "tonalidade"
+              ],
+              "relatedWorks": [
+                "oceano"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-m2",
+          "title": "Escala menor",
+          "lessons": [
+            {
+              "id": "n2-m2-a1",
+              "title": "Menor natural, harmônica e melódica",
+              "durationMin": 18,
+              "prerequisites": [
+                "n2-m1-a4"
+              ],
+              "tags": [
+                "escalas",
+                "menor"
+              ],
+              "relatedWorks": [
+                "construcao"
+              ]
+            },
+            {
+              "id": "n2-m2-a2",
+              "title": "Relativa menor (Lá menor ↔ Dó maior)",
+              "durationMin": 15,
+              "prerequisites": [
+                "n2-m2-a1"
+              ],
+              "tags": [
+                "escalas",
+                "menor"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n2-m2-a3",
+              "title": "Lá menor no braço",
+              "durationMin": 14,
+              "prerequisites": [
+                "n2-m2-a2"
+              ],
+              "tags": [
+                "escalas",
+                "menor",
+                "violao"
+              ],
+              "relatedWorks": [
+                "construcao"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-m3",
+          "title": "CAGED e pentatônica",
+          "lessons": [
+            {
+              "id": "n2-m3-a1",
+              "title": "As 5 formas de acorde maior no braço",
+              "durationMin": 18,
+              "prerequisites": [
+                "n2-m2-a3"
+              ],
+              "tags": [
+                "caged",
+                "violao"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n2-m3-a2",
+              "title": "Conectar as formas — subir o braço",
+              "durationMin": 16,
+              "prerequisites": [
+                "n2-m3-a1"
+              ],
+              "tags": [
+                "caged",
+                "violao"
+              ],
+              "relatedWorks": [
+                "lilas"
+              ]
+            },
+            {
+              "id": "n2-m3-a3",
+              "title": "Escalas dentro das formas CAGED",
+              "durationMin": 16,
+              "prerequisites": [
+                "n2-m3-a2"
+              ],
+              "tags": [
+                "caged",
+                "escalas"
+              ],
+              "relatedWorks": [
+                "oceano"
+              ]
+            },
+            {
+              "id": "n2-m3-a4",
+              "title": "Pentatônica maior e menor — blues e MPB",
+              "durationMin": 16,
+              "prerequisites": [
+                "n2-m3-a3"
+              ],
+              "tags": [
+                "pentatonica",
+                "escalas"
+              ],
+              "relatedWorks": [
+                "oceano"
+              ]
+            },
+            {
+              "id": "n2-m3-a5",
+              "title": "Desafio: tocar Dó maior em 3 regiões",
+              "durationMin": 12,
+              "prerequisites": [
+                "n2-m3-a4"
+              ],
+              "tags": [
+                "caged",
+                "desafio"
+              ],
+              "relatedWorks": [
+                "lilas"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "number": 3,
+      "title": "Campo harmônico",
+      "description": "Funções, graus, diatônico, MPB",
+      "modules": [
+        {
+          "id": "n3-m1",
+          "title": "Graus da escala",
+          "lessons": [
+            {
+              "id": "n3-m1-a1",
+              "title": "Graus romanos: I II III IV V VI VII",
+              "durationMin": 15,
+              "prerequisites": [],
+              "tags": [
+                "campo-harmonico"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n3-m1-a2",
+              "title": "Campo harmônico de Dó maior",
+              "durationMin": 20,
+              "prerequisites": [
+                "n3-m1-a1"
+              ],
+              "tags": [
+                "campo-harmonico",
+                "mpb"
+              ],
+              "relatedWorks": [
+                "construcao"
+              ]
+            },
+            {
+              "id": "n3-m1-a3",
+              "title": "Funções: Tônica, Subdominante, Dominante",
+              "durationMin": 18,
+              "prerequisites": [
+                "n3-m1-a2"
+              ],
+              "tags": [
+                "campo-harmonico",
+                "funcoes"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n3-m1-a4",
+              "title": "Pré-dominante: o papel de II e IV",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m1-a3"
+              ],
+              "tags": [
+                "campo-harmonico",
+                "funcoes"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n3-m2",
+          "title": "Campo em outros tons",
+          "lessons": [
+            {
+              "id": "n3-m2-a1",
+              "title": "Campo em Sol, Ré e Fá maior",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m1-a4"
+              ],
+              "tags": [
+                "campo-harmonico"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n3-m2-a2",
+              "title": "Campo menor harmônico — V7 e o VII°",
+              "durationMin": 18,
+              "prerequisites": [
+                "n3-m2-a1"
+              ],
+              "tags": [
+                "campo-harmonico",
+                "menor"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n3-m2-a3",
+              "title": "Campo menor melódico — a dominante especial",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m2-a2"
+              ],
+              "tags": [
+                "campo-harmonico",
+                "menor"
+              ],
+              "relatedWorks": [
+                "insensatez"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n3-m3",
+          "title": "Aplicação na MPB",
+          "lessons": [
+            {
+              "id": "n3-m3-a1",
+              "title": "Análise: Chega de Saudade (campo menor → maior)",
+              "durationMin": 20,
+              "prerequisites": [
+                "n3-m2-a3"
+              ],
+              "tags": [
+                "mpb",
+                "analise",
+                "bossa"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n3-m3-a2",
+              "title": "Análise: Construção (Chico Buarque)",
+              "durationMin": 20,
+              "prerequisites": [
+                "n3-m3-a1"
+              ],
+              "tags": [
+                "mpb",
+                "analise"
+              ],
+              "relatedWorks": [
+                "construcao"
+              ]
+            },
+            {
+              "id": "n3-m3-a3",
+              "title": "Cadência I–VI–II–V–I na prática",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m3-a2"
+              ],
+              "tags": [
+                "cadencias",
+                "mpb"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n3-m3-a4",
+              "title": "Acordes emprestados (bVII, bVI)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m3-a3"
+              ],
+              "tags": [
+                "emprestimo-modal",
+                "mpb"
+              ],
+              "relatedWorks": [
+                "aguas-de-marco"
+              ]
+            },
+            {
+              "id": "n3-m3-a5",
+              "title": "Desafio: harmonizar uma melodia simples",
+              "durationMin": 16,
+              "prerequisites": [
+                "n3-m3-a4"
+              ],
+              "tags": [
+                "desafio",
+                "campo-harmonico"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            },
+            {
+              "id": "n3-m3-a6",
+              "title": "Ficha: todos os campos até 4 sustenidos",
+              "durationMin": 12,
+              "prerequisites": [
+                "n3-m3-a5"
+              ],
+              "tags": [
+                "referencia",
+                "campo-harmonico"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n3-m3-a7",
+              "title": "Quiz do Nível 3",
+              "durationMin": 12,
+              "prerequisites": [
+                "n3-m3-a6"
+              ],
+              "tags": [
+                "quiz"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "number": 4,
+      "title": "Construção de acordes",
+      "description": "Terças, tétrades, tensões, inversões, voicings",
+      "modules": [
+        {
+          "id": "n4-m1",
+          "title": "Tríades",
+          "lessons": [
+            {
+              "id": "n4-m1-a1",
+              "title": "Maior, menor, diminuta e aumentada",
+              "durationMin": 16,
+              "prerequisites": [],
+              "tags": [
+                "acordes",
+                "triades"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            },
+            {
+              "id": "n4-m1-a2",
+              "title": "Empilhamento de terças (visual)",
+              "durationMin": 14,
+              "prerequisites": [
+                "n4-m1-a1"
+              ],
+              "tags": [
+                "acordes",
+                "triades"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n4-m1-a3",
+              "title": "Tríades no braço — 3 voicings por tipo",
+              "durationMin": 16,
+              "prerequisites": [
+                "n4-m1-a2"
+              ],
+              "tags": [
+                "acordes",
+                "voicing",
+                "violao"
+              ],
+              "relatedWorks": [
+                "insensatez"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n4-m2",
+          "title": "Tétrades",
+          "lessons": [
+            {
+              "id": "n4-m2-a1",
+              "title": "7M, 7, m7 e m7M",
+              "durationMin": 18,
+              "prerequisites": [
+                "n4-m1-a3"
+              ],
+              "tags": [
+                "acordes",
+                "tetrades"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n4-m2-a2",
+              "title": "m7(b5) — o meio-diminuto",
+              "durationMin": 14,
+              "prerequisites": [
+                "n4-m2-a1"
+              ],
+              "tags": [
+                "acordes",
+                "tetrades"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n4-m2-a3",
+              "title": "dim7 e sua simetria",
+              "durationMin": 14,
+              "prerequisites": [
+                "n4-m2-a2"
+              ],
+              "tags": [
+                "acordes",
+                "tetrades"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n4-m3",
+          "title": "Tensões",
+          "lessons": [
+            {
+              "id": "n4-m3-a1",
+              "title": "9, 11 e 13 — o que e quando somar",
+              "durationMin": 18,
+              "prerequisites": [
+                "n4-m2-a3"
+              ],
+              "tags": [
+                "acordes",
+                "tensoes"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n4-m3-a2",
+              "title": "7(9), 7M(9), m7(9) — voicings de bossa",
+              "durationMin": 18,
+              "prerequisites": [
+                "n4-m3-a1"
+              ],
+              "tags": [
+                "acordes",
+                "tensoes",
+                "bossa"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n4-m3-a3",
+              "title": "Alterações: b9, #11, b13",
+              "durationMin": 16,
+              "prerequisites": [
+                "n4-m3-a2"
+              ],
+              "tags": [
+                "acordes",
+                "tensoes"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            },
+            {
+              "id": "n4-m3-a4",
+              "title": "Suspensões: sus4, 7sus4, 7(13)",
+              "durationMin": 14,
+              "prerequisites": [
+                "n4-m3-a3"
+              ],
+              "tags": [
+                "acordes",
+                "sus"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n4-m4",
+          "title": "Inversões e slash",
+          "lessons": [
+            {
+              "id": "n4-m4-a1",
+              "title": "Baixo diferente do fundamental (C/E)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n4-m3-a4"
+              ],
+              "tags": [
+                "acordes",
+                "inversoes"
+              ],
+              "relatedWorks": [
+                "aguas-de-marco"
+              ]
+            },
+            {
+              "id": "n4-m4-a2",
+              "title": "Voicings fechados vs abertos no violão",
+              "durationMin": 16,
+              "prerequisites": [
+                "n4-m4-a1"
+              ],
+              "tags": [
+                "voicing",
+                "violao"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n4-m4-a3",
+              "title": "Desafio: construir G7(13) de 3 jeitos",
+              "durationMin": 14,
+              "prerequisites": [
+                "n4-m4-a2"
+              ],
+              "tags": [
+                "desafio",
+                "voicing"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n4-m4-a4",
+              "title": "Quiz do Nível 4",
+              "durationMin": 12,
+              "prerequisites": [
+                "n4-m4-a3"
+              ],
+              "tags": [
+                "quiz"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "number": 5,
+      "title": "Progressões & cadências",
+      "description": "II–V–I, dominantes secundários, SubV7, modulação",
+      "modules": [
+        {
+          "id": "n5-m1",
+          "title": "Cadências clássicas",
+          "lessons": [
+            {
+              "id": "n5-m1-a1",
+              "title": "Autêntica (V–I) e plagal (IV–I)",
+              "durationMin": 16,
+              "prerequisites": [],
+              "tags": [
+                "cadencias"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n5-m1-a2",
+              "title": "II–V–I maior e menor",
+              "durationMin": 18,
+              "prerequisites": [
+                "n5-m1-a1"
+              ],
+              "tags": [
+                "cadencias",
+                "bossa"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n5-m1-a3",
+              "title": "Deceptiva (V–vi)",
+              "durationMin": 14,
+              "prerequisites": [
+                "n5-m1-a2"
+              ],
+              "tags": [
+                "cadencias"
+              ],
+              "relatedWorks": [
+                "insensatez"
+              ]
+            },
+            {
+              "id": "n5-m1-a4",
+              "title": "Backdoor (bVII7–I)",
+              "durationMin": 14,
+              "prerequisites": [
+                "n5-m1-a3"
+              ],
+              "tags": [
+                "cadencias",
+                "mpb"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n5-m2",
+          "title": "Progressões e dominantes",
+          "lessons": [
+            {
+              "id": "n5-m2-a1",
+              "title": "Dominantes secundários (V7/x)",
+              "durationMin": 18,
+              "prerequisites": [
+                "n5-m1-a4"
+              ],
+              "tags": [
+                "dominantes",
+                "mpb"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n5-m2-a2",
+              "title": "Substituição de trítono (SubV7)",
+              "durationMin": 18,
+              "prerequisites": [
+                "n5-m2-a1"
+              ],
+              "tags": [
+                "dominantes",
+                "substituicao"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            },
+            {
+              "id": "n5-m2-a3",
+              "title": "Ciclo de quintas descendente",
+              "durationMin": 16,
+              "prerequisites": [
+                "n5-m2-a2"
+              ],
+              "tags": [
+                "progressoes"
+              ],
+              "relatedWorks": [
+                "aguas-de-marco"
+              ]
+            },
+            {
+              "id": "n5-m2-a4",
+              "title": "Blues de 12 compassos no violão",
+              "durationMin": 16,
+              "prerequisites": [
+                "n5-m2-a3"
+              ],
+              "tags": [
+                "progressoes",
+                "violao"
+              ],
+              "relatedWorks": [
+                "samba-de-uma-nota-so"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n5-m3",
+          "title": "Modulação",
+          "lessons": [
+            {
+              "id": "n5-m3-a1",
+              "title": "Modulação por dominante comum",
+              "durationMin": 16,
+              "prerequisites": [
+                "n5-m2-a4"
+              ],
+              "tags": [
+                "modulacao"
+              ],
+              "relatedWorks": [
+                "samba-de-verao"
+              ]
+            },
+            {
+              "id": "n5-m3-a2",
+              "title": "Modulação em choro (por semitom)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n5-m3-a1"
+              ],
+              "tags": [
+                "modulacao",
+                "choro"
+              ],
+              "relatedWorks": [
+                "carinhoso"
+              ]
+            },
+            {
+              "id": "n5-m3-a3",
+              "title": "Desafio: 2 modulações em Djavan",
+              "durationMin": 18,
+              "prerequisites": [
+                "n5-m3-a2"
+              ],
+              "tags": [
+                "modulacao",
+                "analise"
+              ],
+              "relatedWorks": [
+                "oceano",
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n5-m3-a4",
+              "title": "Quiz do Nível 5",
+              "durationMin": 12,
+              "prerequisites": [
+                "n5-m3-a3"
+              ],
+              "tags": [
+                "quiz"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "number": 6,
+      "title": "Ritmo brasileiro",
+      "description": "Bossa, samba, choro e baião no violão",
+      "modules": [
+        {
+          "id": "n6-m1",
+          "title": "Fundamentos",
+          "lessons": [
+            {
+              "id": "n6-m1-a1",
+              "title": "Pulso, contratempo e síncope",
+              "durationMin": 16,
+              "prerequisites": [],
+              "tags": [
+                "ritmo"
+              ],
+              "relatedWorks": [
+                "so-danco-samba"
+              ]
+            },
+            {
+              "id": "n6-m1-a2",
+              "title": "A batida de João Gilberto (bossa)",
+              "durationMin": 20,
+              "prerequisites": [
+                "n6-m1-a1"
+              ],
+              "tags": [
+                "ritmo",
+                "bossa",
+                "violao"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            },
+            {
+              "id": "n6-m1-a3",
+              "title": "Samba de partido-alto — a levada",
+              "durationMin": 18,
+              "prerequisites": [
+                "n6-m1-a2"
+              ],
+              "tags": [
+                "ritmo",
+                "samba",
+                "violao"
+              ],
+              "relatedWorks": [
+                "o-que-e-que-a-baiana-tem"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n6-m2",
+          "title": "Gêneros",
+          "lessons": [
+            {
+              "id": "n6-m2-a1",
+              "title": "Choro — ritmo, baixaria e forma",
+              "durationMin": 18,
+              "prerequisites": [
+                "n6-m1-a3"
+              ],
+              "tags": [
+                "ritmo",
+                "choro"
+              ],
+              "relatedWorks": [
+                "carinhoso",
+                "choro-noturno"
+              ]
+            },
+            {
+              "id": "n6-m2-a2",
+              "title": "Baião e xote (Nordeste)",
+              "durationMin": 16,
+              "prerequisites": [
+                "n6-m2-a1"
+              ],
+              "tags": [
+                "ritmo",
+                "baiao"
+              ],
+              "relatedWorks": [
+                "o-que-e-que-a-baiana-tem"
+              ]
+            },
+            {
+              "id": "n6-m2-a3",
+              "title": "Violão popular — o groove",
+              "durationMin": 14,
+              "prerequisites": [
+                "n6-m2-a2"
+              ],
+              "tags": [
+                "ritmo",
+                "violao"
+              ],
+              "relatedWorks": [
+                "so-danco-samba"
+              ]
+            },
+            {
+              "id": "n6-m2-a4",
+              "title": "Integrar ritmo + harmonia na mesma obra",
+              "durationMin": 16,
+              "prerequisites": [
+                "n6-m2-a3"
+              ],
+              "tags": [
+                "ritmo",
+                "harmonia"
+              ],
+              "relatedWorks": [
+                "chega-de-saudade"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n6-m3",
+          "title": "Prática",
+          "lessons": [
+            {
+              "id": "n6-m3-a1",
+              "title": "Metrônomo e subdivisão",
+              "durationMin": 14,
+              "prerequisites": [
+                "n6-m2-a4"
+              ],
+              "tags": [
+                "ritmo",
+                "pratica"
+              ],
+              "relatedWorks": [
+                "so-danco-samba"
+              ]
+            },
+            {
+              "id": "n6-m3-a2",
+              "title": "Desafio: 4 gêneros, a mesma progressão",
+              "durationMin": 16,
+              "prerequisites": [
+                "n6-m3-a1"
+              ],
+              "tags": [
+                "ritmo",
+                "desafio"
+              ],
+              "relatedWorks": [
+                "o-que-e-que-a-baiana-tem"
+              ]
+            },
+            {
+              "id": "n6-m3-a3",
+              "title": "Quiz do Nível 6",
+              "durationMin": 12,
+              "prerequisites": [
+                "n6-m3-a2"
+              ],
+              "tags": [
+                "quiz"
+              ],
+              "relatedWorks": [
+                "so-danco-samba"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "number": 7,
+      "title": "Arranjo para violão",
+      "description": "Textura, baixo, intro, voicings Jobim",
+      "modules": [
+        {
+          "id": "n7-m1",
+          "title": "Conceitos",
+          "lessons": [
+            {
+              "id": "n7-m1-a1",
+              "title": "Arranjo vs cifra crua",
+              "durationMin": 16,
+              "prerequisites": [],
+              "tags": [
+                "arranjo"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            },
+            {
+              "id": "n7-m1-a2",
+              "title": "Registros: grave, médio e agudo",
+              "durationMin": 14,
+              "prerequisites": [
+                "n7-m1-a1"
+              ],
+              "tags": [
+                "arranjo",
+                "violao"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n7-m1-a3",
+              "title": "Baixo independente — walking simplificado",
+              "durationMin": 18,
+              "prerequisites": [
+                "n7-m1-a2"
+              ],
+              "tags": [
+                "arranjo",
+                "baixo"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n7-m2",
+          "title": "Técnicas",
+          "lessons": [
+            {
+              "id": "n7-m2-a1",
+              "title": "Intro e outro — frases características",
+              "durationMin": 16,
+              "prerequisites": [
+                "n7-m1-a3"
+              ],
+              "tags": [
+                "arranjo"
+              ],
+              "relatedWorks": [
+                "ingenuo"
+              ]
+            },
+            {
+              "id": "n7-m2-a2",
+              "title": "Harmonia + melodia simultâneas",
+              "durationMin": 18,
+              "prerequisites": [
+                "n7-m2-a1"
+              ],
+              "tags": [
+                "arranjo",
+                "violao"
+              ],
+              "relatedWorks": [
+                "aguas-de-marco"
+              ]
+            },
+            {
+              "id": "n7-m2-a3",
+              "title": "Percussão no corpo e abafados",
+              "durationMin": 14,
+              "prerequisites": [
+                "n7-m2-a2"
+              ],
+              "tags": [
+                "arranjo",
+                "ritmo"
+              ],
+              "relatedWorks": [
+                "so-danco-samba"
+              ]
+            },
+            {
+              "id": "n7-m2-a4",
+              "title": "Voicings Jobim — estudo comparativo",
+              "durationMin": 18,
+              "prerequisites": [
+                "n7-m2-a3"
+              ],
+              "tags": [
+                "arranjo",
+                "voicing",
+                "bossa"
+              ],
+              "relatedWorks": [
+                "wave"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n7-m3",
+          "title": "Projeto",
+          "lessons": [
+            {
+              "id": "n7-m3-a1",
+              "title": "Analisar um arranjo de Dilermando (GP)",
+              "durationMin": 20,
+              "prerequisites": [
+                "n7-m2-a4"
+              ],
+              "tags": [
+                "arranjo",
+                "analise"
+              ],
+              "relatedWorks": [
+                "se-ela-perguntar",
+                "choro-noturno",
+                "brejeiro"
+              ]
+            },
+            {
+              "id": "n7-m3-a2",
+              "title": "Montar arranjo de um verso simples",
+              "durationMin": 18,
+              "prerequisites": [
+                "n7-m3-a1"
+              ],
+              "tags": [
+                "arranjo",
+                "pratica"
+              ],
+              "relatedWorks": [
+                "flor-de-lis"
+              ]
+            },
+            {
+              "id": "n7-m3-a3",
+              "title": "Ponte e modulação no arranjo",
+              "durationMin": 16,
+              "prerequisites": [
+                "n7-m3-a2"
+              ],
+              "tags": [
+                "arranjo",
+                "modulacao"
+              ],
+              "relatedWorks": [
+                "oceano"
+              ]
+            },
+            {
+              "id": "n7-m3-a4",
+              "title": "Checklist antes de gravar",
+              "durationMin": 12,
+              "prerequisites": [
+                "n7-m3-a3"
+              ],
+              "tags": [
+                "arranjo",
+                "pratica"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            },
+            {
+              "id": "n7-m3-a5",
+              "title": "Projeto final: arranjo de 1 minuto",
+              "durationMin": 25,
+              "prerequisites": [
+                "n7-m3-a4"
+              ],
+              "tags": [
+                "arranjo",
+                "projeto"
+              ],
+              "relatedWorks": [
+                "ingenuo"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "number": 8,
+      "title": "Harmonia avançada BR",
+      "description": "Substituições, modos, choro, mestres brasileiros",
+      "modules": [
+        {
+          "id": "n8-m1",
+          "title": "Substituições",
+          "lessons": [
+            {
+              "id": "n8-m1-a1",
+              "title": "Substituição de trítono (revisão aplicada)",
+              "durationMin": 18,
+              "prerequisites": [],
+              "tags": [
+                "substituicao",
+                "avancado"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            },
+            {
+              "id": "n8-m1-a2",
+              "title": "Reharmonização linear",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m1-a1"
+              ],
+              "tags": [
+                "reharmonizacao",
+                "avancado"
+              ],
+              "relatedWorks": [
+                "aguas-de-marco"
+              ]
+            },
+            {
+              "id": "n8-m1-a3",
+              "title": "Empréstimo modal completo",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m1-a2"
+              ],
+              "tags": [
+                "emprestimo-modal",
+                "avancado"
+              ],
+              "relatedWorks": [
+                "corcovado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n8-m2",
+          "title": "Modos e escalas",
+          "lessons": [
+            {
+              "id": "n8-m2-a1",
+              "title": "Dórico e mixolídio — quando na MPB",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m1-a3"
+              ],
+              "tags": [
+                "modos",
+                "avancado"
+              ],
+              "relatedWorks": [
+                "ingenuo"
+              ]
+            },
+            {
+              "id": "n8-m2-a2",
+              "title": "Escala diminuta — choro",
+              "durationMin": 16,
+              "prerequisites": [
+                "n8-m2-a1"
+              ],
+              "tags": [
+                "escalas",
+                "choro"
+              ],
+              "relatedWorks": [
+                "carinhoso"
+              ]
+            },
+            {
+              "id": "n8-m2-a3",
+              "title": "Lídio — a sonoridade Jobim (lídio-b7)",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m2-a2"
+              ],
+              "tags": [
+                "modos",
+                "bossa"
+              ],
+              "relatedWorks": [
+                "garota-de-ipanema"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n8-m3",
+          "title": "Mestres brasileiros",
+          "lessons": [
+            {
+              "id": "n8-m3-a1",
+              "title": "A harmonia de Pixinguinha",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m2-a3"
+              ],
+              "tags": [
+                "mestres",
+                "choro"
+              ],
+              "relatedWorks": [
+                "carinhoso"
+              ]
+            },
+            {
+              "id": "n8-m3-a2",
+              "title": "Garoto — voicings únicos",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m3-a1"
+              ],
+              "tags": [
+                "mestres",
+                "voicing"
+              ],
+              "relatedWorks": [
+                "ingenuo"
+              ]
+            },
+            {
+              "id": "n8-m3-a3",
+              "title": "Chico Buarque — progressões narrativas",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m3-a2"
+              ],
+              "tags": [
+                "mestres",
+                "analise"
+              ],
+              "relatedWorks": [
+                "construcao"
+              ]
+            },
+            {
+              "id": "n8-m3-a4",
+              "title": "Djavan — modulações elegantes",
+              "durationMin": 18,
+              "prerequisites": [
+                "n8-m3-a3"
+              ],
+              "tags": [
+                "mestres",
+                "modulacao",
+                "analise"
+              ],
+              "relatedWorks": [
+                "oceano",
+                "linha-do-equador"
+              ]
+            },
+            {
+              "id": "n8-m3-a5",
+              "title": "Desafio final: análise completa de uma obra",
+              "durationMin": 25,
+              "prerequisites": [
+                "n8-m3-a4"
+              ],
+              "tags": [
+                "desafio",
+                "analise"
+              ],
+              "relatedWorks": [
+                "triste"
+              ]
+            },
+            {
+              "id": "n8-m3-a6",
+              "title": "Certificação da trilha (quiz integrado)",
+              "durationMin": 20,
+              "prerequisites": [
+                "n8-m3-a5"
+              ],
+              "tags": [
+                "quiz",
+                "certificacao"
+              ],
+              "relatedWorks": [
+                "desafinado"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

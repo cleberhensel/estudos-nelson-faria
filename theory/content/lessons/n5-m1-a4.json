@@ -1,0 +1,271 @@
+{
+  "id": "n5-m1-a4",
+  "slug": "backdoor-bvii7-i",
+  "level": 5,
+  "moduleId": "n5-m1",
+  "title": "Backdoor (bVII7–I)",
+  "subtitle": "A dominante que entra pela porta dos fundos — Bb7 em Dó resolve em C7M com som de blues. Chega de Saudade usa essa cor.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n5-m1-a3"
+  ],
+  "tags": [
+    "cadencias",
+    "mpb"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Bb7",
+    "C7M",
+    "F7M",
+    "Ab7",
+    "Db7M",
+    "Eb7",
+    "Bb6"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m1a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (deceptiva): G7 em Dó resolve em Am7 — qual função tem Am7?",
+      "options": [
+        {
+          "label": "vi — tônica relativa",
+          "correct": true,
+          "feedbackOk": "A backdoor usa bVII7 em vez de V7."
+        },
+        {
+          "label": "ii — pré-dominante",
+          "correct": false,
+          "feedbackErr": "ii seria Dm7, não Am7 após G7."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Backdoor vs autêntica",
+      "body": "Compare **G7 → C7M** (autêntica) com **Bb7 → C7M** (backdoor). A backdoor desce um tom na fundamental da dominante — som mais 'terroso'."
+    },
+    {
+      "type": "component",
+      "id": "snd-back",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Backdoor em Dó",
+        "chords": [
+          "Bb7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "backdoor",
+      "title": "bVII7 → I",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "back-text",
+      "markdown": "**Backdoor cadence:** bVII7 resolve em I.\n\n| Tom | bVII7 | I | Origem |\n|-----|-------|---|--------|\n| Dó | Bb7 | C7M | Mixolídio / blues |\n| Fá | Eb7 | F7M | MPB |\n| Dm | C7 | Dm7M | Menor |\n\nEm **Chega de Saudade**, o trecho **E7/B → Bb6 → A7** usa movimento cromático; o **Bb6** funciona como backdoor para o campo de Dm."
+    },
+    {
+      "type": "component",
+      "id": "prog-chega",
+      "componentId": "progression",
+      "props": {
+        "key": "Dm",
+        "mode": "minor",
+        "chords": [
+          "E7",
+          "Bb6",
+          "A7",
+          "Dm7M"
+        ],
+        "functions": [
+          "D",
+          "SD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "cad-flow",
+      "componentId": "cadence-flow",
+      "props": {
+        "key": "C"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7",
+      "annotation": "Campo menor com modulação para Ré maior — bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade",
+        "lessonId": "n5-m1-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Chega de Saudade** alterna A7→Dm (autêntica) com **Bb7→C7M** (backdoor) — som terroso de blues que Jobim trouxe para a bossa. Na cifra brasileira aparece como Bb7 ou Bb6; no violão, o shape de Bb7 (X 1 1 0 1 1) resolve suavemente em C7M."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "bVII7 compartilha notas com V7 (em Dó: Bb7 tem Dó na 7ª). Jobim mistura backdoor com II–V — a progressão de Chega alterna os dois tipos de resolução."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **Bb7 → C7M** (backdoor em Dó). 2. **G7 → C7M** (autêntica). 3. Alterne as duas — qual soa mais 'brasileira'?"
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m1a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Backdoor em Dó maior: qual acorde é o bVII7?",
+      "options": [
+        {
+          "label": "Bb7",
+          "correct": true,
+          "feedbackOk": "bVII de Dó — resolve em C7M."
+        },
+        {
+          "label": "Ab7",
+          "correct": false,
+          "feedbackErr": "Ab7 é bVI, não bVII."
+        },
+        {
+          "label": "Eb7",
+          "correct": false,
+          "feedbackErr": "Eb7 é bIII em Dó."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m1a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a cadência ao par V7/bVII7 → I:",
+      "pairs": [
+        {
+          "left": "Autêntica (Dó)",
+          "right": "G7 → C7M"
+        },
+        {
+          "left": "Backdoor (Dó)",
+          "right": "Bb7 → C7M"
+        },
+        {
+          "left": "Autêntica (Fá)",
+          "right": "C7 → F7M"
+        },
+        {
+          "left": "Backdoor (Fá)",
+          "right": "Eb7 → F7M"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m1a4-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Trecho de Chega (Dm): E7 → ? → A7 → Dm",
+      "orderAnswer": [
+        "E7",
+        "Bb6",
+        "A7",
+        "Dm7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m1a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a cadência de resolução:",
+      "playChords": [
+        "Bb7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "Backdoor bVII7→I em Dó",
+          "correct": true,
+          "feedbackOk": "Bb7 — som terroso de blues/MPB."
+        },
+        {
+          "label": "Autêntica V→I em Dó",
+          "correct": false,
+          "feedbackErr": "V seria G7 — som mais 'clássico'."
+        },
+        {
+          "label": "Plagal IV→I",
+          "correct": false,
+          "feedbackErr": "IV seria F7M."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m1a4-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Bb7→C7M e explicar por que é 'backdoor'?"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "n2-m3-a1",
+  "slug": "as-5-formas-de-acorde-maior-no-braco",
+  "level": 2,
+  "moduleId": "n2-m3",
+  "title": "As 5 formas de acorde maior no braço",
+  "durationMin": 18,
+  "prerequisites": [
+    "n2-m2-a3"
+  ],
+  "subtitle": "C-A-G-E-D — cinco shapes CAGED cobrem o braço; cada forma é um grau I em posição diferente.",
+  "tags": [
+    "caged",
+    "violao"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m3a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na menor harmônica de Lá, qual nota na 7ª grau substitui Sol natural?",
+      "options": [
+        {
+          "label": "G# (leading tone)",
+          "correct": true,
+          "feedbackOk": "G# — base do V7 E7→Am."
+        },
+        {
+          "label": "Gb",
+          "correct": false,
+          "feedbackErr": "Gb não faz parte da escala harmônica de A."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça as formas",
+      "body": "Toque **C → A → G → E → D** abertos em sequência. Mesma qualidade (maior), shapes diferentes — o som muda de registro, não de função."
+    },
+    {
+      "type": "component",
+      "id": "snd-caged",
+      "componentId": "play-chord",
+      "props": {
+        "title": "CAGED aberto: C → A → G → E → D",
+        "chords": ["C", "A", "G", "E", "D"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-c",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "C"
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-a",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "A"
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-g",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "G"
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-e",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "E", "title": "Forma E — base da pestana (F, Bm, C pestana 8)" }
+    },
+    {
+      "type": "component",
+      "id": "ch-d",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "D", "title": "Forma D — região aguda, 4 cordas" }
+    },
+    {
+      "type": "heading",
+      "id": "caged",
+      "title": "CAGED — cinco formas maiores",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "caged-text",
+      "markdown": "O sistema **CAGED** mapeia cinco shapes de **maior**:\n\n| Forma | Acorde modelo | Posição típica |\n|-------|---------------|----------------|\n| **C** | C (X 3 2 0 1 0) | aberta |\n| **A** | A (X 0 2 2 2 0) | aberta |\n| **G** | G (3 2 0 0 0 3) | aberta |\n| **E** | E (0 2 2 1 0 0) | aberta |\n| **D** | D (X X 0 2 3 2) | aberta |\n\nCom pestana, cada shape vira **I** em qualquer tonalidade — **função tônica** móvel."
+    },
+    {
+      "type": "prose",
+      "id": "flor-text",
+      "markdown": "**Flor de Lis** usa **G7M** e **C7M** — formas **G** e **C** do CAGED. Saber as cinco formas evita 'buracos' ao subir o braço."
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "G7M (forma G) e C7M (forma C) — CAGED na prática."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n2-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na MPB, você alterna **C** (Flor de Lis), **G** (bossa clássica), **E** (base de F com pestana) sem pensar em CAGED — mas saber as 5 formas explica por que certos voicings Jobim 'pulam' regiões do braço."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "CAGED não é teoria americana distante — é o mapa de **por que** F (1 3 3 2 1 1) é forma E deslocada, e Bm (X 2 4 4 3 2) é forma Am +2 casas. Transpor = mover pestana, função permanece."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C** (X 3 2 0 1 0) forma C. 2. **A** (X 0 2 2 2 0) forma A. 3. **G** (3 2 0 0 0 3) forma G. 4. **E** (0 2 2 1 0 0) forma E. 5. **D** (X X 0 2 3 2) forma D."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m3a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantas formas CAGED existem para acorde maior?",
+      "options": [
+        {
+          "label": "5 (C-A-G-E-D)",
+          "correct": true,
+          "feedbackOk": "Cinco shapes cobrem o braço sem lacunas."
+        },
+        {
+          "label": "4",
+          "correct": false,
+          "feedbackErr": "São 5 — o acrônimo CAGED tem 5 letras."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m3a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Forma CAGED → acorde modelo aberto:",
+      "pairs": [
+        { "left": "C", "right": "C (X 3 2 0 1 0)" },
+        { "left": "A", "right": "A (X 0 2 2 2 0)" },
+        { "left": "G", "right": "G (3 2 0 0 0 3)" },
+        { "left": "E", "right": "E (0 2 2 1 0 0)" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n2m3a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as formas CAGED ao subir o braço:",
+      "orderAnswer": ["C", "A", "G", "E", "D"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça G7M → C7M — quais formas CAGED?",
+      "playChords": ["G7M", "C7M"],
+      "options": [
+        { "label": "Forma G → Forma C (V–I em Sol)", "correct": true, "feedbackOk": "Flor de Lis — shapes que você acabou de mapear." },
+        { "label": "Forma E → Forma D", "correct": false, "feedbackErr": "Ouça o repouso em C7M — forma C aberta." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m3a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar as 5 formas abertas C-A-G-E-D de memória?"
+    }
+  ]
+}

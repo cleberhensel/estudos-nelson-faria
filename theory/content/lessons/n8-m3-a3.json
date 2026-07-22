@@ -1,0 +1,251 @@
+{
+  "id": "n8-m3-a3",
+  "slug": "chico-buarque-progressoes-narrativas",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "Chico Buarque — progressões narrativas",
+  "subtitle": "Em–Am–B7–Em narrativo — Construção usa harmonia como enredo, não só acompanhamento.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m3-a2"
+  ],
+  "tags": [
+    "mestres",
+    "analise"
+  ],
+  "relatedWorks": [
+    "construcao"
+  ],
+  "relatedChords": [
+    "Em",
+    "Am",
+    "B7",
+    "Em",
+    "C7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m3-a2): Garoto usava 6ª e baixo livre. Chico Buarque em Construção:",
+      "options": [
+        {
+          "label": "Progressão cíclica Em–Am–B7–Em como narrativa.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Harmonia = enredo na MPB engajada."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Construção: **Em Am B7 Em** — B7 (V7 harmônico) clímax antes de voltar — ouça como frase retórica."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Construção — ciclo narrativo",
+        "chords": [
+          "Em",
+          "Am",
+          "B7",
+          "Em"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Chico Buarque — progressões narrativas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Chico Buarque** — progressões narrativas:\n\n- Repetição hipnótica (Em–Am)\n- **B7** surpresa (vindo do menor harmônico)\n- Letra + harmonia = mesmo arco\n\nConstrução não modula longe — **tensão interna** no ciclo."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "Em",
+        "mode": "minor"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "Em",
+        "mode": "minor",
+        "chords": [
+          "Em",
+          "Am",
+          "B7",
+          "Em"
+        ],
+        "functions": [
+          "i",
+          "iv",
+          "V",
+          "i"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Construção foi censurada — B7 chega como 'golpe' harmônico no clímax da letra."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "construcao",
+      "excerpt": "Em  Am  B7  Em",
+      "annotation": "Progressão narrativa em Mi menor.",
+      "youtube": "wBfVsucRe1w",
+      "youtubeTitle": "Construção",
+      "youtubeArtist": "Chico Buarque"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "construcao"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "construcao",
+        "title": "Construção",
+        "lessonId": "n8-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB engajada usa repetição harmônica como retórica — Chico mestre."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Em–Am–B7–Em loop. 2. Nomeie B7 = V7/Em harmônico. 3. Cante verso sobre ciclo."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m3a3-q1",
+      "kind": "mc",
+      "question": "B7 em Construção (Em) é:",
+      "options": [
+        {
+          "label": "V7 do menor harmônico — clímax",
+          "correct": true,
+          "feedbackOk": "3ª maior na dominante."
+        },
+        {
+          "label": "bVII de Em",
+          "correct": false,
+          "feedbackErr": "B7 tem 3ª maior D#."
+        },
+        {
+          "label": "Acorde aleatório",
+          "correct": false,
+          "feedbackErr": "Função V7/i clara."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "chico-buarque-progressoes-narrativas",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m3a3-match",
+      "kind": "match",
+      "question": "Construção ↔ elemento:",
+      "pairs": [
+        {
+          "left": "Em–Am",
+          "right": "Repetição narrativa"
+        },
+        {
+          "left": "B7",
+          "right": "V7 clímax"
+        },
+        {
+          "left": "Chico",
+          "right": "MPB engajada"
+        },
+        {
+          "left": "Ciclo",
+          "right": "Enredo harmônico"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — clímax de Construção (Chico):",
+      "playChords": ["Em", "Am", "B7", "Em"],
+      "options": [
+        { "label": "i → iv → V7 → i — line cliché narrativo", "correct": true, "feedbackOk": "B7 clímax — V7 menor harmônico em Mi." },
+        { "label": "II–V–I em Sol", "correct": false, "feedbackErr": "Centro Mi menor — progressão narrativa." }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a3-self",
+      "kind": "self_check",
+      "question": "Sentiu B7 como clímax no ciclo Em–Am–B7–Em?",
+      "tags": []
+    }
+  ]
+}

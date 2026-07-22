@@ -1,0 +1,386 @@
+{
+  "id": "n8-m3-a6",
+  "slug": "certificacao-da-trilha-quiz-integrado",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "Certificação da trilha (quiz integrado)",
+  "subtitle": "12 perguntas intercaladas N1–N7 — conclusão da trilha de teoria para violão MPB.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n8-m3-a5"
+  ],
+  "tags": [
+    "quiz",
+    "certificacao"
+  ],
+  "relatedWorks": [
+    "triste",
+    "garota-de-ipanema",
+    "construcao",
+    "oceano"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "Em",
+    "B7",
+    "Ab7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a6-warm",
+      "kind": "mc",
+      "question": "Certificação: você revisou N1–N7 (escalas, campo harmônico, tensões, ritmo, arranjo) nos últimos dias?",
+      "options": [
+        {
+          "label": "Sim — toquei no violão e revisei quizzes anteriores",
+          "correct": true,
+          "feedbackOk": "Ótimo — 12 perguntas intercaladas."
+        },
+        {
+          "label": "Não revisei",
+          "correct": false,
+          "feedbackErr": "Pause e revise n3-m1-a2 (ouro) e n6-m3-a3 antes."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "motiv",
+      "variant": "tip",
+      "title": "Certificação da trilha",
+      "body": "12 perguntas intercaladas N1–N7. Média ≥70% conclui a trilha de teoria MPB."
+    },
+    {
+      "type": "heading",
+      "id": "quiz",
+      "title": "Perguntas",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "q1",
+      "exerciseId": "ex-n8m3a6-q1",
+      "kind": "mc",
+      "question": "[N1] Afinação padrão violão (6ª→1ª):",
+      "options": [
+        {
+          "label": "Mi–Lá–Ré–Sol–Si–Mi",
+          "correct": true,
+          "feedbackOk": "EADGBE — 6ª grave."
+        },
+        {
+          "label": "Mi–Ré–Sol–Lá–Si–Mi",
+          "correct": false,
+          "feedbackErr": "Ordem incorreta."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q2",
+      "exerciseId": "ex-n8m3a6-q2",
+      "kind": "mc",
+      "question": "[N2] Fórmula escala maior:",
+      "options": [
+        {
+          "label": "T–T–S–T–T–T–S",
+          "correct": true,
+          "feedbackOk": "Dó maior: sem tom entre E–F e B–C."
+        },
+        {
+          "label": "T–S–T–T–S–T–T",
+          "correct": false,
+          "feedbackErr": "Isso é menor natural."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q3",
+      "exerciseId": "ex-n8m3a6-q3",
+      "kind": "mc",
+      "question": "[N3] Em Dó maior, função dominante (D):",
+      "options": [
+        {
+          "label": "G7",
+          "correct": true,
+          "feedbackOk": "V7 — trítono F–B."
+        },
+        {
+          "label": "F7M",
+          "correct": false,
+          "feedbackErr": "F7M é subdominante."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q4",
+      "exerciseId": "ex-n8m3a6-q4",
+      "kind": "mc",
+      "question": "[N3] II–V–I em Fá (Garota):",
+      "options": [
+        {
+          "label": "Gm7 → C7 → F7M",
+          "correct": true,
+          "feedbackOk": "Cadência bossa em Fá."
+        },
+        {
+          "label": "Dm7 → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "Isso é em Dó."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q5",
+      "exerciseId": "ex-n8m3a6-q5",
+      "kind": "mc",
+      "question": "[N4] Diferença C7M vs C7:",
+      "options": [
+        {
+          "label": "C7M tem 7ª maior; C7 tem 7ª menor",
+          "correct": true,
+          "feedbackOk": "B vs Bb sobre C."
+        },
+        {
+          "label": "C7M é menor",
+          "correct": false,
+          "feedbackErr": "C7M é maior com 7M."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q6",
+      "exerciseId": "ex-n8m3a6-q6",
+      "kind": "mc",
+      "question": "[N5] SubV7 de G7 em C:",
+      "options": [
+        {
+          "label": "Db7",
+          "correct": true,
+          "feedbackOk": "Trítono compartilhado."
+        },
+        {
+          "label": "D7",
+          "correct": false,
+          "feedbackErr": "D7 é V/V, não SubV7."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q7",
+      "exerciseId": "ex-n8m3a6-q7",
+      "kind": "mc",
+      "question": "[N6] Batida bossa — polegar marca:",
+      "options": [
+        {
+          "label": "Pulso 1 e 3",
+          "correct": true,
+          "feedbackOk": "João Gilberto."
+        },
+        {
+          "label": "Baião 3+3+2",
+          "correct": false,
+          "feedbackErr": "Baião é nordeste."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q8",
+      "exerciseId": "ex-n8m3a6-q8",
+      "kind": "mc",
+      "question": "[N7] Voicing Jobim Wave — tensão típica:",
+      "options": [
+        {
+          "label": "9ª e 13ª audíveis",
+          "correct": true,
+          "feedbackOk": "D7M(9), G7(13)."
+        },
+        {
+          "label": "Só tríade fechada",
+          "correct": false,
+          "feedbackErr": "Jobim usa tensões."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q9",
+      "exerciseId": "ex-n8m3a6-q9",
+      "kind": "match",
+      "question": "[N3–N8] Obra ↔ insight:",
+      "pairs": [
+        {
+          "left": "Construção",
+          "right": "B7 clímax Em"
+        },
+        {
+          "left": "Garota",
+          "right": "II–V–I Fá"
+        },
+        {
+          "left": "Carinhoso",
+          "right": "Pixinguinha / modulação"
+        },
+        {
+          "left": "Oceano",
+          "right": "Modulação Djavan"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q10",
+      "exerciseId": "ex-n8m3a6-q10",
+      "kind": "dictation",
+      "question": "[N3] Ouça — cadência Chega (menor):",
+      "options": [
+        {
+          "label": "iiø–V7–Im em Ré menor",
+          "correct": true,
+          "feedbackOk": "Menor harmônico."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Tom menor — Dm final."
+        }
+      ],
+      "playChords": [
+        "Em7(b5)",
+        "A7",
+        "Dm"
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "exercise",
+      "id": "q11",
+      "exerciseId": "ex-n8m3a6-q11",
+      "kind": "order",
+      "question": "[N2] Cordas grave→agudo (PT):",
+      "orderAnswer": [
+        "Mi",
+        "Lá",
+        "Ré",
+        "Sol",
+        "Si",
+        "Mi"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "q12",
+      "exerciseId": "ex-n8m3a6-q12",
+      "kind": "mc",
+      "question": "[N8] Fm7 em Corcovado (F maior) é:",
+      "options": [
+        {
+          "label": "Empréstimo modal (i paralelo)",
+          "correct": true,
+          "feedbackOk": "Coloração Jobim."
+        },
+        {
+          "label": "Dominante de Bb",
+          "correct": false,
+          "feedbackErr": "Fm7 não é V."
+        },
+        {
+          "label": "Erro de harmonização",
+          "correct": false,
+          "feedbackErr": "Intencional."
+        }
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Referência MPB",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "triste",
+      "excerpt": "Ab7M  Db7M  Gb7M  B7M",
+      "annotation": "Harmonia sofisticada em tons com bemóis.",
+      "youtube": "vhTH-Fv-c-g",
+      "youtubeTitle": "Triste",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "triste"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "triste",
+        "title": "Triste",
+        "lessonId": "n8-m3-a6"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Certificação cobre 8 níveis de teoria aplicada à MPB — use **Triste**, **Garota** e **Construção** como laboratório pós-quiz."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Após certificação",
+      "body": "Toque II–V–I em Fá (Garota) com levada bossa + voicing Jobim — síntese N6+N7 em 8 compassos."
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a6-self",
+      "kind": "self_check",
+      "question": "Atingiu ≥70% e sente pronto para analisar qualquer cifra MPB com graus, groove e arranjo?",
+      "tags": []
+    }
+  ]
+}

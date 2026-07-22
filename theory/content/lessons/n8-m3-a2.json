@@ -1,0 +1,241 @@
+{
+  "id": "n8-m3-a2",
+  "slug": "garoto-voicings-unicos",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "Garoto — voicings únicos",
+  "subtitle": "Voicings com 6ª e baixo livre — Garoto (Aníbal) influenciou violão bossa antes de João.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m3-a1"
+  ],
+  "tags": [
+    "mestres",
+    "voicing"
+  ],
+  "relatedWorks": [
+    "ingenuo"
+  ],
+  "relatedChords": [
+    "Am6",
+    "Am7",
+    "F7M",
+    "E7",
+    "D7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m3-a1): Pixinguinha modula por dominantes. Garoto (Aníbal Augusto) era:",
+      "options": [
+        {
+          "label": "Violonista precursor — voicings com 6ª e linhas independentes.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Garoto ≠ Tom Jobim — geração anterior."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ingênuo (arranjo estilo Garoto): voicings com **6ª** no topo e baixo móvel — compare Jobim."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Garoto — Am6 vs Am7",
+        "chords": [
+          "Am6",
+          "Am7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Garoto — voicings únicos",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Garoto** (1900–1955): voicings únicos\n\n- 6ª adicionada a tríades\n- Baixo contrapontístico\n- Influência europeia + samba\n\nJobim cita Garoto — **Ingênuo** herda voicings 'duas vozes'."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Garoto gravou com Orquestra Tabajara — violão como seção de metais."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "ingenuo",
+      "excerpt": "F7M  E7  Am7  D7  G7M",
+      "annotation": "Modulações elegantes típicas de Jobim.",
+      "youtube": "Nlom42TJTAg",
+      "youtubeTitle": "Ingênuo",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "ingenuo"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "ingenuo",
+        "title": "Ingênuo",
+        "lessonId": "n8-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Conhecer Garoto evita achar que bossa nasceu só com João Gilberto."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Am6 (X 0 2 2 2 0) vs Am7. 2. Baixo A–G–F sobre F7M. 3. Intro Ingênuo estilo Garoto."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m3a2-q1",
+      "kind": "mc",
+      "question": "Voicing Garoto frequentemente inclui:",
+      "options": [
+        {
+          "label": "6ª no topo + baixo independente",
+          "correct": true,
+          "feedbackOk": "Duas vozes contrapontísticas."
+        },
+        {
+          "label": "Só power chords",
+          "correct": false,
+          "feedbackErr": "Garoto era contrapontista."
+        },
+        {
+          "label": "Pestana em todos acordes",
+          "correct": false,
+          "feedbackErr": "Voicings abertos."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "garoto-voicings-unicos",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m3a2-match",
+      "kind": "match",
+      "question": "Garoto ↔ característica:",
+      "pairs": [
+        {
+          "left": "Am6",
+          "right": "6ª no topo"
+        },
+        {
+          "left": "Baixo livre",
+          "right": "Contraponto"
+        },
+        {
+          "left": "Ingênuo",
+          "right": "Herança Jobim"
+        },
+        {
+          "left": "1900–1955",
+          "right": "Precursor bossa"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — voicing Garoto (Am6 vs Am7):",
+      "playChords": [
+        "F7M",
+        "E7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "I → V7/ii → ii — Am6/Am7 como cor Garoto",
+          "correct": true,
+          "feedbackOk": "6ª maior no Am6 — timbre único do violonista."
+        },
+        {
+          "label": "II–V–I em Lá menor",
+          "correct": false,
+          "feedbackErr": "Contexto Fá maior — Ingênuo/Garoto."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a2-self",
+      "kind": "self_check",
+      "question": "Tocou Am6 e comparou timbre com Am7?",
+      "tags": []
+    }
+  ]
+}

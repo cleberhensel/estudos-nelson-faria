@@ -1,0 +1,170 @@
+{
+  "id": "n4-m2-a1",
+  "slug": "tetrades-7m-7-m7-m7m",
+  "level": 4,
+  "moduleId": "n4-m2",
+  "title": "7M, 7, m7 e m7M",
+  "subtitle": "A 7ª muda tudo — 7M repousa, 7 tensiona, m7 suaviza, m7M flutua. Em Garota, Gm7 e C7 mostram as duas faces da bossa.",
+  "durationMin": 18,
+  "prerequisites": ["n4-m1-a3"],
+  "tags": ["acordes", "tetrades"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["C7M", "C7", "Cm7", "Cm7M", "F7M", "Gm7", "G7"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m2a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (tríades): qual tétrade adiciona 7ª maior sobre a tríade maior?",
+      "options": [
+        { "label": "C7M (7ª maior = Si)", "correct": true, "feedbackOk": "Tríade C + Si = repouso sofisticado." },
+        { "label": "C7 (7ª menor = Si♭)", "correct": false, "feedbackErr": "C7 tem 7ª menor — som de dominante." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a diferença da 7ª",
+      "body": "Compare **C7M** (repouso), **C7** (tensão), **Cm7** (melancolia suave) e **Cm7M** (som 'film noir'). A 7ª é o que separa bossa de pop."
+    },
+    {
+      "type": "component",
+      "id": "snd-compare",
+      "componentId": "play-chord",
+      "props": { "title": "Quatro tétrades de Dó — ouça a 7ª", "chords": ["C7M", "C7", "Cm7", "Cm7M"] }
+    },
+    {
+      "type": "heading",
+      "id": "tetrades",
+      "title": "As quatro tétrades básicas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tetrades-text",
+      "markdown": "| Símbolo | Fórmula | 7ª | Função típica em Fá |\n|---------|---------|-----|---------------------|\n| **7M** | 1 3 5 7 | maior | I (F7M) — repouso |\n| **7** | 1 3 5 ♭7 | menor | V (C7) — dominante |\n| **m7** | 1 ♭3 5 ♭7 | menor | ii (Gm7) — pré-dominante |\n| **m7M** | 1 ♭3 5 7 | maior | coringa lírico |\n\nEm **Garota de Ipanema** (Fá maior): **Gm7** (ii, pré-D) → **C7** (V, dominante) → **F7M** (I, repouso)."
+    },
+    {
+      "type": "component",
+      "id": "prog-garota",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": ["Gm7", "C7", "F7M"],
+        "functions": ["PD", "D", "T"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    { "type": "heading", "id": "mpb", "title": "Na música brasileira", "level": 2 },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema", "lessonId": "n4-m2-a1" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Garota** vive de **Gm7** e **C7(9)** — m7 no ii e dominante com 7ª menor é a assinatura bossa. Cifras brasileiras quase nunca escrevem \"7M\" no V; preferem **C7**, **A7**, **D7** com tensões implícitas."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A trítono de **C7** (Mi–Si♭) é o motor da dominante. **Gm7** prepara essa tensão — por isso m7 no ii e 7 no V é o DNA da bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **Gm7** (3 5 3 3 3 1). 2. **C7** (X 3 2 3 1 0). 3. **F7M** (1 3 3 2 1 1). Toque devagar e sinta o C7 'puxar' para F7M."
+    },
+    { "type": "heading", "id": "exercicios", "title": "Exercícios", "level": 2 },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m2a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Fá maior, qual tétrade é a dominante (função D)?",
+      "options": [
+        { "label": "C7 — V7 com 7ª menor", "correct": true, "feedbackOk": "C7 contém a trítono Mi–Si♭ que pede F7M." },
+        { "label": "F7M — I com 7ª maior", "correct": false, "feedbackErr": "F7M repousa — é a tônica, não a dominante." },
+        { "label": "Gm7 — ii com 7ª menor", "correct": false, "feedbackErr": "Gm7 é pré-dominante (PD), prepara o V." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m2a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a tétrade à função em Fá maior:",
+      "pairs": [
+        { "left": "F7M (I)", "right": "Tônica" },
+        { "left": "Gm7 (ii)", "right": "Pré-dominante" },
+        { "left": "C7 (V)", "right": "Dominante" },
+        { "left": "Bb7M (IV)", "right": "Subdominante" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m2a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte o II–V–I de Garota em Fá:",
+      "orderAnswer": ["Gm7", "C7", "F7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a tétrade:",
+      "playChords": ["C7"],
+      "options": [
+        { "label": "C7 — dominante com 7ª menor", "correct": true, "feedbackOk": "A 7ª menor (Si♭) cria a tensão característica." },
+        { "label": "C7M — tônica com 7ª maior", "correct": false, "feedbackErr": "7M soa repousado — aqui há tensão de dominante." },
+        { "label": "Cm7 — menor com 7ª menor", "correct": false, "feedbackErr": "Cm7 tem 3ª menor — som bem diferente." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m2a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu distinguir C7M de C7 e Cm7 só pelo ouvido?"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "n1-m2-a3",
+  "slug": "mapa-completo-oitavas-que-se-repetem",
+  "level": 1,
+  "moduleId": "n1-m2",
+  "title": "Mapa completo — oitavas que se repetem",
+  "durationMin": 16,
+  "prerequisites": [
+    "n1-m2-a2"
+  ],
+  "subtitle": "6 cordas × 12 casas — o braço inteiro é um padrão cromatico que se fecha na oitava.",
+  "tags": [
+    "notas",
+    "violao"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m2a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na 6ª corda, a casa 12 repete qual nota da corda solta?",
+      "options": [
+        {
+          "label": "Mi (E) — oitava justa",
+          "correct": true,
+          "feedbackOk": "Equivalência de oitava: +12 semitons = mesma letra."
+        },
+        {
+          "label": "Dó (C) — sexta maior",
+          "correct": false,
+          "feedbackErr": "Dó na 6ª está na casa 8, não 12."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque a escala de **C** na 5ª corda (Lá): casas 3–5–7–8–10–12–14–15. Ouça o padrão T-T-S-T-T-T-S adiante."
+    },
+    {
+      "type": "component",
+      "id": "snd-scale",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Dó maior na 5ª corda",
+        "root": "C",
+        "scale": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mapa",
+      "title": "Mapa 6×12",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "mapa-text",
+      "markdown": "Cada corda sobe **cromatico** (+1 semitom/casa). Na **casa 12**, a nota repete a corda solta:\n\n| Corda | Solta | Casa 12 |\n|-------|-------|----------|\n| 6ª E | Mi | Mi |\n| 5ª A | Lá | Lá |\n| 4ª D | Ré | Ré |\n| 3ª G | Sol | Sol |\n| 2ª B | Si | Si |\n| 1ª e | mi | mi |\n\nO braço é **periódico** — função harmônica e graus se repetem a cada oitava."
+    },
+    {
+      "type": "prose",
+      "id": "escala-text",
+      "markdown": "A escala de **Dó maior** na 5ª corda usa o padrão de casas **3–5–7–8–10–12** (antes de cruzar para a 4ª). Esse mapa ancora o choro **Se Ela Perguntar** em **Lá menor** — tônica na 5ª corda."
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard",
+      "props": {
+        "key": "C",
+        "frets": 12,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-scale",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 12
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-se-ela",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am  Dm  E7  Am",
+      "annotation": "Tônica Am na 5ª corda — mapa 6×12 localiza Lá, Ré e Mi do campo."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n1-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Mapa 6×12 = grade **cromatica** — **graus** e **função** periódicos. Improviso em **bossa** começa reconhecendo oitavas equivalentes."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "No choro de Dilermando, o baixo percorre **Mi → Lá → Ré** na 6ª e 4ª cordas — o mesmo mapa que você traçou. Bossa nova usa a 5ª corda (Lá) como eixo de tônica em **Am** e **D7** (Flor de Lis, Insensatez)."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **C** na 5ª corda casas 3 e 15 — ouça a oitava. 2. **Am** (X 0 2 2 1 0). 3. **E7** (0 2 0 1 0 0) — dominante com Mi na 6ª. 4. Percorra Dó maior na 5ª corda subindo."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m2a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantas cordas têm a mesma nota na casa 12 e na corda solta?",
+      "options": [
+        {
+          "label": "Todas as 6",
+          "correct": true,
+          "feedbackOk": "Equivalência de oitava vale para cada corda."
+        },
+        {
+          "label": "Apenas 6ª e 1ª (Mi)",
+          "correct": false,
+          "feedbackErr": "Mi repete, mas Ré, Sol, Lá e Si também repetem na 12."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m2a3-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as cordas soltas (PT) da grave à aguda:",
+      "orderAnswer": [
+        "Mi",
+        "Lá",
+        "Ré",
+        "Sol",
+        "Si",
+        "Mi"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m2a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Corda solta (PT) → nota na casa 12 (mesma letra):",
+      "pairs": [
+        { "left": "Mi (6ª)", "right": "Mi" },
+        { "left": "Lá (5ª)", "right": "Lá" },
+        { "left": "Ré (4ª)", "right": "Ré" },
+        { "left": "Sol (3ª)", "right": "Sol" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a progressão — tonalidade de Se Ela Perguntar:",
+      "playChords": ["Am", "E7", "Am"],
+      "options": [
+        { "label": "Lá menor (Am) — tônica na 5ª corda", "correct": true, "feedbackOk": "Am repousa — E7 é V7 do menor harmônico." },
+        { "label": "Dó maior (C) — tônica na 5ª casa 3", "correct": false, "feedbackErr": "Centro tonal é Lá — ouça o repouso em Am." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m2a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar Dó maior na 5ª corda e apontar a casa 12 em cada corda?"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "workId": "o-que-e-que-a-baiana-tem",
+  "key": "C",
+  "sections": [
+    {
+      "label": "Verse — samba direto",
+      "chords": [
+        { "symbol": "A7", "degree": "V7", "function": "D" },
+        { "symbol": "D7M", "degree": "I", "function": "T" },
+        { "symbol": "G7", "degree": "IV7", "function": "SD" },
+        { "symbol": "C7M", "degree": "bVII", "function": "SD" }
+      ]
+    },
+    {
+      "label": "Refrão",
+      "chords": [
+        { "symbol": "F7M", "degree": "IV", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" },
+        { "symbol": "C7M", "degree": "I", "function": "T" }
+      ]
+    }
+  ]
+}

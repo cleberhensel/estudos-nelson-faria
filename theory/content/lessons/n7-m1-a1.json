@@ -1,0 +1,256 @@
+{
+  "id": "n7-m1-a1",
+  "slug": "arranjo-vs-cifra-crua",
+  "level": 7,
+  "moduleId": "n7-m1",
+  "title": "Arranjo vs cifra crua",
+  "subtitle": "Cifra lista acordes; arranjo decide registros, levada e respiração — Wave mostra a diferença.",
+  "durationMin": 16,
+  "prerequisites": [],
+  "tags": [
+    "arranjo"
+  ],
+  "relatedWorks": [
+    "wave"
+  ],
+  "relatedChords": [
+    "D7M(9)",
+    "G7(13)",
+    "C7M(9)",
+    "F#m7(b5)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m1a1-warm",
+      "kind": "mc",
+      "question": "Revisão (entrada N7): o que transforma uma sequência de acordes em arranjo de violão?",
+      "options": [
+        {
+          "label": "Textura, groove, intro e voicings escolhidos.",
+          "correct": true,
+          "feedbackOk": "Arranjo = voicings + groove — Wave usa ii–V–I com textura Jobim."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Cifra crua é só harmonia — arranjo é interpretação."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ouça **Wave** (D7M(9)–G7(13)–C7M(9)): note intro, espaço entre acordes e voicings abertos — nada disso aparece na cifra de 3 linhas."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Esqueleto Wave",
+        "chords": [
+          "D7M(9)",
+          "G7(13)",
+          "C7M(9)"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Arranjo vs cifra crua",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Cifra crua** = símbolos na ordem. **Arranjo** = como você distribui no tempo e no braço: qual registro, qual dedilhado, onde abafar, onde deixar soar.\n\nEm **Wave**, Jobim usa tensões (9, 13) em voicings que **evitam fundamental duplicada** — o arranjo nasce da escolha de notas, não de shapes genéricos."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Wave — cifra crua vs voicing Jobim",
+        "voicings": [
+          {
+            "label": "Cifra (fechado)",
+            "chord": "D7M",
+            "shape": "X X 0 2 2 2",
+            "note": "Fundamental na 4ª corda"
+          },
+          {
+            "label": "Jobim (aberto)",
+            "chord": "D7M(9)",
+            "shape": "X X 0 2 2 0",
+            "note": "9ª no topo, ar livre"
+          },
+          {
+            "label": "Dominante colorida",
+            "chord": "G7(13)",
+            "shape": "3 X 0 0 0 1",
+            "note": "13ª implícita"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Dilermando Reis dizia que 'cifra é esqueleto, arranjo é corpo' — Wave de Jobim é exemplo de corpo minimalista."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)",
+      "annotation": "Voicings com tensões 9 e 13 — som bossa maduro.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave",
+        "lessonId": "n7-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Violão MPB gravado (João, Toquinho, Guinga) sempre é arranjo — trate cifra como ponto de partida."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque Wave só com shapes fechados (cifra crua). 2. Abra voicings abertos abaixo. 3. Compare timbre e espaço."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m1a1-q1",
+      "kind": "mc",
+      "question": "Arranjo vs cifra crua — diferença central:",
+      "options": [
+        {
+          "label": "Arranjo escolhe registros, voicings e groove",
+          "correct": true,
+          "feedbackOk": "Interpretação no violão."
+        },
+        {
+          "label": "Cifra já inclui todo voicing",
+          "correct": false,
+          "feedbackErr": "Cifra é harmonia mínima."
+        },
+        {
+          "label": "Arranjo muda só o BPM",
+          "correct": false,
+          "feedbackErr": "BPM é um detalhe."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "arranjo-vs-cifra-crua",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m1a1-match",
+      "kind": "match",
+      "question": "Elemento ↔ arranjo Wave:",
+      "pairs": [
+        {
+          "left": "Voicing aberto",
+          "right": "Tensões 9/13 audíveis"
+        },
+        {
+          "left": "Intro",
+          "right": "Frase antes do verso"
+        },
+        {
+          "left": "Registro",
+          "right": "Grave/médio/agudo"
+        },
+        {
+          "left": "Cifra crua",
+          "right": "Só símbolos"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m1a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — abertura de Wave (arranjo Jobim):",
+      "playChords": [
+        "D7M",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "Progressão Wave — voicings abertos com tensões",
+          "correct": true,
+          "feedbackOk": "D7M→G7→C7M — arranjo nasce da escolha de notas, não do shape genérico."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Tom e voicings são de Wave em Ré."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m1a1-self",
+      "kind": "self_check",
+      "question": "Consegue tocar Wave com voicing aberto sem consultar diagrama?",
+      "tags": []
+    }
+  ]
+}

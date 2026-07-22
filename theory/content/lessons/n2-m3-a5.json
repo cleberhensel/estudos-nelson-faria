@@ -1,0 +1,196 @@
+{
+  "id": "n2-m3-a5",
+  "slug": "desafio-tocar-do-maior-em-3-regioes",
+  "level": 2,
+  "moduleId": "n2-m3",
+  "title": "Desafio: tocar Dó maior em 3 regiões",
+  "durationMin": 12,
+  "prerequisites": [
+    "n2-m3-a4"
+  ],
+  "subtitle": "Formas C, G e E — prove que CAGED virou reflexo tocando Dó maior em três regiões distintas.",
+  "tags": [
+    "caged",
+    "desafio"
+  ],
+  "relatedWorks": [
+    "lilas"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m3a5-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): quais notas compõem a pentatônica maior de Dó?",
+      "options": [
+        {
+          "label": "C D E G A",
+          "correct": true,
+          "feedbackOk": "5 notas — desafio final: Dó maior em 3 regiões CAGED."
+        },
+        {
+          "label": "C D E F G",
+          "correct": false,
+          "feedbackErr": "F não pertence à penta maior."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Desafio auditivo",
+      "body": "Toque Dó maior nas 3 regiões (C aberta, G média, E alta) e ouça: mesma escala, registros diferentes. Lilás faz o mesmo em Ré."
+    },
+    {
+      "type": "component",
+      "id": "snd-c",
+      "componentId": "play-scale",
+      "props": { "title": "Dó maior — referência sonora", "root": "C", "scale": "major" }
+    },
+    {
+      "type": "component",
+      "id": "ch-c",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "C", "title": "Região 1 — forma C (aberta)" }
+    },
+    {
+      "type": "component",
+      "id": "ch-g",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "G", "title": "Região 2 — forma G (média)" }
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 15
+      }
+    },
+    {
+      "type": "heading",
+      "id": "desafio",
+      "title": "Dó maior em 3 regiões",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "desafio-text",
+      "markdown": "Toque a escala de **Dó maior** completa em três regiões:\n\n| Região | Forma | Trastes | Acorde âncora |\n|--------|-------|---------|---------------|\n| **Aberta** | C | 0–4 | **C** (X 3 2 0 1 0) |\n| **Média** | G | 5–9 | **G** (3 2 0 0 0 3) deslocado |\n| **Alta** | E | 8–12 | **C** pestana casa 8 |\n\nCada região mantém os **graus** 1–2–3–4–5–6–7 — só o shape muda."
+    },
+    {
+      "type": "prose",
+      "id": "lilas-text",
+      "markdown": "Este desafio fecha o Nível 2. Em **Lilás**, Djavan transita entre regiões do braço com a mesma fluência — **função** harmônica guia, CAGED executa."
+    },
+    {
+      "type": "example",
+      "id": "ex-lilas",
+      "workId": "lilas",
+      "excerpt": "Em7  A7  D7M  G7M",
+      "annotation": "Ré maior em 3 regiões — paralelo do desafio em Dó."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "lilas",
+        "title": "Lilás",
+        "lessonId": "n2-m3-a5"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Este desafio fecha o Nível 2. Arranjos de Djavan e Jobim exigem fluência em 3+ regiões — não ficar preso na posição aberta. **Lilás** em Ré é este desafio +2 casas."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "C pestana casa 8 = forma E deslocada — mesma escala de Dó, região alta. No Nível 3 você nomeará os acordes de cada região como graus do campo harmônico."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. Escala C forma C (0–4). 2. Escala C forma G (5–9). 3. Escala C forma E (8–12). 4. **C** (X 3 2 0 1 0) + **G** (3 2 0 0 0 3) + **C** pestana 8. Cronometre: < 5 min."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m3a5-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual forma CAGED ancora a região aberta de Dó maior?",
+      "options": [
+        {
+          "label": "Forma C (trastes 0–4)",
+          "correct": true,
+          "feedbackOk": "C aberto — primeira das 3 regiões do desafio."
+        },
+        {
+          "label": "Forma D (trastes 10–14)",
+          "correct": false,
+          "feedbackErr": "D é a forma mais aguda, não a aberta."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m3a5-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Região → forma CAGED (Dó maior):",
+      "pairs": [
+        { "left": "Aberta (0–4)", "right": "Forma C" },
+        { "left": "Média (5–9)", "right": "Forma G" },
+        { "left": "Alta (8–12)", "right": "Forma E" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m3a5-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça C→G→C (pestana) — quantas regiões CAGED?",
+      "playChords": ["C", "G", "C"],
+      "options": [
+        { "label": "3 regiões — C aberta, G média, C forma E", "correct": true, "feedbackOk": "Desafio completo — mesma tonalidade, 3 shapes." },
+        { "label": "1 região — mesma posição", "correct": false, "feedbackErr": "Ouça o salto de registro entre os acordes." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m3a5-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar Dó maior completo nas 3 regiões (C, G, E) sem consultar o mapa?"
+    }
+  ]
+}

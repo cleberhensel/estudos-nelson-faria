@@ -1,0 +1,295 @@
+{
+  "id": "n3-m3-a5",
+  "slug": "desafio-harmonizar-melodia",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Desafio: harmonizar uma melodia de 4 notas",
+  "subtitle": "D–F–A–C no braço — escolha acordes do campo que sustentem cada nota e ouça como Corcovado faz o mesmo.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n3-m3-a4"
+  ],
+  "tags": [
+    "desafio",
+    "harmonizacao",
+    "melodia"
+  ],
+  "relatedWorks": [
+    "corcovado"
+  ],
+  "relatedChords": [
+    "Dm7",
+    "F7M",
+    "Am7",
+    "C7M",
+    "G7",
+    "Em7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a5-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (emprestados): em Dó maior, Bb6 é qual grau emprestado?",
+      "options": [
+        {
+          "label": "bVI — subdominante modal",
+          "correct": true,
+          "feedbackOk": "Certo — agora vamos escolher acordes para notas de melodia."
+        },
+        {
+          "label": "VII° diatônico",
+          "correct": false,
+          "feedbackErr": "VII° seria Bm7(b5), não Bb6."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a melodia alvo",
+      "body": "Toque as notas **D → F → A → C** (cordas 4–3–2–1, casas abertas em Dó). São a 2ª, 4ª, 6ª e 1ª escalares de Dó maior. Antes de harmonizar, cante ou ouça a linha melódica isolada."
+    },
+    {
+      "type": "component",
+      "id": "snd-mel",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Melodia D–F–A–C",
+        "root": "C",
+        "scale": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "regra",
+      "title": "Regra básica: nota de melodia = membro do acorde",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "regra-text",
+      "markdown": "Para harmonizar, cada **nota da melodia** deve ser **3ª, 5ª ou 7ª** (ou tônica) de algum acorde do campo.\n\n| Nota | Grau em Dó | Acordes possíveis |\n|------|------------|-------------------|\n| **D** | 2 | Dm7 (tônica), G7 (5ª), Bm7(b5) (3ª) |\n| **F** | 4 | F7M (tônica), Dm7 (3ª), Am7 (5ª) |\n| **A** | 6 | Am7 (tônica), F7M (3ª), C7M (6ª) |\n| **C** | 1 | C7M (tônica), Am7 (3ª), Em7 (5ª) |\n\n**Solução clássica:** **Dm7 → F7M → Am7 → C7M** — um acorde por nota, todos diatônicos."
+    },
+    {
+      "type": "component",
+      "id": "snd-sol",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Solução diatônica",
+        "chords": [
+          "Dm7",
+          "F7M",
+          "Am7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog-sol",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "Dm7",
+          "F7M",
+          "Am7",
+          "C7M"
+        ],
+        "functions": [
+          "SD",
+          "SD",
+          "T",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "alternativas",
+      "title": "Alternativas e cadência",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "alt-text",
+      "markdown": "Outras escolhas válidas:\n\n- **D** com **G7** (5ª) — sensação de dominante\n- **F** com **Dm7** (3ª) — reforça ii\n- Fechar com **G7 → C7M** se a última nota **C** for tônica de repouso\n\n**Desafio:** monte **duas** harmonizações diferentes e compare a função harmônica de cada uma."
+    },
+    {
+      "type": "component",
+      "id": "snd-cad",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Alternativa com cadência",
+        "chords": [
+          "Dm7",
+          "G7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "corcovado",
+      "title": "Corcovado — melodia e harmonia",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "corv-text",
+      "markdown": "O verso de *Corcovado* usa melodia descendente sobre **Am7 → Dm7 → G7 → C7M** — padrão parecido: notas da escala de Dó sustentadas por acordes do campo.\n\nJobim adiciona **Am6** e **G#°** — harmonizações **não diatônicas** que você pode explorar depois do N4."
+    },
+    {
+      "type": "example",
+      "id": "ex-corv",
+      "workId": "corcovado",
+      "excerpt": "Am7  Dm7  G7  C7M\n\n[Verso — Dó maior]",
+      "annotation": "Melodia sustentada por ii–V–I expandido — modelo para o desafio D–F–A–C.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado — cifra",
+        "lessonId": "n3-m3-a5"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Harmonizar melodia é o ofício do violonista MPB: **Corcovado**, **Modinha** e arranjos de João Gilberto sustentam cada nota com acorde do campo. A regra \"nota = membro do acorde\" explica 80% das cifras — o resto são passagens cromáticas e empréstimos."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio (10 min)",
+      "body": "1. Toque D–F–A–C na corda sol/re/lá/mi. 2. Harmonize com Dm7–F7M–Am7–C7M. 3. Invente 2ª versão usando G7 em D. 4. Grave e compare com Corcovado."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a5-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Para harmonizar D (2ª de Dó) com acorde diatônico, qual opção inclui D como nota do acorde?",
+      "options": [
+        {
+          "label": "Dm7 — D é a tônica",
+          "correct": true,
+          "feedbackOk": "Dm7 = ii — D como raiz."
+        },
+        {
+          "label": "Em7 — D não pertence",
+          "correct": false,
+          "feedbackErr": "Em7 = E–G–B–D — D é 7ª! Também válido, mas a pergunta pedia tônica."
+        },
+        {
+          "label": "C7M — D não pertence",
+          "correct": false,
+          "feedbackErr": "C7M = C–E–G–B — sem D."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m3a5-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Nota melódica ↔ acorde diatônico (Dó maior):",
+      "pairs": [
+        {
+          "left": "F (4ª)",
+          "right": "F7M"
+        },
+        {
+          "left": "A (6ª)",
+          "right": "Am7"
+        },
+        {
+          "left": "C (1ª)",
+          "right": "C7M"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a5-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a harmonização diatônica para D–F–A–C:",
+      "orderAnswer": [
+        "Dm7",
+        "F7M",
+        "Am7",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m3a5-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — harmonização diatônica de D–F–A–C:",
+      "playChords": [
+        "Dm7",
+        "F7M",
+        "Am7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "Dm7 → F7M → Am7 → C7M (ii–IV–vi–I)",
+          "correct": true,
+          "feedbackOk": "Cada acorde sustenta uma nota da melodia em Dó."
+        },
+        {
+          "label": "C7M → G7 → F7M → Dm7",
+          "correct": false,
+          "feedbackErr": "Ordem invertida — melodia não casa."
+        },
+        {
+          "label": "Em7 → A7 → D7M",
+          "correct": false,
+          "feedbackErr": "Cadência ii–V–I — só três acordes."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a5-self",
+      "kind": "self_check",
+      "question": "Conseguiu criar duas harmonizações diferentes para D–F–A–C e explicar a função de cada acorde?"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "n3-m3-a6",
+  "slug": "ficha-campos-harmonicos-ate-4-sustenidos",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Ficha de campos harmônicos até 4♯",
+  "subtitle": "Referência rápida — campos maiores e menores de Dó a Mi maior para consulta no violão e na cifra.",
+  "durationMin": 12,
+  "prerequisites": [
+    "n3-m3-a5"
+  ],
+  "tags": [
+    "referencia",
+    "campo-harmonico",
+    "transposicao"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema",
+    "insensatez",
+    "chega-de-saudade",
+    "construcao"
+  ],
+  "relatedChords": [
+    "C7M",
+    "G7M",
+    "D7M",
+    "A7M",
+    "E7M",
+    "Am7",
+    "Em7",
+    "Bm7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a6-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (harmonização): D–F–A–C em Dó maior harmoniza com quais acordes diatônicos?",
+      "options": [
+        {
+          "label": "Dm7 → F7M → Am7 → C7M",
+          "correct": true,
+          "feedbackOk": "Solução clássica — use esta ficha para transpor o raciocínio."
+        },
+        {
+          "label": "C7M → G7 → F7M → Dm7",
+          "correct": false,
+          "feedbackErr": "Ordem e escolha não sustentam cada nota corretamente."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça ii–V–I em três tons",
+      "body": "Antes de consultar a ficha, ouça **Gm7–C7–F7M** (Fá), **Am7–D7–G7M** (Sol) e **Em7–A7–D7M** (Ré). Se reconhece a cadência pelo som, a ficha vira confirmação — não muleta."
+    },
+    {
+      "type": "component",
+      "id": "snd-f",
+      "componentId": "play-chord",
+      "props": {
+        "title": "ii–V–I em Fá (Garota)",
+        "chords": [
+          "Gm7",
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-g",
+      "componentId": "play-chord",
+      "props": {
+        "title": "ii–V–I em Sol (Insensatez)",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "tip",
+      "variant": "tip",
+      "title": "Como usar esta ficha",
+      "body": "Não decore tudo — use como **mapa** ao transpor. Os **graus romanos** são fixos (I–ii–iii–IV–V–vi–vii°); cada acorde tem **função** T, SD ou D — só mudam os nomes."
+    },
+    {
+      "type": "heading",
+      "id": "c-g-d",
+      "title": "Dó, Sol e Ré maior",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "c-g-d-text",
+      "markdown": "| Grau | Dó (0♯) | Sol (1♯) | Ré (2♯) |\n|------|---------|----------|--------|\n| I | C7M | G7M | D7M |\n| ii | Dm7 | Am7 | Em7 |\n| iii | Em7 | Bm7 | F#m7 |\n| IV | F7M | C7M | G7M |\n| V | G7 | D7 | A7 |\n| vi | Am7 | Em7 | Bm7 |\n| vii° | Bm7(b5) | F#m7(b5) | C#m7(b5) |"
+    },
+    {
+      "type": "component",
+      "id": "lab-c",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-g",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "G",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-d",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "a-e",
+      "title": "Lá e Mi maior",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "a-e-text",
+      "markdown": "| Grau | Lá (3♯) | Mi (4♯) |\n|------|---------|--------|\n| I | A7M | E7M |\n| ii | Bm7 | F#m7 |\n| V | E7 | B7 |\n| vi | F#m7 | C#m7 |\n\n**Garota** = Fá (1♭). **Insensatez** = Sol. **Chega** = Ré menor / Ré maior. **Construção** = Mi menor."
+    },
+    {
+      "type": "component",
+      "id": "lab-a",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "A",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-e",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "E",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "menores",
+      "title": "Menores harmônicos (cadência)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "menores-text",
+      "markdown": "Para **cadência menor** (iiø–V7–Im), lembre: V7 tem 3ª maior.\n\n| Tom | iiø | V7 | Im |\n|-----|-----|----|----|\n| Lá menor | Bm7(b5) | E7 | Am |\n| Mi menor | F#m7(b5) | B7 | Em |\n| Ré menor | Em7(b5) | A7 | Dm |"
+    },
+    {
+      "type": "component",
+      "id": "lab-dm",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "minorHarmonic"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-em",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "E",
+        "mode": "minorHarmonic"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "workId": "garota-de-ipanema",
+      "excerpt": "Gm7  C7  F7M",
+      "annotation": "ii–V–I em Fá — use esta ficha para transpor o raciocínio a qualquer tom.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Tom Jobim & João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota — aplicar a ficha",
+        "lessonId": "n3-m3-a6"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Cifras brasileiras mudam de tom entre edições — **Garota** aparece em Fá, Sol ou Sib. Quem domina graus romanos transpoem em segundos; quem decora nomes fica refém da editora. Esta ficha cobre até 4♯ — suficiente para 90% do repertório MPB."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escolha uma música do repertório e identifique o tom. 2. Abra o lab correspondente nesta ficha. 3. Marque I, ii, V na cifra. 4. Toque ii–V–I naquele tom."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a6-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "ii–V–I em Sol maior usa:",
+      "options": [
+        {
+          "label": "Am7 → D7 → G7M",
+          "correct": true,
+          "feedbackOk": "Molde fixo — consulte a ficha ao transpor."
+        },
+        {
+          "label": "Dm7 → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "Isso é em Dó, não em Sol."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m3a6-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Obra ↔ tom principal:",
+      "pairs": [
+        {
+          "left": "Garota de Ipanema",
+          "right": "Fá maior"
+        },
+        {
+          "left": "Chega de Saudade",
+          "right": "Ré menor/maior"
+        },
+        {
+          "left": "Construção",
+          "right": "Mi menor"
+        },
+        {
+          "left": "Insensatez",
+          "right": "Sol maior"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a6-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte ii–V–I em Lá maior:",
+      "orderAnswer": [
+        "Bm7",
+        "E7",
+        "A7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m3a6-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — identifique o tom deste ii–V–I:",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M"
+      ],
+      "options": [
+        {
+          "label": "Lá maior",
+          "correct": true,
+          "feedbackOk": "Consulte a ficha — Bm7–E7–A7M."
+        },
+        {
+          "label": "Dó maior",
+          "correct": false,
+          "feedbackErr": "Em Dó seria Dm7–G7–C7M."
+        },
+        {
+          "label": "Mi menor",
+          "correct": false,
+          "feedbackErr": "Cadência menor — resolução seria Em."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a6-self",
+      "kind": "self_check",
+      "question": "Conseguiu montar ii–V–I em um tom novo usando só a ficha, sem decorar nomes?"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "n6-m1-a2",
+  "slug": "a-batida-de-joao-gilberto-bossa",
+  "level": 6,
+  "moduleId": "n6-m1",
+  "title": "A batida de João Gilberto (bossa)",
+  "subtitle": "Polegar no 1, dedos no contratempo — a batida de João Gilberto que transformou o violão brasileiro.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n6-m1-a1"
+  ],
+  "tags": [
+    "ritmo",
+    "bossa",
+    "violao"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Dm",
+    "Dm/C",
+    "E7/B",
+    "A7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m1a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m1-a1): síncope é ataque no contratempo que invade o pulso. Na batida bossa, quem marca o pulso?",
+      "options": [
+        {
+          "label": "O polegar — tempos 1 e (às vezes) 3.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Revise a grade bossa: linha 'Polegar' = baixo no tempo."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Use a grade **Bossa (João Gilberto)** abaixo. Toque 4 compassos só com polegar nas células de acento — depois adicione os dedos no contratempo. Compare com **Chega de Saudade**."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Abertura Chega (Dm / Dm/C)",
+        "chords": [
+          "Dm",
+          "Dm/C"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "A batida de João Gilberto (bossa)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "A batida de João Gilberto separa **duas camadas**: polegar (baixo) no pulso e dedos (agudos) no contratempo. O baixo não corre — ele **respira** nos tempos 1 e 3. Os dedos preenchem com arpejos curtos, muitas vezes abafados.\n\nEm **Chega de Saudade** (Dm), o violão não 'samba' — ele **balança**. O erro mais comum é trocar tudo junto: primeiro isole o polegar 8 compassos, depois encaixe os dedos."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 130
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Gilberto gravou Chega com violão de nylon e cordas de aço misturadas — o timbre 'seco' ajuda a ouvir cada ataque de contratempo sem confundir com o baixo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7",
+      "annotation": "Campo menor com modulação para Ré maior — bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade",
+        "lessonId": "n6-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "A bossa nova é harmonia de jazz com **corpo de samba parado** — a batida de João é o motor dessa contradição produtiva."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Grade bossa: só polegar, 8 compassos a 120 BPM. 2. Adicione dedos nos contratempos marcados. 3. Toque **Dm** (XX0231) no 1 e deixe Dm/C cair no contratempo — imita Chega."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m1a2-q1",
+      "kind": "mc",
+      "question": "Na batida bossa de João Gilberto, a linha de baixo (polegar):",
+      "options": [
+        {
+          "label": "Marca pulso nos tempos 1 e 3, sem correr",
+          "correct": true,
+          "feedbackOk": "Base estável — dedos fazem o balanço."
+        },
+        {
+          "label": "Toca semicolcheias iguais ao choro",
+          "correct": false,
+          "feedbackErr": "Choro é outra levada — compare a grade."
+        },
+        {
+          "label": "Substitui a harmonia",
+          "correct": false,
+          "feedbackErr": "Baixo apoia acordes, não os substitui."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "a-batida-de-joao-gilberto-bossa",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m1a2-match",
+      "kind": "match",
+      "question": "Camada ↔ função na bossa:",
+      "pairs": [
+        {
+          "left": "Polegar",
+          "right": "Pulso / baixo"
+        },
+        {
+          "left": "Indicador/anular",
+          "right": "Contratempo agudo"
+        },
+        {
+          "left": "Abafado (palm mute)",
+          "right": "Secar o ataque"
+        },
+        {
+          "left": "BPM ~120–130",
+          "right": "Andamento bossa"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n6m1a2-order",
+      "kind": "order",
+      "question": "Ordene os passos para aprender a batida:",
+      "orderAnswer": [
+        "Palmas no pulso",
+        "Polegar sozinho",
+        "Dedos no contratempo",
+        "Harmonia por cima"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m1a2-dict",
+      "kind": "dictation",
+      "question": "Ouça — sensação rítmica (mesmos acordes, levada diferente):",
+      "options": [
+        {
+          "label": "Harmonia com baixo descendente (Chega)",
+          "correct": true,
+          "feedbackOk": "Dm → Dm/C → E7/B — linha de baixo cromática."
+        },
+        {
+          "label": "Baião 3+3+2",
+          "correct": false,
+          "feedbackErr": "Sem groove nordestino aqui."
+        }
+      ],
+      "playChords": [
+        "Dm",
+        "Dm/C",
+        "E7/B"
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m1a2-self",
+      "kind": "self_check",
+      "question": "Consegue tocar 4 compassos da grade bossa com polegar + dedos sem acelerar?",
+      "tags": []
+    }
+  ]
+}

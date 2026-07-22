@@ -1,0 +1,200 @@
+{
+  "id": "n2-m3-a4",
+  "slug": "pentatonica-maior-e-menor-blues-e-mpb",
+  "level": 2,
+  "moduleId": "n2-m3",
+  "title": "Pentatônica maior e menor — blues e MPB",
+  "durationMin": 16,
+  "prerequisites": [
+    "n2-m3-a3"
+  ],
+  "subtitle": "5 notas da escala — penta maior (C D E G A) e menor (A C D E G) são o vocabulário do blues e da MPB.",
+  "tags": [
+    "pentatonica",
+    "escalas"
+  ],
+  "relatedWorks": [
+    "oceano"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m3a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na forma C de Dó maior, a caixa ocupa quais trastes?",
+      "options": [
+        {
+          "label": "0–4",
+          "correct": true,
+          "feedbackOk": "Região aberta — agora reduzimos a 5 notas (penta)."
+        },
+        {
+          "label": "8–12",
+          "correct": false,
+          "feedbackErr": "8–12 é a forma E."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça penta maior vs menor",
+      "body": "Compare **C D E G A** (maior, brilhante) com **A C D E G** (menor, melancólica). São as mesmas 5 notas de Dó maior — ponto de partida diferente."
+    },
+    {
+      "type": "component",
+      "id": "snd-penta-maj",
+      "componentId": "play-scale",
+      "props": { "title": "Pentatônica maior de Dó", "root": "C", "scale": "penta-major" }
+    },
+    {
+      "type": "component",
+      "id": "snd-penta-min",
+      "componentId": "play-scale",
+      "props": { "title": "Pentatônica menor de Lá", "root": "A", "scale": "penta-minor" }
+    },
+    {
+      "type": "component",
+      "id": "fb-penta-maj",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "penta-major",
+        "frets": 12
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-penta-min",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "penta-minor",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "penta",
+      "title": "Pentatônica maior e menor",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "penta-text",
+      "markdown": "Removemos **F** e **B** (semitons 'problemáticos') da maior:\n\n| Penta | Notas (C) | Notas (Am) | Graus omitidos |\n|-------|-----------|------------|----------------|\n| **Maior** | C D E G A | — | 4ª e 7ª |\n| **Menor** | — | A C D E G | 2ª e ♭6 |\n\nNa **MPB** e no **blues**, a penta menor sobre **Am** é o primeiro passo para improvisar sobre **Oceano**."
+    },
+    {
+      "type": "prose",
+      "id": "blues-text",
+      "markdown": "O **blues** adiciona a 'blue note' (♭5) à penta menor — bossa usa a penta maior sobre o **I** para fills melódicos. Djavan mistura os dois registros em **Oceano**."
+    },
+    {
+      "type": "example",
+      "id": "ex-oceano",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Penta menor de B sobre Bm7 — vocabulário de improvisação MPB."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n2-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Fills de violão na MPB usam penta maior sobre o **I** (C sobre C7M) e penta menor sobre **vi** (Am sobre Am7). Djavan em **Oceano** alterna registros — penta menor de B sobre Bm7 é o primeiro vocabulário de improviso brasileiro."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Penta menor de Am = penta maior de C (mesmas notas, tônica diferente). A 'blue note' (Eb/D#) entra fora da penta — passagem cromática típica do blues que Jobim ocasionalmente empresta."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Penta C na forma C (C D E G A). 2. Penta Am na forma Am (A C D E G). 3. **Am** (X 0 2 2 1 0) + penta menor. 4. **C** (X 3 2 0 1 0) + penta maior. Improvise 8 notas."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m3a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quais notas formam a pentatônica maior de Dó?",
+      "options": [
+        {
+          "label": "C D E G A",
+          "correct": true,
+          "feedbackOk": "5 graus — sem F (4ª) e B (7ª)."
+        },
+        {
+          "label": "C D E F G",
+          "correct": false,
+          "feedbackErr": "F (4ª) não entra na penta maior."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m3a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Pentatônica → notas omitidas da maior:",
+      "pairs": [
+        { "left": "Penta maior (C)", "right": "Omite F e B (4ª e 7ª)" },
+        { "left": "Penta menor (Am)", "right": "Omite B e F (2ª e ♭6)" },
+        { "left": "Notas da penta C", "right": "C D E G A" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a escala — penta maior ou menor?",
+      "playChords": ["C", "Am"],
+      "options": [
+        { "label": "C = maior (brilhante); Am = menor (mesma paleta, tônica A)", "correct": true, "feedbackOk": "Relativas — C D E G A compartilhadas." },
+        { "label": "C e Am usam notas completamente diferentes", "correct": false, "feedbackErr": "Mesmas 5 notas — ponto de repouso muda." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m3a4-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu improvisar 8 notas com penta maior de C e menor de Am?"
+    }
+  ]
+}

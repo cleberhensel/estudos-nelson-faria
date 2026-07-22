@@ -1,0 +1,265 @@
+{
+  "id": "n4-m1-a3",
+  "slug": "triades-no-braco-tres-voicings",
+  "level": 4,
+  "moduleId": "n4-m1",
+  "title": "Tríades no braço — 3 voicings por tipo",
+  "subtitle": "A mesma tríade em três regiões do braço — em Insensatez, Am7 esconde a tríade menor de Lá em shapes que você já toca.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n4-m1-a2"
+  ],
+  "tags": [
+    "acordes",
+    "voicing",
+    "violao"
+  ],
+  "relatedWorks": [
+    "insensatez"
+  ],
+  "relatedChords": [
+    "Am",
+    "C",
+    "Dm",
+    "G",
+    "Em"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m1a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): qual tríade forma o ii grau de Dó maior?",
+      "options": [
+        {
+          "label": "Dm (D–F–A)",
+          "correct": true,
+          "feedbackOk": "Pré-dominante em tríade — agora localize no braço."
+        },
+        {
+          "label": "Em (E–G–B)",
+          "correct": false,
+          "feedbackErr": "Em é o iii grau, não o ii."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Três Am no braço",
+      "body": "Toque **Am** em três posições: aberto (X 0 2 2 1 0), meio (5 7 7 5 5 5) e alta (12 14 14 12 12 12). Mesma tríade, timbres diferentes."
+    },
+    {
+      "type": "component",
+      "id": "fb-am",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "Am",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "voicings",
+      "title": "Três voicings por tríade",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "voicings-text",
+      "markdown": "Cada tríade aparece em **3 regiões** do braço:\n\n| Tríade | Aberto/grave | Médio | Agudo |\n|--------|-------------|-------|-------|\n| **Am** | X 0 2 2 1 0 | 5 7 7 5 5 5 | 12 14 14 12 12 12 |\n| **C** | X 3 2 0 1 0 | 8 10 10 9 8 8 | 15 17 17 16 15 15 |\n| **G** | 3 2 0 0 0 3 | 10 12 12 11 10 10 | 15 17 17 16 15 15 |\n\nEm **Insensatez** (Sol maior), **Am7** contém a tríade **Am** — o shape aberto é o mais usado na levada."
+    },
+    {
+      "type": "component",
+      "id": "voicing-grid",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Tríades de Insensatez no braço",
+        "voicings": [
+          {
+            "label": "Am — aberto",
+            "chord": "Am",
+            "shape": "X 0 2 2 1 0",
+            "note": "vi em Sol"
+          },
+          {
+            "label": "C — aberto",
+            "chord": "C",
+            "shape": "X 3 2 0 1 0",
+            "note": "IV em Sol"
+          },
+          {
+            "label": "G — aberto",
+            "chord": "G",
+            "shape": "3 2 0 0 0 3",
+            "note": "I em Sol"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "insensatez",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "II–V–I em Dó com sensibilidade lírica.",
+      "youtube": "PHIe9B5plDI",
+      "youtubeTitle": "Insensatez",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "insensatez"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "insensatez",
+        "title": "Insensatez",
+        "lessonId": "n4-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Violonistas MPB não pensam \"tríade pura\" — pensam **shape**. O Am7 de **Insensatez** é o Am aberto com uma nota a mais; Garota usa Gm7 da mesma lógica. Dominar 3 voicings por tríade libera arranjos sem mudar de região a cada acorde."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Am7 = tríade Am + 7ª (G). Ao tocar Am7 aberto, você já executa a tríade menor do vi — a 7ª está na 3ª corda solta."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Am7 → D7 → G7M → C7M (Insensatez). Em cada acorde, identifique a tríade escondida: Am em Am7, Dm em D7 (sem 3ª), G em G7M, C em C7M."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m1a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Insensatez (Sol maior), qual função harmônica tem a tríade Am?",
+      "options": [
+        {
+          "label": "vi — tônica relativa",
+          "correct": true,
+          "feedbackOk": "Am é o grau vi — repouso melancólico antes do II–V."
+        },
+        {
+          "label": "ii — pré-dominante",
+          "correct": false,
+          "feedbackErr": "ii em Sol seria Am7 como pré-dominante de D7, mas Am sozinho é vi."
+        },
+        {
+          "label": "IV — subdominante",
+          "correct": false,
+          "feedbackErr": "IV em Sol é C (Dó maior), não Am."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m1a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a tríade ao grau em Sol maior:",
+      "pairs": [
+        {
+          "left": "G (I)",
+          "right": "Tônica"
+        },
+        {
+          "left": "Am (vi)",
+          "right": "Tônica relativa"
+        },
+        {
+          "left": "C (IV)",
+          "right": "Subdominante"
+        },
+        {
+          "left": "Em (iii)",
+          "right": "Mediante"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m1a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a abertura de Insensatez (tríades/tétrades):",
+      "orderAnswer": [
+        "Am7",
+        "D7",
+        "G7M",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a tríade:",
+      "playChords": [
+        "G"
+      ],
+      "options": [
+        {
+          "label": "G maior — tônica em Sol",
+          "correct": true,
+          "feedbackOk": "Sol–Si–Ré — repouso da tonalidade."
+        },
+        {
+          "label": "Em menor — iii em Sol",
+          "correct": false,
+          "feedbackErr": "Em soa mais fechado — ouça o Sol na fundamental."
+        },
+        {
+          "label": "D maior — V em Sol",
+          "correct": false,
+          "feedbackErr": "D maior soaria mais 'alto' — fundamental é Sol."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m1a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Am, C e G em pelo menos 2 posições diferentes no braço?"
+    }
+  ]
+}

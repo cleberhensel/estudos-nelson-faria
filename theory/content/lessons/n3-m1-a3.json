@@ -1,0 +1,327 @@
+{
+  "id": "n3-m1-a3",
+  "slug": "funcoes-tonica-subdominante-dominante",
+  "level": 3,
+  "moduleId": "n3-m1",
+  "title": "Funções: Tônica, Subdominante, Dominante",
+  "subtitle": "Três famílias de acordes organizam o movimento — repouso, saída de casa e tensão que pede resolução.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n3-m1-a2"
+  ],
+  "tags": [
+    "campo-harmonico",
+    "funcoes",
+    "violao",
+    "mpb"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema",
+    "corcovado"
+  ],
+  "relatedChords": [
+    "C7M",
+    "Dm7",
+    "Em7",
+    "F7M",
+    "G7",
+    "Am7",
+    "Fm7",
+    "Bb7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m1a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (campo de Dó): qual acorde é grau V e função dominante?",
+      "options": [
+        {
+          "label": "G7",
+          "correct": true,
+          "feedbackOk": "V — contém a trítona que puxa para C7M."
+        },
+        {
+          "label": "F7M",
+          "correct": false,
+          "feedbackErr": "F7M é IV — subdominante, abre caminho mas não resolve."
+        },
+        {
+          "label": "Am7",
+          "correct": false,
+          "feedbackErr": "Am7 é vi — tônica relativa, repouso."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça as três famílias",
+      "body": "Toque três blocos em Dó: **(T) C7M** sozinho — repouso. **(SD) F7M → G7** — movimento. **(D→T) G7 → C7M** — tensão e resolução. Ouviu a diferença de \"casa\", \"sair\" e \"voltar\"?"
+    },
+    {
+      "type": "component",
+      "id": "snd-t",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Tônica (T): C7M",
+        "chords": [
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-sd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Subdominante (SD): F7M → Dm7",
+        "chords": [
+          "F7M",
+          "Dm7"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-d",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Dominante (D): G7 → C7M",
+        "chords": [
+          "G7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "familias",
+      "title": "As três famílias funcionais",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "familias-text",
+      "markdown": "| Função | Símbolo | Graus típicos (maior) | Sensação |\n|--------|---------|----------------------|----------|\n| **Tônica** | T | I, iii, vi | Repouso, \"já chegou\" |\n| **Subdominante** | SD | IV, ii | Abre, afasta da tônica |\n| **Dominante** | D | V, vii° | Tensão — quer resolver em T |\n\nO fluxo clássico é **SD → D → T**. Exemplo: **Dm7 (ii/SD) → G7 (V/D) → C7M (I/T)**.\n\n**iii** e **vi** também repousam (substitutos de tônica), mas com cor diferente: vi é a relativa menor; iii é mais instável em pop, comum como passagem."
+    },
+    {
+      "type": "component",
+      "id": "cadencia",
+      "componentId": "cadence-flow",
+      "props": {
+        "key": "C"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "fluxo",
+      "title": "Fluxo permitido (e o que quebra regras)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "fluxo-text",
+      "markdown": "Movimentos **fortes**: SD→D, D→T, SD→T (plagal IV→I). **Surpresas úteis**: D→vi (cadência deceptiva — V resolve em vi em vez de I). **Evite** saltos aleatórios sem ouvir: teoria descreve o que o ouvido já aceita.\n\nNo violão, treine **uma função por vez**: toque só acordes T (C, Am, Em), depois só SD (F, Dm), depois D→T (G7→C)."
+    },
+    {
+      "type": "component",
+      "id": "prog-decept",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "G7",
+          "Am7",
+          "F7M",
+          "C7M"
+        ],
+        "functions": [
+          "D",
+          "T",
+          "SD",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "**vii° (Bm7(b5))** compartilha trítono com **G7** — ambos funcionam como dominante. Em bossa, Jobim usa meio-diminuto como dominante disfarçada antes de resolver."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Corcovado: funções em Fá",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "corcovado-text",
+      "markdown": "Trecho de **Corcovado** (Fá maior):\n\n```\nF7M   Fm7   Bb7   Eb7M\n T     iv    bVII   bIII\n```\n\nO **Fm7** (iv) puxa para **Bb7** (subdominante de Eb ou empréstimo modal). **F7M** repousa como T. Funções explicam por que Fm \"escurece\" antes de Bb7 — não é acorde aleatório."
+    },
+    {
+      "type": "example",
+      "id": "ex-corcovado",
+      "workId": "corcovado",
+      "excerpt": "F7M   Fm7   Bb7   Eb7M",
+      "annotation": "T → iv (emprestimo) → SD modal → novo centro. Ouça o Fm7 como cor subdominante menor.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado — cifra completa",
+        "lessonId": "n3-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Jobim não rotula funções na cifra — mas **Corcovado** e **Garota** obedecem T/SD/D. O **Fm7** antes de **Bb7** é iv emprestado: subdominante menor que escurece antes de abrir para o bVII. Marcar T/SD/D na cifra brasileira é metade da análise."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (6 min)",
+      "body": "1. **SD→D→T:** Dm7 (X X 0 2 1 1) → G7 (3 2 0 0 0 1) → C7M (X 3 2 0 1 0) — diga T/SD/D em voz alta. 2. **Deceptiva:** G7 → Am7 — sinta a \"frustração\" antes de resolver em C. 3. Abra Corcovado e marque T/SD/D no primeiro verso."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m1a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Associe função ao grau em Dó maior:",
+      "pairs": [
+        {
+          "left": "Tônica (T)",
+          "right": "C7M (I)"
+        },
+        {
+          "left": "Subdominante (SD)",
+          "right": "F7M (IV)"
+        },
+        {
+          "left": "Dominante (D)",
+          "right": "G7 (V)"
+        },
+        {
+          "left": "Pré-dominante",
+          "right": "Dm7 (ii)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m1a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Na cadência deceptiva em Dó, G7 resolve em qual acorde?",
+      "options": [
+        {
+          "label": "Am7 (vi)",
+          "correct": true,
+          "feedbackOk": "V→vi — dominante que engana, não cai na tônica."
+        },
+        {
+          "label": "C7M (I)",
+          "correct": false,
+          "feedbackErr": "Isso seria cadência autêntica, não deceptiva."
+        },
+        {
+          "label": "F7M (IV)",
+          "correct": false,
+          "feedbackErr": "IV não é alvo típico de V."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m1a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene o fluxo funcional clássico (SD → D → T):",
+      "orderAnswer": [
+        "Dm7",
+        "G7",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça: é cadência autêntica ou deceptiva em Dó?",
+      "playChords": [
+        "G7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "Deceptiva (V → vi)",
+          "correct": true,
+          "feedbackOk": "G7 não foi para C — foi para Am."
+        },
+        {
+          "label": "Autêntica (V → I)",
+          "correct": false,
+          "feedbackErr": "Não houve resolução em C7M."
+        },
+        {
+          "label": "Plagal (IV → I)",
+          "correct": false,
+          "feedbackErr": "Não ouviu F7M antes da tônica."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m1a3-self",
+      "kind": "self_check",
+      "question": "Consegue tocar SD→D→T e D→vi sentindo a diferença emocional entre elas?"
+    }
+  ]
+}

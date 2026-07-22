@@ -1,0 +1,17 @@
+{
+  "workId": "oceano",
+  "key": "D",
+  "sections": [
+    {
+      "label": "Intro / verso",
+      "chords": [
+        { "symbol": "D7M", "degree": "I", "function": "T" },
+        { "symbol": "F#m7", "degree": "iii", "function": "T" },
+        { "symbol": "Bm7", "degree": "vi", "function": "T" },
+        { "symbol": "Em7", "degree": "ii", "function": "SD" },
+        { "symbol": "A7", "degree": "V", "function": "D" },
+        { "symbol": "G7M", "degree": "IV", "function": "SD" }
+      ]
+    }
+  ]
+}

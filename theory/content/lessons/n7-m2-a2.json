@@ -1,0 +1,261 @@
+{
+  "id": "n7-m2-a2",
+  "slug": "harmonia-melodia-simultaneas",
+  "level": 7,
+  "moduleId": "n7-m2",
+  "title": "Harmonia + melodia simultâneas",
+  "subtitle": "Polegar na melodia, dedos na harmonia — Águas de Março pede duas vozes no mesmo violão.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n7-m2-a1"
+  ],
+  "tags": [
+    "arranjo",
+    "violao"
+  ],
+  "relatedWorks": [
+    "aguas-de-marco"
+  ],
+  "relatedChords": [
+    "Bm7",
+    "E7",
+    "A7M",
+    "D7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m2a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m2-a1): intro estabelece tom. Harmonia + melodia simultâneas exigem:",
+      "options": [
+        {
+          "label": "Separar mãos: polegar melodia, dedos acordes (ou vice-versa).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Duas vozes = duas linhas independentes."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Águas de Março: melodia cíclica Bm7–E7–A7M–D7M com frase vocal no topo — simule cantando na 1ª corda."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ciclo Águas de Março",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Harmonia + melodia simultâneas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Técnica **melodia + harmonia**: polegar (ou indicador) toca contorno melódico enquanto dedos mantêm **shell voicings** (3ª+7ª) ou tríades. Jobim compôs **Águas** para Elis — violão precisa 'cantar'.\n\nComece com **shell**: omita fundamental, toque 3ª e 7ª + melodia no agudo."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Águas — shell voicings",
+        "voicings": [
+          {
+            "label": "Bm7 shell",
+            "chord": "Bm7",
+            "shape": "X 2 0 0 2 X",
+            "note": "3ª+7ª"
+          },
+          {
+            "label": "E7 shell",
+            "chord": "E7",
+            "shape": "X 7 6 7 X X",
+            "note": "Dominante enxuta"
+          },
+          {
+            "label": "A7M",
+            "chord": "A7M",
+            "shape": "X 0 2 1 2 0",
+            "note": "Melodia no topo"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Guinga separa polegar melódico em gravações — referência para violão MPB avançado."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "aguas-de-marco",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Harmonia cíclica e modulações sutis.",
+      "youtube": "wBEesrdaRog",
+      "youtubeTitle": "Águas de Março",
+      "youtubeArtist": "Tom Jobim & Elis Regina"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "aguas-de-marco"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "aguas-de-marco",
+        "title": "Águas de Março",
+        "lessonId": "n7-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Águas é teste de arranjo maduro — cifra simples, execução exige duas vozes. O ciclo Bm7→E7→A7M→D7M é **modulação** por dominante comum — shell + melodia na mesma função harmônica."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Bm7 shell (X 2 0 0 2 X) + melodia B na 1ª. 2. E7 shell + nota guia. 3. Dois compassos sem parar."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m2a2-q1",
+      "kind": "mc",
+      "question": "Shell voicing omitindo fundamental serve para:",
+      "options": [
+        {
+          "label": "Liberar dedos para melodia no agudo",
+          "correct": true,
+          "feedbackOk": "Duas vozes no violão."
+        },
+        {
+          "label": "Tocar mais grave sempre",
+          "correct": false,
+          "feedbackErr": "Shell é médio-agudo."
+        },
+        {
+          "label": "Substituir levada",
+          "correct": false,
+          "feedbackErr": "Levada continua no polegar."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "harmonia-melodia-simultaneas",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m2a2-match",
+      "kind": "match",
+      "question": "Voz ↔ mão:",
+      "pairs": [
+        {
+          "left": "Melodia",
+          "right": "Agudo / polegar"
+        },
+        {
+          "left": "Harmonia shell",
+          "right": "Dedos médios"
+        },
+        {
+          "left": "Águas",
+          "right": "Ciclo Bm–E–A–D"
+        },
+        {
+          "left": "Jobim",
+          "right": "Duas vozes"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — harmonia + melodia Águas de Março:",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "Ciclo de quintas — shell + melodia simultânea",
+          "correct": true,
+          "feedbackOk": "Bm7→E7→A7M→D7M — arranjo em camadas."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Quatro acordes descendo por quintas — tom variável."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m2a2-self",
+      "kind": "self_check",
+      "question": "Dois compassos de Águas com shell + nota melódica?",
+      "tags": []
+    }
+  ]
+}

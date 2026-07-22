@@ -1,0 +1,244 @@
+{
+  "id": "n4-m1-a1",
+  "slug": "maior-menor-diminuta-e-aumentada",
+  "level": 4,
+  "moduleId": "n4-m1",
+  "title": "Maior, menor, diminuta e aumentada",
+  "subtitle": "Quatro tríades, quatro personalidades — os semitons entre 3ª e 5ª explicam por que C soa aberto, Cm melancólico, C° instável e C+ suspenso.",
+  "durationMin": 16,
+  "prerequisites": [],
+  "tags": [
+    "acordes",
+    "triades"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "C",
+    "Cm",
+    "C°",
+    "C+"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m1a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (nível 3): empilhar duas terças sobre Dó (C–E–G) forma qual qualidade de tríade?",
+      "options": [
+        {
+          "label": "Maior (3ª maior + 5ª justa)",
+          "correct": true,
+          "feedbackOk": "Tríade maior — base do grau I (tônica) no campo diatônico."
+        },
+        {
+          "label": "Menor (3ª menor + 5ª justa)",
+          "correct": false,
+          "feedbackErr": "Cm teria Mi♭ — aqui a 3ª é maior (Mi natural)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça as quatro tríades",
+      "body": "Toque **C**, **Cm**, **C°** e **C+** em sequência. Repare: maior repousa, menor escurece, diminuta tensiona, aumentada flutua sem resolver."
+    },
+    {
+      "type": "component",
+      "id": "snd-triads",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Compare as quatro tríades de Dó",
+        "chords": [
+          "C",
+          "Cm",
+          "C°",
+          "C+"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "semitons",
+      "title": "Semitons entre 3ª e 5ª",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "semitons-text",
+      "markdown": "| Tríade | 3ª | 5ª | Semitons 3ª→5ª | Som |\n|--------|----|----|----------------|-----|\n| **C** (maior) | Mi (4 st) | Sol (7 st) | 3 | brilhante, estável |\n| **Cm** (menor) | Mi♭ (3 st) | Sol (7 st) | 4 | melancólico |\n| **C°** (dim) | Mi♭ (3 st) | Sol♭ (6 st) | 3 | instável, pede resolução |\n| **C+** (aug) | Mi (4 st) | Sol# (8 st) | 4 | flutuante, sem repouso |\n\nA **3ª** define maior/menor; a **5ª** completa ou tensiona o acorde."
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Em **Desafinado**, Jobim usa **F#m7(b5)** — tríade diminuta com 7ª menor. O som 'desafinado' nasce dessas tríades instáveis que pedem II–V."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n4-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na bossa, tríades puras raramente aparecem sozinhas — mas reconhecer C vs Cm vs C° é o primeiro passo para ler **Em7(b5)** e **C+** em cifras de Jobim."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C** (X 3 2 0 1 0). 2. **Cm** (X 3 5 5 4 3). 3. **C°** (X 3 4 2 4 2). 4. **C+** (X 3 2 1 0 1). Toque cada uma 4 vezes e nomeie a qualidade em voz alta."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m1a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantos semitons há entre a 3ª e a 5ª de uma tríade **maior**?",
+      "options": [
+        {
+          "label": "3 semitons",
+          "correct": true,
+          "feedbackOk": "4 st até a 3ª + 3 st até a 5ª = 7 st total; diferença 3ª→5ª = 3."
+        },
+        {
+          "label": "4 semitons",
+          "correct": false,
+          "feedbackErr": "4 semitons é a distância 3ª→5ª da tríade **menor**."
+        },
+        {
+          "label": "2 semitons",
+          "correct": false,
+          "feedbackErr": "2 st seria uma segunda menor — não é o caso."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m1a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a tríade à sua fórmula de intervalos:",
+      "pairs": [
+        {
+          "left": "C (maior)",
+          "right": "3ª maior + 5ª justa"
+        },
+        {
+          "left": "Cm (menor)",
+          "right": "3ª menor + 5ª justa"
+        },
+        {
+          "left": "C° (diminuta)",
+          "right": "3ª menor + 5ª diminuta"
+        },
+        {
+          "left": "C+ (aumentada)",
+          "right": "3ª maior + 5ª aumentada"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m1a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene do mais estável ao mais instável (ouça antes):",
+      "orderAnswer": [
+        "C",
+        "Cm",
+        "C+",
+        "C°"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m1a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a tríade:",
+      "playChords": [
+        "Cm"
+      ],
+      "options": [
+        {
+          "label": "Cm — tríade menor",
+          "correct": true,
+          "feedbackOk": "3ª menor (Mi♭) — som melancólico característico."
+        },
+        {
+          "label": "C — tríade maior",
+          "correct": false,
+          "feedbackErr": "Maior soa mais brilhante — aqui a 3ª está abaixada."
+        },
+        {
+          "label": "C° — tríade diminuta",
+          "correct": false,
+          "feedbackErr": "Diminuta tem 5ª abaixada — som ainda mais tenso."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m1a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar C, Cm, C° e C+ e distinguir pelo ouvido a 3ª maior da menor?"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "n5-m3-a3",
+  "slug": "desafio-modulacoes-djavan",
+  "level": 5,
+  "moduleId": "n5-m3",
+  "title": "Desafio: 2 modulações em Djavan",
+  "subtitle": "Bm7→E7→A7M→D7M em Oceano — duas modulações por ciclo de quintas com cores harmônicas que só o MPB pós-bossa conseguiu.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n5-m3-a2"
+  ],
+  "tags": [
+    "modulacao",
+    "analise"
+  ],
+  "relatedWorks": [
+    "oceano",
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "Bm7",
+    "E7",
+    "A7M",
+    "D7M",
+    "G7M",
+    "C#m7(b5)",
+    "F#7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m3a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (choro): A7 em C maior resolve tipicamente em?",
+      "options": [
+        {
+          "label": "Dm7 — V7/ii",
+          "correct": true,
+          "feedbackOk": "Djavan usa ciclos maiores com 7M."
+        },
+        {
+          "label": "C7M — V7/I",
+          "correct": false,
+          "feedbackErr": "V7/I seria G7."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "desafio",
+      "variant": "tip",
+      "title": "Desafio analítico",
+      "body": "Mapeie **duas modulações** em Oceano: Bm7→E7→A7M (para Lá) e A7M→D7M (para Ré). Identifique o acorde-ponte em cada uma."
+    },
+    {
+      "type": "component",
+      "id": "prog-oceano",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "analise",
+      "title": "Duas modulações em Oceano",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "analise-text",
+      "markdown": "**Modulação 1:** D → A\n- Bm7 (ii em D) → E7 (V7 em D *e* V7 em A) → **A7M** (I em Lá)\n- Pivô: **E7**\n\n**Modulação 2:** A → D (retorno)\n- A7M (I em Lá) → **D7M** (I em Ré) — modulação por tonica comum / ciclo\n- Djavan usa **7M** em todos os repousos — som lírico, não bossa\n\n**Flor de Lis** usa progressão similar: Am7→D7→G7M→C7M — ciclo descendente com modulação G→C."
+    },
+    {
+      "type": "component",
+      "id": "snd-djavan",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Cores harmônicas Djavan",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M",
+          "G7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-d",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-oceano",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Modulações de Djavan — elegância harmônica.",
+      "youtube": "MWh78SM5G7k",
+      "youtubeTitle": "Oceano",
+      "youtubeArtist": "Djavan"
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Progressão acessível — mesmo molde cíclico.",
+      "youtube": "peR8eOcGA3M",
+      "youtubeTitle": "Flor de Lis",
+      "youtubeArtist": "Djavan"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "oceano"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n5-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Oceano** e **Flor de Lis** (Djavan) modulam com elegância — E7 pivota D→A, A7M→D7M→G7M desce por ciclo de quintas. Djavan usa 7M em repouso (diferente do 7/7M bossa de Jobim); violonistas precisam transpor shapes rápido entre tons."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Djavan mistura modulação por dominante comum (E7) e por ciclo de quintas (A7M→D7M→G7M). O uso de 7M em repouso é marca — diferente do 7M/7 bossa de Jobim."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. Toque Bm7→E7→A7M e nomeie a modulação D→A. 2. Toque A7M→D7M e nomeie A→D. 3. Compare com Flor de Lis (G→C)."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m3a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual acorde-ponte na modulação D→A em Oceano?",
+      "options": [
+        {
+          "label": "E7 — V7 em D e V7 em A",
+          "correct": true,
+          "feedbackOk": "Dominante comum clássica."
+        },
+        {
+          "label": "Bm7 — ii em D",
+          "correct": false,
+          "feedbackErr": "Bm7 abre, não pivota."
+        },
+        {
+          "label": "A7M — tônica de chegada",
+          "correct": false,
+          "feedbackErr": "A7M é destino, não pivô."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m3a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a progressão à modulação:",
+      "pairs": [
+        {
+          "left": "Bm7→E7→A7M",
+          "right": "D maior → Lá maior"
+        },
+        {
+          "left": "Am7→D7→G7M",
+          "right": "C maior → Sol maior"
+        },
+        {
+          "left": "A7M→D7M",
+          "right": "Lá maior → Ré maior"
+        },
+        {
+          "left": "G7M→C7M",
+          "right": "Sol maior → Dó maior"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m3a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Abertura de Oceano:",
+      "orderAnswer": [
+        "Bm7",
+        "E7",
+        "A7M",
+        "D7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a modulação:",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M"
+      ],
+      "options": [
+        {
+          "label": "D→A via E7 (Oceano)",
+          "correct": true,
+          "feedbackOk": "ii–V–I que modula para Lá."
+        },
+        {
+          "label": "C→G via D7",
+          "correct": false,
+          "feedbackErr": "Seria Am7→D7→G7M."
+        },
+        {
+          "label": "F→Bb via C7",
+          "correct": false,
+          "feedbackErr": "Seria Gm7→C7→F7M."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m3a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu mapear 2 modulações em Oceano e explicar os acordes-ponte?"
+    }
+  ]
+}

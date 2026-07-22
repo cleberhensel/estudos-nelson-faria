@@ -1,0 +1,192 @@
+{
+  "id": "n2-m2-a3",
+  "slug": "la-menor-no-braco",
+  "level": 2,
+  "moduleId": "n2-m2",
+  "title": "Lá menor no braço",
+  "durationMin": 14,
+  "prerequisites": [
+    "n2-m2-a2"
+  ],
+  "subtitle": "Menor harmônica no braço — G# na 7ª cria E7 (V7) e a cadência clássica que resolve em Am.",
+  "tags": [
+    "escalas",
+    "menor",
+    "violao"
+  ],
+  "relatedWorks": [
+    "construcao"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m2a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): qual acorde é a relativa menor de Dó maior?",
+      "options": [
+        {
+          "label": "Am (Lá menor)",
+          "correct": true,
+          "feedbackOk": "vi/i — agora mapeamos Am harmônica no braço."
+        },
+        {
+          "label": "Em (Mi menor)",
+          "correct": false,
+          "feedbackErr": "Em é iii, não relativa."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a cadência menor",
+      "body": "Toque **E7 → Am** devagar. O **G#** implícito no E7 cria semitom de aproximação para Lá — leading tone clássico."
+    },
+    {
+      "type": "component",
+      "id": "snd-harm",
+      "componentId": "play-scale",
+      "props": { "title": "Lá menor harmônica", "root": "A", "scale": "minorHarmonic" }
+    },
+    {
+      "type": "component",
+      "id": "snd-v7",
+      "componentId": "play-chord",
+      "props": { "title": "Cadência E7 → Am", "chords": ["E7", "Am"] }
+    },
+    {
+      "type": "component",
+      "id": "fb-harm",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minorHarmonic",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "am-braco",
+      "title": "Lá menor harmônica no braço",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "am-text",
+      "markdown": "A escala **A menor harmônica** na 5ª corda:\n\n**A(0) – B(2) – C(3) – D(5) – E(7) – F(8) – G#(11) – A(12)**\n\nO **G#** na casa 11 cria o leading tone — **semitom** abaixo da tônica. **E7** (V7) contém **G#** implícito na função dominante."
+    },
+    {
+      "type": "prose",
+      "id": "v7-text",
+      "markdown": "Cadência **E7 → Am**: dominante harmônica com **trítono** G#–D (na 7ª de E7). **Construção** navega **Em** com **B7** — mesma lógica de V7 com 7ª maior."
+    },
+    {
+      "type": "example",
+      "id": "ex-constr",
+      "workId": "construcao",
+      "excerpt": "Em  Am  B7  Em",
+      "annotation": "V7 em Mi menor — paralelo da cadência E7→Am."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "construcao",
+        "title": "Construção",
+        "lessonId": "n2-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Chega de Saudade** (A7→Dm) e **Construção** (B7→Em) usam V7 com 3ª maior — menor harmônico no braço. O G# na casa 11 da 5ª corda é o mapa físico desse som."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "O trítono **G#–D** dentro do E7 (3ª e 7ª do acorde) explica a tensão. **B7** em Construção faz o mesmo papel sobre Em — paralelo direto desta cadência."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escala A harmônica na 5ª corda — destaque G# casa 11. 2. **Am** (X 0 2 2 1 0). 3. **E7** (0 2 0 1 0 0) — V7. 4. Cadência E7→Am × 8, sentindo resolução."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m2a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Lá menor harmônico, qual nota substitui G natural?",
+      "options": [
+        {
+          "label": "G# — cria semitom abaixo de A",
+          "correct": true,
+          "feedbackOk": "Leading tone — função dominante E7."
+        },
+        {
+          "label": "Ab",
+          "correct": false,
+          "feedbackErr": "Ab não pertence à harmônica de A."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m2a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Lá menor harmônico → elemento:",
+      "pairs": [
+        { "left": "7ª grau", "right": "G# (não G)" },
+        { "left": "V7 clássico", "right": "E7" },
+        { "left": "Resolução", "right": "Am (tônica)" },
+        { "left": "Casa no braço (G#)", "right": "5ª corda, casa 11" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça E7→Am — função do E7 em Lá menor?",
+      "playChords": ["E7", "Am"],
+      "options": [
+        { "label": "V7 (dominante harmônica)", "correct": true, "feedbackOk": "Leading tone G#→A — cadência menor clássica." },
+        { "label": "IV (subdominante)", "correct": false, "feedbackErr": "IV seria Dm — E7 cria tensão de dominante." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m2a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar E7→Am sentindo o G# implícito na dominante?"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "n7-m2-a3",
+  "slug": "percussao-no-corpo-e-abafados",
+  "level": 7,
+  "moduleId": "n7-m2",
+  "title": "Percussão no corpo e abafados",
+  "subtitle": "Tapping no corpo, abafados palm-mute — percussão que sustenta Só Danço Samba sem baterista.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n7-m2-a2"
+  ],
+  "tags": [
+    "arranjo",
+    "ritmo"
+  ],
+  "relatedWorks": [
+    "so-danco-samba"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m2a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m2-a2): shell voicings liberam melodia. Percussão no violão inclui:",
+      "options": [
+        {
+          "label": "Abafados, ataques no corpo, ghost notes.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Percussão = articulação além das notas."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Só Danço Samba: note palmas no corpo do violão e abafados entre acordes — groove continua no silêncio."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Só Danço Samba",
+        "chords": [
+          "F7M",
+          "Gm7",
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Percussão no corpo e abafados",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Percussão no violão MPB**: palm-mute (abafar com palma da mão direita), **ghost notes** (ataque abafado), batida leve na caixa (corpo).\n\nEm bossa, abafados nos contratempos **separam** ataques harmônicos — João usava para simular tamborim."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Só Danço Samba — articulação",
+        "voicings": [
+          {
+            "label": "F7M aberto",
+            "chord": "F7M",
+            "shape": "X X 3 2 1 0",
+            "note": "Ataque livre"
+          },
+          {
+            "label": "Gm7 abafado",
+            "chord": "Gm7",
+            "shape": "3 X 3 3 3 X",
+            "note": "Palm-mute"
+          },
+          {
+            "label": "C7 resolução",
+            "chord": "C7",
+            "shape": "X 3 2 3 1 0",
+            "note": "Ataque seco"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Marcos Valle e Toquinho incorporaram percussão corporal antes do loop station — técnica ancestral do violão solo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "so-danco-samba",
+      "excerpt": "F7M  Gm7  C7  F7M",
+      "annotation": "Bossa com levada e II–V–I.",
+      "youtube": "YJMEu1oxLjA",
+      "youtubeTitle": "Só Danço Samba",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "so-danco-samba"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "so-danco-samba",
+        "title": "Só Danço Samba",
+        "lessonId": "n7-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Sem percussão interna, arranjo bossa vira fingerstyle genérico. Abafos nos contratempos são a **subdominante rítmica** — preparam o polegar no tempo 1."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Levada bossa com palm-mute nos contratempos. 2. Um tap no corpo no tempo 2. 3. F7M–Gm7–C7 com abafos."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m2a3-q1",
+      "kind": "mc",
+      "question": "Palm-mute na bossa simula:",
+      "options": [
+        {
+          "label": "Tamborim/abafamento do samba-jazz",
+          "correct": true,
+          "feedbackOk": "Percussão interna."
+        },
+        {
+          "label": "Sustain infinito",
+          "correct": false,
+          "feedbackErr": "Mute reduz sustain."
+        },
+        {
+          "label": "Baixo walking",
+          "correct": false,
+          "feedbackErr": "Baixo é polegar, não mute."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "percussao-no-corpo-e-abafados",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m2a3-match",
+      "kind": "match",
+      "question": "Técnica ↔ efeito:",
+      "pairs": [
+        {
+          "left": "Palm-mute",
+          "right": "Abafamento"
+        },
+        {
+          "left": "Ghost note",
+          "right": "Ataque surdo"
+        },
+        {
+          "left": "Tap corpo",
+          "right": "Percussão extra"
+        },
+        {
+          "left": "Bossa",
+          "right": "Contratempo seco"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — levada + harmonia Só Danço Samba:",
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "II–V–I em Fá — percussão no corpo sobre cadência bossa",
+          "correct": true,
+          "feedbackOk": "Abafos nos contratempos + harmonia fixa."
+        },
+        {
+          "label": "Samba A7→D7M",
+          "correct": false,
+          "feedbackErr": "Tom e progressão são de bossa em Fá."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m2a3-self",
+      "kind": "self_check",
+      "question": "Levada bossa com abafos nos contratempos fluindo?",
+      "tags": []
+    }
+  ]
+}

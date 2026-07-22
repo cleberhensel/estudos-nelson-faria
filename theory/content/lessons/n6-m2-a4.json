@@ -1,0 +1,263 @@
+{
+  "id": "n6-m2-a4",
+  "slug": "integrar-ritmo-harmonia-na-mesma-obra",
+  "level": 6,
+  "moduleId": "n6-m2",
+  "title": "Integrar ritmo + harmonia na mesma obra",
+  "subtitle": "Dm com levada bossa em Chega de Saudade — ritmo e harmonia na mesma respiração.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n6-m2-a3"
+  ],
+  "tags": [
+    "ritmo",
+    "harmonia"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Dm",
+    "Dm/C",
+    "E7/B",
+    "A7",
+    "Bb6"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m2a4-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m2-a3): groove une levada, dinâmica e registro. Em Chega, o campo harmônico da seção A é:",
+      "options": [
+        {
+          "label": "Ré menor (Dm) com modulações.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Chega abre em Dm — não é Dó maior."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **Dm → Dm/C → E7/B** com levada bossa. O baixo desce enquanto os dedos mantêm contratempo — harmonia e ritmo contam a mesma história."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Chega — integração ritmo/harmonia",
+        "chords": [
+          "Dm",
+          "Dm/C",
+          "E7/B",
+          "A7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Integrar ritmo + harmonia na mesma obra",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Integrar ritmo + harmonia significa que o **baixo da levada** reforça o movimento dos acordes. Em **Chega de Saudade**:\n\n- **Dm** no pulso 1\n- **Dm/C** no contratempo (baixo desce para C)\n- **E7/B** prepara modulação\n\nSe você troca acorde no tempo errado, a linha de baixo perde o sentido narrativo."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 120
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Gilberto abafava ataques para que o baixo harmônico (Dm/C) fosse ouvido como nota de passagem, não como 'erro' de ritmo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7",
+      "annotation": "Campo menor com modulação para Ré maior — bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade",
+        "lessonId": "n6-m2-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Chega é laboratório: bossa madura onde slash chords e levada são inseparáveis."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Polegar: Dm (1) — Dm/C (contratempo 2). 2. Dedos abafados no 2 e 4. 3. 8 compassos sem parar, depois adicione E7/B."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m2a4-q1",
+      "kind": "mc",
+      "question": "Dm/C em Chega funciona melhor quando atacado:",
+      "options": [
+        {
+          "label": "No contratempo, com baixo C no polegar",
+          "correct": true,
+          "feedbackOk": "Baixo desce — narrativa harmônica."
+        },
+        {
+          "label": "Sempre no tempo 1 forte",
+          "correct": false,
+          "feedbackErr": "Perde o efeito de passagem."
+        },
+        {
+          "label": "Sem levada, só block chord",
+          "correct": false,
+          "feedbackErr": "Chega exige bossa."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "integrar-ritmo-harmonia-na-mesma-obra",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m2a4-match",
+      "kind": "match",
+      "question": "Acorde ↔ papel em Chega A:",
+      "pairs": [
+        {
+          "left": "Dm",
+          "right": "Tônica menor"
+        },
+        {
+          "left": "Dm/C",
+          "right": "Baixo descendente"
+        },
+        {
+          "left": "E7/B",
+          "right": "Dominante preparando modulação"
+        },
+        {
+          "left": "A7",
+          "right": "V7 menor harmônico"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n6m2a4-order",
+      "kind": "order",
+      "question": "Ordene os acordes de abertura Chega:",
+      "orderAnswer": [
+        "Dm",
+        "Dm/C",
+        "E7/B",
+        "A7"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m2a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — abertura de Chega (harmonia + levada bossa):",
+      "playChords": [
+        "Dm",
+        "Dm/C",
+        "E7/B",
+        "A7"
+      ],
+      "options": [
+        {
+          "label": "Seção A — baixo desce, dominantes secundárias",
+          "correct": true,
+          "feedbackOk": "Dm→Dm/C→E7/B→A7 — bossa fundadora."
+        },
+        {
+          "label": "II–V–I em Fá (Garota)",
+          "correct": false,
+          "feedbackErr": "Tom menor Ré — cadência diferente."
+        },
+        {
+          "label": "Turn-around I–vi–ii–V",
+          "correct": false,
+          "feedbackErr": "Progressão cromática de Chega, não turn-around."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m2a4-self",
+      "kind": "self_check",
+      "question": "Consegue tocar Dm→Dm/C com levada bossa sentindo o baixo descer?",
+      "tags": []
+    }
+  ]
+}

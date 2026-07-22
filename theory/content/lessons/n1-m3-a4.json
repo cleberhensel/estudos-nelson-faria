@@ -1,0 +1,188 @@
+{
+  "id": "n1-m3-a4",
+  "slug": "desafio-todas-as-quintas-de-la-no-braco",
+  "level": 1,
+  "moduleId": "n1-m3",
+  "title": "Desafio: todas as quintas de Lá no braço",
+  "durationMin": 12,
+  "prerequisites": [
+    "n1-m3-a3"
+  ],
+  "subtitle": "Localize A→E (5ª justa) em 3 regiões do braço — prova de que o mapa cromatico virou reflexo.",
+  "tags": [
+    "intervalos",
+    "desafio"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m3a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): 1 tom inteiro no braço equivale a quantas casas?",
+      "options": [
+        {
+          "label": "2 casas (2 semitons)",
+          "correct": true,
+          "feedbackOk": "Tom = 2 st — base da fórmula T-T-S."
+        },
+        {
+          "label": "1 casa",
+          "correct": false,
+          "feedbackErr": "1 casa = semitom cromatico."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Desafio auditivo",
+      "body": "Toque **A** e depois **E** — quinta justa (7 st). Encontre esse par em 3 regiões diferentes do braço antes de olhar o mapa."
+    },
+    {
+      "type": "component",
+      "id": "play-5",
+      "componentId": "play-interval",
+      "props": {
+        "from": "A",
+        "to": "E",
+        "title": "5ª justa (A→E)"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "regioes",
+      "title": "Três regiões de A→E",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "reg-text",
+      "markdown": "A **5ª de Lá** é **Mi (E)** — 7 semitons acima:\n\n| Região | Lá (A) | Mi (E) | Cordas |\n|--------|--------|--------|--------|\n| Grave | 5ª corda casa 0 | 6ª corda casa 0 | cordas soltas |\n| Médio | 5ª corda casa 12 | 4ª corda casa 2 | oitava + cruzamento |\n| Agudo | 3ª corda casa 2 | 2ª corda casa 5 | região média-alta |\n\nEm **Am**, **E7** é V7 — a quinta Mi define a **função dominante**."
+    },
+    {
+      "type": "prose",
+      "id": "desafio-text",
+      "markdown": "Este desafio fecha o Nível 1: você nomeia **graus**, mede **intervalos** e localiza **função** no braço. No choro, quintas aparecem em baixos alternados e em duetos de melodias."
+    },
+    {
+      "type": "component",
+      "id": "fb-a",
+      "componentId": "fretboard",
+      "props": {
+        "key": "A",
+        "frets": 12,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-se-ela",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am",
+      "annotation": "Am→E7: tônica e dominante ligadas pela quinta justa A→E."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n1-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Dilermando Reis alterna **Am** e **E7** no choro — quinta justa audível a cada compasso. Dominar A→E em 3 regiões prepara você para transpor qualquer cadência de choro ou samba-canção."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Encontrar a mesma quinta em regiões diferentes prova que o braço é simétrico por oitavas. No Nível 3 você nomeará essas quintas como **V** e **ii–V–I** — aqui você só localiza no mapa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. **Am** (X 0 2 2 1 0). 2. **E7** (0 2 0 1 0 0). 3. Encontre A→E nas 3 regiões da tabela. 4. Toque Am–E7–Am sentindo a quinta. Cronometre: < 3 min."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m3a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "A 5ª justa acima de Lá (A) é qual nota?",
+      "options": [
+        {
+          "label": "Mi (E)",
+          "correct": true,
+          "feedbackOk": "A→E = 7 st = quinta — V de Am."
+        },
+        {
+          "label": "Dó (C)",
+          "correct": false,
+          "feedbackErr": "C é 3ª menor abaixo de E, não 5ª de A."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m3a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Região do braço → par A→E:",
+      "pairs": [
+        { "left": "Grave (cordas soltas)", "right": "5ª corda A → 6ª corda E" },
+        { "left": "Médio", "right": "5ª casa 12 → 4ª casa 2" },
+        { "left": "Função em Am", "right": "V7 = E7" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a cadência — intervalo entre tônica e dominante:",
+      "playChords": ["Am", "E7"],
+      "options": [
+        { "label": "Quinta justa (A→E) + 7ª", "correct": true, "feedbackOk": "7 st = 5ª — alicerce da função dominante." },
+        { "label": "Oitava justa (A→A)", "correct": false, "feedbackErr": "Oitava repousaria — E7 cria tensão, não repouso." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m3a4-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Encontrou A→E em 3 regiões do braço sem consultar a tabela?"
+    }
+  ]
+}

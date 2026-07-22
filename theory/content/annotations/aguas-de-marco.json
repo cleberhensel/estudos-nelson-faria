@@ -1,0 +1,24 @@
+{
+  "workId": "aguas-de-marco",
+  "key": "D",
+  "sections": [
+    {
+      "label": "Refrão — ciclo em Ré",
+      "chords": [
+        { "symbol": "Bm7", "degree": "vi", "function": "T" },
+        { "symbol": "E7", "degree": "II7", "function": "D" },
+        { "symbol": "A7M", "degree": "V", "function": "SD" },
+        { "symbol": "D7M", "degree": "I", "function": "T" }
+      ]
+    },
+    {
+      "label": "Ponte — dominantes",
+      "chords": [
+        { "symbol": "G7", "degree": "IV7", "function": "SD" },
+        { "symbol": "C7M", "degree": "bVII", "function": "SD" },
+        { "symbol": "F#m7(b5)", "degree": "iiiø", "function": "PD" },
+        { "symbol": "B7", "degree": "VI7", "function": "D" }
+      ]
+    }
+  ]
+}

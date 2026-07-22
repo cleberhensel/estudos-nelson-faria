@@ -1,0 +1,278 @@
+{
+  "id": "n4-m4-a1",
+  "slug": "slash-chords-ce",
+  "level": 4,
+  "moduleId": "n4-m4",
+  "title": "Baixo diferente do fundamental (C/E)",
+  "subtitle": "A cifra C/E diz: acorde de Dó com Mi no baixo — em Águas de Março, slash chords criam linhas de baixo melódicas no violão.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n4-m3-a4"
+  ],
+  "tags": [
+    "acordes",
+    "inversoes"
+  ],
+  "relatedWorks": [
+    "aguas-de-marco"
+  ],
+  "relatedChords": [
+    "C/E",
+    "C/G",
+    "Am/E",
+    "Dm/F",
+    "G/B"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m4a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (sus4): o que acontece com a 3ª em G7sus4?",
+      "options": [
+        {
+          "label": "Substituída pela 4ª (Dó) — acorde suspenso",
+          "correct": true,
+          "feedbackOk": "Slash chords mudam o baixo, não a 3ª."
+        },
+        {
+          "label": "Abaixada em um semitom",
+          "correct": false,
+          "feedbackErr": "Isso seria 3ª menor, não sus4."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "C vs C/E",
+      "body": "Toque **C** (X 3 2 0 1 0) e **C/E** (0 3 2 0 1 0). Mesmo acorde, baixo diferente — a linha de baixo muda a sensação."
+    },
+    {
+      "type": "callout",
+      "id": "deep-slash",
+      "variant": "deep",
+      "title": "Função harmônica",
+      "body": "C/E mantém a **tônica** C no acorde mas o baixo cai para Mi — subdominante disfarçada antes da **dominante**."
+    },
+    {
+      "type": "component",
+      "id": "fb-slash",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "C/E",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "slash",
+      "title": "Lendo slash chords",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "slash-text",
+      "markdown": "**C/E** = acorde **C** com baixo **E** (3ª do acorde)\n\n| Cifra | Acorde | Baixo | Nota no baixo |\n|-------|--------|-------|---------------|\n| C/E | C maior | Mi (3ª) | 1ª corda aberta |\n| C/G | C maior | Sol (5ª) | 6ª corda 3ª casa |\n| Am/E | Am | Mi (5ª) | linha descendente |\n| G/B | G | Si (3ª) | passagem para C |\n\nEm **Águas de Março**, slash chords descem o baixo nota a nota — harmonia e melodia no mesmo instrumento."
+    },
+    {
+      "type": "component",
+      "id": "snd-slash",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Slash chords de Águas de Março",
+        "chords": [
+          "C/E",
+          "C/G",
+          "Am",
+          "Am/G"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog-aguas",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "SD",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "aguas-de-marco",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Harmonia cíclica e modulações sutis.",
+      "youtube": "wBEesrdaRog",
+      "youtubeTitle": "Águas de Março",
+      "youtubeArtist": "Tom Jobim & Elis Regina"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "aguas-de-marco"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "aguas-de-marco",
+        "title": "Águas de Março",
+        "lessonId": "n4-m4-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Águas de Março** usa **Am/G** e **C/E** — slash chords que descrevem linha de baixo descendente, não só inversão. Cifras brasileiras escrevem a barra explicitamente; violonistas MPB tocam o baixo na 6ª corda enquanto mantêm o shape do acorde acima."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Slash ≠ inversão clássica sempre: **C/E** é 1ª inversão (3ª no baixo), mas **Am/G** é acorde de Am com Sol no baixo — linha de baixo descendente, não inversão funcional."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque C → C/E → C/G → Am. Siga o baixo descendo: Dó → Mi → Sol → Lá. Essa linha é o DNA de Águas de Março."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m4a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em C/E, qual nota o baixo toca?",
+      "options": [
+        {
+          "label": "Mi — a 3ª do acorde de Dó",
+          "correct": true,
+          "feedbackOk": "1ª inversão de C — baixo na 3ª."
+        },
+        {
+          "label": "Dó — a fundamental",
+          "correct": false,
+          "feedbackErr": "Dó no baixo seria C na posição fundamental."
+        },
+        {
+          "label": "Sol — a 5ª",
+          "correct": false,
+          "feedbackErr": "Sol no baixo seria C/G."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m4a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a slash chord ao baixo indicado:",
+      "pairs": [
+        {
+          "left": "C/E",
+          "right": "Mi no baixo"
+        },
+        {
+          "left": "C/G",
+          "right": "Sol no baixo"
+        },
+        {
+          "left": "G/B",
+          "right": "Si no baixo"
+        },
+        {
+          "left": "Dm/F",
+          "right": "Fá no baixo"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m4a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Linha de baixo descendente: C → C/? → C/? → Am",
+      "orderAnswer": [
+        "C",
+        "C/E",
+        "C/G",
+        "Am"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m4a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique o slash chord:",
+      "playChords": [
+        "C/E"
+      ],
+      "options": [
+        {
+          "label": "C/E — Dó maior com Mi no baixo",
+          "correct": true,
+          "feedbackOk": "O baixo em Mi cria sensação de movimento descendente."
+        },
+        {
+          "label": "Em — tríade de Mi menor",
+          "correct": false,
+          "feedbackErr": "Em soaria como acorde diferente — aqui é C com baixo E."
+        },
+        {
+          "label": "C/G — Dó com Sol no baixo",
+          "correct": false,
+          "feedbackErr": "C/G teria baixo mais grave (Sol)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m4a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar C, C/E e C/G mantendo a linha de baixo audível?"
+    }
+  ]
+}

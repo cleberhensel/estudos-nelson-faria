@@ -1,0 +1,223 @@
+{
+  "id": "n3-m1-a2",
+  "slug": "campo-harmonico-do-maior",
+  "level": 3,
+  "moduleId": "n3-m1",
+  "title": "Campo harmônico de Dó maior",
+  "subtitle": "Os sete acordes nativos da escala maior — quando você entende o campo, deixa de memorizar cifras e passa a ouvir funções.",
+  "durationMin": 25,
+  "prerequisites": ["n3-m1-a1"],
+  "tags": ["campo-harmonico", "violao", "mpb", "bossa"],
+  "relatedWorks": ["construcao"],
+  "relatedChords": ["C7M", "Dm7", "Em7", "F7M", "G7", "Am7", "Bm7(b5)"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m1a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): empilhar terças sobre Dó dá qual sequência de qualidades?",
+      "options": [
+        { "label": "7M – m7 – m7 – 7M – 7 – m7 – m7(b5)", "correct": true, "feedbackOk": "Isso — o molde diatônico maior." },
+        { "label": "m7 – m7 – 7M – m7 – 7 – 7M – m7(b5)", "correct": false, "feedbackErr": "Essa ordem é do campo menor natural, não maior." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque a sequência diatônica devagar, uma vez: C7M → Dm7 → Em7 → F7M → G7 → Am7 → Bm7(b5). Repare quais acordes pedem movimento e quais repousam."
+    },
+    {
+      "type": "component",
+      "id": "snd-campo",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça o campo em Dó (bloco por bloco)",
+        "chords": ["C7M", "Dm7", "Em7", "F7M", "G7", "Am7", "Bm7(b5)"]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "graus",
+      "title": "Graus romanos e acordes diatônicos",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "graus-text",
+      "markdown": "Cada nota da escala recebe um **grau** (I a VII). Empilhamos terças sobre cada grau e nascem os sete acordes **nativos** — a paleta da MPB, da bossa e do choro."
+    },
+    {
+      "type": "component",
+      "id": "lab-campo",
+      "componentId": "harmonic-lab",
+      "props": { "defaultKey": "C", "mode": "major" }
+    },
+    {
+      "type": "heading",
+      "id": "funcoes",
+      "title": "Funções harmônicas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "fluxo-text",
+      "markdown": "Três famílias organizam o movimento: **tônica (T)** repousa, **subdominante (SD)** abre caminho, **dominante (D)** cria tensão que pede resolução. O fluxo clássico é SD → D → T."
+    },
+    {
+      "type": "component",
+      "id": "cadencia",
+      "componentId": "cadence-flow",
+      "props": { "key": "C" }
+    },
+    {
+      "type": "component",
+      "id": "prog-iivi",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": ["Dm7", "G7", "C7M"],
+        "functions": ["SD", "D", "T"]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "O **Bm7(b5)** (vii°) compartilha trítono com **G7** — por isso ambos funcionam como dominante. Jobim usa meio-diminutos como dominantes disfarçadas em progressões de bossa."
+    },
+    {
+      "type": "heading",
+      "id": "violao",
+      "title": "Campo no braço do violão",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "fb-text",
+      "markdown": "A escala de **Dó maior** no braço (tablatura: 1ª corda no topo). Tônica **C** em destaque. Use o botão **graus** para ver 1–2–3–4–5–6–7."
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": { "root": "C", "scale": "major", "frets": 12 }
+    },
+    {
+      "type": "component",
+      "id": "snd-escala",
+      "componentId": "play-scale",
+      "props": { "title": "Ouça Dó maior ascendente", "root": "C", "scale": "major" }
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C7M** (X 3 2 0 1 0) — repouso. 2. **Dm7** (X X 0 2 1 1) — começa a mover. 3. **G7** (3 2 0 0 0 1) — tensão! 4. Resolva em **C7M**. Repita até sentir o G7 'puxar' o ouvido."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M\n\n[Esqueleto harmônico do refrão — sem letra]",
+      "annotation": "II–V–I em Fá maior: Gm7 → C7 → F7M — a cadência que você acabou de treinar, transposta.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto (1964)"
+    },
+    {
+      "type": "component",
+      "id": "chart-garota",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "link-construcao",
+      "componentId": "work-link",
+      "props": { "workId": "construcao", "title": "Construção", "lessonId": "n3-m1-a2" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na MPB o campo raramente aparece 'puro'. Jobim adiciona **tensões** (9, 13), **SubV7** e **acordes emprestados** — mas o esqueleto funcional (II–V–I, T/SD/D) continua sendo metade da análise."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m1a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Dó maior, qual acorde é a dominante (função D)?",
+      "options": [
+        { "label": "F7M", "correct": false, "feedbackErr": "F7M é subdominante (IV) — abre, não resolve." },
+        { "label": "G7", "correct": true, "feedbackOk": "Certo! G7 contém a trítono clássica que pede C7M." },
+        { "label": "Am7", "correct": false, "feedbackErr": "Am7 é vi — tônica relativa, repouso." },
+        { "label": "Dm7", "correct": false, "feedbackErr": "Dm7 é ii — pré-dominante, prepara o V." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m1a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o grau à função harmônica em Dó maior:",
+      "pairs": [
+        { "left": "I (C7M)", "right": "Tônica" },
+        { "left": "ii (Dm7)", "right": "Pré-dominante" },
+        { "left": "IV (F7M)", "right": "Subdominante" },
+        { "left": "V (G7)", "right": "Dominante" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q2",
+      "exerciseId": "ex-n3-m1a2-q2",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte a cadência II–V–I em Dó (ordem correta):",
+      "orderAnswer": ["Dm7", "G7", "C7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a progressão e identifique a cadência:",
+      "playChords": ["Dm7", "G7", "C7M"],
+      "options": [
+        { "label": "II–V–I em Dó", "correct": true, "feedbackOk": "Perfeito — pré-dominante, dominante, tônica." },
+        { "label": "I–IV–V em Dó", "correct": false, "feedbackErr": "I–IV–V seria C7M → F7M → G7." },
+        { "label": "VI–II–V em Dó", "correct": false, "feedbackErr": "Não — ouça o Dm7 abrindo para G7." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m1a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar II–V–I em Dó sem olhar a tabela, sentindo o G7 puxar para C7M?"
+    }
+  ]
+}

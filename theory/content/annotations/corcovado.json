@@ -1,0 +1,28 @@
+{
+  "workId": "corcovado",
+  "key": "C",
+  "sections": [
+    {
+      "label": "A — verso (Dó maior)",
+      "chords": [
+        { "symbol": "Am6", "degree": "vi6 (V/V disfarçado)", "function": "D" },
+        { "symbol": "Am7", "degree": "vi", "function": "T" },
+        { "symbol": "Dm7", "degree": "ii", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" },
+        { "symbol": "C7M", "degree": "I", "function": "T" },
+        { "symbol": "G#°", "degree": "dominante disfarçada", "function": "D" }
+      ]
+    },
+    {
+      "label": "Continuação",
+      "chords": [
+        { "symbol": "Dm7", "degree": "ii", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" },
+        { "symbol": "Em7", "degree": "iii", "function": "T" },
+        { "symbol": "A7", "degree": "V7/ii", "function": "D" },
+        { "symbol": "Dm7", "degree": "ii", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" }
+      ]
+    }
+  ]
+}

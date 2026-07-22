@@ -1,0 +1,225 @@
+{
+  "id": "n7-m3-a1",
+  "slug": "analisar-um-arranjo-de-dilermando-gp",
+  "level": 7,
+  "moduleId": "n7-m3",
+  "title": "Analisar um arranjo de Dilermando (GP)",
+  "subtitle": "Dilermando Reis em GP — baixaria, arpejos e forma AABB no choro de Se Ela Perguntar.",
+  "durationMin": 20,
+  "prerequisites": [
+    "n7-m2-a4"
+  ],
+  "tags": [
+    "arranjo",
+    "analise"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar",
+    "choro-noturno",
+    "brejeiro"
+  ],
+  "relatedChords": [
+    "Am",
+    "E7",
+    "Dm",
+    "Am"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m3a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m2-a4): voicings Jobim usam tensões. Arranjo de Dilermando (GP) destaca:",
+      "options": [
+        {
+          "label": "Baixaria clássica + arpejos de dedilhado.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Dilermando = choro violonístico brasileiro."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Abra transcrição **Se Ela Perguntar**: marque baixaria (polegar) vs arpejo (dedos) — duas camadas como partitura."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Analisar um arranjo de Dilermando (GP)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Guitar Player / arranjos publicados** de Dilermando mostram:\n\n- Baixaria alternada Am–E–Am\n- Arpejos em terças sobre dominantes\n- Forma **AABB** típica choro\n\nAnalisar partitura GP ensina **notação de arranjo**, não só cifra."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Se Ela Perguntar — Dilermando",
+        "voicings": [
+          {
+            "label": "Am",
+            "chord": "Am",
+            "shape": "X 0 2 2 1 0",
+            "note": "Tônica choro"
+          },
+          {
+            "label": "E7",
+            "chord": "E7",
+            "shape": "0 2 0 1 0 0",
+            "note": "V7"
+          },
+          {
+            "label": "Dm",
+            "chord": "Dm",
+            "shape": "X X 0 2 3 1",
+            "note": "Subdominante relativa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Dilermando influenciou Yamandu Costa — estude GP antes de tentar velocidade."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am  Dm  E7  Am",
+      "annotation": "Choro clássico — harmonia direta no violão."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n7-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Choro no violão brasileiro passa por Dilermando — Se Ela Perguntar é porta de entrada."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Baixaria Am–E7 (4 tempos). 2. Arpejo sobre Am. 3. Marque seções A/A/B/B na partitura."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m3a1-q1",
+      "kind": "mc",
+      "question": "Arranjo GP Dilermando separa:",
+      "options": [
+        {
+          "label": "Baixaria (polegar) e arpejo (dedos)",
+          "correct": true,
+          "feedbackOk": "Duas camadas escritas."
+        },
+        {
+          "label": "Só acordes block",
+          "correct": false,
+          "feedbackErr": "Choro exige linhas."
+        },
+        {
+          "label": "Só levada bossa",
+          "correct": false,
+          "feedbackErr": "Choro ≠ bossa."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "analisar-um-arranjo-de-dilermando-gp",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m3a1-match",
+      "kind": "match",
+      "question": "Elemento ↔ Dilermando:",
+      "pairs": [
+        {
+          "left": "Baixaria",
+          "right": "Polegar alternado"
+        },
+        {
+          "left": "GP",
+          "right": "Partitura publicada"
+        },
+        {
+          "left": "AABB",
+          "right": "Forma choro"
+        },
+        {
+          "left": "Se Ela Perguntar",
+          "right": "Am–E7"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — Se Ela Perguntar (arranjo Dilermando):",
+      "playChords": ["Am", "E7", "Am"],
+      "options": [
+        { "label": "i → V7 → i — choro com baixaria e arpejo", "correct": true, "feedbackOk": "Transcrição GP — baixo alternado + dedos melódicos." },
+        { "label": "II–V–I em Dó", "correct": false, "feedbackErr": "Tom Lá menor — cadência harmônica diferente." }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m3a1-self",
+      "kind": "self_check",
+      "question": "Identificou baixaria vs arpejo na transcrição GP?",
+      "tags": []
+    }
+  ]
+}

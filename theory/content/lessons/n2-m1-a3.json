@@ -1,0 +1,209 @@
+{
+  "id": "n2-m1-a3",
+  "slug": "sol-e-re-maior-shapes-moveis",
+  "level": 2,
+  "moduleId": "n2-m1",
+  "title": "Sol e Ré maior — shapes móveis",
+  "durationMin": 16,
+  "prerequisites": [
+    "n2-m1-a2"
+  ],
+  "subtitle": "Formas CAGED móveis — o shape de C deslocado vira G e D; mesma fórmula T-T-S, nova tônica.",
+  "tags": [
+    "escalas",
+    "violao"
+  ],
+  "relatedWorks": [
+    "lilas"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m1a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): em posição aberta, o Fá (grau IV) de Dó maior fica em qual corda e casa?",
+      "options": [
+        {
+          "label": "4ª corda, casa 3",
+          "correct": true,
+          "feedbackOk": "F = IV — semitom E→F na 4ª corda."
+        },
+        {
+          "label": "5ª corda, casa 3",
+          "correct": false,
+          "feedbackErr": "Casa 3 na 5ª = Dó (C), tônica."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **G** (3 2 0 0 0 3) e **D** (X X 0 2 3 2) — mesma fórmula T-T-S, tônicas diferentes. **Lilás** vive em Ré maior: ouça o campo D7M–G7M."
+    },
+    {
+      "type": "component",
+      "id": "snd-g-d",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça G (I em Sol) e D (I em Ré)",
+        "chords": ["G", "D"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-g-scale",
+      "componentId": "play-scale",
+      "props": { "title": "Escala de Sol maior", "root": "G", "scale": "major" }
+    },
+    {
+      "type": "component",
+      "id": "snd-d-scale",
+      "componentId": "play-scale",
+      "props": { "title": "Escala de Ré maior (Lilás)", "root": "D", "scale": "major" }
+    },
+    {
+      "type": "component",
+      "id": "fb-g",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "G",
+        "scale": "major",
+        "frets": 12
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-d",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "D",
+        "scale": "major",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "caged",
+      "title": "Shapes móveis G e D",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "caged-text",
+      "markdown": "O shape de **C** aberto move-se com pestana:\n\n| Tonalidade | Shape base | Pestana |\n|------------|------------|--------|\n| **G** maior | C shape | casa 7 (G na 6ª) |\n| **D** maior | C shape | casa 10 (D na 4ª) |\n\nA fórmula **T-T-S** permanece — só a **tônica** muda de grau I. **Lilás** está em **Ré maior** — mapa D no braço."
+    },
+    {
+      "type": "prose",
+      "id": "func-text",
+      "markdown": "Em **G maior**: **G**=I, **C**=IV, **D**=V. Em **D maior**: **D**=I, **G**=IV, **A**=V. A **função** harmônica viaja com o shape — bossa transposta mantém graus."
+    },
+    {
+      "type": "example",
+      "id": "ex-lilas",
+      "workId": "lilas",
+      "excerpt": "Em7  A7  D7M  G7M",
+      "annotation": "II–V–I em Ré — shapes móveis de D e G no braço."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "lilas",
+        "title": "Lilás",
+        "lessonId": "n2-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Lilás** (Djavan) está em **Ré maior** — II–V–I clássico: Em7→A7→D7M→G7M. O shape de **D** (X X 0 2 3 2) e **G** (3 2 0 0 0 3) são as tônicas I nos dois tons que você mais ouvirá na MPB."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Mover o shape de C com pestana = transpor a fórmula inteira. **G** na casa 3 da 6ª corda e **D** na casa 10 da 4ª são âncoras CAGED — no Nível 3 você analisará Em7→A7→D7M como **ii–V–I** em Ré."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **G** (3 2 0 0 0 3) — I em Sol. 2. **D** (X X 0 2 3 2) — I em Ré. 3. Escala G na 6ª corda casas 3–15. 4. Escala D na 4ª corda casas 0–12."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m1a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Sol maior, qual acorde é o grau V?",
+      "options": [
+        {
+          "label": "D (Ré)",
+          "correct": true,
+          "feedbackOk": "V = quinta acima de G — D maior."
+        },
+        {
+          "label": "C (Dó)",
+          "correct": false,
+          "feedbackErr": "C é IV (subdominante) em Sol."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m1a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Tonalidade → grau V (dominante):",
+      "pairs": [
+        { "left": "Sol maior", "right": "D (Ré)" },
+        { "left": "Ré maior", "right": "A (Lá)" },
+        { "left": "Dó maior", "right": "G (Sol)" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Em7→A7→D7M — tonalidade da tônica final?",
+      "playChords": ["Em7", "A7", "D7M"],
+      "options": [
+        { "label": "Ré maior (D) — Lilás", "correct": true, "feedbackOk": "II–V–I em Ré — cadência que você treinará no N3." },
+        { "label": "Sol maior (G)", "correct": false, "feedbackErr": "G seria o IV aqui — resolução é em D7M." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m1a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu visualizar a escala de G e D nos mapas do braço?"
+    }
+  ]
+}

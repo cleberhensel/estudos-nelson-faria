@@ -1,0 +1,224 @@
+{
+  "id": "n1-m3-a1",
+  "slug": "segunda-terca-e-quarta-ouvir-e-localizar",
+  "level": 1,
+  "moduleId": "n1-m3",
+  "title": "Segunda, terça e quarta — ouvir e localizar",
+  "durationMin": 15,
+  "prerequisites": [
+    "n1-m2-a3"
+  ],
+  "subtitle": "2ª, 3ª e 4ª justas — os intervalos melódicos que você ouve entre notas vizinhas da escala.",
+  "tags": [
+    "intervalos"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m3a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na casa 12 de qualquer corda, a nota equivale a qual intervalo da corda solta?",
+      "options": [
+        {
+          "label": "Oitava justa (8ª)",
+          "correct": true,
+          "feedbackOk": "+12 semitons = 8ª — o mapa se repete."
+        },
+        {
+          "label": "Quinta justa (5ª)",
+          "correct": false,
+          "feedbackErr": "5ª está na casa 7, não 12."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça os intervalos",
+      "body": "Ouça **C→D** (2ª maior), **C→E** (3ª maior), **C→F** (4ª justa). Três 'tamanhos' melódicos distintos."
+    },
+    {
+      "type": "component",
+      "id": "ruler-2",
+      "componentId": "interval-ruler",
+      "props": {
+        "from": "C",
+        "to": "D"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-2",
+      "componentId": "play-interval",
+      "props": {
+        "from": "C",
+        "to": "D",
+        "title": "2ª maior (C→D)"
+      }
+    },
+    {
+      "type": "component",
+      "id": "ruler-3",
+      "componentId": "interval-ruler",
+      "props": {
+        "from": "C",
+        "to": "E"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-3",
+      "componentId": "play-interval",
+      "props": {
+        "from": "C",
+        "to": "E",
+        "title": "3ª maior (C→E)"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "intervalos",
+      "title": "Segunda, terça, quarta",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "int-text",
+      "markdown": "| Intervalo | Semitons | De C | Sensação |\n|-----------|----------|------|----------|\n| **2ª maior** | 2 | C→D | passo melódico curto |\n| **3ª maior** | 4 | C→E | define maior/menor |\n| **4ª justa** | 5 | C→F | suspensão suave |\n\nA **3ª maior** (C→E) define o 'som maior' — base da função tônica em bossa."
+    },
+    {
+      "type": "prose",
+      "id": "grau-text",
+      "markdown": "Na escala de Dó, D é **grau II**, E é **grau III**, F é **grau IV**. Intervalos e graus caminham juntos — em **Flor de Lis**, a melodia salta 2ªs e 3ªs sobre o campo harmônico."
+    },
+    {
+      "type": "component",
+      "id": "play-4",
+      "componentId": "play-interval",
+      "props": {
+        "from": "C",
+        "to": "F",
+        "title": "4ª justa (C→F)"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Melodia de Djavan usa 2ªs conjuntas sobre graus do campo em Sol."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n1-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "A melodia de **Flor de Lis** (Djavan) move-se em passos conjuntos de 2ª — típico da MPB elegante. Na bossa, Jobim usa 3ªs na voz enquanto o violão mantém o campo — ouvir 2ª vs 3ª separa melodia de harmonia."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Intervalos medem **graus** — 3ª define maior/menor e **função** melódica. Semitons **cromaticos** entre graus coloriam **bossa** e choro."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C** (X 3 2 0 1 0) → toque 3ª corda casa 2 (E) — 3ª maior. 2. Casa 3 (F) — 4ª justa. 3. 5ª corda casa 3 (C) → casa 5 (D) — 2ª maior. Nomeie cada intervalo."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m3a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantos semitons há na 3ª maior (C→E)?",
+      "options": [
+        {
+          "label": "4 semitons",
+          "correct": true,
+          "feedbackOk": "4 st = 3ª maior — define acorde maior."
+        },
+        {
+          "label": "3 semitons",
+          "correct": false,
+          "feedbackErr": "3 st = 3ª menor (C→Eb)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m3a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Intervalo → semitons:",
+      "pairs": [
+        {
+          "left": "2ª maior",
+          "right": "2 st"
+        },
+        {
+          "left": "3ª maior",
+          "right": "4 st"
+        },
+        {
+          "left": "4ª justa",
+          "right": "5 st"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o intervalo C→E — qual nome?",
+      "playChords": ["C", "E"],
+      "options": [
+        { "label": "3ª maior (4 semitons)", "correct": true, "feedbackOk": "4 st = 3ª maior — define acorde maior e grau III." },
+        { "label": "2ª maior (2 semitons)", "correct": false, "feedbackErr": "2 st seria C→D — ouça o salto maior." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m3a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu ouvir e localizar 2ª, 3ª e 4ª a partir de C no braço?"
+    }
+  ]
+}

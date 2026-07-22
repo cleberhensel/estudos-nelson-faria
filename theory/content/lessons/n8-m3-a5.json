@@ -1,0 +1,264 @@
+{
+  "id": "n8-m3-a5",
+  "slug": "desafio-final-analise-completa-de-uma-obra",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "Desafio final: análise completa de uma obra",
+  "subtitle": "Análise completa de Triste — modos, SubV7 e reharm em uma obra Jobim.",
+  "durationMin": 25,
+  "prerequisites": [
+    "n8-m3-a4"
+  ],
+  "tags": [
+    "desafio",
+    "analise"
+  ],
+  "relatedWorks": [
+    "triste"
+  ],
+  "relatedChords": [
+    "Ab7M",
+    "Db7M",
+    "Gb7M",
+    "B7M",
+    "Eb7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a5-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m3-a4): Djavan modula por quintas. Desafio final: Triste usa tons com bemóis e:",
+      "options": [
+        {
+          "label": "Harmonia sofisticada Ab–Db–Gb–B — análise integral.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Triste = desafio análise N8 completa."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Triste: Ab7M–Db7M–Gb7M–B7M — mapeie funções, modos e possíveis SubV7."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Triste — esqueleto harmônico",
+        "chords": [
+          "Ab7M",
+          "Db7M",
+          "Gb7M",
+          "B7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Desafio final: análise completa de uma obra",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Desafio N8**: análise completa **Triste** (Jobim).\n\nEntregáveis:\n1. Mapa de graus por seção\n2. Identificar empréstimos modais\n3. Voicings sugeridos\n4. Modulações entre bemóis\n\nUse harmonic-lab em Ab e progression abaixo."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "Ab",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "Ab",
+        "mode": "major",
+        "chords": [
+          "Ab7M",
+          "Db7M",
+          "Gb7M",
+          "B7M"
+        ],
+        "functions": [
+          "I",
+          "IV",
+          "bVII",
+          "III"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Triste foi composta em inglês primeiro ('Sad') — harmonia universal Jobim."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "triste",
+      "excerpt": "Ab7M  Db7M  Gb7M  B7M",
+      "annotation": "Harmonia sofisticada em tons com bemóis.",
+      "youtube": "vhTH-Fv-c-g",
+      "youtubeTitle": "Triste",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "triste"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "triste",
+        "title": "Triste",
+        "lessonId": "n8-m3-a5"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Triste fecha módulo mestres — compare com Garota (F) e Construção (Em)."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. Ouça Triste 3×. 2. Escreva graus Ab7M–Db7M–Gb7M–B7M. 3. Toque verso com voicings escolhidos. 4. Grave análise 5 min."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m3a5-q1",
+      "kind": "mc",
+      "question": "Triste (Ab) Ab7M–Db7M–Gb7M–B7M sugere:",
+      "options": [
+        {
+          "label": "Movimento por quartas/quintas entre centros",
+          "correct": true,
+          "feedbackOk": "Jobim sofisticado."
+        },
+        {
+          "label": "Campo diatônico Ab puro",
+          "correct": false,
+          "feedbackErr": "Há cromatismo e modos."
+        },
+        {
+          "label": "Blues de doze compassos",
+          "correct": false,
+          "feedbackErr": "Forma não blues."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "desafio-final-analise-completa-de-uma-ob",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m3a5-match",
+      "kind": "match",
+      "question": "Obra ↔ tom central:",
+      "pairs": [
+        {
+          "left": "Triste",
+          "right": "Ab / bemóis"
+        },
+        {
+          "left": "Construção",
+          "right": "Em menor"
+        },
+        {
+          "left": "Garota",
+          "right": "F maior"
+        },
+        {
+          "left": "Oceano",
+          "right": "D / ciclo"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m3a5-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — modulação Triste (Jobim):",
+      "playChords": [
+        "Ab7M",
+        "Db7M",
+        "Gb7M",
+        "B7M"
+      ],
+      "options": [
+        {
+          "label": "Ciclo por quartas ascendentes — modulação contínua",
+          "correct": true,
+          "feedbackOk": "Triste — análise completa com graus em cada tom."
+        },
+        {
+          "label": "II–V–I em Dó apenas",
+          "correct": false,
+          "feedbackErr": "Quatro tonalidades — desafio final."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a5-self",
+      "kind": "self_check",
+      "question": "Concluiu análise escrita de Triste com graus e modulações?",
+      "tags": []
+    }
+  ]
+}

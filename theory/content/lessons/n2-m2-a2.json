@@ -1,0 +1,196 @@
+{
+  "id": "n2-m2-a2",
+  "slug": "relativa-menor-la-menor-do-maior",
+  "level": 2,
+  "moduleId": "n2-m2",
+  "title": "Relativa menor (Lá menor ↔ Dó maior)",
+  "durationMin": 15,
+  "prerequisites": [
+    "n2-m2-a1"
+  ],
+  "subtitle": "Am e C compartilham as mesmas notas — vi relativa e I tônica são dois lados da mesma moeda.",
+  "tags": [
+    "escalas",
+    "menor"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m2a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na menor harmônica de Lá, qual nota substitui o Sol (G) natural?",
+      "options": [
+        {
+          "label": "G# (7ª maior)",
+          "correct": true,
+          "feedbackOk": "G# — semitom abaixo da tônica, força do V7."
+        },
+        {
+          "label": "F# (6ª maior)",
+          "correct": false,
+          "feedbackErr": "F# é da melódica."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a relativa",
+      "body": "Toque **C** e **Am** — mesmas 7 notas, sensação diferente. **C** repousa (I); **Am** melancólico (vi/i). Flor de Lis abre em Am7 mas vive em Sol maior."
+    },
+    {
+      "type": "component",
+      "id": "snd-rel",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça C (I) vs Am (vi relativa)",
+        "chords": ["C", "Am"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-am",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "A",
+        "mode": "minor"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "relativa",
+      "title": "Relativa menor",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "rel-text",
+      "markdown": "**Lá menor** é a **relativa** de **Dó maior** — mesmas notas, tônica diferente:\n\n| | Dó maior | Lá menor relativa |\n|--|----------|-------------------|\n| Tônica | C (I) | A (i) |\n| Mesmas notas | C D E F G A B | A B C D E F G |\n| Campo | C–Dm–Em–F–G–Am–Bm7(b5) | Am–B°–C–Dm–Em–F–G |\n\n**Am** no campo de Dó = **grau vi** — função de tônica relativa."
+    },
+    {
+      "type": "prose",
+      "id": "bossa-text",
+      "markdown": "Na bossa, **vi** frequentemente substitui **I** para colorir — **Flor de Lis** abre em **Am7** mas o campo é **Sol maior** (G). A relativa explica por que Am 'soa em casa' junto de C e G."
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Am7 = vi em C / i em Am — relativa em ação."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n2-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Bossa adora começar em **vi** (Am7) em vez de **I** (C7M) — mesma escala, cor melancólica. **Flor de Lis** alterna Am7 e G7M porque compartilham o campo de Sol/Dó."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Relativa = mesmas notas, tônica diferente. **Am** como vi de C não modula — apenas colore. Modulação real (Chega de Saudade) muda o centro tonal; relativa só troca o 'ponto de repouso' dentro da mesma paleta."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C** (X 3 2 0 1 0) — I. 2. **Am** (X 0 2 2 1 0) — vi relativa. 3. **G** (3 2 0 0 0 3) — V. 4. Alterne C–Am–F–G sentindo mesma escala, função diferente."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m2a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual é a relativa menor de Dó maior?",
+      "options": [
+        {
+          "label": "Lá menor (Am)",
+          "correct": true,
+          "feedbackOk": "vi de C = i de Am — mesmas 7 notas."
+        },
+        {
+          "label": "Mi menor (Em)",
+          "correct": false,
+          "feedbackErr": "Em é iii em Dó, não relativa."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m2a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Acorde em Dó maior → função:",
+      "pairs": [
+        { "left": "C7M", "right": "I (tônica)" },
+        { "left": "Am7", "right": "vi (relativa menor)" },
+        { "left": "F7M", "right": "IV (subdominante)" },
+        { "left": "G7", "right": "V (dominante)" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Am7→D7→G7M — vi soa como tônica ou coloração?",
+      "playChords": ["Am7", "D7", "G7M"],
+      "options": [
+        { "label": "Coloração vi — centro tonal é Sol (G7M repousa)", "correct": true, "feedbackOk": "Flor de Lis — vi abre, mas V–I resolve em G." },
+        { "label": "Am7 é tônica definitiva — Lá menor puro", "correct": false, "feedbackErr": "G7M final repousa — campo é Sol maior." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m2a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu alternar C e Am sentindo a mesma escala com tônicas diferentes?"
+    }
+  ]
+}

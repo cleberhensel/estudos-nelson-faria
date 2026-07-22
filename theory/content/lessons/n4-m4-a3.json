@@ -1,0 +1,178 @@
+{
+  "id": "n4-m4-a3",
+  "slug": "desafio-g7-13-tres-jeitos",
+  "level": 4,
+  "moduleId": "n4-m4",
+  "title": "Desafio: construir G7(13) de 3 jeitos",
+  "subtitle": "Mesmo acorde, três regiões do braço — o G7(13) de Garota pode ser montado no grave, médio e agudo com notas essenciais diferentes.",
+  "durationMin": 14,
+  "prerequisites": ["n4-m4-a2"],
+  "tags": ["desafio", "voicing"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["G7(13)", "G7", "G7(9)", "Gm7", "C7(9)"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m4a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (voicings): qual característica define um voicing aberto?",
+      "options": [
+        { "label": "Notas espaçadas em múltiplas oitavas", "correct": true, "feedbackOk": "Agora monte G7(13) em 3 regiões." },
+        { "label": "Todas as notas na 3ª casa", "correct": false, "feedbackErr": "Isso seria fechado e limitado." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "desafio",
+      "variant": "tip",
+      "title": "Desafio",
+      "body": "Monte **G7(13)** de 3 formas: (1) grave com fundamental, (2) médio sem fundamental, (3) agudo com 3ª, 7ª e 13ª. Cada uma deve soar como G7(13) em Garota."
+    },
+    {
+      "type": "component",
+      "id": "voicing-3",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "G7(13) — 3 voicings",
+        "voicings": [
+          { "label": "Grave (com Sol)", "chord": "G7(13)", "shape": "3 2 0 0 0 1", "note": "fund + 3ª + 7ª + 13ª" },
+          { "label": "Médio (sem Sol)", "chord": "G7(13)", "shape": "X 10 9 10 10 X", "note": "3ª Si + 7ª Fá + 13ª Mi" },
+          { "label": "Agudo (compacto)", "chord": "G7(13)", "shape": "X X 12 11 12 12", "note": "registro alto bossa" }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "notas",
+      "title": "Notas essenciais do G7(13)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "notas-text",
+      "markdown": "**G7(13)** = Sol – Si (3ª) – Ré (5ª) – Fá (7ª) – Mi (13ª)\n\n| Voicing | Notas tocadas | Omitidas |\n|---------|---------------|----------|\n| Grave | Sol, Si, Fá, Mi | Ré (5ª) |\n| Médio | Si, Fá, Mi | Sol, Ré |\n| Agudo | Si, Fá, Mi, Sol | Ré |\n\nEm **Garota** (Fá maior), **G7(13)** funciona como **III7** ou dominante secundária — a 13ª (Mi) antecipa a tônica Fá."
+    },
+    {
+      "type": "component",
+      "id": "snd-g7",
+      "componentId": "play-chord",
+      "props": { "title": "G7 → G7(13) → C7(9)", "chords": ["G7", "G7(13)", "C7(9)"] }
+    },
+    {
+      "type": "component",
+      "id": "prog-garota",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": ["F7M", "G7", "Gm7", "C7(9)", "F7M"],
+        "functions": ["T", "SD", "PD", "D", "T"]
+      }
+    },
+    { "type": "heading", "id": "mpb", "title": "Na música brasileira", "level": 2 },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema", "lessonId": "n4-m4-a3" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**G7(13)** aparece na ponte de **Garota** e em standards jazzificados da MPB. Três voicings diferentes (grave, médio, folheado) permitem trocar de registro sem mudar a função dominante — essencial para arranjos de uma voz e violão."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A 13ª de G7 é Mi — a mesma nota que é 3ª de C7M. Por isso G7(13) → C7(9) flui naturalmente: a 13ª já aponta para a resolução."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Desafio no violão",
+      "body": "1. Monte G7(13) nas 3 posições do voicing-grid. 2. Toque F7M → G7(13) → Gm7 → C7(9) → F7M. 3. Grave um áudio e compare os 3 voicings."
+    },
+    { "type": "heading", "id": "exercicios", "title": "Exercícios", "level": 2 },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m4a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual nota é a 13ª de G7?",
+      "options": [
+        { "label": "Mi (6ª empilhada)", "correct": true, "feedbackOk": "Mi é a 13ª — também 3ª de C7M." },
+        { "label": "Lá (9ª)", "correct": false, "feedbackErr": "Lá é a 9ª sobre G." },
+        { "label": "Dó (11ª)", "correct": false, "feedbackErr": "Dó é a 11ª sobre G." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m4a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o voicing às notas essenciais:",
+      "pairs": [
+        { "left": "Grave", "right": "Sol + Si + Fá + Mi" },
+        { "left": "Médio (bossa)", "right": "Si + Fá + Mi (sem fundamental)" },
+        { "left": "Agudo", "right": "Si + Fá + Mi no registro alto" },
+        { "left": "Qualquer", "right": "3ª e 7ª obrigatórias" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-build",
+      "exerciseId": "ex-n4m4a3-build",
+      "kind": "build",
+      "difficulty": "challenge",
+      "question": "Monte as notas do G7(13) (sem 5ª):",
+      "buildChoices": ["G", "A", "B", "C", "D", "E", "F"],
+      "buildAnswer": ["G", "B", "F", "E"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m4a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique o voicing:",
+      "playChords": ["G7(13)"],
+      "options": [
+        { "label": "G7(13) — dominante com 13ª", "correct": true, "feedbackOk": "A 13ª (Mi) colora o G7 de Garota." },
+        { "label": "G7M(13)", "correct": false, "feedbackErr": "7M repousa — aqui há 7ª menor." },
+        { "label": "Gm7(13)", "correct": false, "feedbackErr": "m7 tem 3ª menor." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m4a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu montar G7(13) de 3 jeitos diferentes no braço?"
+    }
+  ]
+}

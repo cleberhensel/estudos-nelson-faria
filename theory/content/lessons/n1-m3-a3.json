@@ -1,0 +1,225 @@
+{
+  "id": "n1-m3-a3",
+  "slug": "semitom-vs-tom-o-cromatico-no-1-traste",
+  "level": 1,
+  "moduleId": "n1-m3",
+  "title": "Semitom vs tom — o cromatico no 1º traste",
+  "durationMin": 13,
+  "prerequisites": [
+    "n1-m3-a2"
+  ],
+  "subtitle": "1 casa = 1 semitom cromatico; 2 casas = 1 tom inteiro — o vocabulário de todas as escalas.",
+  "tags": [
+    "intervalos"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m3a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): a 5ª justa tem quantos semitons e qual função harmônica representa sobre a tônica?",
+      "options": [
+        {
+          "label": "7 semitons — grau V (dominante)",
+          "correct": true,
+          "feedbackOk": "5ª = 7 st — V pede resolução na tônica."
+        },
+        {
+          "label": "12 semitons — grau I (tônica)",
+          "correct": false,
+          "feedbackErr": "12 st = oitava = mesma nota."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça semitom e tom",
+      "body": "Toque **E** solto → **F** casa 1 (semitom). Depois **E** → **F#** casa 2 (tom inteiro a partir de E? Não — E→F# = 2 st = tom). Compare os 'saltos'."
+    },
+    {
+      "type": "component",
+      "id": "play-st",
+      "componentId": "play-interval",
+      "props": {
+        "from": "E",
+        "to": "F",
+        "title": "Semitom (E→F)"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-tt",
+      "componentId": "play-interval",
+      "props": {
+        "from": "C",
+        "to": "D",
+        "title": "Tom inteiro (C→D)"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "cromat",
+      "title": "Cromático no 1º traste",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "cromat-text",
+      "markdown": "**Semitom** = 1 casa = menor distância no violão.\n**Tom inteiro** = 2 casas = 2 semitons.\n\n| Salto | Casas | Exemplo (6ª corda) |\n|-------|-------|---------------------|\n| Semitom | 1 | E → F (casa 1) |\n| Tom | 2 | E → F# (casa 2) |\n\nA escala **cromatica** sobe só semitons — 12 notas por oitava. Bossa usa cromatismo de passagem entre graus."
+    },
+    {
+      "type": "prose",
+      "id": "fret-text",
+      "markdown": "Cada traste adiciona 1 grau cromatico. Por isso **F** (pestana casa 1) é **E** + 1 semitom. O mapa do braço é linear e **cromatico** — escalas maiores e menores são 'filtros' sobre esse mapa."
+    },
+    {
+      "type": "component",
+      "id": "fb-e",
+      "componentId": "fretboard",
+      "props": {
+        "key": "E",
+        "frets": 5,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-crom",
+      "componentId": "play-interval",
+      "props": {
+        "from": "C",
+        "to": "C#",
+        "title": "Semitom cromatico (C→C#)"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Passagens cromaticas de Djavan conectam graus por semitom de aproximação."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n1-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "O cromatismo de aproximação é marca da MPB — Djavan desce semitom no baixo antes de mudar de acorde. **F** com pestana na casa 1 é o exemplo mais comum: shape de **E** + 1 semitom."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A fórmula da escala maior (T-T-S-T-T-T-S) usa semitons e tons. O único semitom entre E e F, e entre B e C, explica por que a afinação tem a exceção G→B (3ª maior, não quinta)."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Suba cromatico na 6ª: E–F–F#–G (casas 0–1–2–3). 2. **F** (1 3 3 2 1 1) = E shape +1 semitom. 3. **G** (3 2 0 0 0 3) — compare 3ª corda solta (G) com casa 1 (G#)."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m3a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantas casas no violão equivalem a 1 tom inteiro?",
+      "options": [
+        {
+          "label": "2 casas (2 semitons)",
+          "correct": true,
+          "feedbackOk": "Tom = 2 st — padrão T-T-S da escala maior."
+        },
+        {
+          "label": "1 casa (1 semitom)",
+          "correct": false,
+          "feedbackErr": "1 casa = semitom, não tom."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m3a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Distância → casas no braço:",
+      "pairs": [
+        {
+          "left": "Semitom",
+          "right": "1 casa"
+        },
+        {
+          "left": "Tom inteiro",
+          "right": "2 casas"
+        },
+        {
+          "left": "Oitava",
+          "right": "12 casas"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m3a3-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as notas cromáticas na 6ª corda (casas 0→3):",
+      "orderAnswer": ["E", "F", "F#", "G"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça E→F — semitom ou tom inteiro?",
+      "playChords": ["E", "F"],
+      "options": [
+        { "label": "Semitom (1 casa)", "correct": true, "feedbackOk": "E→F = 1 st — único semitom entre duas teclas naturais sem sustenido." },
+        { "label": "Tom inteiro (2 casas)", "correct": false, "feedbackErr": "Tom seria E→F# — ouça o salto menor." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m3a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu subir 4 semitons na 6ª corda nomeando cada nota?"
+    }
+  ]
+}

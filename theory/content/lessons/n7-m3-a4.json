@@ -1,0 +1,234 @@
+{
+  "id": "n7-m3-a4",
+  "slug": "checklist-antes-de-gravar",
+  "level": 7,
+  "moduleId": "n7-m3",
+  "title": "Checklist antes de gravar",
+  "subtitle": "Afinação, dinâmica, groove estável, voicings consistentes — checklist antes de apertar REC.",
+  "durationMin": 12,
+  "prerequisites": [
+    "n7-m3-a3"
+  ],
+  "tags": [
+    "arranjo",
+    "pratica"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7(9)",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m3a4-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m3-a3): ponte modula com contraste. Antes de gravar, priorize:",
+      "options": [
+        {
+          "label": "Groove estável + afinação + dinâmica equilibrada.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Checklist evita retrabalho na mixagem."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ouça **Garota** (referência): dinâmica uniforme, zero tranco, voicings iguais a cada passagem — meta de gravação."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Checklist antes de gravar",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Checklist gravação violão MPB**:\n\n1. Afinação (cromático)\n2. Levada igual em todos os versos\n3. Voicings memorizados (não hesitar)\n4. Dinâmica: refrão +2dB sensação\n5. Intro/outro ensaiadas\n6. Ruído de corda/mão controlado"
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Garota — consistência voicing",
+        "voicings": [
+          {
+            "label": "Gm7(9)",
+            "chord": "Gm7",
+            "shape": "3 X 3 3 3 X",
+            "note": "ii refrão"
+          },
+          {
+            "label": "C7(9)",
+            "chord": "C7",
+            "shape": "X 3 2 3 1 0",
+            "note": "V"
+          },
+          {
+            "label": "F7M",
+            "chord": "F7M",
+            "shape": "X X 3 2 1 0",
+            "note": "I"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Estúdios BR usam take composto — checklist reduz takes de 20 para 3."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "garota-de-ipanema"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota de Ipanema",
+        "lessonId": "n7-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Garota de Ipanema gravada em poucas takes porque voicings eram automáticos."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Checklist escrito. 2. Dry run Garota sem gravar. 3. Gravar 1 take completo — marcar erros."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m3a4-q1",
+      "kind": "mc",
+      "question": "Item essencial checklist gravação:",
+      "options": [
+        {
+          "label": "Voicings memorizados — zero hesitação",
+          "correct": true,
+          "feedbackOk": "Fluidez = take limpo."
+        },
+        {
+          "label": "Mudar voicing a cada compasso",
+          "correct": false,
+          "feedbackErr": "Inconsistência na mix."
+        },
+        {
+          "label": "Ignorar afinação",
+          "correct": false,
+          "feedbackErr": "Erro grave."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "checklist-antes-de-gravar",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m3a4-match",
+      "kind": "match",
+      "question": "Checklist ↔ item:",
+      "pairs": [
+        {
+          "left": "Afinação",
+          "right": "Pré-gravação"
+        },
+        {
+          "left": "Groove",
+          "right": "Consistente"
+        },
+        {
+          "left": "Dinâmica",
+          "right": "Verso/refrão"
+        },
+        {
+          "left": "Intro",
+          "right": "Ensaiada"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — referência antes de gravar (Garota):",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "II–V–I em Fá — harmonia alinhada ao groove", "correct": true, "feedbackOk": "Checklist: afinação, levada e cadência ouvidos antes do take." },
+        { "label": "Backdoor Bb7→C7M", "correct": false, "feedbackErr": "Garota usa ii–V–I clássico." }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m3a4-self",
+      "kind": "self_check",
+      "question": "Checklist completo antes do próximo take?",
+      "tags": []
+    }
+  ]
+}

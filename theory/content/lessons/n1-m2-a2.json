@@ -1,0 +1,230 @@
+{
+  "id": "n1-m2-a2",
+  "slug": "notas-nas-cordas-mi-e-re-ate-o-12",
+  "level": 1,
+  "moduleId": "n1-m2",
+  "title": "Notas nas cordas Mi e Ré (até o 12º)",
+  "durationMin": 16,
+  "prerequisites": [
+    "n1-m2-a1"
+  ],
+  "subtitle": "6ª e 4ª cordas até a casa 12 — na 12ª casa cada nota repete a corda solta (equivalência de oitava).",
+  "tags": [
+    "notas",
+    "violao"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m2a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): em nomenclatura brasileira, a nota internacional **C** chama-se:",
+      "options": [
+        {
+          "label": "Dó",
+          "correct": true,
+          "feedbackOk": "C = Dó — grau I em Dó maior."
+        },
+        {
+          "label": "Ré",
+          "correct": false,
+          "feedbackErr": "Ré = D, não C."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **E** solto (6ª) e **E** na casa 12 da mesma corda. Mesma altura, oitava superior — base do mapa vertical."
+    },
+    {
+      "type": "component",
+      "id": "snd-oct",
+      "componentId": "play-note",
+      "props": {
+        "title": "Mi grave (0) → Mi (casa 12) — oitava",
+        "notes": ["E", "E"],
+        "octave": 2
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-casa8",
+      "componentId": "play-note",
+      "props": {
+        "title": "6ª corda: Mi (0) → Dó (casa 8)",
+        "notes": ["E", "C"],
+        "octave": 2
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mi-re",
+      "title": "Cordas Mi (6ª) e Ré (4ª)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "mi-text",
+      "markdown": "**6ª corda (Mi/E)** solta → casa 12 = **E** outra vez:\n\n| Casa | 6ª (E) | 4ª (D) |\n|------|--------|--------|\n| 0 | E/Mi | D/Ré |\n| 3 | G/Sol | F/Fá |\n| 5 | A/Lá | G/Sol |\n| 7 | B/Si | A/Lá |\n| 8 | C/Dó | B/Si |\n| 10 | D/Ré | C/Dó |\n| **12** | **E/Mi** | **D/Ré** |\n\nA casa **12** repete a corda solta — **oitava justa** (intervalo de 8ª)."
+    },
+    {
+      "type": "prose",
+      "id": "re-text",
+      "markdown": "Na **4ª corda (Ré/D)**, o mesmo padrão cromatico sobe 1 semitom por casa. O **C** na 4ª corda casa 10 ancora o shape **C** aberto (3ª corda solta = G, 5ª casa 3 = C)."
+    },
+    {
+      "type": "component",
+      "id": "fb-e",
+      "componentId": "fretboard",
+      "props": {
+        "key": "E",
+        "frets": 12,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-d",
+      "componentId": "fretboard",
+      "props": {
+        "key": "D",
+        "frets": 12,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Baixo em Lá (5ª corda) e Dó (4ª/5ª) — mapa Mi/Ré que você acabou de traçar."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n1-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Cada casa é passo **cromatico** — **graus** repetem por oitava. **Função** do baixo em MPB e **bossa** segue o mesmo mapa de intervalos no braço."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Djavan e Jobim publicam partituras com **C7M/G7/Am7** — na aula de campo harmônico você traduz mentalmente: C7M = Dó com sétima maior. Flor de Lis usa letras EN na cifra; o ouvido brasileiro pensa em **Lá menor → Ré → Sol → Dó**."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Nomeie cada casa da 6ª até 12: Mi–Fá–Sol–Lá–Si–Dó–Ré–Mi. 2. Repita na 4ª. 3. Toque **Am** (X 0 2 2 1 0) e localize Lá na 5ª solta e na 6ª casa 5."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m2a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Na 6ª corda, qual nota soa na casa 12?",
+      "options": [
+        {
+          "label": "Mi (E) — oitava da corda solta",
+          "correct": true,
+          "feedbackOk": "12 casas = oitava justa — mesma letra, registro superior."
+        },
+        {
+          "label": "Lá (A) — quinta da corda solta",
+          "correct": false,
+          "feedbackErr": "Lá está na casa 5, não 12."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m2a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Casa na 6ª corda → nota:",
+      "pairs": [
+        {
+          "left": "Casa 0",
+          "right": "Mi (E)"
+        },
+        {
+          "left": "Casa 5",
+          "right": "Lá (A)"
+        },
+        {
+          "left": "Casa 8",
+          "right": "Dó (C)"
+        },
+        {
+          "left": "Casa 12",
+          "right": "Mi (E)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m2a2-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as notas na 6ª corda (casas 0 → 5 → 8):",
+      "orderAnswer": ["Mi (E)", "Lá (A)", "Dó (C)"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o acorde — onde está a tônica Lá no shape aberto?",
+      "playChords": ["Am"],
+      "options": [
+        { "label": "5ª corda solta (casa 0)", "correct": true, "feedbackOk": "Lá na 5ª solta — X na 6ª evita Mi sobre a tônica." },
+        { "label": "6ª corda solta (casa 0)", "correct": false, "feedbackErr": "6ª solta = Mi — parada (X) no shape Am." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m2a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu nomear todas as notas da 6ª e 4ª cordas até a casa 12?"
+    }
+  ]
+}

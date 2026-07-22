@@ -1,0 +1,268 @@
+{
+  "id": "n7-m3-a3",
+  "slug": "ponte-e-modulacao-no-arranjo",
+  "level": 7,
+  "moduleId": "n7-m3",
+  "title": "Ponte e modulação no arranjo",
+  "subtitle": "Ponte modula tom — Oceano de Djavan muda centro tonal no arranjo, não só na cifra.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n7-m3-a2"
+  ],
+  "tags": [
+    "arranjo",
+    "modulacao"
+  ],
+  "relatedWorks": [
+    "oceano"
+  ],
+  "relatedChords": [
+    "Bm7",
+    "E7",
+    "A7M",
+    "D7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m3a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m3-a2): verso usa levada + voicing fixo. Ponte no arranjo serve para:",
+      "options": [
+        {
+          "label": "Contraste + modulação + novo registro.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Ponte muda tom e textura."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "**Oceano** (Bm7–E7–A7M–D7M): na ponte, Djavan modula — arranjo deve **anunciar** novo tom com baixo/voicing."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Ponte e modulação no arranjo",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Modulação no **arranjo**:\n\n- Baixo sobe meio-tom → ouvido prepara\n- Voicing muda registro (grave → agudo)\n- Levada pode simplificar na ponte\n\nOceano usa ciclo de quintas — ponte intensifica modulação para **relativo maior**."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Oceano — ciclo e ponte",
+        "voicings": [
+          {
+            "label": "Bm7",
+            "chord": "Bm7",
+            "shape": "X 2 0 2 3 2",
+            "note": "Início ciclo"
+          },
+          {
+            "label": "E7",
+            "chord": "E7",
+            "shape": "0 2 0 1 0 0",
+            "note": "Dominante"
+          },
+          {
+            "label": "A7M",
+            "chord": "A7M",
+            "shape": "X 0 2 1 2 0",
+            "note": "Modulação"
+          }
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ],
+        "functions": [
+          "vi",
+          "V",
+          "I",
+          "IV"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Djavan compõe modulações 'cantáveis' — arranjo violão deve manter voz melódica na ponte."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Modulações de Djavan — elegância harmônica.",
+      "youtube": "MWh78SM5G7k",
+      "youtubeTitle": "Oceano",
+      "youtubeArtist": "Djavan"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "oceano"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n7-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB 80s–90s (Djavan, Gil) exige pontes modulantes — violão solo não pode ignorar."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Verso Oceano ciclo Bm–E–A–D. 2. Ponte: suba voicing 1 casa. 3. Volta ao verso com outro registro."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m3a3-q1",
+      "kind": "mc",
+      "question": "Ponte modulante em Oceano — arranjo deve:",
+      "options": [
+        {
+          "label": "Anunciar novo tom com baixo/voicing",
+          "correct": true,
+          "feedbackOk": "Ouvido preparado."
+        },
+        {
+          "label": "Manter voicing idêntico ao verso",
+          "correct": false,
+          "feedbackErr": "Perde contraste."
+        },
+        {
+          "label": "Eliminar levada",
+          "correct": false,
+          "feedbackErr": "Groove continua."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "ponte-e-modulacao-no-arranjo",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m3a3-match",
+      "kind": "match",
+      "question": "Oceano ↔ harmonia:",
+      "pairs": [
+        {
+          "left": "Bm7",
+          "right": "vi"
+        },
+        {
+          "left": "Ciclo quintas",
+          "right": "Bm–E–A–D"
+        },
+        {
+          "left": "Ponte",
+          "right": "Modulação"
+        },
+        {
+          "left": "Djavan",
+          "right": "Modulações elegantes"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — ponte Oceano (modulação no arranjo):",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "D→A por dominante comum — contraste de registro",
+          "correct": true,
+          "feedbackOk": "E7 pivota — ponte com timbre diferente do verso."
+        },
+        {
+          "label": "II–V–I em Fá (Garota)",
+          "correct": false,
+          "feedbackErr": "Modulação Djavan — ciclo Bm–E–A–D."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m3a3-self",
+      "kind": "self_check",
+      "question": "Ponte Oceano com contraste de registro audível?",
+      "tags": []
+    }
+  ]
+}

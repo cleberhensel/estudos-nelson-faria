@@ -1,0 +1,243 @@
+{
+  "id": "n6-m2-a2",
+  "slug": "baiao-e-xote-nordeste",
+  "level": 6,
+  "moduleId": "n6-m2",
+  "title": "Baião e xote (Nordeste)",
+  "subtitle": "Compasso 3+3+2 no baião e o xote derivado — o nordeste no braço do violão.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n6-m2-a1"
+  ],
+  "tags": [
+    "ritmo",
+    "baiao"
+  ],
+  "relatedWorks": [
+    "o-que-e-que-a-baiana-tem"
+  ],
+  "relatedChords": [
+    "A7",
+    "D7M",
+    "G7",
+    "C7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m2a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m2-a1): choro usa baixaria 2/4. No baião, o grupo rítmico básico é:",
+      "options": [
+        {
+          "label": "3+3+2 semicolcheias (8 no compasso).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Conte 'ba-ião' = 3, 'tem' = 3, 'san' = 2."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Grade **Baião (3+3+2)**: sinta o deslocamento do acento. **O Que É Que a Baiana Tem?** tem raízes nordestinas — compare com a levada samba da aula anterior."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Baiana Tem — baião em A",
+        "chords": [
+          "A7",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Baião e xote (Nordeste)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Baião** (Luiz Gonzaga / Zé Dornelas) divide 8 semicolcheias em **3+3+2**. O corpo balança 'tri-ple-ta tri-ple-ta TA'. **Xote** deriva do baião mais lento, em feel de 4/4 suave.\n\nNo violão: polegar marca o 3+3+2, dedos preenchem. Caymmi escreveu **Baiana Tem** com harmonia direta (A7–D7M) para destacar o groove."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "baiao",
+        "bpm": 110
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Gonzaga popularizou o baião no século XX, mas o padrão 3+3+2 vem de ritmos nordestinos anteriores — o violão imita o trio de sanfona, zabumba e triângulo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "o-que-e-que-a-baiana-tem",
+      "excerpt": "A7  D7M  G7  C7M",
+      "annotation": "Samba com harmonia direta e ritmo marcante.",
+      "youtube": "ojo3I59Gn6c",
+      "youtubeTitle": "O Que É Que a Baiana Tem?",
+      "youtubeArtist": "Carmen Miranda"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "o-que-e-que-a-baiana-tem"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "o-que-e-que-a-baiana-tem",
+        "title": "O Que É Que a Baiana Tem?",
+        "lessonId": "n6-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Baião não é 'samba devagar' — é **outro compasso interno**. Forçar 4/4 igual mata o swing; o **grau** rítmico 3+3+2 é o que separa Nordeste de bossa carioca."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Voz: 'BA-i-ão TEM san' (3+3+2), 8 repetições. 2. Grade baião com polegar. 3. **A7** no acento do 2 do grupo 3+3+2."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m2a2-q1",
+      "kind": "mc",
+      "question": "Baião 3+3+2 significa:",
+      "options": [
+        {
+          "label": "Oito semicolcheias agrupadas 3+3+2",
+          "correct": true,
+          "feedbackOk": "Acento cai no último grupo de 2."
+        },
+        {
+          "label": "Três compassos de 3/4",
+          "correct": false,
+          "feedbackErr": "É subdivisão de um compasso, não 3/4."
+        },
+        {
+          "label": "Mesmo que bossa nova",
+          "correct": false,
+          "feedbackErr": "Groove nordestino distinto."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "baiao-e-xote-nordeste",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m2a2-match",
+      "kind": "match",
+      "question": "Ritmo ↔ origem:",
+      "pairs": [
+        {
+          "left": "Baião",
+          "right": "Nordeste / 3+3+2"
+        },
+        {
+          "left": "Xote",
+          "right": "Baião mais lento"
+        },
+        {
+          "left": "Baiana Tem",
+          "right": "Caymmi"
+        },
+        {
+          "left": "Zabumba",
+          "right": "Grave do forró"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — abertura de Baiana Tem (baião/xote):",
+      "playChords": [
+        "A7",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "V7 → I em Ré — harmonia nordestina",
+          "correct": true,
+          "feedbackOk": "Caymmi — mesma cadência, groove 3+3+2 no violão."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Tom central é Ré, não Dó."
+        },
+        {
+          "label": "I–VI–II–V turn-around",
+          "correct": false,
+          "feedbackErr": "Só dois acordes — cadência direta."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m2a2-self",
+      "kind": "self_check",
+      "question": "Consegue contar 3+3+2 em voz alta enquanto toca A7 na grade baião?",
+      "tags": []
+    }
+  ]
+}

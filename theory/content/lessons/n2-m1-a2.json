@@ -1,0 +1,204 @@
+{
+  "id": "n2-m1-a2",
+  "slug": "do-maior-no-braco-posicao-aberta",
+  "level": 2,
+  "moduleId": "n2-m1",
+  "title": "Dó maior no braço (posição aberta)",
+  "durationMin": 16,
+  "prerequisites": [
+    "n2-m1-a1"
+  ],
+  "subtitle": "Dedos 2-1-0 na posição aberta — C maior no braço com a fórmula T-T-S que você acabou de ouvir.",
+  "tags": [
+    "escalas",
+    "violao"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m1a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na fórmula T-T-S-T-T-T-S, onde cai o primeiro semitom em Dó maior?",
+      "options": [
+        {
+          "label": "Entre E e F (Mi–Fá)",
+          "correct": true,
+          "feedbackOk": "S único no 'miolo' — casa 1 na 6ª corda."
+        },
+        {
+          "label": "Entre G e A",
+          "correct": false,
+          "feedbackErr": "G→A é tom inteiro (2 st)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça Dó no braço",
+      "body": "Toque a escala de C em posição aberta: 5ª corda 3→5→7, 4ª corda 2→3→5. Dedos 2-1-0 nas cordas agudas."
+    },
+    {
+      "type": "component",
+      "id": "snd-c",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Dó maior ascendente",
+        "root": "C",
+        "scale": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "pos-aberta",
+      "title": "Posição aberta e dedos 2-1-0",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pos-text",
+      "markdown": "Na região aberta, **Dó maior** usa:\n\n| Nota | Corda/casa | Dedo |\n|------|------------|------|\n| C | 5ª corda 3 | 3 |\n| D | 5ª corda 5 | 4 |\n| E | 4ª corda 2 | 2 |\n| F | 4ª corda 3 | 1 |\n| G | 3ª corda 0 | 0 |\n| A | 2ª corda 0 | 0 |\n| B | 1ª corda 0 | 0 |\n| C | 1ª corda 1 | 1 |\n\nO padrão **2-1-0** nas cordas 4ª–1ª é o template da escala em posição aberta."
+    },
+    {
+      "type": "prose",
+      "id": "shape-text",
+      "markdown": "O acorde **C** (X 3 2 0 1 0) embute três graus da escala: **C, E, G** (I). **Flor de Lis** usa **G7M** e **C7M** — V e I em Sol maior, shapes que você toca na posição aberta."
+    },
+    {
+      "type": "component",
+      "id": "chord-c",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "C", "title": "C — grau I, tríade Dó-Mi-Sol" }
+    },
+    {
+      "type": "component",
+      "id": "snd-chords",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça I–IV–V–vi em Dó (C–F–G–Am)",
+        "chords": ["C", "F", "G", "Am"]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "G7M→C7M: V–I em Sol — escala de Dó nos shapes abertos."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n2-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Flor de Lis** (Djavan) usa **G7M** e **C7M** — V e I em Sol maior, mas os shapes **C/G/Am/F** que você toca são os mesmos de Dó maior. Saber a escala na posição aberta acelera transposição com capo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A posição aberta mostra a fórmula T-T-S no braço: **E** (4ª corda 2) → **F** (4ª corda 3) = semitom visível. No Nível 3 você nomeará F como **grau IV (subdominante)** — aqui você só localiza."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escala C na 5ª/4ª cordas. 2. **C** (X 3 2 0 1 0). 3. **G** (3 2 0 0 0 3) — grau V. 4. **Am** (X 0 2 2 1 0) — vi. 5. **F** (1 3 3 2 1 1) — IV com pestana."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m1a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em posição aberta, onde está o Fá (F) da escala de Dó?",
+      "options": [
+        {
+          "label": "4ª corda, casa 3 (dedo 1)",
+          "correct": true,
+          "feedbackOk": "F = grau IV — semitom após Mi na 4ª corda casa 2."
+        },
+        {
+          "label": "3ª corda, casa 0",
+          "correct": false,
+          "feedbackErr": "Casa 0 na 3ª = Sol (G), grau V."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m1a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Nota da escala de Dó → corda/casa (posição aberta):",
+      "pairs": [
+        { "left": "Dó (C)", "right": "5ª corda, casa 3" },
+        { "left": "Mi (E)", "right": "4ª corda, casa 2" },
+        { "left": "Fá (F)", "right": "4ª corda, casa 3" },
+        { "left": "Sol (G)", "right": "3ª corda, casa 0" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça C→F — qual grau de Dó maior é o segundo acorde?",
+      "playChords": ["C", "F"],
+      "options": [
+        { "label": "IV (subdominante — Fá)", "correct": true, "feedbackOk": "F = grau IV — semitom após Mi na escala." },
+        { "label": "V (dominante — Sol)", "correct": false, "feedbackErr": "V seria G — ouça o som de abertura, não tensão." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m1a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar a escala de Dó em posição aberta com dedos 2-1-0?"
+    }
+  ]
+}

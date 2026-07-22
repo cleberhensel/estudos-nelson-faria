@@ -1,0 +1,237 @@
+{
+  "id": "n2-m2-a1",
+  "slug": "menor-natural-harmonica-e-melodica",
+  "level": 2,
+  "moduleId": "n2-m2",
+  "title": "Menor natural, harmônica e melódica",
+  "durationMin": 18,
+  "prerequisites": [
+    "n2-m1-a4"
+  ],
+  "subtitle": "Três variantes de menor — natural, harmônica (7ª maior) e melódica (6ª e 7ª elevadas ascendendo).",
+  "tags": [
+    "escalas",
+    "menor"
+  ],
+  "relatedWorks": [
+    "construcao"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m2a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): quantos sustenidos tem Ré maior no círculo de quintas?",
+      "options": [
+        {
+          "label": "2 (F# e C#)",
+          "correct": true,
+          "feedbackOk": "2♯ — agora comparamos três escalas menores."
+        },
+        {
+          "label": "Nenhum",
+          "correct": false,
+          "feedbackErr": "Sem alterações é Dó maior."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça as três menores",
+      "body": "Compare os três players abaixo: natural (G na 7ª), harmônica (G#), melódica (F# e G# subindo). A diferença de **uma nota** muda a cadência inteira."
+    },
+    {
+      "type": "component",
+      "id": "snd-nat",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor natural",
+        "root": "A",
+        "scale": "minor"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-nat",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minor",
+        "frets": 12
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-harm",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor harmônica",
+        "root": "A",
+        "scale": "minorHarmonic"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-harm",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minorHarmonic",
+        "frets": 12
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-mel",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Lá menor melódica (asc.)",
+        "root": "A",
+        "scale": "minorMelodic"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-mel",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "A",
+        "scale": "minorMelodic",
+        "frets": 12
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tres",
+      "title": "Três menores comparadas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tres-text",
+      "markdown": "| Escala | Fórmula (de A) | 7ª | Uso |\n|--------|----------------|-----|-----|\n| **Natural** | A B C D E F G | G (menor) | campo diatônico |\n| **Harmônica** | A B C D E F **G#** | G# (maior) | V7 harmônico (E7) |\n| **Melódica** | A B C D E **F# G#** asc. | G# | passagens melódicas |\n\n**Construção** (Chico Buarque) usa **Mi menor** — sensação melancólica da menor natural."
+    },
+    {
+      "type": "prose",
+      "id": "func-text",
+      "markdown": "A **7ª maior** na harmônica cria o intervalo **G#→A** (semitom) — **E7** (V7) resolve em **Am** com força. Função **dominante** harmônica exige essa 7ª elevada."
+    },
+    {
+      "type": "example",
+      "id": "ex-constr",
+      "workId": "construcao",
+      "excerpt": "Em  Am  B7  Em",
+      "annotation": "Mi menor natural — B7 como V7 harmônico emprestado."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "construcao",
+        "title": "Construção",
+        "lessonId": "n2-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Construção** (Chico Buarque) usa **Mi menor natural** — melancolia do campo diatônico. **Chega de Saudade** eleva a 7ª (A7 em Dm) — menor harmônico. Saber a diferença explica metade das 'surpresas' harmônicas da bossa."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A **7ª maior** (G#) cria o leading tone — semitom abaixo da tônica que faz **E7→Am** 'puxar' o ouvido. Chico usa **B7→Em** com a mesma lógica em Mi menor — V7 com 3ª maior."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escala A menor natural na 5ª corda. 2. Mesma com G# (harmônica) na 3ª corda casa 1. 3. **Am** (X 0 2 2 1 0). 4. **E7** (0 2 0 1 0 0) — ouça V7 pedindo Am."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m2a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual nota diferencia a menor harmônica da natural em Lá?",
+      "options": [
+        {
+          "label": "G# (7ª maior) em vez de G",
+          "correct": true,
+          "feedbackOk": "G# cria o V7 clássico E7→Am."
+        },
+        {
+          "label": "F# (6ª maior)",
+          "correct": false,
+          "feedbackErr": "F# define a melódica, não a harmônica."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m2a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Escala menor → característica:",
+      "pairs": [
+        {
+          "left": "Natural",
+          "right": "7ª menor (G)"
+        },
+        {
+          "left": "Harmônica",
+          "right": "7ª maior (G#)"
+        },
+        {
+          "left": "Melódica",
+          "right": "6ª e 7ª maiores asc."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Am→E7→Am — qual escala menor justifica o E7?",
+      "playChords": ["Am", "E7", "Am"],
+      "options": [
+        { "label": "Harmônica (G# na 7ª)", "correct": true, "feedbackOk": "V7 com 3ª maior — leading tone G#→A." },
+        { "label": "Natural (G na 7ª)", "correct": false, "feedbackErr": "Natural teria Em fraco — E7 exige 7ª elevada." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m2a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu ouvir a diferença entre as três menores de Lá?"
+    }
+  ]
+}

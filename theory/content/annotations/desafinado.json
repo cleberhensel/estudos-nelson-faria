@@ -1,0 +1,24 @@
+{
+  "workId": "desafinado",
+  "key": "D",
+  "sections": [
+    {
+      "label": "Abertura — dissonâncias",
+      "chords": [
+        { "symbol": "F#m7(b5)", "degree": "iiiø", "function": "PD" },
+        { "symbol": "B7", "degree": "VI7", "function": "D" },
+        { "symbol": "Em7", "degree": "ii", "function": "SD" },
+        { "symbol": "A7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Resolução",
+      "chords": [
+        { "symbol": "D7M", "degree": "I", "function": "T" },
+        { "symbol": "G7M", "degree": "IV", "function": "SD" },
+        { "symbol": "C#m7(b5)", "degree": "viiø", "function": "PD" },
+        { "symbol": "F#7", "degree": "III7", "function": "D" }
+      ]
+    }
+  ]
+}

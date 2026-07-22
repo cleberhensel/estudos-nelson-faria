@@ -1,0 +1,275 @@
+{
+  "id": "n5-m3-a1",
+  "slug": "modulacao-por-dominante-comum",
+  "level": 5,
+  "moduleId": "n5-m3",
+  "title": "Modulação por dominante comum",
+  "subtitle": "Um acorde pertence a dois tons — Am7→D7→G7M modula de Dó para Sol porque D7 é V7 em ambos. Samba de Verão faz isso com elegância.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n5-m2-a4"
+  ],
+  "tags": [
+    "modulacao"
+  ],
+  "relatedWorks": [
+    "samba-de-verao"
+  ],
+  "relatedChords": [
+    "Am7",
+    "D7",
+    "G7M",
+    "C7M",
+    "F#m7(b5)",
+    "B7",
+    "Em7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m3a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (blues): no turnaround em C, qual acorde abre o compasso 12?",
+      "options": [
+        {
+          "label": "G7 — V que reinicia o ciclo",
+          "correct": true,
+          "feedbackOk": "Modulação usa acordes-ponte entre tons."
+        },
+        {
+          "label": "C7 — tônica",
+          "correct": false,
+          "feedbackErr": "C7 fecha o compasso 11, não abre o 12."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Acorde-ponte",
+      "body": "Ouça **Am7→D7→G7M**. Em Dó, D7 é V7/ii; em Sol, D7 é V7. O acorde comum **pivota** a tonalidade."
+    },
+    {
+      "type": "component",
+      "id": "mod-c-d-g",
+      "componentId": "modulation",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "pivot",
+      "title": "Dominante comum",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pivot-text",
+      "markdown": "**Modulação por dominante comum:** um V7 resolve em I de um *novo* tom.\n\n| Passo | Em Dó | Leitura | Em Sol |\n|-------|-------|---------|--------|\n| 1 | Am7 | ii em Dó | ii em Sol |\n| 2 | D7 | V7/ii em Dó | **V7 em Sol** |\n| 3 | G7M | (modulação) | **I em Sol** |\n\n**Samba de Verão** modula por ciclo: Am7→D7→G7M→C7M→F7M — cada V7 leva ao próximo tom."
+    },
+    {
+      "type": "component",
+      "id": "prog-verao",
+      "componentId": "progression",
+      "props": {
+        "key": "Am",
+        "mode": "minor",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M",
+          "C7M",
+          "F7M",
+          "Bm7(b5)",
+          "E7"
+        ],
+        "functions": [
+          "T",
+          "D",
+          "SD",
+          "SD",
+          "SD",
+          "PD",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "samba-de-verao",
+      "excerpt": "Am7  D7  G7M  C7M  F7M  Bm7(b5)  E7",
+      "annotation": "Modulação por ciclo de quintas.",
+      "youtube": "wFjx3wMQtEU",
+      "youtubeTitle": "Samba de Verão",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "samba-de-verao"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "samba-de-verao",
+        "title": "Samba de Verão",
+        "lessonId": "n5-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Samba de Verão** modula por dominante comum — E7 funciona como V7 em Dó e em Lá, pivotando suavemente entre tonalidades. Jobim encadeia várias modulações numa mesma canção; o ouvido aceita porque V7→I sempre soa como \"chegada\"."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A dominante comum é a modulação mais suave — o ouvido aceita V7→I como 'casa'. Jobim encadeia várias modulações por ciclo em Samba de Verão."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Am7→D7→G7M e diga em voz alta: 'Saí de Dó, cheguei em Sol'. Depois os primeiros 4 acordes de Samba de Verão."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m3a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Am7→D7→G7M modula de Dó para qual tom?",
+      "options": [
+        {
+          "label": "Sol maior — D7 é V7/G",
+          "correct": true,
+          "feedbackOk": "Dominante comum pivota em D7."
+        },
+        {
+          "label": "Fá maior — D7 é V7/F",
+          "correct": false,
+          "feedbackErr": "V7/F seria C7, não D7."
+        },
+        {
+          "label": "Ré maior — sem modulação",
+          "correct": false,
+          "feedbackErr": "G7M é I em Sol, não Ré."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m3a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o acorde-ponte à modulação:",
+      "pairs": [
+        {
+          "left": "D7",
+          "right": "C → G"
+        },
+        {
+          "left": "G7",
+          "right": "C → F"
+        },
+        {
+          "left": "A7",
+          "right": "D → G"
+        },
+        {
+          "left": "E7",
+          "right": "Am → Dm"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m3a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Modulação C→G por dominante comum:",
+      "orderAnswer": [
+        "Am7",
+        "D7",
+        "G7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a modulação:",
+      "playChords": [
+        "Am7",
+        "D7",
+        "G7M"
+      ],
+      "options": [
+        {
+          "label": "Modulação C→G via D7",
+          "correct": true,
+          "feedbackOk": "Repouso final em G7M (I de Sol)."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Em Dó terminaria em C7M."
+        },
+        {
+          "label": "II–V–I em Am",
+          "correct": false,
+          "feedbackErr": "Em Am terminaria em Am7."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m3a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu identificar o acorde-ponte numa modulação ouvindo?"
+    }
+  ]
+}

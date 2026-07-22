@@ -1,0 +1,267 @@
+{
+  "id": "n4-m3-a3",
+  "slug": "alteracoes-b9-sharp11-b13",
+  "level": 4,
+  "moduleId": "n4-m3",
+  "title": "Alterações: b9, #11, b13",
+  "subtitle": "Tensões cromáticas que intensificam a dominante — em Desafinado, B7(b9) e acordes alterados criam o título da canção.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n4-m3-a2"
+  ],
+  "tags": [
+    "acordes",
+    "tensoes"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "B7(b9)",
+    "G7(b9)",
+    "C7(#11)",
+    "F7(b13)",
+    "A7(b9)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m3a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (7(9)): por que omitimos a fundamental no voicing bossa?",
+      "options": [
+        {
+          "label": "O baixo cobre a fundamental — violão canta 3ª, 7ª e tensões",
+          "correct": true,
+          "feedbackOk": "Agora alteramos essas tensões cromaticamente."
+        },
+        {
+          "label": "A fundamental soa desafinada no violão",
+          "correct": false,
+          "feedbackErr": "O motivo é espaçamento e papel funcional, não afinação."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Alterações = mais tensão",
+      "body": "Compare **B7** com **B7(b9)** e **G7** com **G7(b9)**. A alteração cromática intensifica a 'puxada' da dominante."
+    },
+    {
+      "type": "component",
+      "id": "snd-alt",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Dominante natural vs alterada",
+        "chords": [
+          "B7",
+          "B7(b9)",
+          "G7",
+          "G7(b9)"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "alteracoes",
+      "title": "b9, #11 e b13",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "alt-text",
+      "markdown": "| Alteração | Efeito | Uso típico |\n|-----------|--------|------------|\n| **b9** | semitom acima da fundamental | V7(b9) → I — máxima tensão |\n| **#11** | Lá# sobre acorde de 7M | C7M(#11) — cor 'lírica' |\n| **b13** | Lá♭ sobre dominante | G7(b13) → C — queda cromática |\n\nEm **Desafinado**, **B7** com b9 implícita resolve em **Em7** — a dissonância do título."
+    },
+    {
+      "type": "component",
+      "id": "prog-desaf",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "F#m7(b5)",
+          "B7",
+          "Em7",
+          "A7"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "PD",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n4-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Desafinado** usa **A7(b9)** e **B7(b9)** — alterações que Jobim coloca na dominante antes de resolver. Na cifra brasileira, b9 aparece explícito; #11 em 7M é mais raro e costuma estar implícito no voicing de arranjadores como Tom Jobim e Edu Lobo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Alterações aparecem em dominantes que resolvem para I ou i. **b9** e **b13** reforçam a trítono; **#11** em 7M cria o 'som Jobim' em acordes de repouso."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque F#m7(b5) → B7 → Em7. No B7, tente adicionar a b9 (Dó) no voicing. Sinta a tensão extra antes de resolver em Em7."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m3a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual alteração está a um semitom acima da fundamental de B7?",
+      "options": [
+        {
+          "label": "b9 = Dó (9ª menor)",
+          "correct": true,
+          "feedbackOk": "Dó a um semitom de Si — tensão máxima de dominante."
+        },
+        {
+          "label": "#11 = Mi#",
+          "correct": false,
+          "feedbackErr": "#11 é sobre a 11ª (Mi em B7), não sobre a fundamental."
+        },
+        {
+          "label": "b13 = Sol",
+          "correct": false,
+          "feedbackErr": "b13 é a 13ª abaixada (Sol em B7)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m3a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a alteração ao efeito harmônico:",
+      "pairs": [
+        {
+          "left": "b9 em V7",
+          "right": "Tensão cromática → I"
+        },
+        {
+          "left": "#11 em 7M",
+          "right": "Cor lírica sem função D"
+        },
+        {
+          "left": "b13 em V7",
+          "right": "Queda para a 3ª do I"
+        },
+        {
+          "left": "b5 em m7(b5)",
+          "right": "Trítono com a fundamental"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m3a3-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene o trecho de Desafinado (F#m7(b5) → ? → Em7):",
+      "orderAnswer": [
+        "F#m7(b5)",
+        "B7",
+        "Em7"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a dominante alterada:",
+      "playChords": [
+        "B7(b9)"
+      ],
+      "options": [
+        {
+          "label": "B7(b9) — dominante com 9ª menor",
+          "correct": true,
+          "feedbackOk": "A b9 intensifica a resolução para Em."
+        },
+        {
+          "label": "B7 — dominante natural",
+          "correct": false,
+          "feedbackErr": "Natural soa menos tenso — ouça o Dó de b9."
+        },
+        {
+          "label": "Bm7 — pré-dominante menor",
+          "correct": false,
+          "feedbackErr": "m7 não tem a tensão de dominante."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m3a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu distinguir B7 de B7(b9) pelo ouvido?"
+    }
+  ]
+}

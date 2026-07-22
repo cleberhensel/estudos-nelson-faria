@@ -1,0 +1,292 @@
+{
+  "id": "n3-m2-a2",
+  "slug": "campo-menor-harmonico-v7-e-o-vii",
+  "level": 3,
+  "moduleId": "n3-m2",
+  "title": "Campo menor harmônico — V7 e o VII°",
+  "subtitle": "Elevar a 7ª do menor natural cria a dominante com 3ª maior — o som \"espanhol\" que resolve em Ré menor.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n3-m2-a1"
+  ],
+  "tags": [
+    "campo-harmonico",
+    "menor",
+    "harmonico"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Dm",
+    "Em7(b5)",
+    "A7",
+    "A7(b9)",
+    "Bb6"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m2a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): ii–V–I em Fá maior usa quais acordes?",
+      "options": [
+        {
+          "label": "Gm7 → C7 → F7M",
+          "correct": true,
+          "feedbackOk": "Molde fixo — agora vamos aplicá-lo ao campo menor."
+        },
+        {
+          "label": "Am7 → D7 → G7M",
+          "correct": false,
+          "feedbackErr": "Isso é ii–V–I em Sol, não em Fá."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a cadência menor clássica",
+      "body": "Toque devagar: **Em7(b5) → A7 → Dm**. Repare: o **A7** tem 3ª maior (C#) — isso não existe no campo menor natural. É o **menor harmônico** em ação."
+    },
+    {
+      "type": "component",
+      "id": "snd-cad",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Cadência iiø–V7–Im em Ré menor",
+        "chords": [
+          "Em7(b5)",
+          "A7",
+          "Dm"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "harmonico",
+      "title": "Menor harmônico: por que alterar a 7ª?",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "harmonico-text",
+      "markdown": "No **menor natural** (Ré menor: D E F G A B♭ C), o **V** seria **Am** — acorde menor, fraco como dominante.\n\nNo **menor harmônico** elevamos a 7ª (**C → C#**). Nasce **A7** com 3ª maior — a dominante que *exige* resolução em **Dm**.\n\n| Grau | Menor natural | Menor harmônico |\n|------|---------------|------------------|\n| V | Am (m) | **A7** (7) |\n| vii | C° | **C#°** (vii°) |\n| ii | Em7 | **Em7(b5)** (iiø) |"
+    },
+    {
+      "type": "component",
+      "id": "lab-dm-h",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "minorHarmonic"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog-cad",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "minor",
+        "chords": [
+          "Em7(b5)",
+          "A7",
+          "Dm"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "vii-vs-ii",
+      "title": "vii° vs iiø — duas dominantes disfarçadas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "vii-text",
+      "markdown": "**C#°** (vii°) e **Em7(b5)** (iiø) compartilham o **trítono** F–B com **A7**. Por isso ambos funcionam como pré-dominantes que levam ao V7.\n\nNa bossa, **Em7(b5)–A7(b9)–Dm** é a cadência menor mais ouvida — exatamente o final da Seção A de *Chega de Saudade*."
+    },
+    {
+      "type": "component",
+      "id": "snd-a7b9",
+      "componentId": "play-chord",
+      "props": {
+        "title": "A7(b9) — tensão máxima antes de Dm",
+        "chords": [
+          "A7(b9)",
+          "Dm"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-chega",
+      "workId": "chega-de-saudade",
+      "excerpt": "Em7(b5)  A7(b9)  Dm\n\nA7  Dm",
+      "annotation": "Cadência menor harmônica: iiø–V7–Im. O A7(b9) traz a 9ª bemol — cor bossa típica antes de repousar em Dm.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade — cifra",
+        "lessonId": "n3-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Chega de Saudade** e **Construção** dependem do V7 com 3ª maior (A7→Dm, B7→Em). Sem o menor harmônico, a cadência cai em Am→Dm — fraca demais para a tensão bossa. João Gilberto e Chico usam iiø–V7–Im como assinatura em Ré e Mi menor."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "O **menor harmônico** é usado principalmente na **descida** para a tônica (V7→Im). Na subida, compositores preferem o **menor melódico** — assunto da próxima aula."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (6 min)",
+      "body": "1. **Em7(b5)** (X 7 8 7 8 X) → **A7** (X 0 2 0 2 0) → **Dm** (X X 0 2 3 1). 2. Adicione **b9** no A7: X 0 1 0 2 0. 3. Compare com **Am→Dm** (menor natural) — sinta a diferença de tensão. 4. Marque V7 e iiø na cifra de Chega."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m2a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Ré menor harmônico, qual acorde é a dominante (V7)?",
+      "options": [
+        {
+          "label": "A7",
+          "correct": true,
+          "feedbackOk": "Certo — 3ª maior (C#) cria a tensão clássica que pede Dm."
+        },
+        {
+          "label": "Am",
+          "correct": false,
+          "feedbackErr": "Am é o V do menor natural — fraco como dominante."
+        },
+        {
+          "label": "G7",
+          "correct": false,
+          "feedbackErr": "G7 seria IV7 em Ré menor, não a dominante."
+        },
+        {
+          "label": "Em7",
+          "correct": false,
+          "feedbackErr": "Em7 é ii — pré-dominante, não dominante."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m2a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o grau ao acorde em Ré menor harmônico:",
+      "pairs": [
+        {
+          "left": "Im",
+          "right": "Dm"
+        },
+        {
+          "left": "iiø",
+          "right": "Em7(b5)"
+        },
+        {
+          "left": "V7",
+          "right": "A7"
+        },
+        {
+          "left": "vii°",
+          "right": "C#°"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m2a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte a cadência menor clássica em Ré:",
+      "orderAnswer": [
+        "Em7(b5)",
+        "A7",
+        "Dm"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a cadência:",
+      "playChords": [
+        "Em7(b5)",
+        "A7",
+        "Dm"
+      ],
+      "options": [
+        {
+          "label": "iiø–V7–Im em Ré menor",
+          "correct": true,
+          "feedbackOk": "Perfeito — campo menor harmônico."
+        },
+        {
+          "label": "II–V–I em Dó maior",
+          "correct": false,
+          "feedbackErr": "Não — ouça o Em7(b5) e a resolução melancólica em Dm."
+        },
+        {
+          "label": "I–VI–II–V em Dó",
+          "correct": false,
+          "feedbackErr": "Turn-around maior — tom diferente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m2a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Em7(b5)–A7–Dm sentindo o A7 puxar para Dm, e explicar por que Am não funciona igual?"
+    }
+  ]
+}

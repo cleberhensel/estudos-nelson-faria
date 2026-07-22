@@ -1,0 +1,204 @@
+{
+  "id": "n2-m1-a1",
+  "slug": "a-formula-t-t-s-t-t-t-s",
+  "level": 2,
+  "moduleId": "n2-m1",
+  "title": "A fórmula T-T-S-T-T-T-S",
+  "durationMin": 16,
+  "prerequisites": [],
+  "subtitle": "Tom-tom-semitom — o único S entre Mi–Fá define a escala maior e separa o som brilhante do menor.",
+  "tags": [
+    "escalas"
+  ],
+  "relatedWorks": [
+    "lilas"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m1a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (fim do N1): no desafio n1-m3-a4, a 5ª justa acima de Lá (A) é qual nota — base da dominante em Lá menor?",
+      "options": [
+        {
+          "label": "Mi (E) — 7 semitons, grau V",
+          "correct": true,
+          "feedbackOk": "A→E = quinta — agora empilhamos tons para formar a escala maior."
+        },
+        {
+          "label": "Dó (C) — 3 semitons",
+          "correct": false,
+          "feedbackErr": "C é 3ª menor de A, não 5ª."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a fórmula",
+      "body": "Toque **C D E F G A B C** devagar. Repare: entre **E–F** e **B–C** o salto é menor (semitom); entre os demais, tom inteiro."
+    },
+    {
+      "type": "component",
+      "id": "snd-c",
+      "componentId": "play-scale",
+      "props": {
+        "title": "Dó maior — fórmula audível",
+        "root": "C",
+        "scale": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "formula",
+      "title": "T-T-S-T-T-T-S",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "formula-text",
+      "markdown": "A escala **maior** segue:\n\n**T – T – S – T – T – T – S**\n\n| De → Para | Salto | Tipo |\n|-----------|-------|------|\n| C→D | 2 st | Tom (T) |\n| D→E | 2 st | Tom (T) |\n| **E→F** | **1 st** | **Semitom (S)** ← único par sem tom entre 3ª–4ª |\n| F→G | 2 st | Tom |\n| G→A | 2 st | Tom |\n| A→B | 2 st | Tom |\n| **B→C** | **1 st** | **Semitom (S)** |\n\nO **S entre Mi–Fá** é único no meio da escala — define o 'som maior' e o grau IV (Fá)."
+    },
+    {
+      "type": "prose",
+      "id": "grau-text",
+      "markdown": "Graus em Dó: **I C – II D – III E – IV F – V G – VI A – VII B**. A fórmula T-T-S cria o campo harmônico que você analisará no Nível 3. Em **Lilás** (Djavan), a melodia navega essa escala em Ré maior."
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 12,
+        "title": "Dó maior no braço — veja E→F (1 casa) vs D→E (2 casas)"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-lilas",
+      "workId": "lilas",
+      "excerpt": "Em7  A7  D7M  G7M",
+      "annotation": "Ré maior: fórmula T-T-S audível na melodia de Djavan."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "lilas",
+        "title": "Lilás",
+        "lessonId": "n2-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB e bossa usam escala maior como 'default' tonal — entender T-T-S evita decorar notas; você **deriva** qualquer maior."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "O semitom **E→F** (grau III→IV) é o 'degrau baixo' no meio da escala — por isso **F7M** soa como subdominante que abre, não como repouso. Na **Lilás** (Ré maior), o equivalente é **F#→G** — mesma fórmula, tonalidade diferente."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Cante **C D E F** e pare no F — sinta o semitom E→F. 2. Continue **G A B C**. 3. **C** (X 3 2 0 1 0) como tônica. 4. Toque a escala na 5ª corda casas 3–15."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m1a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Onde está o semitom 'do meio' na escala maior de Dó?",
+      "options": [
+        {
+          "label": "Entre E e F (Mi–Fá)",
+          "correct": true,
+          "feedbackOk": "Único S antes do final — define grau IV."
+        },
+        {
+          "label": "Entre C e D (Dó–Ré)",
+          "correct": false,
+          "feedbackErr": "C→D é tom inteiro (2 st)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n2m1a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene os saltos da fórmula maior:",
+      "orderAnswer": [
+        "T",
+        "T",
+        "S",
+        "T",
+        "T",
+        "T",
+        "S"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m1a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Salto na escala de Dó → tipo (T ou S):",
+      "pairs": [
+        { "left": "C → D", "right": "Tom (T)" },
+        { "left": "E → F", "right": "Semitom (S)" },
+        { "left": "G → A", "right": "Tom (T)" },
+        { "left": "B → C", "right": "Semitom (S)" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m1a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça E→F — qual tipo de salto na fórmula T-T-S?",
+      "playChords": ["E", "F"],
+      "options": [
+        { "label": "Semitom (S) — 1 casa", "correct": true, "feedbackOk": "S único no miolo — define grau IV (Fá)." },
+        { "label": "Tom (T) — 2 casas", "correct": false, "feedbackErr": "Tom seria E→F# — ouça o salto menor." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m1a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu cantar Dó maior destacando os dois semitons (E–F e B–C)?"
+    }
+  ]
+}

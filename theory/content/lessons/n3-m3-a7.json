@@ -1,0 +1,179 @@
+{
+  "id": "n3-m3-a7",
+  "slug": "quiz-do-nivel-3",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Quiz do Nível 3",
+  "subtitle": "8 perguntas sobre campo harmônico, funções, modulação e obras — só responde quem tocou as aulas.",
+  "durationMin": 15,
+  "prerequisites": ["n3-m3-a6"],
+  "tags": ["quiz", "campo-harmonico"],
+  "relatedWorks": ["garota-de-ipanema", "chega-de-saudade", "construcao"],
+  "relatedChords": ["C7M", "Dm7", "G7", "F7M", "Gm7", "A7", "Em7(b5)", "B7"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a7-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Antes do quiz: você revisou campo harmônico, funções T/SD/D e as análises de Chega, Construção e Garota?",
+      "options": [
+        { "label": "Sim — toquei no violão esta semana", "correct": true, "feedbackOk": "Ótimo — vamos lá." },
+        { "label": "Não revisei", "correct": false, "feedbackErr": "Pause e revise n3-m1-a2 e n3-m3-a1 antes de continuar." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "motiv",
+      "variant": "tip",
+      "title": "Quiz N3 — Campo harmônico",
+      "body": "Média ≥70% desbloqueia o Nível 4. Use o ouvido nos dictations — é o que importa na cifra."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Este quiz cobre o que você **ouviu e tocou** nas análises: Chega (Ré menor→maior), Construção (Mi menor), Garota (Fá), Corcovado (funções). Se errar dictation, volte ao violão — campo harmônico é ouvido, não só lido."
+    },
+    {
+      "type": "component",
+      "id": "snd-garota",
+      "componentId": "play-chord",
+      "props": { "title": "Lembrete — Garota (Fá)", "chords": ["Gm7", "C7", "F7M"] }
+    },
+    {
+      "type": "component",
+      "id": "snd-chega",
+      "componentId": "play-chord",
+      "props": { "title": "Lembrete — Chega (Ré menor)", "chords": ["Em7(b5)", "A7", "Dm"] }
+    },
+    {
+      "type": "heading",
+      "id": "quiz",
+      "title": "Perguntas",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a7-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Dó maior, qual acorde é função dominante (D)?",
+      "options": [
+        { "label": "G7", "correct": true, "feedbackOk": "V7 — trítono F–B pede resolução em C7M." },
+        { "label": "F7M", "correct": false, "feedbackErr": "F7M é IV — subdominante." },
+        { "label": "Am7", "correct": false, "feedbackErr": "Am7 é vi — tônica relativa." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q2",
+      "exerciseId": "ex-n3-m3a7-q2",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "II–V–I em Fá maior (Garota) usa:",
+      "options": [
+        { "label": "Gm7 → C7 → F7M", "correct": true, "feedbackOk": "Cadência bossa clássica em Fá." },
+        { "label": "Dm7 → G7 → C7M", "correct": false, "feedbackErr": "Isso é em Dó, não Fá." },
+        { "label": "Am7 → D7 → G7M", "correct": false, "feedbackErr": "ii–V–I em Sol." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q3",
+      "exerciseId": "ex-n3-m3a7-q3",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Cadência menor em Ré: Em7(b5) → A7 → Dm. O A7 existe porque:",
+      "options": [
+        { "label": "Menor harmônico eleva a 7ª — V7 com 3ª maior", "correct": true, "feedbackOk": "Campo menor harmônico — Chega de Saudade." },
+        { "label": "Am resolve melhor em Dm", "correct": false, "feedbackErr": "Am é V fraco do menor natural." },
+        { "label": "A7 é emprestado de Lá maior", "correct": false, "feedbackErr": "A7 é nativo do menor harmônico de Ré." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q4",
+      "exerciseId": "ex-n3-m3a7-q4",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Turn-around I–VI–II–V–I em Dó:",
+      "options": [
+        { "label": "C7M → Am7 → Dm7 → G7 → C7M", "correct": true, "feedbackOk": "Passagem bossa — fecha e reabre o verso." },
+        { "label": "C7M → F7M → G7 → C7M", "correct": false, "feedbackErr": "I–IV–V–I — cadência pop." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q5",
+      "exerciseId": "ex-n3-m3a7-q5",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Construção (Mi menor), B7 antes de Em é:",
+      "options": [
+        { "label": "V7 do menor harmônico", "correct": true, "feedbackOk": "Dominante com 3ª maior — line cliché clímax." },
+        { "label": "V de Sol maior", "correct": false, "feedbackErr": "Centro tonal é Mi menor." },
+        { "label": "bVII emprestado", "correct": false, "feedbackErr": "bVII seria D, não B7." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q6",
+      "exerciseId": "ex-n3-m3a7-q6",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Obra ↔ insight harmônico:",
+      "pairs": [
+        { "left": "Chega de Saudade", "right": "Modulação homônima Dm→D" },
+        { "left": "Construção", "right": "Line cliché + B7 em Em" },
+        { "left": "Garota", "right": "II–V–I em Fá" },
+        { "left": "Corcovado", "right": "Funções T/SD/D em Dó" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a7-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte turn-around I–vi–ii–V–I em Dó:",
+      "orderAnswer": ["C7M", "Am7", "Dm7", "G7", "C7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict1",
+      "exerciseId": "ex-n3-m3a7-dict1",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — cadência em Fá maior (Garota):",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "II–V–I em Fá", "correct": true, "feedbackOk": "ii–V–I — molde que você treinou." },
+        { "label": "II–V–I em Dó", "correct": false, "feedbackErr": "Tom diferente — ouça o F7M final." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict2",
+      "exerciseId": "ex-n3-m3a7-dict2",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — cadência menor (Chega):",
+      "playChords": ["Em7(b5)", "A7", "Dm"],
+      "options": [
+        { "label": "iiø–V7–Im em Ré menor", "correct": true, "feedbackOk": "Menor harmônico — Seção A." },
+        { "label": "II–V–I em Dó", "correct": false, "feedbackErr": "Tom menor — resolução em Dm." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a7-self",
+      "kind": "self_check",
+      "question": "Média ≥70%? Se não, revise n3-m1-a2 (ouro) e repita o quiz amanhã."
+    }
+  ]
+}

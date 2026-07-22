@@ -1,0 +1,243 @@
+{
+  "id": "n1-m1-a3",
+  "slug": "ler-shapes-na-cifra-brasileira",
+  "level": 1,
+  "moduleId": "n1-m1",
+  "title": "Ler shapes na cifra brasileira",
+  "subtitle": "C, G, Am e F na posição aberta — cada diagrama é um mapa de graus no braço, não só dedos aleatórios.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n1-m1-a2"
+  ],
+  "tags": [
+    "fundamentos",
+    "cifra"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m1a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na cifra X 0 2 2 1 0 (Am), o X na 6ª corda evita qual nota sobre a tônica Lá?",
+      "options": [
+        {
+          "label": "Mi (E) grave — preserva Lá na 5ª solta",
+          "correct": true,
+          "feedbackOk": "Certo — parada evita Mi sobre Lá, mantendo função de tônica."
+        },
+        {
+          "label": "Si (B) agudo — abre a 2ª corda",
+          "correct": false,
+          "feedbackErr": "O X está na 6ª; Si não é o problema aqui."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **C** → **G** → **Am** → **F** em posição aberta. Repare: cada shape usa cordas 0, X e casas — o mesmo vocabulário da aula anterior."
+    },
+    {
+      "type": "component",
+      "id": "snd-chords",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça C → G → Am → F (posição aberta)",
+        "chords": ["C", "G", "Am", "F"]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "shapes",
+      "title": "Quatro shapes de partida",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "shapes-text",
+      "markdown": "Na cifra brasileira, o diagrama lê-se **6ª→1ª** (esquerda = grave). Os shapes de **Dó maior** abrem o repertório MPB:\n\n| Acorde | Shape | Grau em C | Função |\n|--------|-------|-----------|--------|\n| **C** | X 3 2 0 1 0 | I | Tônica |\n| **G** | 3 2 0 0 0 3 | V | Dominante |\n| **Am** | X 0 2 2 1 0 | vi | Relativa menor |\n| **F** | 1 3 3 2 1 1 | IV | Subdominante |\n\nEm **Flor de Lis** (Djavan), esses quatro acordes sustentam o refrão — você lê a cifra e já sabe **onde** cada grau mora no braço."
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "C"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-g",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "G"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-am",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "Am"
+      }
+    },
+    {
+      "type": "component",
+      "id": "fb-f",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "F",
+        "title": "F — IV com pestana (shape de E +1 semitom)"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "cifra",
+      "title": "Diagrama = braço",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "cifra-text",
+      "markdown": "Cada número é uma **casa**; **0** = corda solta; **X** = parada. A **pestana** do **F** transporta o shape de **E** +1 semitom cromatico.\n\nBossa e MPB usam esses shapes como **âncoras** — depois você move a pestana para mudar de tonalidade mantendo o mesmo **grau** funcional."
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "vi–II–V–I em Sol maior — shapes abertos que você acabou de mapear."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n1-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Djavan frequentemente enriquece com **7M** e **7** — mas o esqueleto de graus (I–IV–V–vi) permanece nos mesmos shapes abertos."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na cifra CifraClub, o diagrama aparece acima da letra. Saber ler **C/G/Am/F** de memória acelera qualquer samba-canção e bossa iniciante."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C** (X 3 2 0 1 0) — 4 batidas. 2. **G** (3 2 0 0 0 3) — função V. 3. **Am** (X 0 2 2 1 0) — vi relativa. 4. **F** (1 3 3 2 1 1) — IV com pestana. Ciclo 3× sem olhar."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m1a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Dó maior, qual shape aberto é o grau V (dominante)?",
+      "options": [
+        {
+          "label": "G (3 2 0 0 0 3)",
+          "correct": true,
+          "feedbackOk": "G7 sem 7ª ainda funciona como V — quinta justa sobre Dó."
+        },
+        {
+          "label": "Am (X 0 2 2 1 0)",
+          "correct": false,
+          "feedbackErr": "Am é vi — tônica relativa, não dominante."
+        },
+        {
+          "label": "F (1 3 3 2 1 1)",
+          "correct": false,
+          "feedbackErr": "F é IV — subdominante, abre caminho mas não resolve."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m1a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue acorde ao grau em Dó maior:",
+      "pairs": [
+        {
+          "left": "C",
+          "right": "I (tônica)"
+        },
+        {
+          "left": "F",
+          "right": "IV (subdominante)"
+        },
+        {
+          "left": "G",
+          "right": "V (dominante)"
+        },
+        {
+          "left": "Am",
+          "right": "vi (relativa)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m1a3-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Monte a progressão I–V–vi–IV em Dó (shapes abertos):",
+      "orderAnswer": ["C", "G", "Am", "F"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a cadência — qual acorde resolve em repouso (tônica I)?",
+      "playChords": ["G", "C"],
+      "options": [
+        { "label": "C (segundo acorde)", "correct": true, "feedbackOk": "V→I — G puxa para C, dominante resolve na tônica." },
+        { "label": "G (primeiro acorde)", "correct": false, "feedbackErr": "G é V — tensão que pede C, não repouso." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m1a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar C–G–Am–F lendo os diagramas e nomeando o grau de cada um?"
+    }
+  ]
+}

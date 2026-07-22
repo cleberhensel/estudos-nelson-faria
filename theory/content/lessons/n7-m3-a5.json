@@ -1,0 +1,272 @@
+{
+  "id": "n7-m3-a5",
+  "slug": "projeto-final-arranjo-de-1-minuto",
+  "level": 7,
+  "moduleId": "n7-m3",
+  "title": "Projeto final: arranjo de 1 minuto",
+  "subtitle": "Projeto final: 1 minuto com intro, verso, ponte e outro — Ingênuo ou obra sua.",
+  "durationMin": 25,
+  "prerequisites": [
+    "n7-m3-a4"
+  ],
+  "tags": [
+    "arranjo",
+    "projeto"
+  ],
+  "relatedWorks": [
+    "ingenuo"
+  ],
+  "relatedChords": [
+    "F7M",
+    "E7",
+    "Am7",
+    "D7",
+    "G7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m3a5-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m3-a4): checklist antes de gravar. Projeto 1 minuto deve incluir:",
+      "options": [
+        {
+          "label": "Intro + verso + ponte + outro com arranjo coerente.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "1 minuto = forma completa miniatura."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Modelo: **Ingênuo** — intro 4 compassos + verso 8 + ponte 4 + outro. Cronometre 60 segundos."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Projeto final: arranjo de 1 minuto",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Projeto N7**: arranjo de **1 minuto** gravável.\n\nCritérios:\n- Levada definida (bossa/choro)\n- ≥2 voicings Jobim-style\n- Baixo independente em ≥4 compassos\n- Intro/outro reconhecíveis\n\nIngênuo é referência; pode usar Flor de Lis ou composição própria."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Ingênuo — projeto referência",
+        "voicings": [
+          {
+            "label": "Intro F7M",
+            "chord": "F7M",
+            "shape": "X X 3 2 1 0",
+            "note": "Abertura"
+          },
+          {
+            "label": "E7 ponte",
+            "chord": "E7",
+            "shape": "0 2 0 1 0 0",
+            "note": "Modulação"
+          },
+          {
+            "label": "G7M outro",
+            "chord": "G7M",
+            "shape": "3 X 0 0 0 2",
+            "note": "Fechamento"
+          }
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "E7",
+          "Am7",
+          "D7",
+          "G7M"
+        ],
+        "functions": [
+          "I",
+          "V/V",
+          "ii",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Portfolio violonista MPB = 1 vídeo curto bem arranjado > 10 covers genéricos."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "ingenuo",
+      "excerpt": "F7M  E7  Am7  D7  G7M",
+      "annotation": "Modulações elegantes típicas de Jobim.",
+      "youtube": "Nlom42TJTAg",
+      "youtubeTitle": "Ingênuo",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "ingenuo"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "ingenuo",
+        "title": "Ingênuo",
+        "lessonId": "n7-m3-a5"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Projeto final consolida N6 (ritmo) + N7 (textura) — gravável no celular."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escolha obra. 2. Escreva forma (compassos). 3. Ensaie 3×. 4. Grave take final. 5. Auto-avaliação."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m3a5-q1",
+      "kind": "mc",
+      "question": "Projeto 1 minuto N7 exige:",
+      "options": [
+        {
+          "label": "Forma completa (intro/verso/ponte/outro)",
+          "correct": true,
+          "feedbackOk": "Arranjo maduro."
+        },
+        {
+          "label": "Só tocar acordes sem levada",
+          "correct": false,
+          "feedbackErr": "N6+N7 = groove+textura."
+        },
+        {
+          "label": "Apenas cifra crua",
+          "correct": false,
+          "feedbackErr": "Contrário ao módulo."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "projeto-final-arranjo-de-1-minuto",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m3a5-match",
+      "kind": "match",
+      "question": "Critério ↔ projeto:",
+      "pairs": [
+        {
+          "left": "Intro",
+          "right": "≥dois compassos"
+        },
+        {
+          "left": "Voicings Jobim",
+          "right": "≥2 shapes"
+        },
+        {
+          "left": "Baixo independente",
+          "right": "≥4 compassos"
+        },
+        {
+          "left": "1 minuto",
+          "right": "Forma miniatura"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m3a5-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — projeto final Ingênuo:",
+      "playChords": [
+        "F7M",
+        "E7",
+        "Am7",
+        "D7",
+        "G7M"
+      ],
+      "options": [
+        {
+          "label": "Intro + verso — arranjo completo ~60s",
+          "correct": true,
+          "feedbackOk": "I→V7/ii→ii→V7/iii→III — frase Jobim integrada."
+        },
+        {
+          "label": "Só II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Progressão mais longa — projeto de arranjo."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m3a5-self",
+      "kind": "self_check",
+      "question": "Projeto gravado com intro, verso, ponte e outro dentro de ~60s?",
+      "tags": []
+    }
+  ]
+}

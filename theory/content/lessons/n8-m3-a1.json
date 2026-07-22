@@ -1,0 +1,270 @@
+{
+  "id": "n8-m3-a1",
+  "slug": "a-harmonia-de-pixinguinha",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "A harmonia de Pixinguinha",
+  "subtitle": "Modulação por dominante secundária e ciclo — Carinhoso de Pixinguinha atravessa tons.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m2-a3"
+  ],
+  "tags": [
+    "mestres",
+    "choro"
+  ],
+  "relatedWorks": [
+    "carinhoso"
+  ],
+  "relatedChords": [
+    "C7M",
+    "A7",
+    "Dm7",
+    "G7",
+    "F7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m2-a3): lídio-b7 tem #4. Pixinguinha em Carinhoso usa:",
+      "options": [
+        {
+          "label": "Dominantes secundárias + modulação A7→Dm→G→C.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Choro clássico modula por V7/V."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Carinhoso: F7M→G7→C7M→**A7**→Dm7 — A7 é V7/Dm, modulação típica Pixinguinha."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Carinhoso — modulação Pixinguinha",
+        "chords": [
+          "C7M",
+          "A7",
+          "Dm7",
+          "G7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "A harmonia de Pixinguinha",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Pixinguinha** (Carinhoso, 1917): harmonia erudita popularizada.\n\n- Dominantes secundárias (A7 em C)\n- Modulação para **Dm** (relativo menor)\n- Retorno por **G7**\n\nChoro = jazz brasileiro antes do jazz bossa."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "G7",
+          "C7M",
+          "A7",
+          "Dm7",
+          "G7",
+          "C7M"
+        ],
+        "functions": [
+          "IV",
+          "V",
+          "I",
+          "V/ii",
+          "ii",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Pixinguinha foi censurado por 'europeísmo' — hoje é patrimônio nacional."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "carinhoso",
+      "excerpt": "F7M  G7  C7M  A7  Dm7  G7  C7M",
+      "annotation": "Choro com modulação e dominantes secundárias.",
+      "youtube": "mGG3Di84wp8",
+      "youtubeTitle": "Carinhoso",
+      "youtubeArtist": "Pixinguinha"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "carinhoso"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "carinhoso",
+        "title": "Carinhoso",
+        "lessonId": "n8-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Carinhoso é ponte entre choro e MPB — estude Pixinguinha antes de Jobim avançado."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Mapeie A7 como V/Dm. 2. Toque F7M–G7–C7M–A7–Dm7–G7–C7M. 3. Nomeie graus."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m3a1-q1",
+      "kind": "mc",
+      "question": "A7 em Carinhoso (tom C) funciona como:",
+      "options": [
+        {
+          "label": "V7/Dm — dominante secundária",
+          "correct": true,
+          "feedbackOk": "Modulação para ii."
+        },
+        {
+          "label": "V7/C direto",
+          "correct": false,
+          "feedbackErr": "A7 resolve em Dm, não C."
+        },
+        {
+          "label": "bVI emprestado",
+          "correct": false,
+          "feedbackErr": "A7 é dominante, não bVI."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "a-harmonia-de-pixinguinha",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m3a1-match",
+      "kind": "match",
+      "question": "Pixinguinha ↔ técnica:",
+      "pairs": [
+        {
+          "left": "A7",
+          "right": "V7/ii"
+        },
+        {
+          "left": "Carinhoso",
+          "right": "Modulação"
+        },
+        {
+          "left": "Choro",
+          "right": "Dominantes secundárias"
+        },
+        {
+          "left": "1917",
+          "right": "Patrimônio BR"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — harmonia Pixinguinha (Carinhoso):",
+      "playChords": [
+        "F7M",
+        "G7",
+        "C7M",
+        "A7"
+      ],
+      "options": [
+        {
+          "label": "I → V7/V → V → V7/ii — modulação choro",
+          "correct": true,
+          "feedbackOk": "Pixinguinha encadeia dominantes antes de modulação."
+        },
+        {
+          "label": "II–V–I simples em Dó",
+          "correct": false,
+          "feedbackErr": "Progressão mais rica — assinatura choro."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a1-self",
+      "kind": "self_check",
+      "question": "Traçou modulação Carinhoso com graus romanos?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "n8-m3-a4",
+  "slug": "djavan-modulacoes-elegantes",
+  "level": 8,
+  "moduleId": "n8-m3",
+  "title": "Djavan — modulações elegantes",
+  "subtitle": "Modulação por meio-tom e ciclo de quintas — Oceano de Djavan muda centro com elegância.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m3-a3"
+  ],
+  "tags": [
+    "mestres",
+    "modulacao",
+    "analise"
+  ],
+  "relatedWorks": [
+    "oceano",
+    "linha-do-equador"
+  ],
+  "relatedChords": [
+    "Bm7",
+    "E7",
+    "A7M",
+    "D7M",
+    "G7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m3a4-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m3-a3): B7 clímax em Construção. Djavan em Oceano modula por:",
+      "options": [
+        {
+          "label": "Ciclo de quintas + pivot chords elegantes.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Djavan = modulação (Seção B) suave, não choque."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Oceano: Bm7–E7–A7M–D7M — cada V7 leva novo centro; ponte sobe meio-tom."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Oceano — modulação Djavan",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Djavan — modulações elegantes",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Djavan** (Oceano, Linha do Equador):\n\n- Modulação **gradual** (ciclo quintas)\n- Pivot: acorde com função dupla\n- Melodia guia — modulação 'cantável'\n\nCompare Chico (ciclo fixo) vs Djavan (viagem tonal)."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M",
+          "G7M"
+        ],
+        "functions": [
+          "vi",
+          "V",
+          "I",
+          "IV",
+          "bVII"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Djavan é engenheiro — modulações calculadas mas soam orgânicas."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Modulações de Djavan — elegância harmônica.",
+      "youtube": "MWh78SM5G7k",
+      "youtubeTitle": "Oceano",
+      "youtubeArtist": "Djavan"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "oceano"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n8-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Oceano é standard modulação MPB 80s — violonistas devem mapear centros."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Diagrama centros Oceano (Bm→E→A→D). 2. Identifique pivot E7. 3. Toque ponte modulante."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m3a4-q1",
+      "kind": "mc",
+      "question": "Modulação Djavan em Oceano prioriza:",
+      "options": [
+        {
+          "label": "Ciclo quintas + pivots cantáveis",
+          "correct": true,
+          "feedbackOk": "Elegância gradual."
+        },
+        {
+          "label": "Trítono shock a cada compasso",
+          "correct": false,
+          "feedbackErr": "Djavan é suave."
+        },
+        {
+          "label": "Sem modulação",
+          "correct": false,
+          "feedbackErr": "Oceano modula várias vezes."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "djavan-modulacoes-elegantes",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m3a4-match",
+      "kind": "match",
+      "question": "Compositor ↔ técnica:",
+      "pairs": [
+        {
+          "left": "Djavan",
+          "right": "Ciclo quintas"
+        },
+        {
+          "left": "Oceano",
+          "right": "Bm–E–A–D"
+        },
+        {
+          "left": "Pivot",
+          "right": "Função dupla"
+        },
+        {
+          "left": "Chico",
+          "right": "Ciclo fixo"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — modulações Djavan (Oceano):",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "D→A→D por dominante comum e ciclo",
+          "correct": true,
+          "feedbackOk": "E7 pivota — modulação elegante Djavan."
+        },
+        {
+          "label": "II–V–I fixo em Fá",
+          "correct": false,
+          "feedbackErr": "Múltiplos centros tonais — Oceano."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m3a4-self",
+      "kind": "self_check",
+      "question": "Mapeou centros tonais de Oceano no papel?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "n8-m1-a1",
+  "slug": "substituicao-de-tritono-revisao-aplicada",
+  "level": 8,
+  "moduleId": "n8-m1",
+  "title": "Substituição de trítono (revisão aplicada)",
+  "subtitle": "Db7 substitui G7 sobre C7M — trítono compartildo que Jobim usa em Desafinado.",
+  "durationMin": 18,
+  "prerequisites": [],
+  "tags": [
+    "substituicao",
+    "avancado"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "G7",
+    "Db7",
+    "C7M",
+    "F#m7(b5)",
+    "B7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m1a1-warm",
+      "kind": "mc",
+      "question": "Abertura N8: substituição de trítono troca V7 por bII7 porque compartilham:",
+      "options": [
+        {
+          "label": "Trítono (mesma distância de 3 tons).",
+          "correct": true,
+          "feedbackOk": "Substituição por trítono — mesma função dominante, outro caminho."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Db7 e G7 têm trítono F–B comum sobre C."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ouça **Desafinado**: F#m7(b5)–B7–Em7 — depois substitua mentalmente B7 por F7 (SubV7) e ouça a cor."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "SubV7: Db7 → C7M",
+        "chords": [
+          "G7",
+          "Db7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Substituição de trítono (revisão aplicada)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**SubV7** (substituto de trítono): dominante a trítono de distância compartilha 3ª e 7ª invertidas.\n\n- G7 (B–F) → Db7 (F–Cb/B)\n- Ambos resolvem em **C7M**\n\nEm **Desafinado**, meio-diminutos e dominantes cromáticas exploram essa simetria — revisão aplicada do N5."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "Db7",
+          "C7M"
+        ],
+        "functions": [
+          "SubV7",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Tritone sub nasce do jazz bebop — Jobim importou para bossa antes da teoria chegar ao conservatório BR."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n8-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Desafinado é laboratório de dissonância funcional — SubV7 aparece disfarçada."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque G7 → C7M. 2. Troque G7 por Db7 (X 4 6 5 6 X). 3. Compare tensão/resolução."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m1a1-q1",
+      "kind": "mc",
+      "question": "Db7 substitui G7 em C porque:",
+      "options": [
+        {
+          "label": "Compartilham trítono B–F / F–Cb",
+          "correct": true,
+          "feedbackOk": "Função dominante idêntica."
+        },
+        {
+          "label": "Db7 é tônica de Dó",
+          "correct": false,
+          "feedbackErr": "Db7 é dominante substituta."
+        },
+        {
+          "label": "São acordes aleatórios",
+          "correct": false,
+          "feedbackErr": "Relação trítono é simétrica."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "substituicao-de-tritono-revisao-aplicada",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m1a1-match",
+      "kind": "match",
+      "question": "Dominante ↔ substituto em C:",
+      "pairs": [
+        {
+          "left": "G7",
+          "right": "V7"
+        },
+        {
+          "left": "Db7",
+          "right": "SubV7"
+        },
+        {
+          "left": "Trítono",
+          "right": "3 tons"
+        },
+        {
+          "left": "Desafinado",
+          "right": "Dissonâncias Jobim"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m1a1-dict",
+      "kind": "dictation",
+      "question": "Ouça — resolução dominante em Dó:",
+      "options": [
+        {
+          "label": "SubV7 → I (Db7–C7M)",
+          "correct": true,
+          "feedbackOk": "Substituto de trítono."
+        },
+        {
+          "label": "II–V–I (Dm7–G7–C7M)",
+          "correct": false,
+          "feedbackErr": "Cadência diferente."
+        }
+      ],
+      "playChords": [
+        "Db7",
+        "C7M"
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m1a1-self",
+      "kind": "self_check",
+      "question": "Consegue tocar Db7→C7M e G7→C7M comparando tensão?",
+      "tags": []
+    }
+  ]
+}

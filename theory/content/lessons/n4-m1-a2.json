@@ -1,0 +1,253 @@
+{
+  "id": "n4-m1-a2",
+  "slug": "empilhamento-de-tercas-visual",
+  "level": 4,
+  "moduleId": "n4-m1",
+  "title": "Empilhamento de terças (visual)",
+  "subtitle": "Ver as terças empilhadas no teclado mental — de C–E–G a D–F–A, cada degrau da escala gera uma tríade diferente.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n4-m1-a1"
+  ],
+  "tags": [
+    "acordes",
+    "triades"
+  ],
+  "relatedWorks": [
+    "wave"
+  ],
+  "relatedChords": [
+    "C",
+    "Dm",
+    "Em",
+    "F",
+    "G",
+    "Am",
+    "B°"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m1a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): qual tríade tem 3ª menor e 5ª diminuta?",
+      "options": [
+        {
+          "label": "C° (diminuta)",
+          "correct": true,
+          "feedbackOk": "C–E♭–G♭ — a 5ª abaixada cria a instabilidade."
+        },
+        {
+          "label": "Cm (menor)",
+          "correct": false,
+          "feedbackErr": "Cm tem 5ª justa (Sol) — só a 3ª é menor."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Empilhe e ouça",
+      "body": "No construtor, empilhe terças sobre cada grau de **Dó maior**. Ouça como I soa maior, ii menor, iii menor, IV maior…"
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "pilha",
+      "title": "Terças sobre cada grau",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pilha-text",
+      "markdown": "Empilhar terças sobre cada nota de **Dó maior**:\n\n| Grau | Notas empilhadas | Tríade |\n|------|------------------|--------|\n| I | C–E–G | C maior |\n| ii | D–F–A | Dm menor |\n| iii | E–G–B | Em menor |\n| IV | F–A–C | F maior |\n| V | G–B–D | G maior |\n| vi | A–C–E | Am menor |\n| vii° | B–D–F | B° diminuta |\n\nEm **Wave**, Jobim usa tríades com 7ªs e tensões — mas o esqueleto de terças empilhadas é o mesmo."
+    },
+    {
+      "type": "component",
+      "id": "snd-wave",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Tríades diatônicas de Dó",
+        "chords": [
+          "C",
+          "Dm",
+          "Em",
+          "F",
+          "G",
+          "Am",
+          "B°"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)",
+      "annotation": "Voicings com tensões 9 e 13 — som bossa maduro.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave",
+        "lessonId": "n4-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Wave** abre com **D7M(9)** — a tríade maior (Ré–Fá#–Lá) com 7ª e 9ª. Entender o empilhamento visualiza por que a 9ª 'cai naturalmente' sobre a tríade."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "No chord-builder, monte Dm (D–F–A) e G (G–B–D). Toque os dois — sinta a 3ª menor de Dm e a maior de G. Essa diferença é o campo harmônico em tríades."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m1a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Empilhando terças sobre F (IV grau de Dó), quais notas formam a tríade?",
+      "options": [
+        {
+          "label": "F–A–C (F maior)",
+          "correct": true,
+          "feedbackOk": "IV grau = tríade maior — subdominante diatônica."
+        },
+        {
+          "label": "F–A♭–C (Fm menor)",
+          "correct": false,
+          "feedbackErr": "A♭ não pertence ao campo de Dó maior."
+        },
+        {
+          "label": "F–G–B (sus4)",
+          "correct": false,
+          "feedbackErr": "Isso seria sus4, não empilhamento de terças."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m1a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o grau diatônico à qualidade da tríade em Dó maior:",
+      "pairs": [
+        {
+          "left": "I (C)",
+          "right": "Maior"
+        },
+        {
+          "left": "ii (Dm)",
+          "right": "Menor"
+        },
+        {
+          "left": "IV (F)",
+          "right": "Maior"
+        },
+        {
+          "left": "vii° (B°)",
+          "right": "Diminuta"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-build",
+      "exerciseId": "ex-n4m1a2-build",
+      "kind": "build",
+      "difficulty": "challenge",
+      "question": "Monte a tríade do V grau de Dó (notas empilhadas):",
+      "buildChoices": [
+        "G",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "buildAnswer": [
+        "G",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a tríade e identifique o grau em Dó maior:",
+      "playChords": [
+        "Am"
+      ],
+      "options": [
+        {
+          "label": "vi — tríade menor (Am)",
+          "correct": true,
+          "feedbackOk": "A–C–E — tônica relativa, repouso suave."
+        },
+        {
+          "label": "iii — tríade menor (Em)",
+          "correct": false,
+          "feedbackErr": "Em soaria mais 'aberto' — ouça a tônica Lá."
+        },
+        {
+          "label": "ii — tríade menor (Dm)",
+          "correct": false,
+          "feedbackErr": "Dm começa em Ré — aqui a fundamental é Lá."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m1a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu empilhar terças sobre pelo menos 4 graus no chord-builder sem consultar a tabela?"
+    }
+  ]
+}

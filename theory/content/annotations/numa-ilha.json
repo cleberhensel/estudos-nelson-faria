@@ -1,0 +1,43 @@
+{
+  "workId": "numa-ilha",
+  "key": "Bm",
+  "sections": [
+    {
+      "label": "Intro — cadência V7→i",
+      "chords": [
+        { "symbol": "Bm", "degree": "Im", "function": "T" },
+        { "symbol": "A", "degree": "bVII", "function": "D" },
+        { "symbol": "F#", "degree": "V", "function": "D" },
+        { "symbol": "F#7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Estrofe — ciclo i–bVII–iv",
+      "chords": [
+        { "symbol": "Bm", "degree": "Im", "function": "T" },
+        { "symbol": "A", "degree": "bVII", "function": "D" },
+        { "symbol": "Em", "degree": "IVm", "function": "SD" },
+        { "symbol": "E", "degree": "III", "function": "T" },
+        { "symbol": "E7", "degree": "III7", "function": "T" }
+      ]
+    },
+    {
+      "label": "Refrão — III como abertura",
+      "chords": [
+        { "symbol": "E", "degree": "III", "function": "T" },
+        { "symbol": "Bm", "degree": "Im", "function": "T" },
+        { "symbol": "A", "degree": "bVII", "function": "D" },
+        { "symbol": "Em", "degree": "IVm", "function": "SD" }
+      ]
+    },
+    {
+      "label": "Ponte — bVI–bVII–V–V7",
+      "chords": [
+        { "symbol": "G", "degree": "bVI", "function": "SD" },
+        { "symbol": "A", "degree": "bVII", "function": "D" },
+        { "symbol": "F#", "degree": "V", "function": "D" },
+        { "symbol": "F#7", "degree": "V7", "function": "D" }
+      ]
+    }
+  ]
+}

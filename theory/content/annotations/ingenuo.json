@@ -1,0 +1,32 @@
+{
+  "workId": "ingenuo",
+  "key": "G",
+  "sections": [
+    {
+      "label": "Parte A — Sol maior",
+      "chords": [
+        { "symbol": "G", "degree": "I", "function": "T" },
+        { "symbol": "D7", "degree": "V7", "function": "D" },
+        { "symbol": "G", "degree": "I", "function": "T" },
+        { "symbol": "G7", "degree": "V7/IV", "function": "D" },
+        { "symbol": "C", "degree": "IV", "function": "SD" },
+        { "symbol": "A7", "degree": "V7/V", "function": "D" },
+        { "symbol": "D7", "degree": "V7", "function": "D" },
+        { "symbol": "G", "degree": "I", "function": "T" }
+      ]
+    },
+    {
+      "label": "Parte B — relativo e dominantes em cadeia",
+      "chords": [
+        { "symbol": "Em", "degree": "vi", "function": "T" },
+        { "symbol": "B7", "degree": "V7/vi", "function": "D" },
+        { "symbol": "Em", "degree": "vi", "function": "T" },
+        { "symbol": "A7", "degree": "V7/V", "function": "D" },
+        { "symbol": "D7", "degree": "V7", "function": "D" },
+        { "symbol": "G", "degree": "I", "function": "T" },
+        { "symbol": "C#dim7", "degree": "#IV°", "function": "D" },
+        { "symbol": "D7", "degree": "V7", "function": "D" }
+      ]
+    }
+  ]
+}

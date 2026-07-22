@@ -1,0 +1,264 @@
+{
+  "id": "n8-m1-a2",
+  "slug": "reharmonizacao-linear",
+  "level": 8,
+  "moduleId": "n8-m1",
+  "title": "Reharmonização linear",
+  "subtitle": "Baixo cromático e acordes de passagem — Águas de Março reharmoniza sem quebrar o ciclo.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m1-a1"
+  ],
+  "tags": [
+    "reharmonizacao",
+    "avancado"
+  ],
+  "relatedWorks": [
+    "aguas-de-marco"
+  ],
+  "relatedChords": [
+    "Bm7",
+    "E7",
+    "A7M",
+    "D7M",
+    "C#m7(b5)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m1a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m1-a1): SubV7 compartilha trítono. Reharmonização linear segue:",
+      "options": [
+        {
+          "label": "Movimento de baixo por grau/semitom, acordes derivados.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Linear = baixo caminha, harmonia acompanha."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Águas de Março: Bm7–E7–A7M–D7M com baixo que desce cromaticamente entre seções — ouça passagens."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ciclo Águas — reharm",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Reharmonização linear",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Reharmonização linear**: cada nota de baixo sugere acorde — não muda função global, **colore** o caminho.\n\nTécnicas:\n- Baixo cromático entre ii e V\n- Acordes de passagem diminutos\n- Slash chords (C/E, D/F#)\n\n**Águas** mantém ciclo mas Jobim reharmoniza versos de Elis vs Tom."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "Bm7",
+          "E7",
+          "A7M",
+          "D7M"
+        ],
+        "functions": [
+          "vi",
+          "V",
+          "I",
+          "IV"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Reharm linear é técnica de arranjador — violonista MPB usa para 2ª passagem do verso."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "aguas-de-marco",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Harmonia cíclica e modulações sutis.",
+      "youtube": "wBEesrdaRog",
+      "youtubeTitle": "Águas de Março",
+      "youtubeArtist": "Tom Jobim & Elis Regina"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "aguas-de-marco"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "aguas-de-marco",
+        "title": "Águas de Março",
+        "lessonId": "n8-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Águas de Março tem versões com reharm diferentes — compare gravações Jobim/Elis."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Bm7–E7 com baixo B–Bb–A. 2. Insira Bm7/Bb acorde passagem. 3. 4 compassos."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m1a2-q1",
+      "kind": "mc",
+      "question": "Reharmonização linear prioriza:",
+      "options": [
+        {
+          "label": "Movimento de baixo coerente",
+          "correct": true,
+          "feedbackOk": "Acordes derivados do baixo."
+        },
+        {
+          "label": "Trocar tom a cada compasso",
+          "correct": false,
+          "feedbackErr": "Tom pode permanecer."
+        },
+        {
+          "label": "Eliminar funções",
+          "correct": false,
+          "feedbackErr": "Função permanece, cor muda."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "reharmonizacao-linear",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m1a2-match",
+      "kind": "match",
+      "question": "Técnica ↔ exemplo:",
+      "pairs": [
+        {
+          "left": "Baixo cromático",
+          "right": "Passagem ii–V"
+        },
+        {
+          "left": "Slash chord",
+          "right": "C/E"
+        },
+        {
+          "left": "Águas",
+          "right": "Ciclo Bm–E–A–D"
+        },
+        {
+          "left": "Linear",
+          "right": "Baixo guia"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — reharmonização linear (Águas de Março):",
+      "playChords": [
+        "Bm7",
+        "E7",
+        "A7M",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "Ciclo descendente — baixo guia a passagem",
+          "correct": true,
+          "feedbackOk": "Reharm linear: cada acorde nasce do baixo cromático."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Quatro centros — modulação encadeada."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m1a2-self",
+      "kind": "self_check",
+      "question": "Inseriu acorde passagem com baixo cromático em 4 compassos?",
+      "tags": []
+    }
+  ]
+}

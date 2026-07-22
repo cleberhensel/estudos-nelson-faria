@@ -1,0 +1,165 @@
+{
+  "id": "n5-m1-a2",
+  "slug": "iivi-maior-e-menor",
+  "level": 5,
+  "moduleId": "n5-m1",
+  "title": "II–V–I maior e menor",
+  "subtitle": "O motor da bossa — Gm7→C7→F7M em Garota é o molde; em menor, Em7(b5)→A7→Dm fecha Chega de Saudade.",
+  "durationMin": 18,
+  "prerequisites": ["n5-m1-a1"],
+  "tags": ["cadencias", "bossa"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["Gm7", "C7", "F7M", "Dm7", "G7", "C7M", "Em7(b5)", "A7", "Dm7M"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m1a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (cadências): qual é a fórmula da cadência plagal?",
+      "options": [
+        { "label": "IV → I", "correct": true, "feedbackOk": "Agora a cadência mais usada na bossa: II–V–I." },
+        { "label": "V → vi", "correct": false, "feedbackErr": "V→vi é deceptiva — veremos em seguida." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "II–V–I em dois modos",
+      "body": "Ouça **Gm7→C7→F7M** (maior) e **Em7(b5)→A7→Dm7M** (menor). A função PD→D→T é idêntica — só mudam as qualidades."
+    },
+    {
+      "type": "component",
+      "id": "prog-maior",
+      "componentId": "progression",
+      "props": { "key": "F", "mode": "major", "chords": ["Gm7", "C7", "F7M"], "functions": ["PD", "D", "T"] }
+    },
+    {
+      "type": "component",
+      "id": "prog-menor",
+      "componentId": "progression",
+      "props": { "key": "Dm", "mode": "minor", "chords": ["Em7(b5)", "A7", "Dm7M"], "functions": ["PD", "D", "T"] }
+    },
+    {
+      "type": "heading",
+      "id": "molde",
+      "title": "O molde II–V–I",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "molde-text",
+      "markdown": "| Modo | ii | V | I | Obra |\n|------|----|----|---|------|\n| Maior | m7 | 7 | 7M | Garota (Gm7→C7→F7M) |\n| Menor | m7(b5) | 7 | m7M | Chega (Em7(b5)→A7→Dm) |\n\nA **deceptiva** (V→vi) quebra a expectativa — G7→Am7 em Dó surpreende após preparar C7M."
+    },
+    {
+      "type": "component",
+      "id": "snd-iivi",
+      "componentId": "play-chord",
+      "props": { "title": "II–V–I maior e menor", "chords": ["Gm7", "C7", "F7M", "Em7(b5)", "A7", "Dm7M"] }
+    },
+    { "type": "heading", "id": "mpb", "title": "Na música brasileira", "level": 2 },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "Gm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema", "lessonId": "n5-m1-a2" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "II–V–I é o DNA da bossa — **Garota**, **Insensatez** e **Wave** abrem ou fecham seções com Gm7→C7→F7M ou equivalente. Em **Chega**, Em7(b5)→A7→Dm é a mesma lógica em menor harmônico. Quem toca MPB repete esse molde centenas de vezes por show."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "II–V–I pode aparecer em qualquer tom. Em Garota, o refrão faz II–V–I em Fá; o verso modula. Transpor o molde (ii–V–I) é mais útil que memorizar cifras."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Gm7→C7→F7M em loop. Depois G7→Am7 (deceptiva em Dó) — sinta a surpresa quando o ouvido esperava C7M."
+    },
+    { "type": "heading", "id": "exercicios", "title": "Exercícios", "level": 2 },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m1a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "II–V–I em Fá maior (Garota) usa quais acordes?",
+      "options": [
+        { "label": "Gm7 → C7 → F7M", "correct": true, "feedbackOk": "PD → D → T — molde bossa." },
+        { "label": "Dm7 → G7 → C7M", "correct": false, "feedbackErr": "Isso é II–V–I em Dó, não Fá." },
+        { "label": "F7M → Gm7 → C7", "correct": false, "feedbackErr": "Ordem invertida — começa no ii." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m1a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o grau à função no II–V–I:",
+      "pairs": [
+        { "left": "ii (Gm7)", "right": "Pré-dominante (PD)" },
+        { "left": "V (C7)", "right": "Dominante (D)" },
+        { "left": "I (F7M)", "right": "Tônica (T)" },
+        { "left": "vi (Dm7)", "right": "Alvo da deceptiva" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m1a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "II–V–I menor em Dm:",
+      "orderAnswer": ["Em7(b5)", "A7", "Dm7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a cadência:",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "II–V–I em Fá maior", "correct": true, "feedbackOk": "Garota — PD, D, T." },
+        { "label": "II–V–I em Dó maior", "correct": false, "feedbackErr": "Em Dó seria Dm7→G7→C7M." },
+        { "label": "Deceptiva V→vi", "correct": false, "feedbackErr": "Termina em F7M (I), não em vi." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m1a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar II–V–I em Fá e Dm sem consultar a tabela?"
+    }
+  ]
+}

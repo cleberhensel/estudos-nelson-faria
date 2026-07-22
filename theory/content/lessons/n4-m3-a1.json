@@ -1,0 +1,275 @@
+{
+  "id": "n4-m3-a1",
+  "slug": "tensoes-9-11-13",
+  "level": 4,
+  "moduleId": "n4-m3",
+  "title": "9, 11 e 13 — o que e quando somar",
+  "subtitle": "Tensões são notas da escala empilhadas além da 7ª — em Wave, a 9 e a 13 dão o brilho bossa sem mudar a função harmônica.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n4-m2-a3"
+  ],
+  "tags": [
+    "acordes",
+    "tensoes"
+  ],
+  "relatedWorks": [
+    "wave"
+  ],
+  "relatedChords": [
+    "C7M(9)",
+    "G7(13)",
+    "D7M(9)",
+    "Dm7(11)",
+    "F7M(13)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m3a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (dim7): qual intervalo separa as notas de um acorde diminuto total?",
+      "options": [
+        {
+          "label": "3 tons entre cada nota",
+          "correct": true,
+          "feedbackOk": "Simetria total — agora empilhamos além da 7ª."
+        },
+        {
+          "label": "4 tons (terça maior)",
+          "correct": false,
+          "feedbackErr": "Terças maiores empilham até a 7ª; tensões vão além."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Tensões em Wave",
+      "body": "Compare **D7M** com **D7M(9)** e **G7** com **G7(13)**. As tensões coloram sem alterar a função T ou D."
+    },
+    {
+      "type": "component",
+      "id": "voicing-tensoes",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Tétrade vs tétrade + tensão",
+        "voicings": [
+          {
+            "label": "D7M",
+            "chord": "D7M",
+            "note": "tônica pura"
+          },
+          {
+            "label": "D7M(9)",
+            "chord": "D7M(9)",
+            "note": "+9ª (Mi)"
+          },
+          {
+            "label": "G7",
+            "chord": "G7",
+            "note": "dominante"
+          },
+          {
+            "label": "G7(13)",
+            "chord": "G7(13)",
+            "note": "+13ª (Mi)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "pilha-tensoes",
+      "title": "Empilhamento até a 13ª",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pilha-text",
+      "markdown": "Continuando a empilhar terças sobre **D7M**:\n\n| Grau empilhado | Intervalo | Tensão |\n|----------------|-----------|--------|\n| 9ª | 9ª maior (Mi) | 9 |\n| 11ª | 11ª justa (Sol) | 11 |\n| 13ª | 13ª maior (Si) | 13 |\n\n**Regra prática:** 9 e 13 funcionam em 7M e 7; 11 conflita com a 3ª em acordes com terça definida — use com cuidado ou omita a 3ª."
+    },
+    {
+      "type": "component",
+      "id": "snd-wave",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Abertura de Wave com tensões",
+        "chords": [
+          "D7M(9)",
+          "G7(13)",
+          "C7M(9)"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)",
+      "annotation": "Voicings com tensões 9 e 13 — som bossa maduro.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave",
+        "lessonId": "n4-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Wave** e **Insensatez** são cheias de **9** e **13** — tensões que Jobim escreve na cifra mas o violonista sente como \"nota a mais\" no shape. Na MPB, a 11ª natural quase nunca aparece em acordes de 7M (evita dissonância com a 3ª)."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Na prática do violão, você toca 3–4 notas de um acorde com 5+ notas. Escolher quais tensões manter (9, 13) e quais omitir (11, fundamental) é o arte do voicing bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque D7M(9) (X X 0 2 2 2) e G7(13) (3 2 0 0 0 1). Compare com as versões sem tensão — a 9ª e 13ª devem soar como 'cor' extra."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m3a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual tensão é a 9ª maior empilhada sobre C7M?",
+      "options": [
+        {
+          "label": "Ré (9ª maior)",
+          "correct": true,
+          "feedbackOk": "C–E–G–B + D = C7M(9)."
+        },
+        {
+          "label": "Dó# (9ª aumentada)",
+          "correct": false,
+          "feedbackErr": "Dó# seria b9 ou #9 — alteração, não tensão diatônica."
+        },
+        {
+          "label": "Fá (11ª)",
+          "correct": false,
+          "feedbackErr": "Fá é a 11ª, não a 9ª."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m3a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a tensão ao acorde compatível:",
+      "pairs": [
+        {
+          "left": "9ª",
+          "right": "7M(9), 7(9), m7(9)"
+        },
+        {
+          "left": "11ª",
+          "right": "m7(11), 7sus4"
+        },
+        {
+          "left": "13ª",
+          "right": "7(13), 7M(13)"
+        },
+        {
+          "left": "b9",
+          "right": "7 alterado (próxima aula)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m3a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a abertura de Wave:",
+      "orderAnswer": [
+        "D7M(9)",
+        "G7(13)",
+        "C7M(9)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a tensão presente:",
+      "playChords": [
+        "G7(13)"
+      ],
+      "options": [
+        {
+          "label": "G7 com 13ª (Mi) — dominante colorida",
+          "correct": true,
+          "feedbackOk": "A 13ª adiciona brilho sem perder a função D."
+        },
+        {
+          "label": "G7M(9) — dominante com 7ª maior",
+          "correct": false,
+          "feedbackErr": "7M repousa — aqui há tensão de dominante."
+        },
+        {
+          "label": "Gm7 — pré-dominante sem tensão",
+          "correct": false,
+          "feedbackErr": "Gm7 é menor — som bem diferente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m3a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu explicar a diferença entre 9, 11 e 13 em um acorde de 7M?"
+    }
+  ]
+}

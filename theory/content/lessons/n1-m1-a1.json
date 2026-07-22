@@ -1,0 +1,221 @@
+{
+  "id": "n1-m1-a1",
+  "slug": "as-6-cordas-e-a-afinacao-e-a-d-g-b-e",
+  "level": 1,
+  "moduleId": "n1-m1",
+  "title": "As 6 cordas e a afinação E A D G B e",
+  "subtitle": "Mi grave e Mi agudo — a 6ª e a 1ª corda soam a mesma nota em oitavas diferentes; E A D G B e é o mapa de partida.",
+  "durationMin": 15,
+  "prerequisites": [],
+  "tags": [
+    "fundamentos",
+    "violao",
+    "afinacao"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m1a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): você entra na trilha sem pré-requisito — confirme: quantas cordas tem o violão e qual nota soa na 6ª corda solta?",
+      "options": [
+        {
+          "label": "6 cordas; Mi (E) na 6ª solta",
+          "correct": true,
+          "feedbackOk": "Certo — E/Mi grave abre a afinação padrão E A D G B e."
+        },
+        {
+          "label": "5 cordas; Lá (A) na 6ª solta",
+          "correct": false,
+          "feedbackErr": "O violão clássico tem 6 cordas; a mais grave é Mi (E), não Lá."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque cada corda **solta**, da 6ª (mais grave) à 1ª (mais aguda): **E – A – D – G – B – e**. Repare: a 1ª corda também é **Mi**, uma oitava acima da 6ª."
+    },
+    {
+      "type": "component",
+      "id": "snd-open",
+      "componentId": "play-note",
+      "props": {
+        "title": "Cordas soltas (6ª → 1ª)",
+        "notes": [
+          "E",
+          "A",
+          "D",
+          "G",
+          "B",
+          "E"
+        ],
+        "octave": 3
+      }
+    },
+    {
+      "type": "heading",
+      "id": "afinacao",
+      "title": "A afinação E A D G B e",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "afinacao-text",
+      "markdown": "Contamos cordas de **baixo para cima** (6ª = grave, 1ª = aguda). A afinação padrão lê-se **E A D G B e**:\n\n| Corda | Nº | Solta (EN) | Solta (PT) |\n|-------|-----|------------|------------|\n| 6ª | mais grave | **E** | **Mi** |\n| 5ª | | A | Lá |\n| 4ª | | D | Ré |\n| 3ª | | G | Sol |\n| 2ª | | B | Si |\n| 1ª | mais aguda | **e** | **mi** |\n\nA **6ª e a 1ª** são a mesma letra (**Mi/E**) separadas por **duas oitavas** — base para ler o braço inteiro."
+    },
+    {
+      "type": "component",
+      "id": "fb-e",
+      "componentId": "fretboard",
+      "props": {
+        "key": "E",
+        "frets": 12,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "oitava-mi",
+      "title": "Duas cordas Mi",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "oitava-text",
+      "markdown": "Na **12ª casa**, cada corda repete a nota da corda solta (equivalência de oitava). Por isso **E** na 6ª casa 12 soa como **E** solto — e **e** na 1ª casa 12 soa como **e** solto.\n\nNo choro **Se Ela Perguntar**, o baixo alterna **Am** e **E7**: a tônica **Lá** e a dominante **Mi** aparecem nas cordas graves — exatamente o registro que você acabou de mapear."
+    },
+    {
+      "type": "example",
+      "id": "ex-se-ela",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am  Dm  E7  Am",
+      "annotation": "Tônica Am (v) e dominante E7 (V) — o Mi da afinação ancora o V7 na 6ª corda."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n1-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Dilermando Reis usa a **6ª corda Mi** como pedal do **grau** V — **função** dominante no campo de Lá menor. O salto **cromatico** E→F no braço (1 casa) é o mesmo mecanismo de aproximação ouvido na **bossa**."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na cifra brasileira, cordas soltas aparecem como **0** no diagrama. Choro e samba-canção usam muito **Mi grave** como pedal — afinação correta é pré-requisito de função harmônica."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **E** solto na 6ª e **e** solto na 1ª — ouça a oitava. 2. Nomeie as seis cordas soltas em voz alta (Mi–Lá–Ré–Sol–Si–mi). 3. Toque **Am** (X 0 2 2 1 0) e **E7** (0 2 0 1 0 0) — sinta o Mi na 6ª mudando de tônica para dominante."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m1a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual par de cordas toca a mesma nota (Mi) em oitavas diferentes?",
+      "options": [
+        {
+          "label": "6ª e 1ª",
+          "correct": true,
+          "feedbackOk": "Exato — E grave e e agudo, duas oitavas de distância."
+        },
+        {
+          "label": "5ª e 2ª",
+          "correct": false,
+          "feedbackErr": "Lá (5ª) e Si (2ª) são notas diferentes — intervalo de 2ª maior."
+        },
+        {
+          "label": "4ª e 3ª",
+          "correct": false,
+          "feedbackErr": "Ré e Sol não coincidem — são a 4ª e 3ª cordas da afinação."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m1a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene da corda mais grave à mais aguda (nomes PT):",
+      "orderAnswer": [
+        "Mi",
+        "Lá",
+        "Ré",
+        "Sol",
+        "Si",
+        "Mi"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m1a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue corda solta (EN) ao nome PT:",
+      "pairs": [
+        {
+          "left": "E (6ª)",
+          "right": "Mi"
+        },
+        {
+          "left": "A (5ª)",
+          "right": "Lá"
+        },
+        {
+          "left": "D (4ª)",
+          "right": "Ré"
+        },
+        {
+          "left": "G (3ª)",
+          "right": "Sol"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m1a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar as seis cordas soltas de memória e ouvir Mi grave vs Mi agudo?"
+    }
+  ]
+}

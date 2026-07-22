@@ -1,0 +1,278 @@
+{
+  "id": "n4-m2-a3",
+  "slug": "dim7-simetria",
+  "level": 4,
+  "moduleId": "n4-m2",
+  "title": "dim7 e sua simetria",
+  "subtitle": "Três tons entre cada nota — C°7, Eb°7, Gb°7 e A°7 são o mesmo acorde. Desafinado usa essa simetria como ponte cromática.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n4-m2-a2"
+  ],
+  "tags": [
+    "acordes",
+    "tetrades"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "C°7",
+    "Eb°7",
+    "Gb°7",
+    "A°7",
+    "F#°7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m2a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (m7(b5)): quantas notas tem a tétrade meio-diminuta?",
+      "options": [
+        {
+          "label": "4 notas (1 ♭3 ♭5 ♭7)",
+          "correct": true,
+          "feedbackOk": "Agora a 5ª diminuta aparece em todas as camadas — dim7."
+        },
+        {
+          "label": "3 notas (tríade pura)",
+          "correct": false,
+          "feedbackErr": "Meio-diminuto é tétrade, não tríade."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Simetria de 3 tons",
+      "body": "Toque **C°7**, **Eb°7**, **Gb°7** e **A°7**. São 4 inversões do mesmo som — intervalo de 3 tons (trítono + semitom) entre cada nota."
+    },
+    {
+      "type": "component",
+      "id": "snd-dim7",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Quatro 'nomes' do mesmo dim7",
+        "chords": [
+          "C°7",
+          "Eb°7",
+          "Gb°7",
+          "A°7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "simetria",
+      "title": "dim7 — totalmente simétrico",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "simetria-text",
+      "markdown": "**C°7** = Dó – Mi♭ – Sol♭ – Si♭♭(Lá)\n\nCada nota está a **3 tons** da seguinte. Por isso:\n\n- **C°7** = **Eb°7** = **Gb°7** = **A°7**\n\nEm **Desafinado**, o **F#°7** (ou Gb°7) funciona como dominante de **Gm7** ou ponte para **Em7** — a simetria permite resolver em 4 direções."
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "component",
+      "id": "prog-desaf",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "F#m7(b5)",
+          "B7",
+          "Em7",
+          "A7"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "PD",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n4-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "O **dim7** aparece em passagens de choro (Pixinguinha) e como ponte em **Desafinado**. Como cada dim7 divide o octave em 4 partes iguais, um shape serve para 4 dominantes diferentes — truque que arranjadores brasileiros usam em modulações rápidas."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "dim7 é a única tétrade onde todas as inversões são enharmônicas. Compositores de choro e bossa usam isso para **modulação por semitom** sem quebrar o fluxo."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C°7** (X 3 4 2 4 2). 2. Suba cada nota 3 tons mentalmente. 3. Toque o trecho F#m7(b5)–B7 de Desafinado e sinta o dim7 implícito na passagem."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m2a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual intervalo separa cada nota dentro de um dim7?",
+      "options": [
+        {
+          "label": "3 tons (trítono menor = 3 st)",
+          "correct": true,
+          "feedbackOk": "Simetria perfeita — 4 notas equidistantes."
+        },
+        {
+          "label": "4 tons (3ª maior)",
+          "correct": false,
+          "feedbackErr": "4 tons daria outra estrutura — dim7 usa 3 tons."
+        },
+        {
+          "label": "2 tons (tom inteiro)",
+          "correct": false,
+          "feedbackErr": "2 tons é a distância entre notas de escala diatônica."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m2a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o dim7 ao seu enharmônico equivalente:",
+      "pairs": [
+        {
+          "left": "C°7",
+          "right": "Eb°7 / Gb°7 / A°7"
+        },
+        {
+          "left": "D°7",
+          "right": "F°7 / Ab°7 / B°7"
+        },
+        {
+          "left": "F#°7",
+          "right": "A°7 / C°7 / Eb°7"
+        },
+        {
+          "left": "G°7",
+          "right": "Bb°7 / Db°7 / E°7"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-build",
+      "exerciseId": "ex-n4m2a3-build",
+      "kind": "build",
+      "difficulty": "challenge",
+      "question": "Monte C°7 (4 notas a 3 tons de distância):",
+      "buildChoices": [
+        "C",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "Gb",
+        "A",
+        "Bb"
+      ],
+      "buildAnswer": [
+        "C",
+        "Eb",
+        "Gb",
+        "A"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique o acorde:",
+      "playChords": [
+        "C°7"
+      ],
+      "options": [
+        {
+          "label": "C°7 — diminuto com 7ª diminuta",
+          "correct": true,
+          "feedbackOk": "Som tenso e simétrico — 4 notas equidistantes."
+        },
+        {
+          "label": "Cm7(b5) — meio-diminuto",
+          "correct": false,
+          "feedbackErr": "m7(b5) tem 7ª menor, não diminuta — som menos denso."
+        },
+        {
+          "label": "C7 — dominante",
+          "correct": false,
+          "feedbackErr": "C7 tem 7ª menor mas 5ª justa — som de dominante."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m2a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu explicar por que C°7 e Eb°7 soam iguais?"
+    }
+  ]
+}

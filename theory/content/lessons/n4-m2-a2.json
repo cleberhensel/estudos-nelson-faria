@@ -1,0 +1,265 @@
+{
+  "id": "n4-m2-a2",
+  "slug": "m7b5-meio-diminuto",
+  "level": 4,
+  "moduleId": "n4-m2",
+  "title": "m7(b5) — o meio-diminuto",
+  "subtitle": "A tríade diminuta com 7ª menor — Em7(b5) e A7 compartilham trítono e formam o II–V menor que abre Chega de Saudade.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n4-m2-a1"
+  ],
+  "tags": [
+    "acordes",
+    "tetrades"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Em7(b5)",
+    "A7",
+    "Bm7(b5)",
+    "E7",
+    "F#m7(b5)",
+    "B7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m2a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (tétrades): qual acorde tem tríade menor + 7ª menor?",
+      "options": [
+        {
+          "label": "Cm7 (1 ♭3 5 ♭7)",
+          "correct": true,
+          "feedbackOk": "m7 padrão — o meio-diminuto altera a 5ª."
+        },
+        {
+          "label": "Cm7M (1 ♭3 5 7)",
+          "correct": false,
+          "feedbackErr": "m7M tem 7ª maior — som diferente."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Trítono compartilhado",
+      "body": "Ouça **Em7(b5)** e depois **A7**. Repare: Mi–Si♭ (Em7(b5)) = Mi–Si♭ (A7) — mesma trítono, funções de II e V em menor."
+    },
+    {
+      "type": "component",
+      "id": "snd-halfdim",
+      "componentId": "play-chord",
+      "props": {
+        "title": "II–V menor em Lá: Em7(b5) → A7",
+        "chords": [
+          "Em7(b5)",
+          "A7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "formula",
+      "title": "Fórmula do m7(b5)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "formula-text",
+      "markdown": "**m7(b5)** = tríade diminuta + 7ª menor:\n\n| Nota | Em7(b5) | Função |\n|------|---------|--------|\n| 1 | Mi | fundamental |\n| ♭3 | Sol | 3ª menor |\n| ♭5 | Si♭ | 5ª diminuta — a 'meio-diminuta' |\n| ♭7 | Ré | 7ª menor |\n\nA trítono **Mi–Si♭** aparece também em **A7** (Dó#–Sol = enharmônico). Por isso Em7(b5)–A7 resolve em **Dm7M** como II–V–I em Ré menor."
+    },
+    {
+      "type": "component",
+      "id": "prog-chega",
+      "componentId": "progression",
+      "props": {
+        "key": "Dm",
+        "mode": "minor",
+        "chords": [
+          "Em7(b5)",
+          "A7",
+          "Dm7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7",
+      "annotation": "Campo menor com modulação para Ré maior — bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade",
+        "lessonId": "n4-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Chega** e **Desafinado** usam **Em7(b5)** e **F#m7(b5)** — meio-diminutos que Jobim coloca como pontes cromáticas. O violonista MPB precisa reconhecer o shape (X 7 8 7 8 X) antes de entender a teoria."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Em Dó maior, **Bm7(b5)** é o vii° com 7ª — funciona como dominante disfarçada de **G7**. Jobim usa meio-diminutos como pontes cromáticas entre tonalidades."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **Em7(b5)** (0 0 0 2 3 2). 2. **A7** (X 0 2 0 2 0). 3. Resolva em **Dm7M** (X X 0 2 3 1). Sinta a trítono 'pedir' a resolução."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m2a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual nota diferencia Em7(b5) de Em7?",
+      "options": [
+        {
+          "label": "5ª diminuta (Si♭ em vez de Si)",
+          "correct": true,
+          "feedbackOk": "A ♭5 cria a trítono com a fundamental — som meio-diminuto."
+        },
+        {
+          "label": "3ª maior (Sol#)",
+          "correct": false,
+          "feedbackErr": "A 3ª continua menor (Sol) — é a 5ª que muda."
+        },
+        {
+          "label": "7ª maior (Dó#)",
+          "correct": false,
+          "feedbackErr": "A 7ª continua menor (Ré)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m2a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o acorde à função no II–V–I menor de Dm:",
+      "pairs": [
+        {
+          "left": "Em7(b5)",
+          "right": "ii° — pré-dominante"
+        },
+        {
+          "left": "A7",
+          "right": "V7 — dominante"
+        },
+        {
+          "left": "Dm7M",
+          "right": "i — tônica"
+        },
+        {
+          "left": "F7M",
+          "right": "III — mediant"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m2a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene o II–V–I menor em Ré:",
+      "orderAnswer": [
+        "Em7(b5)",
+        "A7",
+        "Dm7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o II–V menor e identifique:",
+      "playChords": [
+        "Em7(b5)",
+        "A7"
+      ],
+      "options": [
+        {
+          "label": "Em7(b5) → A7 — II–V em Dm",
+          "correct": true,
+          "feedbackOk": "Meio-diminuto preparando dominante em Lá."
+        },
+        {
+          "label": "Bm7(b5) → E7 — II–V em Am",
+          "correct": false,
+          "feedbackErr": "Fundamental diferente — ouça o Mi de Em7(b5)."
+        },
+        {
+          "label": "Dm7 → G7 — II–V em C",
+          "correct": false,
+          "feedbackErr": "Isso seria campo maior, não menor."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m2a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Em7(b5)–A7 e sentir a trítono compartilhada?"
+    }
+  ]
+}

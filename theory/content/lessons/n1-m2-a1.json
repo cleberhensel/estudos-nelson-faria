@@ -1,0 +1,223 @@
+{
+  "id": "n1-m2-a1",
+  "slug": "nomenclatura-pt-en-do-re-mi",
+  "level": 1,
+  "moduleId": "n1-m2",
+  "title": "Nomenclatura PT/EN: Dó, Ré, Mi…",
+  "subtitle": "C = Dó, D = Ré — a mesma nota com dois nomes; na bossa você encontra os dois na mesma partitura.",
+  "durationMin": 13,
+  "prerequisites": [
+    "n1-m1-a3"
+  ],
+  "tags": [
+    "notas",
+    "violao"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m2a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): em Dó maior, qual acorde aberto é o grau IV (subdominante)?",
+      "options": [
+        {
+          "label": "F (1 3 3 2 1 1)",
+          "correct": true,
+          "feedbackOk": "IV = Fá — subdominante que prepara movimento harmônico."
+        },
+        {
+          "label": "G (3 2 0 0 0 3)",
+          "correct": false,
+          "feedbackErr": "G é V — dominante, não subdominante."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **C** (Dó) e **G** (Sol) — nomeie cada nota em PT e EN enquanto toca. O ouvido não muda; só o rótulo."
+    },
+    {
+      "type": "component",
+      "id": "snd-c-g",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ouça C (Dó) e G (Sol) — mesma altura, dois nomes",
+        "chords": ["C", "G"]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nomes",
+      "title": "Duas línguas, mesma altura",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nomes-text",
+      "markdown": "No Brasil usamos **dó-ré-mi**; internacionalmente **C-D-E**. A correspondência é fixa:\n\n| EN | PT | EN | PT |\n|----|----|----|----|\n| **C** | **Dó** | F | Fá |\n| D | Ré | G | Sol |\n| E | Mi | A | Lá |\n| B | Si | | |\n\n**C = Dó** é a tônica de Dó maior — o acorde **C** (X 3 2 0 1 0) soa a mesma nota se você chamar de Dó ou C."
+    },
+    {
+      "type": "prose",
+      "id": "cromat-text",
+      "markdown": "Alterações usam **♯/♭** em ambos os sistemas: **C# = Dó♯**, **Bb = Si♭**. O mapa **cromatico** do 1º traste (próxima aula) usa os mesmos nomes — 1 semitom = 1 casa."
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard",
+      "props": {
+        "key": "C",
+        "frets": 5,
+        "labels": "note"
+      }
+    },
+    {
+      "type": "component",
+      "id": "chord-c",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "C",
+        "title": "C = Dó — tônica (grau I) em posição aberta"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-flor",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Cifra em letras EN (C, G, Am) — partitura brasileira pode usar Dó, Sol, Lá menor."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n1-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "CifraClub usa **C/G/Am**; conservatórios usam **Dó/Sol/Lá m**. Na bossa, Jobim mistura — fluência nos dois evita travar na análise."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "C=Dó ancora o **grau** I — **função** tônica em qualquer idioma. O mapa **cromatico** usa ambos os nomes; na **bossa**, a mesma **Seção** pode misturar rótulos PT/EN."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **C** e diga 'Dó' e 'C'. 2. **Am** = Lá menor = A minor. 3. **G** = Sol = G (dominante/V). 4. **F** = Fá = F (IV). Nomeie graus em PT."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m2a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual par é a mesma nota em nomenclatura PT e EN?",
+      "options": [
+        {
+          "label": "C = Dó",
+          "correct": true,
+          "feedbackOk": "Exato — tônica de Dó maior, grau I."
+        },
+        {
+          "label": "E = Ré",
+          "correct": false,
+          "feedbackErr": "E = Mi; Ré = D."
+        },
+        {
+          "label": "G = Si",
+          "correct": false,
+          "feedbackErr": "G = Sol; Si = B."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m2a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Traduza EN → PT:",
+      "pairs": [
+        {
+          "left": "C",
+          "right": "Dó"
+        },
+        {
+          "left": "D",
+          "right": "Ré"
+        },
+        {
+          "left": "E",
+          "right": "Mi"
+        },
+        {
+          "left": "A",
+          "right": "Lá"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n1m2a1-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as notas naturais a partir de Dó (PT):",
+      "orderAnswer": ["Dó", "Ré", "Mi", "Fá", "Sol"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o acorde — qual nome PT corresponde a **C**?",
+      "playChords": ["C"],
+      "options": [
+        { "label": "Dó", "correct": true, "feedbackOk": "C = Dó — tônica de Dó maior, grau I." },
+        { "label": "Ré", "correct": false, "feedbackErr": "Ré = D — ouça de novo; este acorde repousa em Dó." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m2a1-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu nomear as notas do shape C em PT e EN sem hesitar?"
+    }
+  ]
+}

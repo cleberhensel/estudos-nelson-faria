@@ -1,0 +1,293 @@
+{
+  "id": "n3-m2-a1",
+  "slug": "campo-em-sol-re-e-fa-maior",
+  "level": 3,
+  "moduleId": "n3-m2",
+  "title": "Campo em Sol, Ré e Fá maior",
+  "subtitle": "Transpor o campo diatônico — os graus romanos são o mapa; os nomes dos acordes mudam.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n3-m1-a4"
+  ],
+  "tags": [
+    "campo-harmonico",
+    "transposicao"
+  ],
+  "relatedWorks": [
+    "insensatez",
+    "garota-de-ipanema"
+  ],
+  "relatedChords": [
+    "G7M",
+    "Am7",
+    "B7",
+    "C7M",
+    "D7",
+    "Em7",
+    "F#m7(b5)",
+    "D7M",
+    "Em7",
+    "F#m7",
+    "G7M",
+    "A7M",
+    "B7",
+    "C#m7(b5)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m2a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão: ii–V–I em Dó usa quais acordes?",
+      "options": [
+        {
+          "label": "Dm7 → G7 → C7M",
+          "correct": true,
+          "feedbackOk": "Molde fixo — só os nomes mudam ao transpor."
+        },
+        {
+          "label": "F7M → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "Isso começa em IV, não em ii."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Mesma cadência, três tons",
+      "body": "Ouça **ii–V–I** em Sol (Am7–D7–G7M), em Ré (Em7–A7–D7M) e em Fá (Gm7–C7–F7M). A função é idêntica — treine reconhecer pelo som, não pelo nome."
+    },
+    {
+      "type": "component",
+      "id": "snd-g",
+      "componentId": "play-chord",
+      "props": {
+        "title": "ii–V–I em Sol",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-d",
+      "componentId": "play-chord",
+      "props": {
+        "title": "ii–V–I em Ré",
+        "chords": [
+          "Em7",
+          "A7",
+          "D7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-f",
+      "componentId": "play-chord",
+      "props": {
+        "title": "ii–V–I em Fá (Garota)",
+        "chords": [
+          "Gm7",
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tabela",
+      "title": "Campos em G, D e F",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tabela-text",
+      "markdown": "| Grau | Sol | Ré | Fá |\n|------|-----|----|----|\n| I | G7M | D7M | F7M |\n| ii | Am7 | Em7 | Gm7 |\n| V | D7 | A7 | C7 |\n| vi | Em7 | Bm7 | Dm7 |\n\n**Insensatez** (bossa clássica) gira em **Sol maior** (Am7–D7–G7M–C7M). **Garota** em **Fá**. Saber transpor é ler cifras em Si♭ sem pânico."
+    },
+    {
+      "type": "component",
+      "id": "lab-g",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "G",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-d",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-f",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-insensatez",
+      "workId": "insensatez",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "ii–V–I–IV em Sol maior — progressão lírica típica de Jobim.",
+      "youtube": "PHIe9B5plDI",
+      "youtubeTitle": "Insensatez",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "insensatez"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "insensatez",
+        "title": "Insensatez",
+        "lessonId": "n3-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Insensatez** vive em Sol (Am7–D7–G7M); **Garota** em Fá (Gm7–C7–F7M). Violonistas brasileiros transpoem pelo **grau romano**, não decorando 12 campos — a cifra muda de tom entre edições, mas ii–V–I permanece ii–V–I."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Transpor mentalmente: se você sabe ii–V–I em Dó, em **Lá maior** basta pensar Bm7–E7–A7M — mesma distância entre acordes, nomes novos. O lab harmônico confirma; o ouvido valida."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática (6 min)",
+      "body": "1. Toque ii–V–I nos três tons sem olhar tabela. 2. Cante o grau (ii, V, I) ao trocar de tom. 3. De Garota (Fá), transponha mentalmente para Sol: qual seria o ii?"
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m2a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Em Ré maior, associe grau e acorde:",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "D7M"
+        },
+        {
+          "left": "ii",
+          "right": "Em7"
+        },
+        {
+          "left": "V",
+          "right": "A7"
+        },
+        {
+          "left": "IV",
+          "right": "G7M"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-mc",
+      "exerciseId": "ex-n3-m2a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "ii–V–I em Fá maior usa qual sequência?",
+      "options": [
+        {
+          "label": "Gm7 → C7 → F7M",
+          "correct": true,
+          "feedbackOk": "ii, V, I em Fá — Garota."
+        },
+        {
+          "label": "Dm7 → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "Isso é em Dó, não Fá."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m2a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene ii–V–I em Sol:",
+      "orderAnswer": [
+        "Am7",
+        "D7",
+        "G7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Em qual tom soa este ii–V–I?",
+      "playChords": [
+        "Em7",
+        "A7",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "Ré maior",
+          "correct": true,
+          "feedbackOk": "Em7–A7–D7M."
+        },
+        {
+          "label": "Sol maior",
+          "correct": false,
+          "feedbackErr": "Em Sol seria Am7–D7–G7M."
+        },
+        {
+          "label": "Dó maior",
+          "correct": false,
+          "feedbackErr": "Em Dó seria Dm7–G7–C7M."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m2a1-self",
+      "kind": "self_check",
+      "question": "Transpõe ii–V–I para Lá maior (Bm7–E7–A7M) sem consultar?"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "workId": "wave",
+  "key": "D",
+  "sections": [
+    {
+      "label": "A — verso (Ré maior)",
+      "chords": [
+        { "symbol": "D7M", "degree": "I", "function": "T" },
+        { "symbol": "A7/C#", "degree": "V7", "function": "D" },
+        { "symbol": "Gm6", "degree": "IVm (empréstimo)", "function": "SD" },
+        { "symbol": "D7M/F#", "degree": "I", "function": "T" },
+        { "symbol": "Bm7", "degree": "vi", "function": "T" },
+        { "symbol": "E7", "degree": "V7/V", "function": "D" },
+        { "symbol": "Em7", "degree": "ii", "function": "SD" },
+        { "symbol": "A7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "B — ponte (dois II–V–I)",
+      "chords": [
+        { "symbol": "Am7", "degree": "iim (novo)", "function": "SD" },
+        { "symbol": "D7", "degree": "V7", "function": "D" },
+        { "symbol": "G7M", "degree": "I (de Sol)", "function": "T" },
+        { "symbol": "Gm7", "degree": "iim", "function": "SD" },
+        { "symbol": "C7", "degree": "V7", "function": "D" },
+        { "symbol": "F7M", "degree": "I (de Fá)", "function": "T" }
+      ]
+    }
+  ]
+}

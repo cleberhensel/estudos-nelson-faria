@@ -1,0 +1,260 @@
+{
+  "id": "n7-m3-a2",
+  "slug": "montar-arranjo-de-um-verso-simples",
+  "level": 7,
+  "moduleId": "n7-m3",
+  "title": "Montar arranjo de um verso simples",
+  "subtitle": "Verso de 8 compassos: intro mínima, voicing escolhido, levada fixa — monte antes de embellir.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n7-m3-a1"
+  ],
+  "tags": [
+    "arranjo",
+    "pratica"
+  ],
+  "relatedWorks": [
+    "flor-de-lis"
+  ],
+  "relatedChords": [
+    "Am7",
+    "D7",
+    "G7M",
+    "C7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m3a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m3-a1): Dilermando separa baixaria e arpejo. Montar arranjo de verso começa com:",
+      "options": [
+        {
+          "label": "Harmonia + levada + 1 voicing por acorde.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Esqueleto antes de ornamentos."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Use **Flor de Lis** (Am7–D7–G7M–C7M): monte verso só com shells e levada bossa — 8 compassos."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Montar arranjo de um verso simples",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Receita **verso simples**:\n\n1. Escolha levada (bossa/samba)\n2. Um voicing por acorde (shell ou aberto)\n3. Intro de dois compassos (opcional)\n4. Repetição com variação mínima no 2º verso\n\nFlor de Lis em Sol: progressão ii–V–I–IV clássica — ideal para 1º arranjo."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Flor de Lis — verso shell",
+        "voicings": [
+          {
+            "label": "Am7",
+            "chord": "Am7",
+            "shape": "X 0 2 0 1 0",
+            "note": "ii"
+          },
+          {
+            "label": "D7",
+            "chord": "D7",
+            "shape": "X X 0 2 1 2",
+            "note": "V"
+          },
+          {
+            "label": "G7M",
+            "chord": "G7M",
+            "shape": "3 X 0 0 0 2",
+            "note": "I"
+          }
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "G",
+        "mode": "major",
+        "chords": [
+          "Am7",
+          "D7",
+          "G7M",
+          "C7M"
+        ],
+        "functions": [
+          "ii",
+          "V",
+          "I",
+          "IV"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Toquinho grava versos 'secos' e embellish no 2º take — copie o processo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "flor-de-lis",
+      "excerpt": "Am7  D7  G7M  C7M",
+      "annotation": "Progressão acessível para iniciantes.",
+      "youtube": "peR8eOcGA3M",
+      "youtubeTitle": "Flor de Lis",
+      "youtubeArtist": "Djavan"
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "flor-de-lis",
+        "title": "Flor de Lis",
+        "lessonId": "n7-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Arranjo bom é repetível — verso consistente antes de ponte florida."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Am7–D7–G7M–C7M: shells + bossa. 2. Intro dois compassos Am. 3. Grave verso 8 compassos."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m3a2-q1",
+      "kind": "mc",
+      "question": "Primeiro passo arranjo verso:",
+      "options": [
+        {
+          "label": "Levada + voicing fixo por acorde",
+          "correct": true,
+          "feedbackOk": "Esqueleto tocável."
+        },
+        {
+          "label": "Embellishments complexos",
+          "correct": false,
+          "feedbackErr": "Ornamento vem depois."
+        },
+        {
+          "label": "Mudar voicing a cada nota",
+          "correct": false,
+          "feedbackErr": "Inconsistência."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "montar-arranjo-de-um-verso-simples",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m3a2-match",
+      "kind": "match",
+      "question": "Flor de Lis ↔ grau:",
+      "pairs": [
+        {
+          "left": "Am7",
+          "right": "ii"
+        },
+        {
+          "left": "D7",
+          "right": "V"
+        },
+        {
+          "left": "G7M",
+          "right": "I"
+        },
+        {
+          "left": "C7M",
+          "right": "IV"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — verso Flor de Lis (arranjo):",
+      "playChords": [
+        "Am7",
+        "D7",
+        "G7M",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "ii–V–I–IV em Dó — levada consistente no verso",
+          "correct": true,
+          "feedbackOk": "8 compassos com harmonia bossa + groove fixo."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Resolução passa por C7M — centro Dó."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m3a2-self",
+      "kind": "self_check",
+      "question": "Verso 8 compassos Flor de Lis gravado com levada consistente?",
+      "tags": []
+    }
+  ]
+}

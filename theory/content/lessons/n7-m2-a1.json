@@ -1,0 +1,260 @@
+{
+  "id": "n7-m2-a1",
+  "slug": "intro-e-outro-frases-caracteristicas",
+  "level": 7,
+  "moduleId": "n7-m2",
+  "title": "Intro e outro — frases características",
+  "subtitle": "Intro de 4–8 compassos que anuncia o tom — Ingênuo abre com frase antes do verso entrar.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n7-m1-a3"
+  ],
+  "tags": [
+    "arranjo"
+  ],
+  "relatedWorks": [
+    "ingenuo"
+  ],
+  "relatedChords": [
+    "F7M",
+    "E7",
+    "Am7",
+    "D7",
+    "G7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m2a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m1-a3): walking liga acordes pelo grave. Intro de arranjo serve para:",
+      "options": [
+        {
+          "label": "Estabelecer tom, groove e expectativa antes do verso.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Intro não é verso — é frase característica."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ouça **Ingênuo**: intro harmonizada (F7M–E7–Am7) antes da melodia principal — memorize 4 compassos."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Intro Ingênuo",
+        "chords": [
+          "F7M",
+          "E7",
+          "Am7",
+          "D7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Intro e outro — frases características",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Intro** = mini-arranjo autônomo. **Outro** = fechamento espelhado ou variação. Em **Ingênuo**, Jobim usa **dominantes secundárias** na intro (E7 para Am7) criando modulação imediata.\n\nFrases características: arpejo ascendente, baixo cromático, ou voicing icônico (Garota, Wave)."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Ingênuo — intro Jobim",
+        "voicings": [
+          {
+            "label": "F7M",
+            "chord": "F7M",
+            "shape": "X X 3 2 1 0",
+            "note": "Abertura"
+          },
+          {
+            "label": "E7 (V/V)",
+            "chord": "E7",
+            "shape": "0 2 0 1 0 0",
+            "note": "Dominante secundária"
+          },
+          {
+            "label": "Am7",
+            "chord": "Am7",
+            "shape": "X 0 2 0 1 0",
+            "note": "Alvo ii de D"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Intros gravadas por João Gilberto viraram 'standard' — copiar intro é honrar arranjo, não plagiar."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "ingenuo",
+      "excerpt": "F7M  E7  Am7  D7  G7M",
+      "annotation": "Modulações elegantes típicas de Jobim.",
+      "youtube": "Nlom42TJTAg",
+      "youtubeTitle": "Ingênuo",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "ingenuo"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "ingenuo",
+        "title": "Ingênuo",
+        "lessonId": "n7-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Violão solo MPB deve ter intro reconhecível — público identifica a obra nos primeiros dois compassos."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Aprenda intro Ingênuo (F7M–E7–Am7–D7) devagar. 2. Mesma levada bossa do verso. 3. Grave intro isolada."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m2a1-q1",
+      "kind": "mc",
+      "question": "E7 na intro de Ingênuo prepara:",
+      "options": [
+        {
+          "label": "Am7 (ii de D) — dominante secundária",
+          "correct": true,
+          "feedbackOk": "V7/V clássico Jobim."
+        },
+        {
+          "label": "F7M direto",
+          "correct": false,
+          "feedbackErr": "E7 não resolve em F."
+        },
+        {
+          "label": "C7M",
+          "correct": false,
+          "feedbackErr": "Centro tonal é F, depois modula."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "intro-e-outro-frases-caracteristicas",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m2a1-match",
+      "kind": "match",
+      "question": "Seção ↔ função:",
+      "pairs": [
+        {
+          "left": "Intro",
+          "right": "Anuncia tom/groove"
+        },
+        {
+          "left": "Outro",
+          "right": "Fechamento"
+        },
+        {
+          "left": "E7",
+          "right": "V de Am"
+        },
+        {
+          "left": "Ingênuo",
+          "right": "Modulações Jobim"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — intro de Ingênuo:",
+      "playChords": [
+        "F7M",
+        "E7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "I → V7/ii → ii — frase característica de intro",
+          "correct": true,
+          "feedbackOk": "Intro memorável — dominante secundária antes do verso."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Começa em F7M (I), não em Gm7."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m2a1-self",
+      "kind": "self_check",
+      "question": "Consegue tocar intro de Ingênuo de memória?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "n4-m4-a4",
+  "slug": "quiz-do-nivel-4",
+  "level": 4,
+  "moduleId": "n4-m4",
+  "title": "Quiz do Nível 4",
+  "subtitle": "Tríades, tétrades, tensões e voicings — 8 perguntas que cobrem o que você construiu no braço neste nível.",
+  "durationMin": 12,
+  "prerequisites": [
+    "n4-m4-a3"
+  ],
+  "tags": [
+    "quiz"
+  ],
+  "relatedWorks": [
+    "desafinado"
+  ],
+  "relatedChords": [
+    "C",
+    "Cm",
+    "C°",
+    "C7M",
+    "C7",
+    "Cm7",
+    "Em7(b5)",
+    "C7(9)",
+    "G7(13)",
+    "C/E"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m4a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (desafio G7(13)): qual nota é a 13ª sobre G7?",
+      "options": [
+        {
+          "label": "Mi — também 3ª de C7M",
+          "correct": true,
+          "feedbackOk": "Boa memória — vamos testar o nível inteiro."
+        },
+        {
+          "label": "Lá — a 9ª",
+          "correct": false,
+          "feedbackErr": "Lá é 9ª — revise a pilha de terças."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "motiv",
+      "variant": "tip",
+      "title": "Quiz Nível 4",
+      "body": "Cobre tríades, tétrades, tensões, alterações, sus, slash e voicings. Média ≥70% desbloqueia o Nível 5."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Este quiz testa o vocabulário que você lê nas cifras de Jobim: **C7(9)**, **Em7(b5)**, **C/E**, **G7(13)**. Se errar dictation, volte ao violão — tétrades e tensões são ouvidas, não só nomeadas."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Aquecimento auditivo",
+        "chords": [
+          "C",
+          "Cm",
+          "C7M",
+          "C7",
+          "C7(9)"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "quiz",
+      "title": "Perguntas",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "q1",
+      "exerciseId": "ex-n4m4a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual tríade tem 3ª menor e 5ª diminuta?",
+      "options": [
+        {
+          "label": "C° (diminuta)",
+          "correct": true,
+          "feedbackOk": "C–E♭–G♭ — base do m7(b5) com 7ª."
+        },
+        {
+          "label": "Cm (menor)",
+          "correct": false,
+          "feedbackErr": "Cm tem 5ª justa (Sol)."
+        },
+        {
+          "label": "C+ (aumentada)",
+          "correct": false,
+          "feedbackErr": "C+ tem 5ª aumentada (Sol#)."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q2",
+      "exerciseId": "ex-n4m4a4-q2",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Fá maior (Garota), qual tétrade é a pré-dominante (ii)?",
+      "options": [
+        {
+          "label": "Gm7",
+          "correct": true,
+          "feedbackOk": "ii — prepara C7 com função PD."
+        },
+        {
+          "label": "C7",
+          "correct": false,
+          "feedbackErr": "C7 é V — dominante, não pré-dominante."
+        },
+        {
+          "label": "F7M",
+          "correct": false,
+          "feedbackErr": "F7M é I — tônica."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q3",
+      "exerciseId": "ex-n4m4a4-q3",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a tétrade à sua 7ª:",
+      "pairs": [
+        {
+          "left": "C7M",
+          "right": "7ª maior (Si)"
+        },
+        {
+          "left": "C7",
+          "right": "7ª menor (Si♭)"
+        },
+        {
+          "left": "Cm7",
+          "right": "7ª menor (Si♭)"
+        },
+        {
+          "left": "Cm7M",
+          "right": "7ª maior (Si)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q4",
+      "exerciseId": "ex-n4m4a4-q4",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Por que C°7 = Eb°7 = Gb°7 = A°7?",
+      "options": [
+        {
+          "label": "Simetria de 3 tons entre cada nota",
+          "correct": true,
+          "feedbackOk": "dim7 é totalmente simétrico."
+        },
+        {
+          "label": "São acordes do campo de Dó maior",
+          "correct": false,
+          "feedbackErr": "dim7 não é diatônico — é cromático."
+        },
+        {
+          "label": "Compartilham a mesma fundamental",
+          "correct": false,
+          "feedbackErr": "Fundamentais diferentes, mesmas 4 notas."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q5",
+      "exerciseId": "ex-n4m4a4-q5",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a abertura de Wave (D maior):",
+      "orderAnswer": [
+        "D7M(9)",
+        "G7(13)",
+        "C7M(9)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q6",
+      "exerciseId": "ex-n4m4a4-q6",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em C/E, qual nota está no baixo?",
+      "options": [
+        {
+          "label": "Mi (3ª de C)",
+          "correct": true,
+          "feedbackOk": "Slash chord — baixo ≠ fundamental."
+        },
+        {
+          "label": "Dó (fundamental)",
+          "correct": false,
+          "feedbackErr": "Dó no baixo seria C fundamental."
+        },
+        {
+          "label": "Sol (5ª)",
+          "correct": false,
+          "feedbackErr": "Sol no baixo seria C/G."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q7",
+      "exerciseId": "ex-n4m4a4-q7",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique o acorde com alteração:",
+      "playChords": [
+        "B7(b9)"
+      ],
+      "options": [
+        {
+          "label": "B7(b9) — dominante alterada",
+          "correct": true,
+          "feedbackOk": "b9 intensifica a trítono."
+        },
+        {
+          "label": "B7 — dominante natural",
+          "correct": false,
+          "feedbackErr": "Natural soa menos tenso."
+        },
+        {
+          "label": "Bm7(b5)",
+          "correct": false,
+          "feedbackErr": "Meio-diminuto — som diferente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q8",
+      "exerciseId": "ex-n4m4a4-q8",
+      "kind": "mc",
+      "difficulty": "challenge",
+      "question": "O que diferencia G7sus4 de G7?",
+      "options": [
+        {
+          "label": "A 4ª (Dó) substitui a 3ª (Si) — suspensão",
+          "correct": true,
+          "feedbackOk": "sus4 suspende a resolução da 3ª."
+        },
+        {
+          "label": "A 7ª é maior em vez de menor",
+          "correct": false,
+          "feedbackErr": "Ambos têm 7ª menor."
+        },
+        {
+          "label": "A 5ª é diminuta",
+          "correct": false,
+          "feedbackErr": "A 5ª permanece justa."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Referência MPB",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "desafinado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "desafinado",
+        "title": "Desafinado",
+        "lessonId": "n4-m4-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Após o quiz",
+      "body": "Toque F#m7(b5) → B7 → Em7 de Desafinado — aplique o conceito que mais errou (tríade, tétrade ou tensão)."
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m4a4-self",
+      "kind": "self_check",
+      "question": "Atingiu ≥70% e está pronto para progressões e cadências (Nível 5)?"
+    }
+  ]
+}

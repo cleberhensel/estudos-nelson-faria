@@ -1,0 +1,24 @@
+{
+  "workId": "so-danco-samba",
+  "key": "F",
+  "sections": [
+    {
+      "label": "Bossa — II–V–I",
+      "chords": [
+        { "symbol": "F7M", "degree": "I", "function": "T" },
+        { "symbol": "Gm7", "degree": "ii", "function": "SD" },
+        { "symbol": "C7", "degree": "V7", "function": "D" },
+        { "symbol": "F7M", "degree": "I", "function": "T" }
+      ]
+    },
+    {
+      "label": "Variação com tensões",
+      "chords": [
+        { "symbol": "Dm7", "degree": "vi", "function": "T" },
+        { "symbol": "G7(13)", "degree": "II7", "function": "D" },
+        { "symbol": "C7M(9)", "degree": "V", "function": "SD" },
+        { "symbol": "F7M(9)", "degree": "I", "function": "T" }
+      ]
+    }
+  ]
+}

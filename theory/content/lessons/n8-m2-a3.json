@@ -1,0 +1,247 @@
+{
+  "id": "n8-m2-a3",
+  "slug": "lidio-a-sonoridade-jobim-lidio-b7",
+  "level": 8,
+  "moduleId": "n8-m2",
+  "title": "Lídio — a sonoridade Jobim (lídio-b7)",
+  "subtitle": "Lídio-b7 (4ª aumentada + b7) — Garota usa sonoridade lídia na escala sobre F7M.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m2-a2"
+  ],
+  "tags": [
+    "modos",
+    "bossa"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7(9)",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m2a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m2-a2): dim7 simétrico a cada 3 tons. Lídio-b7 (lídio dominante) tem:",
+      "options": [
+        {
+          "label": "4ª aumentada (#4) + 7ª menor.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Lídio-b7 = sensação 'flutuante' Jobim."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Garota refrão F7M: melodia toca B natural (#4 de F) — sonoridade lídia sem resolver erudita."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Garota — II–V–I lídio",
+        "chords": [
+          "Gm7",
+          "C7(9)",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Lídio — a sonoridade Jobim (lídio-b7)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Lídio** puro (7M): #4 sem b7 — raro funcional. **Lídio-b7** (escala dominante de mel min): #4 + b7 — **assinatura Jobim**.\n\nSobre **F7M** em Garota: B natural na melodia = #11/#4 — evita clichê jônico."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "Gm7",
+          "C7(9)",
+          "F7M"
+        ],
+        "functions": [
+          "ii",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Jobim cita Debussy — lídio-b7 é ponta de iceberg impressionista na bossa."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "garota-de-ipanema"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota de Ipanema",
+        "lessonId": "n8-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Garota sem #4 perde 'sol de Ipanema' — ouça melodia no refrão."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. F lídio-b7: F–G–A–B–C–D–Eb. 2. Toque F7M com B na 1ª corda. 3. Refrão Garota."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m2a3-q1",
+      "kind": "mc",
+      "question": "Lídio-b7 sobre F7M inclui:",
+      "options": [
+        {
+          "label": "B natural (#4) e Eb (b7)",
+          "correct": true,
+          "feedbackOk": "Paleta Jobim."
+        },
+        {
+          "label": "Bb (4ª perfeita) apenas",
+          "correct": false,
+          "feedbackErr": "Bb é jônico, não lídio."
+        },
+        {
+          "label": "7ª maior",
+          "correct": false,
+          "feedbackErr": "b7 diferencia lídio-b7."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "lidio-a-sonoridade-jobim-lidio-b7",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m2a3-match",
+      "kind": "match",
+      "question": "Garota ↔ elemento:",
+      "pairs": [
+        {
+          "left": "F7M",
+          "right": "I lídio-b7"
+        },
+        {
+          "left": "B natural",
+          "right": "#4/#11"
+        },
+        {
+          "left": "Gm7",
+          "right": "ii"
+        },
+        {
+          "left": "Jobim",
+          "right": "Sonoridade lídia"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — lídio-b7 em Garota (refrão):",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "II–V–I em Fá — escala lídio-b7 sobre F7M", "correct": true, "feedbackOk": "Som Jobim — 4ª maior + 7ª menor simultâneas." },
+        { "label": "Menor harmônico Em7(b5)–A7–Dm", "correct": false, "feedbackErr": "Garota está em Fá maior." }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m2a3-self",
+      "kind": "self_check",
+      "question": "Cantou F lídio-b7 sobre refrão Garota?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "n5-m2-a2",
+  "slug": "substituicao-de-tritono-subv7",
+  "level": 5,
+  "moduleId": "n5-m2",
+  "title": "Substituição de trítono (SubV7)",
+  "subtitle": "Gb7 no lugar de C7 — mesma trítono, caminho cromático. Em Garota e Desafinado, SubV7 suaviza o II–V com movimento de baixo por semitom.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n5-m2-a1"
+  ],
+  "tags": [
+    "dominantes",
+    "substituicao"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema",
+    "desafinado"
+  ],
+  "relatedChords": [
+    "C7",
+    "Gb7",
+    "F#7",
+    "G7",
+    "Gm7",
+    "F7M",
+    "Db7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m2a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (dom. secundária): A7 em Dm é V7 de qual grau?",
+      "options": [
+        {
+          "label": "V7/i — dominante primária de Dm",
+          "correct": true,
+          "feedbackOk": "SubV7 substitui qualquer V7 pela dominante a trítono."
+        },
+        {
+          "label": "V7/ii — resolve em Am",
+          "correct": false,
+          "feedbackErr": "V7/ii seria E7."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Mesma trítono, nome diferente",
+      "body": "Ouça **C7** e **Gb7** — a trítono Mi–Si♭ é a mesma (Mi–Si♭ = Fa♭–Si♭). Ambos resolvem em F7M, mas Gb7 traz o baixo por semitom."
+    },
+    {
+      "type": "component",
+      "id": "snd-subv",
+      "componentId": "play-chord",
+      "props": {
+        "title": "C7 vs Gb7 (SubV7)",
+        "chords": [
+          "C7",
+          "Gb7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tritono",
+      "title": "SubV7 = V7 a trítono",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tritono-text",
+      "markdown": "A trítono define a dominante. **C7** (Mi–Si♭) e **Gb7** (Fa–Si♭) compartilham o mesmo intervalo.\n\n| Progressão | Baixo | Efeito |\n|------------|-------|--------|\n| Gm7 → C7 → F7M | Sol→Dó→Fá | II–V–I clássico |\n| Gm7 → Gb7 → F7M | Sol→Sol♭→Fá | SubV7 — cromático |\n| Dm7(b5) → Gb7 → C7M | cromático | Desafinado |\n\n**Gb7** = **F#7** (enharmônico) — em cifras brasileiras aparecem os dois."
+    },
+    {
+      "type": "component",
+      "id": "prog-subv",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "Gm7",
+          "Gb7",
+          "F7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "workId": "garota-de-ipanema",
+      "excerpt": "Gm7    Gb7    F7M",
+      "annotation": "II–SubV7–I — variante cromática do refrão.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "example",
+      "id": "ex-desaf",
+      "workId": "desafinado",
+      "excerpt": "F#m7(b5)  B7  Em7  A7  D7M",
+      "annotation": "Dissonâncias e II–V com meio-diminuto.",
+      "youtube": "oqHONL-LZ58",
+      "youtubeTitle": "Desafinado",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "garota-de-ipanema"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota de Ipanema",
+        "lessonId": "n5-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Gm7→Gb7→F7M** (SubV7) aparece em arranjos sofisticados de **Garota** e **Desafinado** — baixo desce cromaticamente (Sol→Sol♭→Fá) enquanto a trítono se mantém. Violonistas jazz/MPB usam SubV7 como alternativa ao C7 clássico na cadência."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "SubV7 funciona porque o ouvido segue a trítono, não o nome do acorde. O baixo descendente (Sol→Sol♭→Fá) é marca registrada do jazz e da bossa sofisticada."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Gm7 → C7 → F7M. 2. Gm7 → Gb7 → F7M. Compare o movimento de baixo. 3. Tente em Dó: Dm7 → Db7 → C7M."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m2a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "SubV7 de C7 em Fá maior é qual acorde?",
+      "options": [
+        {
+          "label": "Gb7 (trítono de C7)",
+          "correct": true,
+          "feedbackOk": "C7 e Gb7 compartilham Mi–Si♭."
+        },
+        {
+          "label": "G7 (dominante diatônica)",
+          "correct": false,
+          "feedbackErr": "G7 é III7, não substituto de C7."
+        },
+        {
+          "label": "F7 (subdominante)",
+          "correct": false,
+          "feedbackErr": "F7 não tem a mesma trítono que C7."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m2a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue V7 ao seu SubV7:",
+      "pairs": [
+        {
+          "left": "C7",
+          "right": "Gb7"
+        },
+        {
+          "left": "G7",
+          "right": "Db7"
+        },
+        {
+          "left": "D7",
+          "right": "Ab7"
+        },
+        {
+          "left": "A7",
+          "right": "Eb7"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m2a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "II–SubV7–I em Fá (Garota):",
+      "orderAnswer": [
+        "Gm7",
+        "Gb7",
+        "F7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o II–V com substituição:",
+      "playChords": [
+        "Gm7",
+        "Gb7",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "II–SubV7–I em Fá",
+          "correct": true,
+          "feedbackOk": "Gb7 substitui C7 — baixo cromático."
+        },
+        {
+          "label": "II–V–I clássico em Fá",
+          "correct": false,
+          "feedbackErr": "Clássico teria C7, não Gb7."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Em Dó seria Dm7→G7→C7M."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m2a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Gm7→Gb7→F7M e explicar a trítono compartilhada?"
+    }
+  ]
+}

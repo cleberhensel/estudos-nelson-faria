@@ -1,0 +1,285 @@
+{
+  "id": "n5-m3-a2",
+  "slug": "modulacao-em-choro",
+  "level": 5,
+  "moduleId": "n5-m3",
+  "title": "Modulação em choro (por semitom)",
+  "subtitle": "O choro modula por semitom ascendente com dominantes — Carinhoso de Pixinguinha é a aula de modulação disfarçada de samba.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n5-m3-a1"
+  ],
+  "tags": [
+    "modulacao",
+    "choro"
+  ],
+  "relatedWorks": [
+    "carinhoso"
+  ],
+  "relatedChords": [
+    "F7M",
+    "G7",
+    "C7M",
+    "A7",
+    "Dm7",
+    "G7",
+    "C7M",
+    "Ab7",
+    "Db7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m3a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (modulação): D7 como dominante comum leva de Dó a qual tom?",
+      "options": [
+        {
+          "label": "Sol maior — V7/G",
+          "correct": true,
+          "feedbackOk": "No choro, a modulação por semitom é mais abrupta."
+        },
+        {
+          "label": "Fá maior",
+          "correct": false,
+          "feedbackErr": "Para Fá usaria C7 ou G7 como pivô."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Modulação por semitom",
+      "body": "Ouça **C7M → Db7M** — a tônica sobe um semitom. No choro, dominantes cromáticas conectam tonalidades vizinhas com virtuosismo."
+    },
+    {
+      "type": "component",
+      "id": "snd-semitom",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Modulação +1 semitom",
+        "chords": [
+          "C7M",
+          "Db7M",
+          "Ab7",
+          "Db7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "choro",
+      "title": "Linguagem harmônica do choro",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "choro-text",
+      "markdown": "O choro usa:\n\n1. **II–V–I** encadeados (como jazz)\n2. **Modulação por semitom** (C7M → C#7M via dominante)\n3. **Dominantes secundárias** em sequência\n4. **Cadência plagal** como repouso\n\n**Carinhoso** (C maior): F7M → G7 → C7M → A7 → Dm7 → G7 → C7M — três II–V–I intercalados com modulação para Fá e Ré."
+    },
+    {
+      "type": "component",
+      "id": "prog-carinhoso",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "G7",
+          "C7M",
+          "A7",
+          "Dm7",
+          "G7",
+          "C7M"
+        ],
+        "functions": [
+          "SD",
+          "D",
+          "T",
+          "D",
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "carinhoso",
+      "excerpt": "F7M  G7  C7M  A7  Dm7  G7  C7M",
+      "annotation": "Choro com modulação e dominantes secundárias.",
+      "youtube": "mGG3Di84wp8",
+      "youtubeTitle": "Carinhoso",
+      "youtubeArtist": "Pixinguinha"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "carinhoso"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "carinhoso",
+        "title": "Carinhoso",
+        "lessonId": "n5-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Carinhoso** (Pixinguinha) modula por semitom — A7 como V7/ii leva a Dm antes de voltar a Dó. Choro exige transposição rápida no violão; cada modulação vira desafio de posição, não só teoria."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Pixinguinha escrevia para banda — no violão solo, cada modulação vira desafio de posição. A7 em Carinhoso é V7/ii que modula para Dm antes de voltar a C."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque F7M→G7→C7M→A7→Dm7→G7→C7M. Marque onde a tonalidade 'muda' (A7→Dm) e onde repousa (G7→C7M)."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m3a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "A7 em Carinhoso (C maior) é V7 de qual grau?",
+      "options": [
+        {
+          "label": "V7/ii — resolve em Dm7",
+          "correct": true,
+          "feedbackOk": "Dominante secundária que modula para Ré menor."
+        },
+        {
+          "label": "V7/I — resolve em C7M",
+          "correct": false,
+          "feedbackErr": "V7/I seria G7."
+        },
+        {
+          "label": "V7/IV — resolve em F7M",
+          "correct": false,
+          "feedbackErr": "V7/IV seria C7."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m3a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o trecho de Carinhoso à função:",
+      "pairs": [
+        {
+          "left": "F7M → G7",
+          "right": "IV → V7/I"
+        },
+        {
+          "left": "G7 → C7M",
+          "right": "V → I (autêntica)"
+        },
+        {
+          "left": "A7 → Dm7",
+          "right": "V7/ii → ii"
+        },
+        {
+          "left": "Dm7 → G7",
+          "right": "ii → V"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m3a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Primeira modulação em Carinhoso:",
+      "orderAnswer": [
+        "C7M",
+        "A7",
+        "Dm7",
+        "G7",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a modulação do choro:",
+      "playChords": [
+        "A7",
+        "Dm7",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "V7/ii → ii → V → I em C",
+          "correct": true,
+          "feedbackOk": "Carinhoso — volta à tônica após visitar Dm."
+        },
+        {
+          "label": "II–V–I em Dm apenas",
+          "correct": false,
+          "feedbackErr": "Termina em C7M, não Dm."
+        },
+        {
+          "label": "Modulação C→Db por semitom",
+          "correct": false,
+          "feedbackErr": "Não há Db aqui."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m3a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar a sequência de Carinhoso identificando as modulações?"
+    }
+  ]
+}

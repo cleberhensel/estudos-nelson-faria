@@ -1,0 +1,273 @@
+{
+  "id": "n4-m4-a2",
+  "slug": "voicings-fechados-vs-abertos",
+  "level": 4,
+  "moduleId": "n4-m4",
+  "title": "Voicings fechados vs abertos no violão",
+  "subtitle": "Notas próximas ou espaçadas mudam o timbre — Wave usa voicings abertos com 9 e 13; voicings fechados concentram a tensão.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n4-m4-a1"
+  ],
+  "tags": [
+    "voicing",
+    "violao"
+  ],
+  "relatedWorks": [
+    "wave"
+  ],
+  "relatedChords": [
+    "D7M(9)",
+    "G7(13)",
+    "C7M(9)",
+    "Am11",
+    "F7M(9)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m4a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (slash): em G/B, qual nota está no baixo?",
+      "options": [
+        {
+          "label": "Si — a 3ª de Sol maior",
+          "correct": true,
+          "feedbackOk": "Agora espaçamos as notas dentro do acorde."
+        },
+        {
+          "label": "Sol — a fundamental",
+          "correct": false,
+          "feedbackErr": "Sol no baixo seria G, não G/B."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Fechado vs aberto",
+      "body": "Compare um **D7M(9)** fechado (notas no mesmo registro) com um aberto (notas espaçadas em cordas diferentes). O aberto 'respira' — som bossa."
+    },
+    {
+      "type": "component",
+      "id": "voicing-compare",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "D7M(9) — fechado vs aberto",
+        "voicings": [
+          {
+            "label": "Fechado (grave)",
+            "chord": "D7M(9)",
+            "shape": "X X 0 2 2 2",
+            "note": "notas próximas"
+          },
+          {
+            "label": "Aberto (médio)",
+            "chord": "D7M(9)",
+            "shape": "X 5 4 4 5 5",
+            "note": "notas espaçadas"
+          },
+          {
+            "label": "Aberto (agudo)",
+            "chord": "D7M(9)",
+            "shape": "X X 12 11 10 10",
+            "note": "registro alto"
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "conceito",
+      "title": "Fechado e aberto",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "conceito-text",
+      "markdown": "**Voicing fechado:** notas dentro de uma oitava — som denso, jazz piano.\n\n**Voicing aberto:** notas espaçadas em 2+ oitavas — som arejado, violão bossa.\n\nEm **Wave** (D maior):\n- **D7M(9)** aberto: Fá# e Mi em cordas separadas\n- **G7(13)** aberto: 3ª, 7ª e 13ª sem fundamental\n- O espaçamento deixa cada tensão audível"
+    },
+    {
+      "type": "component",
+      "id": "snd-wave",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Voicings abertos de Wave",
+        "chords": [
+          "D7M(9)",
+          "G7(13)",
+          "C7M(9)"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "builder",
+      "componentId": "chord-builder",
+      "props": {}
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)",
+      "annotation": "Voicings com tensões 9 e 13 — som bossa maduro.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave",
+        "lessonId": "n4-m4-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Arranjos de **Wave** e **Chega** usam voicings abertos — notas espaçadas que João Gilberto tocava com polegar no baixo e dedos nas tensões. No violão de 6 cordas, voicing \"fechado\" (notas adjacentes) soa abafado; a bossa exige ar."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "No violão, voicings abertos são quase obrigatórios — 6 cordas forçam espaçamento. A 'regra' é: 3ª e 7ª nunca na mesma corda; tensões em cordas agudas."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque D7M(9) em 2 posições (fechado X X 0 2 2 2 e aberto X 5 4 4 5 5). Qual soa mais 'bossa'? Use o aberto na sequência de Wave."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m4a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "O que define um voicing aberto no violão?",
+      "options": [
+        {
+          "label": "Notas espaçadas em 2+ oitavas entre cordas",
+          "correct": true,
+          "feedbackOk": "Cada nota respira — timbre arejado."
+        },
+        {
+          "label": "Todas as notas na mesma casa",
+          "correct": false,
+          "feedbackErr": "Isso seria voicing fechado e impraticável."
+        },
+        {
+          "label": "Apenas cordas soltas",
+          "correct": false,
+          "feedbackErr": "Aberto é sobre espaçamento de oitavas, não cordas soltas."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m4a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o voicing ao contexto em Wave (D maior):",
+      "pairs": [
+        {
+          "left": "D7M(9) aberto",
+          "right": "I — tônica colorida"
+        },
+        {
+          "left": "G7(13) aberto",
+          "right": "IV — subdominante com 13ª"
+        },
+        {
+          "left": "C7M(9) aberto",
+          "right": "bVII — empréstimo modal"
+        },
+        {
+          "left": "A7(9)",
+          "right": "V — dominante de D"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m4a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a progressão de Wave:",
+      "orderAnswer": [
+        "D7M(9)",
+        "G7(13)",
+        "C7M(9)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m4a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça o voicing aberto com 13ª:",
+      "playChords": [
+        "G7(13)"
+      ],
+      "options": [
+        {
+          "label": "G7(13) — dominante com 13ª",
+          "correct": true,
+          "feedbackOk": "A 13ª (Mi) adiciona cor no voicing aberto."
+        },
+        {
+          "label": "G7M(13) — maior com 13ª",
+          "correct": false,
+          "feedbackErr": "7M repousa — aqui há 7ª menor de dominante."
+        },
+        {
+          "label": "Gm7(13)",
+          "correct": false,
+          "feedbackErr": "m7 tem 3ª menor — som diferente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m4a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar D7M(9) em voicing aberto e fechado e comparar o timbre?"
+    }
+  ]
+}

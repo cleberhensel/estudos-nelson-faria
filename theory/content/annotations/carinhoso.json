@@ -1,0 +1,23 @@
+{
+  "workId": "carinhoso",
+  "key": "C",
+  "sections": [
+    {
+      "label": "Tema — choro em Dó",
+      "chords": [
+        { "symbol": "F7M", "degree": "IV", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" },
+        { "symbol": "C7M", "degree": "I", "function": "T" },
+        { "symbol": "A7", "degree": "VI7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Modulação — II–V–I",
+      "chords": [
+        { "symbol": "Dm7", "degree": "ii", "function": "SD" },
+        { "symbol": "G7", "degree": "V7", "function": "D" },
+        { "symbol": "C7M", "degree": "I", "function": "T" }
+      ]
+    }
+  ]
+}

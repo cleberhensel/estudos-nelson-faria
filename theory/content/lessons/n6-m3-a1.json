@@ -1,0 +1,240 @@
+{
+  "id": "n6-m3-a1",
+  "slug": "metronomo-e-subdivisao",
+  "level": 6,
+  "moduleId": "n6-m3",
+  "title": "Metrônomo e subdivisão",
+  "subtitle": "Semicolcheias no metrônomo a 60–80 BPM — subdividir devagar é o antídoto para correr no groove.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n6-m2-a4"
+  ],
+  "tags": [
+    "ritmo",
+    "pratica"
+  ],
+  "relatedWorks": [
+    "so-danco-samba"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "F7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m3a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m2-a4): integrar ritmo+harmonia em Chega exige Dm/C no contratempo. Qual ferramenta fixa subdivisão interna?",
+      "options": [
+        {
+          "label": "Metrônomo em BPM baixo com clique em semicolcheias.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Sem subdivisão consciente, o groove acelera sem perceber."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Configure metrônomo **80 BPM**, clique no tempo e subdivisão 'e' (8 notas por compasso). Toque grade bossa — cada célula da rhythm-grid é uma semicolcheia."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Subdivisão em Fá (Só Danço Samba)",
+        "chords": [
+          "F7M",
+          "Gm7",
+          "C7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Metrônomo e subdivisão",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "O **metrônomo** não é inimigo do swing — ele treina **subdivisão interna**. Comece a 60–80 BPM, um compasso = 16 semicolcheias na grade.\n\nTécnica: 4 compassos só polegar no metrônomo, 4 compassos polegar+dedos, 4 compassos com harmonia. Aumente 5 BPM só quando os 16 passos forem iguais."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 72
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Estudos com João Gilberto usavam metrônomo mudo no ouvido interno — a grid da aula replica esse treino visual."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "so-danco-samba",
+      "excerpt": "F7M  Gm7  C7  F7M",
+      "annotation": "Bossa com levada e II–V–I.",
+      "youtube": "YJMEu1oxLjA",
+      "youtubeTitle": "Só Danço Samba",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "so-danco-samba"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "so-danco-samba",
+        "title": "Só Danço Samba",
+        "lessonId": "n6-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Violonistas MPB profissionais gravam com click — swing bossa vem de **micro-ajustes** na subdivisão, não de ignorar o tempo. Metrônomo fixa o pulso; a função rítmica fica nos contratempos."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Metrônomo 72 BPM. 2. Grade bossa: 8 compassos polegar alinhado ao clique. 3. Suba para 76 BPM só se zerar trancos."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m3a1-q1",
+      "kind": "mc",
+      "question": "Treino com metrônomo para groove bossa:",
+      "options": [
+        {
+          "label": "BPM baixo + subdivisão em semicolcheias",
+          "correct": true,
+          "feedbackOk": "Clareza antes de velocidade."
+        },
+        {
+          "label": "Começar em 160 BPM",
+          "correct": false,
+          "feedbackErr": "Corre antes de subdividir."
+        },
+        {
+          "label": "Desligar metrônomo na primeira tentativa",
+          "correct": false,
+          "feedbackErr": "Fixa imprecisão."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "metronomo-e-subdivisao",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m3a1-match",
+      "kind": "match",
+      "question": "Etapa treino ↔ objetivo:",
+      "pairs": [
+        {
+          "left": "60–80 BPM",
+          "right": "Subdivisão consciente"
+        },
+        {
+          "left": "Só polegar",
+          "right": "Isolar pulso"
+        },
+        {
+          "left": "+ Dedos",
+          "right": "Contratempo"
+        },
+        {
+          "left": "+ Harmonia",
+          "right": "Groove completo"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — cadência para treinar com metrônomo (Só Danço Samba):",
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "II–V–I em Fá — alvo do groove a 72 BPM",
+          "correct": true,
+          "feedbackOk": "Fixe a harmonia antes de acelerar o metrônomo."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "F7M final — tom Fá."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m3a1-self",
+      "kind": "self_check",
+      "question": "8 compassos de bossa a 72 BPM sem antecipar o tempo 1?",
+      "tags": []
+    }
+  ]
+}

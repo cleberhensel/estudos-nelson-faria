@@ -1,0 +1,261 @@
+{
+  "id": "n4-m3-a4",
+  "slug": "suspensoes-sus4-7sus4-7-13",
+  "level": 4,
+  "moduleId": "n4-m3",
+  "title": "Suspensões: sus4, 7sus4, 7(13)",
+  "subtitle": "A 4ª substitui a 3ª e suspende a resolução — em Corcovado, G7sus4 e F7M(13) criam o balanço entre tensão e repouso.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n4-m3-a3"
+  ],
+  "tags": [
+    "acordes",
+    "sus"
+  ],
+  "relatedWorks": [
+    "corcovado"
+  ],
+  "relatedChords": [
+    "Gsus4",
+    "G7sus4",
+    "F7M(13)",
+    "Csus4",
+    "C7sus4"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m3a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (alterações): o que faz a b9 em uma dominante?",
+      "options": [
+        {
+          "label": "Adiciona semitom cromático acima da fundamental — mais tensão",
+          "correct": true,
+          "feedbackOk": "Sus4 faz o oposto: remove a 3ª e suspende."
+        },
+        {
+          "label": "Abaixa a 3ª em um semitom",
+          "correct": false,
+          "feedbackErr": "Isso descreveria ♭3, não b9."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Sus4 vs maior",
+      "body": "Compare **G** com **Gsus4** e **G7** com **G7sus4**. A 4ª (Dó) substitui a 3ª (Si) — o acorde 'flutua' sem definir maior/menor."
+    },
+    {
+      "type": "component",
+      "id": "snd-sus",
+      "componentId": "play-chord",
+      "props": {
+        "title": "sus4 e 7sus4",
+        "chords": [
+          "G",
+          "Gsus4",
+          "G7",
+          "G7sus4"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "suspensoes",
+      "title": "sus4, 7sus4 e 7(13)",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "sus-text",
+      "markdown": "| Símbolo | Fórmula | Efeito |\n|---------|---------|--------|\n| **sus4** | 1 4 5 | Sem 3ª — aberto, indefinido |\n| **7sus4** | 1 4 5 ♭7 | Dominante suspensa — pede resolução |\n| **7(13)** | 1 3 5 ♭7 13 | Dominante com cor — não é sus |\n\n**G7sus4** → **G7** → **C7M** é a cadência suspensa clássica. **F7M(13)** em Corcovado repousa com sofisticação."
+    },
+    {
+      "type": "component",
+      "id": "prog-corcovado",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "Fm7",
+          "Bb7",
+          "Eb7M"
+        ],
+        "functions": [
+          "T",
+          "SD",
+          "D",
+          "SD"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "corcovado",
+      "excerpt": "F7M  Fm7  Bb7  Eb7M",
+      "annotation": "Progressão com subdominantes de grau II em Fá.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado",
+        "lessonId": "n4-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Corcovado** alterna **Am6** e **G7sus4** — suspensões que adiam a resolução. Bossa usa sus4 na dominante para suavizar cadências; **7(13)** aparece quando a 3ª já está presente e a 13ª colore sem suspender."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "7sus4 é a dominante 'sem opinião' — ideal para preparar modulações. **7(13)** já tem 3ª definida; a 13ª adiciona cor sem suspender."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **G7sus4** (3 X 0 0 1 1). 2. Resolva em **G7** (3 2 0 0 0 1). 3. Resolva em **C7M**. Sinta a 4ª 'cair' para a 3ª."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m3a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual nota substitui a 3ª em Gsus4?",
+      "options": [
+        {
+          "label": "4ª (Dó) — sus4",
+          "correct": true,
+          "feedbackOk": "Sem 3ª, o acorde não define maior/menor."
+        },
+        {
+          "label": "2ª (Lá) — sus2",
+          "correct": false,
+          "feedbackErr": "sus2 usaria Lá — aqui é sus4 com Dó."
+        },
+        {
+          "label": "5ª (Ré) — power chord",
+          "correct": false,
+          "feedbackErr": "A 5ª permanece — é a 3ª que é substituída."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m3a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o acorde à função em Fá (Corcovado):",
+      "pairs": [
+        {
+          "left": "F7M",
+          "right": "I — tônica"
+        },
+        {
+          "left": "Fm7",
+          "right": "i — subdominante menor"
+        },
+        {
+          "left": "Bb7",
+          "right": "IV7 — subdominante"
+        },
+        {
+          "left": "Eb7M",
+          "right": "bVII7M — empréstimo"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m3a4-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Cadência suspensa: G7sus4 → ? → C7M",
+      "orderAnswer": [
+        "G7sus4",
+        "G7",
+        "C7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a suspensão:",
+      "playChords": [
+        "G7sus4"
+      ],
+      "options": [
+        {
+          "label": "G7sus4 — dominante com 4ª no lugar da 3ª",
+          "correct": true,
+          "feedbackOk": "Som aberto que pede resolução da 4ª para 3ª."
+        },
+        {
+          "label": "G7 — dominante resolvida",
+          "correct": false,
+          "feedbackErr": "G7 tem 3ª definida (Si) — som mais 'fechado'."
+        },
+        {
+          "label": "Gm7 — pré-dominante menor",
+          "correct": false,
+          "feedbackErr": "m7 tem 3ª menor — não é sus."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m3a4-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar G7sus4 → G7 → C7M sentindo a resolução da suspensão?"
+    }
+  ]
+}

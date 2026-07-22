@@ -1,0 +1,288 @@
+{
+  "id": "n5-m1-a1",
+  "slug": "cadencia-autentica-e-plagal",
+  "level": 5,
+  "moduleId": "n5-m1",
+  "title": "Autêntica (V–I) e plagal (IV–I)",
+  "subtitle": "As duas cadências mais antigas — V–I fecha com autoridade, IV–I repousa com suavidade. Garota e Chega mostram as duas em contexto bossa.",
+  "durationMin": 16,
+  "prerequisites": [],
+  "tags": [
+    "cadencias"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema",
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "G7",
+    "C7M",
+    "C7",
+    "F7M",
+    "F7",
+    "Bb7M",
+    "A7",
+    "Dm7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m1a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (nível 4): em Fá maior, qual acorde é a dominante (V)?",
+      "options": [
+        {
+          "label": "C7 — V7 com trítono",
+          "correct": true,
+          "feedbackOk": "C7→F7M é a cadência autêntica que vamos formalizar."
+        },
+        {
+          "label": "G7 — III7",
+          "correct": false,
+          "feedbackErr": "G7 é III em Fá — dominante é C7."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Duas formas de repousar",
+      "body": "Ouça **C7 → F7M** (autêntica — tensão resolve) e **Bb7M → F7M** (plagal — subdominante repousa). Garota usa a autêntica; muitos sambas usam a plagal."
+    },
+    {
+      "type": "component",
+      "id": "cad-flow",
+      "componentId": "cadence-flow",
+      "props": {
+        "key": "F"
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-aut",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Autêntica V–I em Fá",
+        "chords": [
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-plag",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Plagal IV–I em Fá",
+        "chords": [
+          "Bb7M",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tipos",
+      "title": "Autêntica vs plagal",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tipos-text",
+      "markdown": "| Cadência | Fórmula | Sensação | Exemplo em Fá |\n|----------|---------|----------|---------------|\n| **Autêntica** | V → I | Tensão → repouso forte | C7 → F7M (Garota) |\n| **Plagal** | IV → I | Repouso suave ('amen') | Bb7M → F7M |\n\nEm **Chega de Saudade** (Dm), **A7 → Dm7M** é autêntica menor. A plagal **Gm → Dm** aparece em passagens líricas."
+    },
+    {
+      "type": "component",
+      "id": "prog-garota",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "Gm7",
+          "C7",
+          "F7M"
+        ],
+        "functions": [
+          "PD",
+          "D",
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "workId": "garota-de-ipanema",
+      "excerpt": "Gm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá — cadência autêntica com pré-dominante.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "example",
+      "id": "ex-chega",
+      "workId": "chega-de-saudade",
+      "excerpt": "A7  Dm7M",
+      "annotation": "V–i em Ré menor — autêntica na bossa fundadora.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart-g",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "garota-de-ipanema"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota de Ipanema",
+        "lessonId": "n5-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Garota** fecha versos com C7→F7M (autêntica); sambas e partido-alto usam plagal Bb→F como \"amen\" brasileiro. Violonistas MPB sentem a diferença: autêntica \"decide\", plagal \"acolhe\" sem a tensão do trítono."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "A cadência autêntica pode ser precedida por ii (II–V–I). A plagal frequentemente aparece após a autêntica: C7→F7M→Bb7M→F7M — 'double plagal' na MPB."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. **C7 → F7M** (autêntica). 2. **Bb7M → F7M** (plagal). 3. **Gm7 → C7 → F7M** (completa). Sinta a diferença de tensão."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n5m1a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual cadência é V → I em Fá maior?",
+      "options": [
+        {
+          "label": "C7 → F7M (autêntica)",
+          "correct": true,
+          "feedbackOk": "Dominante resolve na tônica — máxima finalização."
+        },
+        {
+          "label": "Bb7M → F7M (plagal)",
+          "correct": false,
+          "feedbackErr": "Isso é IV→I — plagal, não autêntica."
+        },
+        {
+          "label": "Gm7 → C7 (pré-dominante)",
+          "correct": false,
+          "feedbackErr": "ii→V prepara, não resolve."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n5m1a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a cadência à fórmula em Dó maior:",
+      "pairs": [
+        {
+          "left": "Autêntica",
+          "right": "G7 → C7M"
+        },
+        {
+          "left": "Plagal",
+          "right": "F7M → C7M"
+        },
+        {
+          "left": "II–V–I",
+          "right": "Dm7 → G7 → C7M"
+        },
+        {
+          "left": "Deceptiva",
+          "right": "G7 → Am7 (próxima aula)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n5m1a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Cadência autêntica em Dm (Chega):",
+      "orderAnswer": [
+        "A7",
+        "Dm7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n5m1a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a cadência:",
+      "playChords": [
+        "Bb7M",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "Plagal IV–I em Fá",
+          "correct": true,
+          "feedbackOk": "Subdominante repousa na tônica — sem tensão de V."
+        },
+        {
+          "label": "Autêntica V–I em Fá",
+          "correct": false,
+          "feedbackErr": "V–I teria C7 antes — mais tensão."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "São apenas 2 acordes, não 3."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m1a1-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar autêntica e plagal em Fá e Dó sentindo a diferença?"
+    }
+  ]
+}

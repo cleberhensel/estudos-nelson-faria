@@ -1,0 +1,260 @@
+{
+  "id": "n7-m1-a3",
+  "slug": "baixo-independente-walking-simplificado",
+  "level": 7,
+  "moduleId": "n7-m1",
+  "title": "Baixo independente — walking simplificado",
+  "subtitle": "Walking simplificado: tônica-quinta-alvo por compasso — Corcovado com baixo que caminha.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n7-m1-a2"
+  ],
+  "tags": [
+    "arranjo",
+    "baixo"
+  ],
+  "relatedWorks": [
+    "corcovado"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Fm7",
+    "Bb7",
+    "Eb7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m1a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m1-a2): registros grave/médio/agudo. Baixo independente significa:",
+      "options": [
+        {
+          "label": "Linha de polegar que não repete só a fundamental.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Baixo independente caminha entre acordes."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Em **Corcovado** (F7M), ouça baixo descer F→E→Eb→D preparando Dm7 — walking simplificado em 4 notas/compasso."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Corcovado — F7M → Fm7",
+        "chords": [
+          "F7M",
+          "Fm7",
+          "Bb7",
+          "Eb7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Baixo independente — walking simplificado",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Walking bass** no violão popular = uma nota por tempo (ou por contratempo) ligando acordes por **graus ou cromatismo**. Versão simplificada:\n\n- Tempo 1: fundamental\n- Tempo 3: quinta ou 3ª do próximo acorde\n- Abordagem cromática na mudança\n\nCorcovado usa **Fm7 → Bb7** com baixo que anuncia subdominante."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Corcovado — baixo + acorde",
+        "voicings": [
+          {
+            "label": "F7M + baixo F",
+            "chord": "F7M",
+            "shape": "1 3 2 0 1 0",
+            "note": "Fundamental polegar"
+          },
+          {
+            "label": "Fm7 approach",
+            "chord": "Fm7",
+            "shape": "1 3 1 1 1 1",
+            "note": "Baixo E passagem"
+          },
+          {
+            "label": "Bb7",
+            "chord": "Bb7",
+            "shape": "X 1 3 1 3 1",
+            "note": "Subdominante"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Jobim ouvia jazz americano — walking no violão de bossa é 'jazz com chinelo'."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "corcovado",
+      "excerpt": "F7M  Fm7  Bb7  Eb7M",
+      "annotation": "Progressão com subdominantes de grau II em Fá.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado",
+        "lessonId": "n7-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Corcovado é laboratório de baixo cantável sem perder levada bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. F7M: polegar F (1) – C (3) – A (contratempo). 2. Ao mudar para Fm7, baixo desce E. 3. 4 compassos Corcovado só baixo + acorde."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m1a3-q1",
+      "kind": "mc",
+      "question": "Walking simplificado no violão:",
+      "options": [
+        {
+          "label": "Polegar liga acordes com notas de passagem",
+          "correct": true,
+          "feedbackOk": "Grave independente."
+        },
+        {
+          "label": "Repetir fundamental em block chords",
+          "correct": false,
+          "feedbackErr": "Isso não caminha."
+        },
+        {
+          "label": "Só usar pestana",
+          "correct": false,
+          "feedbackErr": "Walking é linha, não shape fixo."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "baixo-independente-walking-simplificado",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m1a3-match",
+      "kind": "match",
+      "question": "Baixo ↔ função Corcovado:",
+      "pairs": [
+        {
+          "left": "F no 1",
+          "right": "Tônica F7M"
+        },
+        {
+          "left": "E passagem",
+          "right": "Aproxima Fm7"
+        },
+        {
+          "left": "Bb7",
+          "right": "Subdominante"
+        },
+        {
+          "left": "Walking",
+          "right": "Uma nota por tempo"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — walking bass em Corcovado:",
+      "playChords": [
+        "F7M",
+        "Fm7",
+        "Bb7"
+      ],
+      "options": [
+        {
+          "label": "T → iv → bVII — baixo independente sobre empréstimo",
+          "correct": true,
+          "feedbackOk": "Corcovado — linha de baixo guia o arranjo."
+        },
+        {
+          "label": "II–V–I diatônico em Fá",
+          "correct": false,
+          "feedbackErr": "Fm7 escurece — iv emprestado, não ii."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m1a3-self",
+      "kind": "self_check",
+      "question": "4 compassos de Corcovado com baixo caminhando sem travar?",
+      "tags": []
+    }
+  ]
+}

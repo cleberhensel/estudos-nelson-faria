@@ -1,0 +1,327 @@
+{
+  "id": "n6-m3-a3",
+  "slug": "quiz-do-nivel-6",
+  "level": 6,
+  "moduleId": "n6-m3",
+  "title": "Quiz do Nível 6 — ritmo brasileiro",
+  "subtitle": "8 perguntas sobre bossa, samba, choro, baião e groove — só passa quem praticou as grades.",
+  "durationMin": 12,
+  "prerequisites": [
+    "n6-m3-a2"
+  ],
+  "tags": [
+    "quiz"
+  ],
+  "relatedWorks": [
+    "so-danco-samba",
+    "chega-de-saudade",
+    "o-que-e-que-a-baiana-tem",
+    "carinhoso"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "Dm",
+    "A7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m3a3-warm",
+      "kind": "mc",
+      "question": "Revisão (N6): antes do quiz N6: você praticou bossa, samba, choro e baião no violão esta semana?",
+      "options": [
+        {
+          "label": "Sim — testei as 4 grades rítmicas",
+          "correct": true,
+          "feedbackOk": "Ótimo — vamos lá."
+        },
+        {
+          "label": "Não revisei levadas",
+          "correct": false,
+          "feedbackErr": "Pause e revise n6-m1-a2 e n6-m2-a2 antes do quiz."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "motiv",
+      "variant": "tip",
+      "title": "Quiz N6 — Ritmo brasileiro",
+      "body": "8 perguntas sobre pulso, levadas e obras (Só Danço Samba, Chega, Baiana Tem, Carinhoso). Média ≥70% desbloqueia N7."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 120
+      }
+    },
+    {
+      "type": "heading",
+      "id": "quiz",
+      "title": "Perguntas",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m3a3-q1",
+      "kind": "mc",
+      "question": "Na batida bossa de João Gilberto, o polegar marca principalmente:",
+      "options": [
+        {
+          "label": "Pulso nos tempos 1 e 3",
+          "correct": true,
+          "feedbackOk": "Base estável — dedos no contratempo."
+        },
+        {
+          "label": "Semicolcheias iguais ao choro",
+          "correct": false,
+          "feedbackErr": "Choro é mais denso."
+        },
+        {
+          "label": "Padrão 3+3+2 baião",
+          "correct": false,
+          "feedbackErr": "Isso é baião, não bossa."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q2",
+      "exerciseId": "ex-n6m3a3-q2",
+      "kind": "mc",
+      "question": "Samba de partido-alto enfatiza qual tempo no 4/4?",
+      "options": [
+        {
+          "label": "Tempo 2 (surdo)",
+          "correct": true,
+          "feedbackOk": "Diferente da bossa (1 e 3)."
+        },
+        {
+          "label": "Tempo 1 apenas",
+          "correct": false,
+          "feedbackErr": "Samba marca o 2."
+        },
+        {
+          "label": "Sem pulso definido",
+          "correct": false,
+          "feedbackErr": "Samba tem pulso forte no 2."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q3",
+      "exerciseId": "ex-n6m3a3-q3",
+      "kind": "match",
+      "question": "Gênero ↔ obra âncora N6:",
+      "pairs": [
+        {
+          "left": "Bossa",
+          "right": "Chega de Saudade"
+        },
+        {
+          "left": "Samba",
+          "right": "O Que É Que a Baiana Tem?"
+        },
+        {
+          "left": "Choro",
+          "right": "Carinhoso"
+        },
+        {
+          "left": "Groove MPB",
+          "right": "Só Danço Samba"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q4",
+      "exerciseId": "ex-n6m3a3-q4",
+      "kind": "mc",
+      "question": "Baião agrupa semicolcheias como:",
+      "options": [
+        {
+          "label": "3+3+2",
+          "correct": true,
+          "feedbackOk": "Padrão nordestino clássico."
+        },
+        {
+          "label": "2+2+2+2",
+          "correct": false,
+          "feedbackErr": "Igual não é baião."
+        },
+        {
+          "label": "4+4",
+          "correct": false,
+          "feedbackErr": "São 8 semicolcheias, não 2 grupos de 4."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q5",
+      "exerciseId": "ex-n6m3a3-q5",
+      "kind": "mc",
+      "question": "Em Chega (Dm), Dm/C no contratempo integra:",
+      "options": [
+        {
+          "label": "Ritmo bossa + baixo descendente",
+          "correct": true,
+          "feedbackOk": "Harmonia e levada juntas."
+        },
+        {
+          "label": "Só block chords sem levada",
+          "correct": false,
+          "feedbackErr": "Chega exige batida João."
+        },
+        {
+          "label": "Baião 3+3+2",
+          "correct": false,
+          "feedbackErr": "Chega é bossa, não baião."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q6",
+      "exerciseId": "ex-n6m3a3-q6",
+      "kind": "order",
+      "question": "Ordene do mais parado ao mais denso:",
+      "orderAnswer": [
+        "Bossa",
+        "Samba",
+        "Partido-alto",
+        "Choro"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q7",
+      "exerciseId": "ex-n6m3a3-q7",
+      "kind": "mc",
+      "question": "Desafio 4 gêneros (n6-m3-a2) usou progressão:",
+      "options": [
+        {
+          "label": "Dm7–G7–C7M em 4 levadas",
+          "correct": true,
+          "feedbackOk": "Harmonia fixa, groove variável."
+        },
+        {
+          "label": "I–IV–V em Fá apenas",
+          "correct": false,
+          "feedbackErr": "Progressão era II–V–I em Dó."
+        },
+        {
+          "label": "Só baião em A7",
+          "correct": false,
+          "feedbackErr": "Desafio usava II–V–I."
+        }
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m3a3-dict",
+      "kind": "dictation",
+      "question": "Ouça — cadência Só Danço Samba (Fá):",
+      "options": [
+        {
+          "label": "II–V–I em Fá",
+          "correct": true,
+          "feedbackOk": "Gm7→C7→F7M — bossa clássica."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Resolução em F7M."
+        }
+      ],
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Referência MPB",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "so-danco-samba",
+      "excerpt": "F7M  Gm7  C7  F7M",
+      "annotation": "Bossa com levada e II–V–I.",
+      "youtube": "YJMEu1oxLjA",
+      "youtubeTitle": "Só Danço Samba",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "so-danco-samba"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "so-danco-samba",
+        "title": "Só Danço Samba",
+        "lessonId": "n6-m3-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Ritmo brasileiro no violão une Nordeste (baião), Rio (samba/choro) e bossa carioca — o quiz cobre os quatro grooves sobre a mesma função harmônica (II–V–I em Fá)."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Após o quiz",
+      "body": "Toque dois compassos da levada que mais errou (bossa, samba, choro ou baião) sobre F7M–Gm7–C7."
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m3a3-self",
+      "kind": "self_check",
+      "question": "Média ≥70%? Se não, revise n6-m1-a2 (bossa) e n6-m2-a2 (baião) e repita amanhã.",
+      "tags": []
+    }
+  ]
+}

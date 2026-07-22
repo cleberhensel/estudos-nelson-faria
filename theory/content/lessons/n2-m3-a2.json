@@ -1,0 +1,196 @@
+{
+  "id": "n2-m3-a2",
+  "slug": "conectar-as-formas-subir-o-braco",
+  "level": 2,
+  "moduleId": "n2-m3",
+  "title": "Conectar as formas — subir o braço",
+  "durationMin": 16,
+  "prerequisites": [
+    "n2-m3-a1"
+  ],
+  "subtitle": "Ligue C→A→G→E→D ascendendo — a escala de Dó atravessa as cinco formas sem interrupção.",
+  "tags": [
+    "caged",
+    "violao"
+  ],
+  "relatedWorks": [
+    "lilas"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m3a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): quais são as cinco letras do sistema CAGED?",
+      "options": [
+        {
+          "label": "C – A – G – E – D",
+          "correct": true,
+          "feedbackOk": "Cinco formas — agora conectamos subindo o braço."
+        },
+        {
+          "label": "C – A – G – E – F",
+          "correct": false,
+          "feedbackErr": "F não faz parte do acrônimo CAGED."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a conexão",
+      "body": "Toque a escala de Dó subindo do traste 0 ao 12 sem parar. Cada 3–4 trastes você entra numa forma CAGED diferente — o som é contínuo, o shape muda."
+    },
+    {
+      "type": "component",
+      "id": "snd-scale",
+      "componentId": "play-scale",
+      "props": { "title": "Dó maior ascendente (ligando formas)", "root": "C", "scale": "major" }
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 15
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-c",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "C"
+      }
+    },
+    {
+      "type": "component",
+      "id": "ch-g",
+      "componentId": "fretboard-chord",
+      "props": {
+        "chord": "G"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "conectar",
+      "title": "Conectar CAGED ascendente",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "con-text",
+      "markdown": "Subindo o braço em **Dó maior**, as formas se encaixam:\n\n**C** (casa 0–4) → **A** (casa 3–7) → **G** (casa 5–9) → **E** (casa 8–12) → **D** (casa 10–14)\n\nAs notas da escala **atravessam** os shapes — o acorde em cada região é o **I** local."
+    },
+    {
+      "type": "prose",
+      "id": "lilas-text",
+      "markdown": "Em **Lilás** (Ré maior), o mesmo padrão CAGED desloca-se +2 casas. A **função** de cada forma permanece — só a tônica muda de grau."
+    },
+    {
+      "type": "example",
+      "id": "ex-lilas",
+      "workId": "lilas",
+      "excerpt": "Em7  A7  D7M  G7M",
+      "annotation": "Ré maior — CAGED deslocado conecta regiões do braço."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "lilas",
+        "title": "Lilás",
+        "lessonId": "n2-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Lilás** (Ré maior) = CAGED deslocado +2 casas. Djavan não 'sabe CAGED' — mas o arranjo percorre regiões conectadas do braço. Internalizar C→A→G→E→D acelera aprender qualquer bossa em tom novo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "As formas se sobrepõem: a nota **E** na forma C (4ª corda 2) é a mesma região onde começa a forma A. Conectar = não repetir notas, fluir de caixa em caixa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escala C do traste 0 ao 12 ligando formas. 2. **C**→**D**→**E** shapes (C, D forms). 3. **G** (3 2 0 0 0 3) na transição. 4. Suba até casa 12 sem pausar."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m3a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual forma CAGED vem logo após C ao subir o braço?",
+      "options": [
+        {
+          "label": "Forma A",
+          "correct": true,
+          "feedbackOk": "C→A→G→E→D — ordem ascendente."
+        },
+        {
+          "label": "Forma G",
+          "correct": false,
+          "feedbackErr": "G vem depois de A, não de C diretamente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n2m3a2-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene as formas ao subir o braço (Dó maior):",
+      "orderAnswer": ["C", "A", "G", "E", "D"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Em7→A7→D7M — tonalidade da resolução?",
+      "playChords": ["Em7", "A7", "D7M"],
+      "options": [
+        { "label": "Ré maior — forma D/G deslocada +2 casas", "correct": true, "feedbackOk": "Lilás — CAGED em Ré = CAGED em Dó +2 trastes." },
+        { "label": "Dó maior — forma C aberta", "correct": false, "feedbackErr": "Centro tonal é D7M — Ré, não Dó." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m3a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar a escala de Dó ligando pelo menos 3 formas CAGED?"
+    }
+  ]
+}

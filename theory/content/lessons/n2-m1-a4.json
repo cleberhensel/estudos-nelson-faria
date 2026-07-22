@@ -1,0 +1,216 @@
+{
+  "id": "n2-m1-a4",
+  "slug": "circulo-de-quintas-e-armaduras",
+  "level": 2,
+  "moduleId": "n2-m1",
+  "title": "Círculo de quintas e armaduras",
+  "durationMin": 18,
+  "prerequisites": [
+    "n2-m1-a3"
+  ],
+  "subtitle": "Cada passo no círculo adiciona um sustenido ou bemol — Ré maior tem 2♯, Sol tem 1♯, Dó nenhum.",
+  "tags": [
+    "escalas",
+    "tonalidade"
+  ],
+  "relatedWorks": [
+    "oceano"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m1a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): em Sol maior, qual acorde é o grau V (dominante)?",
+      "options": [
+        {
+          "label": "D (Ré)",
+          "correct": true,
+          "feedbackOk": "V = quinta acima — agora encadeamos quintas no círculo."
+        },
+        {
+          "label": "Am",
+          "correct": false,
+          "feedbackErr": "Am é vi relativa, não V."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça o círculo",
+      "body": "Toque **C → G → D → A** em sequência. Cada acorde é a dominante (V) do anterior — quinta justa encadeada. **Oceano** usa esse fluxo com 7ªs."
+    },
+    {
+      "type": "component",
+      "id": "snd-circle",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Círculo de quintas: C → G → D → A",
+        "chords": ["C", "G", "D", "A"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "circle",
+      "componentId": "circle-fifths",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "htable",
+      "componentId": "harmonic-table",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "circulo",
+      "title": "Círculo de quintas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "circulo-text",
+      "markdown": "Subindo em **quintas justas**: C → G → D → A → E → B → F# …\n\n| Tonalidade | Armadura | Alterações |\n|------------|----------|------------|\n| **C** | nenhuma | — |\n| **G** | 1♯ | F# |\n| **D** | 2♯ | F#, C# |\n| **A** | 3♯ | + G# |\n\n**Oceano** (Djavan) modula entre tonalidades vizinhas no círculo — **Bm7→E7→A7M→D7M**."
+    },
+    {
+      "type": "prose",
+      "id": "mod-text",
+      "markdown": "A **modulação** por quintas soa natural porque V de uma tonalidade é I da próxima. Djavan explora esse fluxo — função dominante vira nova tônica."
+    },
+    {
+      "type": "example",
+      "id": "ex-oceano",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Progressão por quintas: cada V7 resolve na tônica seguinte."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n2-m1-a4"
+      }
+    },
+    {
+      "type": "component",
+      "id": "chart-oceano",
+      "componentId": "song-chart",
+      "props": { "annotation": "oceano" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Djavan em **Oceano** modula por quintas com elegância — Bm7→E7→A7M→D7M soa como viagem natural, não choque. O círculo explica por que modulações por V7 'funcionam' na MPB."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Cada passo no círculo adiciona 1♯ (sentido horário) ou 1♭ (anti-horário). **Ré maior** (2♯) é vizinho de **Sol** (1♯) e **Lá** (3♯) — modulações de Djavan costumam saltar entre vizinhos."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **C**→**G**→**D**→**A** (shapes abertos/móveis). 2. Cante a escala de D com F# e C#. 3. **Bm7** (X 2 4 2 3 2) — ii em A. 4. **E7** (0 2 0 1 0 0) — V em A."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m1a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantos sustenidos tem Ré maior?",
+      "options": [
+        {
+          "label": "2 (F# e C#)",
+          "correct": true,
+          "feedbackOk": "2♯ — vizinho de Sol (1♯) no círculo."
+        },
+        {
+          "label": "1 (só F#)",
+          "correct": false,
+          "feedbackErr": "1♯ é Sol maior."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n2m1a4-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Ordene no círculo de quintas ascendentes a partir de Dó:",
+      "orderAnswer": [
+        "C",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m1a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Tonalidade maior → armadura:",
+      "pairs": [
+        { "left": "Dó (C)", "right": "Nenhuma alteração" },
+        { "left": "Sol (G)", "right": "1♯ (F#)" },
+        { "left": "Ré (D)", "right": "2♯ (F#, C#)" },
+        { "left": "Lá (A)", "right": "3♯ (+ G#)" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m1a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Bm7→E7→A7M — modulação por quintas?",
+      "playChords": ["Bm7", "E7", "A7M"],
+      "options": [
+        { "label": "Sim — cada V7 resolve na tônica seguinte (Oceano)", "correct": true, "feedbackOk": "ii–V–I encadeado por quintas ascendentes." },
+        { "label": "Não — modulação cromática por semitom", "correct": false, "feedbackErr": "Ouça: B→E→A são quintas justas encadeadas." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m1a4-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu ler o círculo e a tabela harmônica de Ré sem confundir armaduras?"
+    }
+  ]
+}

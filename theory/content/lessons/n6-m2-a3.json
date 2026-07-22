@@ -1,0 +1,246 @@
+{
+  "id": "n6-m2-a3",
+  "slug": "violao-popular-o-groove",
+  "level": 6,
+  "moduleId": "n6-m2",
+  "title": "Violão popular — o groove",
+  "subtitle": "Groove é harmonia + ritmo + dinâmica — quando os três alinham, a cifra 'toca sozinha'.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n6-m2-a2"
+  ],
+  "tags": [
+    "ritmo",
+    "violao"
+  ],
+  "relatedWorks": [
+    "so-danco-samba"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m2a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m2-a2): baião agrupa semicolcheias em 3+3+2. O que transforma levada em groove completo?",
+      "options": [
+        {
+          "label": "Harmonia + ritmo + dinâmica (ataques/abafos).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Groove não é só padrão de polegar — é o conjunto."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **Só Danço Samba** com levada bossa e depois com levada samba — mesmos acordes (F7M, Gm7, C7). O groove muda a percepção harmônica."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Mesma harmonia, groove bossa",
+        "chords": [
+          "F7M",
+          "Gm7",
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Violão popular — o groove",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Groove** no violão popular = levada consistente + escolha de registros (grave/médio/agudo) + dinâmica (ataque forte vs abafado). Sem groove, você 'toca acordes'; com groove, você **interpreta gênero**.\n\nO violonista MPB alterna grooves entre seções: verso mais seco, refrão mais cheio. O ouvinte sente antes de analisar."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 120
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "João Donato diz que groove é 'o que sobra quando você tira a melodia e a letra' — no violão, teste isso tocando só levada de Só Danço Samba."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "so-danco-samba",
+      "excerpt": "F7M  Gm7  C7  F7M",
+      "annotation": "Bossa com levada e II–V–I.",
+      "youtube": "YJMEu1oxLjA",
+      "youtubeTitle": "Só Danço Samba",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "so-danco-samba"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "so-danco-samba",
+        "title": "Só Danço Samba",
+        "lessonId": "n6-m2-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB é cifra com gênero implícito — bossa, samba e choro na mesma progressão exigem grooves diferentes."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. F7M–Gm7–C7–F7M: 4 compassos bossa. 2. Mesma sequência, levada samba. 3. Grave um áudio de 8s e compare."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m2a3-q1",
+      "kind": "mc",
+      "question": "Groove no violão MPB inclui:",
+      "options": [
+        {
+          "label": "Levada + dinâmica + registro",
+          "correct": true,
+          "feedbackOk": "Três camadas simultâneas."
+        },
+        {
+          "label": "Só a sequência de acordes",
+          "correct": false,
+          "feedbackErr": "Cifra crua não é groove."
+        },
+        {
+          "label": "Apenas BPM alto",
+          "correct": false,
+          "feedbackErr": "Groove existe em andamentos lentos."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "violao-popular-o-groove",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m2a3-match",
+      "kind": "match",
+      "question": "Groove ↔ gênero em Só Danço Samba:",
+      "pairs": [
+        {
+          "left": "Bossa",
+          "right": "Contratempo seco"
+        },
+        {
+          "left": "Samba",
+          "right": "Tempo 2 marcado"
+        },
+        {
+          "left": "Dinâmica",
+          "right": "Abafado vs livre"
+        },
+        {
+          "left": "Registro",
+          "right": "Polegar grave / dedos agudos"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m2a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — progressão bossa (Só Danço Samba):",
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "II–V–I em Fá — groove bossa sobre cadência jazz",
+          "correct": true,
+          "feedbackOk": "Harmonia + levada = groove completo."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Resolução em F7M — tom Fá."
+        },
+        {
+          "label": "Blues I–IV–V",
+          "correct": false,
+          "feedbackErr": "Cadência diatônica bossa, não blues."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m2a3-self",
+      "kind": "self_check",
+      "question": "Consegue alternar bossa e samba na mesma progressão sem pausar?",
+      "tags": []
+    }
+  ]
+}

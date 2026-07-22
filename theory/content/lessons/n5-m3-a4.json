@@ -1,0 +1,187 @@
+{
+  "id": "n5-m3-a4",
+  "slug": "quiz-do-nivel-5",
+  "level": 5,
+  "moduleId": "n5-m3",
+  "title": "Quiz do Nível 5",
+  "subtitle": "Cadências, dominantes, ciclos e modulações — 8 perguntas sobre o vocabulário harmônico que move a MPB.",
+  "durationMin": 12,
+  "prerequisites": ["n5-m3-a3"],
+  "tags": ["quiz"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["Gm7", "C7", "F7M", "G7", "Am7", "Bb7", "E7", "Gb7", "A7", "Dm7M"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n5m3a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (Djavan): qual acorde-ponte em Bm7→E7→A7M (Oceano)?",
+      "options": [
+        { "label": "E7 — dominante comum D→A", "correct": true, "feedbackOk": "Quiz final — progressões e cadências." },
+        { "label": "Bm7 — pré-dominante", "correct": false, "feedbackErr": "Bm7 abre, não pivota." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "motiv",
+      "variant": "tip",
+      "title": "Quiz Nível 5",
+      "body": "Cobre cadências, II–V–I, deceptiva, backdoor, dominantes secundárias, SubV7, ciclo e modulação. Média ≥70% conclui o nível."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Este quiz cobre cadências e progressões que você ouve em **Garota**, **Chega**, **Desafinado** e **Oceano**. Se errar dictation, volte ao violão — Gm7→C7→F7M e G7→Am7 precisam estar no corpo, não só na cabeça."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": { "title": "Aquecimento: cadências", "chords": ["Gm7", "C7", "F7M", "G7", "Am7"] }
+    },
+    { "type": "heading", "id": "quiz", "title": "Perguntas", "level": 2 },
+    {
+      "type": "exercise",
+      "id": "q1",
+      "exerciseId": "ex-n5m3a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Cadência autêntica em Fá maior:",
+      "options": [
+        { "label": "C7 → F7M (V → I)", "correct": true, "feedbackOk": "Garota — dominante resolve na tônica." },
+        { "label": "Bb7M → F7M (IV → I)", "correct": false, "feedbackErr": "Isso é plagal, não autêntica." },
+        { "label": "C7 → Dm7 (V → vi)", "correct": false, "feedbackErr": "Isso é deceptiva em Fá." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q2",
+      "exerciseId": "ex-n5m3a4-q2",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "II–V–I em Fá (Garota) usa:",
+      "options": [
+        { "label": "Gm7 → C7 → F7M", "correct": true, "feedbackOk": "PD → D → T." },
+        { "label": "Dm7 → G7 → C7M", "correct": false, "feedbackErr": "Isso é em Dó, não Fá." },
+        { "label": "F7M → Gm7 → C7", "correct": false, "feedbackErr": "Ordem invertida." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q3",
+      "exerciseId": "ex-n5m3a4-q3",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Backdoor em Dó maior:",
+      "options": [
+        { "label": "Bb7 → C7M (bVII7 → I)", "correct": true, "feedbackOk": "Chega de Saudade — som terroso." },
+        { "label": "G7 → C7M (V → I)", "correct": false, "feedbackErr": "Isso é autêntica." },
+        { "label": "F7M → C7M (IV → I)", "correct": false, "feedbackErr": "Isso é plagal." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q4",
+      "exerciseId": "ex-n5m3a4-q4",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue a técnica ao exemplo:",
+      "pairs": [
+        { "left": "SubV7", "right": "Gm7 → Gb7 → F7M" },
+        { "left": "Dominante secundária", "right": "E7/B → Am7 (Chega)" },
+        { "left": "Deceptiva", "right": "G7 → Am7 em Dó" },
+        { "left": "Ciclo descendente", "right": "Dm7 → G7 → C7M" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q5",
+      "exerciseId": "ex-n5m3a4-q5",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "E7 em Dm (Chega) é:",
+      "options": [
+        { "label": "V7/ii — dominante secundária de Am", "correct": true, "feedbackOk": "Resolve em Am, não em Dm." },
+        { "label": "V7/i — dominante primária", "correct": false, "feedbackErr": "V7/i seria A7." },
+        { "label": "SubV7 de A7", "correct": false, "feedbackErr": "SubV7 de A7 seria Eb7." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q6",
+      "exerciseId": "ex-n5m3a4-q6",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "II–SubV7–I em Fá:",
+      "orderAnswer": ["Gm7", "Gb7", "F7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "q7",
+      "exerciseId": "ex-n5m3a4-q7",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça a cadência deceptiva:",
+      "playChords": ["G7", "Am7"],
+      "options": [
+        { "label": "V → vi em Dó (deceptiva)", "correct": true, "feedbackOk": "Esperava C7M — surpresa em Am7." },
+        { "label": "V → I em Dó (autêntica)", "correct": false, "feedbackErr": "I seria C7M." },
+        { "label": "II–V em Dó", "correct": false, "feedbackErr": "Faltam 2 acordes no início." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "q8",
+      "exerciseId": "ex-n5m3a4-q8",
+      "kind": "mc",
+      "difficulty": "challenge",
+      "question": "Modulação D→A em Oceano usa qual pivô?",
+      "options": [
+        { "label": "E7 — V7 em D e V7 em A", "correct": true, "feedbackOk": "Dominante comum — Bm7→E7→A7M." },
+        { "label": "A7M — tônica de chegada", "correct": false, "feedbackErr": "A7M é destino, não pivô." },
+        { "label": "D7M — tônica de partida", "correct": false, "feedbackErr": "Partida é Bm7 em D." }
+      ]
+    },
+    { "type": "heading", "id": "mpb", "title": "Referência MPB", "level": 2 },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "Gm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema", "lessonId": "n5-m3-a4" }
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Após o quiz",
+      "body": "Toque Gm7→C7→F7M e Gm7→Gb7→F7M lado a lado — fixe a diferença entre V clássico e SubV7."
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n5m3a4-self",
+      "kind": "self_check",
+      "question": "Atingiu ≥70% e domina progressões da MPB no violão?"
+    }
+  ]
+}

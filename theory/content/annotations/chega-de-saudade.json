@@ -1,0 +1,33 @@
+{
+  "workId": "chega-de-saudade",
+  "key": "Dm",
+  "sections": [
+    {
+      "label": "A — Ré menor (baixo cromático)",
+      "chords": [
+        { "symbol": "Dm", "degree": "Im", "function": "T" },
+        { "symbol": "Dm/C", "degree": "Im", "function": "T" },
+        { "symbol": "E7/B", "degree": "V7/V", "function": "D" },
+        { "symbol": "Bb6", "degree": "bVI", "function": "SD" },
+        { "symbol": "A7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Cadência menor",
+      "chords": [
+        { "symbol": "Em7(b5)", "degree": "IIø", "function": "PD" },
+        { "symbol": "A7(b9)", "degree": "V7", "function": "D" },
+        { "symbol": "Dm", "degree": "Im", "function": "T" }
+      ]
+    },
+    {
+      "label": "B — Ré maior (modulação homônima)",
+      "chords": [
+        { "symbol": "D6", "degree": "I", "function": "T" },
+        { "symbol": "Em7", "degree": "ii", "function": "SD" },
+        { "symbol": "A7", "degree": "V7", "function": "D" },
+        { "symbol": "D6", "degree": "I", "function": "T" }
+      ]
+    }
+  ]
+}

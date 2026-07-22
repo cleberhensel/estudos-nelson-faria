@@ -1,0 +1,205 @@
+{
+  "id": "n1-m3-a2",
+  "slug": "quinta-e-oitava-os-alicerces",
+  "level": 1,
+  "moduleId": "n1-m3",
+  "title": "Quinta e oitava — os alicerces",
+  "durationMin": 14,
+  "prerequisites": [
+    "n1-m3-a1"
+  ],
+  "subtitle": "5ª e 8ª justas — a afinação E-A-D-G-B-e é feita de quintas (exceto Si) e oitavas que fecham o mapa.",
+  "tags": [
+    "intervalos"
+  ],
+  "relatedWorks": [
+    "se-ela-perguntar"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n1m3a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): quantos semitons tem a 3ª maior (C→E)?",
+      "options": [
+        {
+          "label": "4 semitons",
+          "correct": true,
+          "feedbackOk": "3ª maior = 4 st — define qualidade maior."
+        },
+        {
+          "label": "5 semitons",
+          "correct": false,
+          "feedbackErr": "5 st é a 4ª justa (C→F)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça quinta e oitava",
+      "body": "Toque **E** solto (6ª) e **A** solto (5ª) — quinta justa. Depois **E** casa 12 — oitava. Esses dois intervalos estruturam a afinação."
+    },
+    {
+      "type": "component",
+      "id": "ruler-5",
+      "componentId": "interval-ruler",
+      "props": {
+        "from": "E",
+        "to": "A"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-5",
+      "componentId": "play-interval",
+      "props": {
+        "from": "E",
+        "to": "A",
+        "title": "5ª justa (E→A)"
+      }
+    },
+    {
+      "type": "component",
+      "id": "play-8",
+      "componentId": "play-interval",
+      "props": {
+        "from": "E",
+        "to": "E",
+        "title": "8ª justa (E→E oitava)"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "quinta",
+      "title": "Quinta justa — alicerce da afinação",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "quinta-text",
+      "markdown": "A **5ª justa** = **7 semitons**. A afinação padrão sobe em quintas:\n\n**E → A → D → G** (quintas) → **B** (quarta do G, não quinta!) → **e**.\n\n| Par de cordas | Intervalo |\n|---------------|----------|\n| 6ª→5ª | Quinta (E→A) |\n| 5ª→4ª | Quinta (A→D) |\n| 4ª→3ª | Quinta (D→G) |\n| 3ª→2ª | **3ª maior** (G→B) — exceção! |\n| 2ª→1ª | 4ª menor (B→e) |"
+    },
+    {
+      "type": "prose",
+      "id": "oitava-text",
+      "markdown": "A **8ª justa** = **12 semitons** = mesma letra. Função **V** (dominante) está a uma 5ª acima da tônica — em **Am**, **E7** é V7 (quinta Lá→Mi com 7ª)."
+    },
+    {
+      "type": "example",
+      "id": "ex-se-ela",
+      "workId": "se-ela-perguntar",
+      "excerpt": "Am  E7  Am",
+      "annotation": "E7 é quinta justa + 7ª sobre Am — função dominante clássica no choro."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "se-ela-perguntar",
+        "title": "Se Ela Perguntar",
+        "lessonId": "n1-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "A afinação E-A-D-G-B-e vem das quintas — tradição do violão clássico europeu adotada no choro brasileiro. Em **Se Ela Perguntar**, cada resolução Am←E7 é uma quinta justa cantada pelo baixo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Quinta (7 st) e oitava (12 st) são os intervalos mais estáveis. A função **V** está sempre a uma quinta acima da tônica — por isso **G7** resolve em **C7M** e **E7** resolve em **Am**."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **Am** (X 0 2 2 1 0). 2. **E7** (0 2 0 1 0 0) — ouça a 5ª Mi sobre Lá. 3. Compare **E** casa 0 e casa 12 na 6ª — oitava. 4. Afine mentalmente E→A→D→G."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n1m3a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Quantos semitons tem a 5ª justa?",
+      "options": [
+        {
+          "label": "7 semitons",
+          "correct": true,
+          "feedbackOk": "7 st = 5ª — base da afinação e da função V."
+        },
+        {
+          "label": "12 semitons",
+          "correct": false,
+          "feedbackErr": "12 st = oitava, não quinta."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n1m3a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Intervalo → função no campo:",
+      "pairs": [
+        {
+          "left": "5ª acima da tônica",
+          "right": "Grau V (dominante)"
+        },
+        {
+          "left": "8ª acima",
+          "right": "Mesma nota, oitava"
+        },
+        {
+          "left": "E7 sobre Am",
+          "right": "V7 pedindo resolução"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n1m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Am → E7 — qual função harmônica do E7?",
+      "playChords": ["Am", "E7"],
+      "options": [
+        { "label": "V7 (dominante) — quinta justa + 7ª sobre Lá", "correct": true, "feedbackOk": "A→E = 5ª; E7 pede resolução em Am." },
+        { "label": "IV (subdominante) — quarto grau", "correct": false, "feedbackErr": "IV de Am seria Dm — ouça a tensão de dominante." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n1m3a2-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu ouvir a 5ª em E→A e a oitava em E→E?"
+    }
+  ]
+}

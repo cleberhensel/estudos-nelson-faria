@@ -1,0 +1,264 @@
+{
+  "id": "n8-m1-a3",
+  "slug": "emprestimo-modal-completo",
+  "level": 8,
+  "moduleId": "n8-m1",
+  "title": "Empréstimo modal completo",
+  "subtitle": "bVII, bVI, bIII emprestados do modo — Corcovado usa bVI antes da resolução.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m1-a2"
+  ],
+  "tags": [
+    "emprestimo-modal",
+    "avancado"
+  ],
+  "relatedWorks": [
+    "corcovado"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Fm7",
+    "Bb7",
+    "Eb7M",
+    "Ab7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m1a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m1-a2): reharm linear segue baixo. Empréstimo modal traz acordes de:",
+      "options": [
+        {
+          "label": "Modo paralelo (ex.: C maior empresta de C menor).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "bVII/bVI vêm do aeolian/dorian paralelo."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Corcovado: F7M–Fm7–Bb7 — **Fm7** emprestado do F menor sobre centro F maior."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Corcovado — empréstimo Fm7",
+        "chords": [
+          "F7M",
+          "Fm7",
+          "Bb7",
+          "Eb7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Empréstimo modal completo",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Empréstimo modal completo**:\n\n| Emprestado | Grau | Origem típica |\n|------------|------|---------------|\n| bVII | bVII | Mixolídio/menor |\n| bVI | bVI | Menor natural |\n| bIII | bIII | Menor natural |\n\n**Corcovado** alterna F maior e coloração menor (Fm7) — efeito nostálgico Jobim."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "Fm7",
+          "Bb7",
+          "Eb7M"
+        ],
+        "functions": [
+          "I",
+          "i",
+          "IV",
+          "bVII"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Beatles e Jobim usaram empréstimo modal antes do termo 'modos' popularizar — ouvido primeiro."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "corcovado",
+      "excerpt": "F7M  Fm7  Bb7  Eb7M",
+      "annotation": "Progressão com subdominantes de grau II em Fá.",
+      "youtube": "s3nfZ_aRRV0",
+      "youtubeTitle": "Corcovado",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "corcovado",
+        "title": "Corcovado",
+        "lessonId": "n8-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Corcovado sem Fm7 perde metade da personalidade — empréstimo não é 'erro'."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. F7M → Fm7 (emprestimo) → Bb7. 2. Nomeie bVI. 3. Ouça resolução Eb7M."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m1a3-q1",
+      "kind": "mc",
+      "question": "Fm7 em F7M (Corcovado) é:",
+      "options": [
+        {
+          "label": "Empréstimo modal (i de F menor)",
+          "correct": true,
+          "feedbackOk": "Coloração nostálgica."
+        },
+        {
+          "label": "Dominante de Bb",
+          "correct": false,
+          "feedbackErr": "Fm7 não é V de Bb."
+        },
+        {
+          "label": "Erro de cifra",
+          "correct": false,
+          "feedbackErr": "Intencional Jobim."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "emprestimo-modal-completo",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m1a3-match",
+      "kind": "match",
+      "question": "Emprestimo ↔ grau em C:",
+      "pairs": [
+        {
+          "left": "Bb7",
+          "right": "bVII"
+        },
+        {
+          "left": "Ab7M",
+          "right": "bVI"
+        },
+        {
+          "left": "Eb7M",
+          "right": "bIII"
+        },
+        {
+          "left": "Fm7 em F",
+          "right": "i paralelo"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — empréstimo modal (Corcovado):",
+      "playChords": [
+        "F7M",
+        "Fm7",
+        "Bb7",
+        "Eb7M"
+      ],
+      "options": [
+        {
+          "label": "T → iv → bVII → bIII — empréstimo modal completo",
+          "correct": true,
+          "feedbackOk": "Fm7 escurece antes de Bb7 — cor subdominante menor."
+        },
+        {
+          "label": "Campo diatônico puro em Fá",
+          "correct": false,
+          "feedbackErr": "Fm7 e Bb7 são emprestados — não diatônicos."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m1a3-self",
+      "kind": "self_check",
+      "question": "Identificou empréstimo modal no trecho Corcovado?",
+      "tags": []
+    }
+  ]
+}

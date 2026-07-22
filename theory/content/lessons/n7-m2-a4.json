@@ -1,0 +1,266 @@
+{
+  "id": "n7-m2-a4",
+  "slug": "voicings-jobim-estudo-comparativo",
+  "level": 7,
+  "moduleId": "n7-m2",
+  "title": "Voicings Jobim — estudo comparativo",
+  "subtitle": "D7M(9), G7(13), C7M(9) lado a lado — voicings que definem o timbre bossa de Jobim.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n7-m2-a3"
+  ],
+  "tags": [
+    "arranjo",
+    "voicing",
+    "bossa"
+  ],
+  "relatedWorks": [
+    "wave"
+  ],
+  "relatedChords": [
+    "D7M(9)",
+    "G7(13)",
+    "C7M(9)",
+    "F#m7(b5)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m2a4-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m2-a3): palm-mute simula tamborim. Voicings Jobim privilegiam:",
+      "options": [
+        {
+          "label": "Tensões (9, 13) audíveis e fundamental omitida.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Jobim usa voicings abertos com tensões."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Compare os três voicings de **Wave** abaixo — ouça 9ª e 13ª antes de ler cifra."
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Voicings Jobim — estudo comparativo",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Estudo comparativo **Jobim**:\n\n- **7M(9)**: sem fundamental duplicada, 9ª no topo\n- **7(13)**: dominante com coloração, baixo na 6ª\n- **m7(9)**: pré-dominante suave\n\nWave = D7M(9)–G7(13)–C7M(9) — cada acorde é **assinatura** sonora."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Wave — estudo comparativo Jobim",
+        "voicings": [
+          {
+            "label": "D7M(9)",
+            "chord": "D7M(9)",
+            "shape": "X X 0 2 2 0",
+            "note": "Tônica bossa"
+          },
+          {
+            "label": "G7(13)",
+            "chord": "G7(13)",
+            "shape": "3 X 0 0 0 1",
+            "note": "Dominante colorida"
+          },
+          {
+            "label": "C7M(9)",
+            "chord": "C7M(9)",
+            "shape": "X 3 2 0 0 0",
+            "note": "Resolução aberta"
+          }
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "D7M(9)",
+          "G7(13)",
+          "C7M(9)"
+        ],
+        "functions": [
+          "I",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Transcrições de João Gilberto mostram dedos 2–3–4 nos agudos — Jobim compunha pensando nesses voicings."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)",
+      "annotation": "Voicings com tensões 9 e 13 — som bossa maduro.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave",
+        "lessonId": "n7-m2-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Wave é 'exame' de voicings — domine estes três shapes antes de gravar qualquer bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. D7M(9) shape aberto. 2. G7(13) com baixo 3. 3. C7M(9) resolução. 4. Loop 8 compassos."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m2a4-q1",
+      "kind": "mc",
+      "question": "G7(13) em Wave funciona como:",
+      "options": [
+        {
+          "label": "Dominante com 13ª — tensão bossa",
+          "correct": true,
+          "feedbackOk": "V7 colorido de D."
+        },
+        {
+          "label": "Tônica de Sol",
+          "correct": false,
+          "feedbackErr": "Resolve em C7M(9) — centro D."
+        },
+        {
+          "label": "Subdominante de Dó",
+          "correct": false,
+          "feedbackErr": "Campo é D maior."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "voicings-jobim-estudo-comparativo",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m2a4-match",
+      "kind": "match",
+      "question": "Voicing ↔ tensão:",
+      "pairs": [
+        {
+          "left": "D7M(9)",
+          "right": "9ª major"
+        },
+        {
+          "left": "G7(13)",
+          "right": "13ª dominante"
+        },
+        {
+          "left": "C7M(9)",
+          "right": "Resolução I"
+        },
+        {
+          "left": "Jobim",
+          "right": "Voicings abertos"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m2a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — voicings Jobim (Wave):",
+      "playChords": [
+        "D7M",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "Transição D7M–G7–C7M — timbre Jobim (tensões implícitas)",
+          "correct": true,
+          "feedbackOk": "Compare voicings abertos vs fechados nesta passagem."
+        },
+        {
+          "label": "Garota II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Tom Ré/C — Wave, não Garota."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m2a4-self",
+      "kind": "self_check",
+      "question": "Transição D7M(9)–G7(13)–C7M(9) fluindo com timbre Jobim?",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "n3-m3-a3",
+  "slug": "turn-around-i-vi-ii-v-i",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Turn-around I–VI–II–V–I",
+  "subtitle": "A passagem que fecha e reabre a bossa — C7M–Am7–Dm7–G7–C7M em Garota e em dezenas de standards.",
+  "durationMin": 18,
+  "prerequisites": ["n3-m3-a2"],
+  "tags": ["bossa", "turn-around", "cadencia"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["C7M", "Am7", "Dm7", "G7", "F7M", "Gm7", "C7"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (Construção): o que é line cliché em acordes menores?",
+      "options": [
+        { "label": "Descer a 7ª sobre a mesma raiz: Em → Em7M → Em7", "correct": true, "feedbackOk": "Certo — agora veremos o turn-around em tom maior." },
+        { "label": "Subir a tônica uma oitava", "correct": false, "feedbackErr": "Line cliché altera a qualidade do acorde, não a oitava." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça o turn-around completo",
+      "body": "Toque em loop: **C7M → Am7 → Dm7 → G7 → C7M**. É a passagem que **fecha** um verso e **prepara** o próximo — ouvida em Garota, Wave e centenas de standards."
+    },
+    {
+      "type": "component",
+      "id": "snd-ta",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Turn-around em Dó maior",
+        "chords": ["C7M", "Am7", "Dm7", "G7", "C7M"]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "graus",
+      "title": "Graus do turn-around",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "graus-text",
+      "markdown": "| Acorde | Grau | Função |\n|--------|------|--------|\n| C7M | I | Tônica — repouso |\n| Am7 | vi | Tônica relativa — repouso \"suave\" |\n| Dm7 | ii | Pré-dominante |\n| G7 | V7 | Dominante — tensão |\n| C7M | I | Resolução + recomeço |\n\nO **vi** funciona como substituto de tônica (mesmas notas de Am = C6). O fluxo **vi→ii→V→I** embute um **ii–V–I** compacto."
+    },
+    {
+      "type": "component",
+      "id": "prog-ta",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": ["C7M", "Am7", "Dm7", "G7", "C7M"],
+        "functions": ["T", "T", "SD", "D", "T"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "lab-c",
+      "componentId": "harmonic-lab",
+      "props": { "defaultKey": "C", "mode": "major" }
+    },
+    {
+      "type": "heading",
+      "id": "garota",
+      "title": "Garota de Ipanema — passagem harmônica",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "garota-text",
+      "markdown": "Em **Fá maior**, o turn-around transposto é **F7M → Dm7 → Gm7 → C7 → F7M** — exatamente a cadência do refrão de *Garota*.\n\nJobim varia com **G7** (II7 lídio-b7) antes do ii — cor bossa — mas o esqueleto **I–vi–ii–V–I** permanece."
+    },
+    {
+      "type": "component",
+      "id": "snd-garota",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Turn-around em Fá (Garota)",
+        "chords": ["F7M", "Dm7", "Gm7", "C7", "F7M"]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-garota",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M  Dm7  Gm7  C7  F7M\n\n[Passagem entre seções]",
+      "annotation": "I–vi–ii–V–I em Fá maior — turn-around bossa que você pode transpor para qualquer tom.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema — cifra", "lessonId": "n3-m3-a3" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "O **turn-around** I–vi–ii–V–I fecha o verso e reabre a seção seguinte — ouvido em *Garota*, *Desafinado* e centenas de standards. Violonistas MPB tocam em loop enquanto cantam; o **vi (Am7)** dá repouso suave antes do **ii** puxar de novo."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Variações comuns: **I–VI7–II–V** (Am7→A7→Dm7→G7) adiciona dominante secundária; **I–III7–VI–II–V** (E7 em Dó) — ouvido em jazz. O molde vi–ii–V é o núcleo."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (6 min)",
+      "body": "1. **C7M** (X 3 2 0 0 0) → **Am7** (X 0 2 0 1 0) → **Dm7** (X X 0 2 1 1) → **G7** (3 2 0 0 0 1) → **C7M**. 2. Repita em loop 8 vezes — metronome 60 bpm. 3. Transponha para Fá: F7M–Dm7–Gm7–C7–F7M."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "No turn-around I–VI–II–V–I em Dó, qual acorde é pré-dominante (ii)?",
+      "options": [
+        { "label": "Dm7", "correct": true, "feedbackOk": "Certo — ii prepara o G7 (V7)." },
+        { "label": "Am7", "correct": false, "feedbackErr": "Am7 é vi — tônica relativa, repouso suave." },
+        { "label": "G7", "correct": false, "feedbackErr": "G7 é V7 — dominante, não pré-dominante." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a3-order",
+      "kind": "order",
+      "difficulty": "core",
+      "question": "Monte o turn-around em Dó:",
+      "orderAnswer": ["C7M", "Am7", "Dm7", "G7", "C7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique a progressão:",
+      "playChords": ["F7M", "Dm7", "Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "I–vi–ii–V–I em Fá maior", "correct": true, "feedbackOk": "Turn-around bossa — Garota." },
+        { "label": "II–V–I em Fá", "correct": false, "feedbackErr": "Faltam o I inicial e o vi." },
+        { "label": "I–IV–V–I em Fá", "correct": false, "feedbackErr": "Cadência pop — não é turn-around." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a3-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar C–Am7–Dm7–G7–C em loop e transpor para Fá sem consultar a tabela?"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": "n3-m3-a4",
+  "slug": "acordes-emprestados-bvii-bvi",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Acordes emprestados — bVII e bVI",
+  "subtitle": "Modal borrow: puxar acordes do modo paralelo para colorir sem mudar de tom — ouça em Águas de Março e Corcovado.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n3-m3-a3"
+  ],
+  "tags": [
+    "modal",
+    "emprestimo",
+    "mpb"
+  ],
+  "relatedWorks": [
+    "aguas-de-marco",
+    "corcovado"
+  ],
+  "relatedChords": [
+    "C7M",
+    "Bb6",
+    "Dm",
+    "G7",
+    "Am7",
+    "B7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (turn-around): I–VI–II–V–I em Dó usa quais acordes?",
+      "options": [
+        {
+          "label": "C7M → Am7 → Dm7 → G7 → C7M",
+          "correct": true,
+          "feedbackOk": "Molde fixo — agora veremos acordes de *fora* do campo diatônico."
+        },
+        {
+          "label": "C7M → F7M → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "I–IV–V–I — cadência diferente."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça bVII e bVI",
+      "body": "Em **Dó maior**, o campo diatônico tem **Bm7(b5)** no vii. O **bVII (B♭)** e **bVI (A♭)** vêm do **modo mixolídio** ou **menor paralelo** — emprestados para cor, não para mudar de tom."
+    },
+    {
+      "type": "component",
+      "id": "snd-borrow",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Emprestados em Dó maior",
+        "chords": [
+          "C7M",
+          "Bb6",
+          "F7M",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "modal",
+      "title": "Modal borrow — o que é?",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "modal-text",
+      "markdown": "**Emprestar** = usar acorde de outro modo com a **mesma tônica**.\n\n| Emprestado | Grau | Origem típica | Efeito |\n|------------|------|---------------|--------|\n| **bVII** | B♭ em Dó | Mixolídio / menor | Subdominante colorida |\n| **bVI** | A♭/B♭6 em Dó | Menor | Subdominante melancólica |\n| **iv** | Fm em Dó | Menor | Subdominante menor |\n\nNa MPB, **bVI** aparece em cadências tipo **I–bVI–IV–I** — ouvida em *Chega de Saudade* (Bb6 em Dm)."
+    },
+    {
+      "type": "component",
+      "id": "lab-c",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "aguas",
+      "title": "Águas de Março — bVII na ponte",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "aguas-text",
+      "markdown": "Em **Ré maior**, a ponte de *Águas de Março* passa por **G7 → C7M** — **IV7 → bVII**.\n\nO **C7M** aqui funciona como **bVII** (não VII°) — empréstimo modal que desce cromaticamente antes de voltar à tônica. Jobim usa como **ponte harmônica** entre seções."
+    },
+    {
+      "type": "component",
+      "id": "snd-aguas",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ponte Águas de Março (Ré)",
+        "chords": [
+          "G7",
+          "C7M",
+          "F#m7(b5)",
+          "B7"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "chart-aguas",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "aguas-de-marco"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "corcovado",
+      "title": "Corcovado — bVI e dominantes disfarçadas",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "corv-text",
+      "markdown": "Em **Dó maior**, Corcovado usa **Am6** como dominante disfarçada (contém trítono F–B) e passagens com **G#°** — cromatismo que conecta ii e V.\n\nO **bVI** em contexto de Dó seria **A♭/B♭6** — mesma família de empréstimo que Bb6 em *Chega*."
+    },
+    {
+      "type": "component",
+      "id": "snd-corv",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Corcovado — verso (Dó)",
+        "chords": [
+          "Am6",
+          "Am7",
+          "Dm7",
+          "G7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-aguas",
+      "workId": "aguas-de-marco",
+      "excerpt": "G7  C7M  F#m7(b5)  B7\n\n[Seção ponte — Ré maior]",
+      "annotation": "IV7 → bVII em Ré — empréstimo modal. C7M aqui é bVII, não tônica de outro tom.",
+      "youtube": "wBEesrdaRog",
+      "youtubeTitle": "Águas de Março",
+      "youtubeArtist": "Tom Jobim & Elis Regina"
+    },
+    {
+      "type": "component",
+      "id": "chart-corv",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "corcovado"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl-aguas",
+      "componentId": "work-link",
+      "props": {
+        "workId": "aguas-de-marco",
+        "title": "Águas de Março",
+        "lessonId": "n3-m3-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Chega** usa **Bb6** como bVI antes de A7 — empréstimo do mixolídio que Jobim popularizou. **Águas de Março** na ponte traz **C7M** como bVII em Ré — mesma família modal. Compositores brasileiros emprestam bVII/bVI sem modulação: é cor, não mudança de tom."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "**bVII** (Bb em Dó) compartilha duas notas com **IV7** (F7M) — ambos funcionam como subdominante modal. A diferença está na 7ª: Bb soa \"rock/pop\"; F7M soa jazz/bossa. Escolha depende da melodia e do baixo."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (6 min)",
+      "body": "1. Em Dó: C7M → Bb6 (X 1 3 3 3 1) → F7M → C7M — sinta o bVI. 2. G7 → C7M (como bVII em Ré, transponha mentalmente). 3. Abra Águas e marque bVII na ponte."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Dó maior, qual acorde é bVII emprestado?",
+      "options": [
+        {
+          "label": "B♭ (Bb)",
+          "correct": true,
+          "feedbackOk": "bVII — uma tom abaixo da tônica, emprestado do mixolídio."
+        },
+        {
+          "label": "Bm7(b5)",
+          "correct": false,
+          "feedbackErr": "Bm7(b5) é vii° diatônico, não bVII."
+        },
+        {
+          "label": "B7",
+          "correct": false,
+          "feedbackErr": "B7 seria III7 ou dominante secundária, não bVII."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m3a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Emprestado ↔ grau em Dó maior:",
+      "pairs": [
+        {
+          "left": "Bb6",
+          "right": "bVI"
+        },
+        {
+          "left": "Bb",
+          "right": "bVII"
+        },
+        {
+          "left": "Fm",
+          "right": "iv (menor)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q2",
+      "exerciseId": "ex-n3-m3a4-q2",
+      "kind": "mc",
+      "difficulty": "challenge",
+      "question": "Na ponte de Águas de Março (Ré), C7M funciona como:",
+      "options": [
+        {
+          "label": "bVII emprestado — subdominante modal",
+          "correct": true,
+          "feedbackOk": "IV7→bVII — coloração sem modulação."
+        },
+        {
+          "label": "I de Fá maior — modulação",
+          "correct": false,
+          "feedbackErr": "Não modula — empresta a cor do bVII."
+        },
+        {
+          "label": "vii° diatônico de Ré",
+          "correct": false,
+          "feedbackErr": "vii° seria C#° — acorde diminuto."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m3a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — empréstimo modal em Dó:",
+      "playChords": [
+        "C7M",
+        "Bb6",
+        "F7M"
+      ],
+      "options": [
+        {
+          "label": "I → bVI → IV (Chega)",
+          "correct": true,
+          "feedbackOk": "Bb6 = bVI — subdominante modal antes de F7M."
+        },
+        {
+          "label": "ii–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Não há cadência ii–V–I aqui."
+        },
+        {
+          "label": "I–VI–II–V turn-around",
+          "correct": false,
+          "feedbackErr": "Faltam ii e V7 no meio."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a4-self",
+      "kind": "self_check",
+      "question": "Conseguiu identificar bVII ou bVI em pelo menos uma cifra do repertório e explicar de onde veio o empréstimo?"
+    }
+  ]
+}

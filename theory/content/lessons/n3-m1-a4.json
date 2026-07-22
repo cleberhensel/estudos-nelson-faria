@@ -1,0 +1,284 @@
+{
+  "id": "n3-m1-a4",
+  "slug": "pre-dominante-papel-de-ii-e-iv",
+  "level": 3,
+  "moduleId": "n3-m1",
+  "title": "Pré-dominante: o papel de II e IV",
+  "subtitle": "ii e IV abrem caminho para a dominante — escolher qual usar muda a cor da progressão.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n3-m1-a3"
+  ],
+  "tags": [
+    "campo-harmonico",
+    "funcoes",
+    "pre-dominante",
+    "mpb"
+  ],
+  "relatedWorks": [
+    "wave",
+    "garota-de-ipanema"
+  ],
+  "relatedChords": [
+    "Dm7",
+    "F7M",
+    "G7",
+    "C7M",
+    "D7M(9)",
+    "G7(13)"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m1a4-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão: qual função exerce o grau ii (Dm7) em Dó maior?",
+      "options": [
+        {
+          "label": "Pré-dominante / subdominante",
+          "correct": true,
+          "feedbackOk": "ii prepara o V — clássica pré-dominante."
+        },
+        {
+          "label": "Dominante",
+          "correct": false,
+          "feedbackErr": "Dominante é V (G7)."
+        },
+        {
+          "label": "Tônica",
+          "correct": false,
+          "feedbackErr": "Tônica é I (C7M) ou vi (Am7)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Compare ii→V e IV→V",
+      "body": "Toque duas vezes em Dó: **(A) Dm7 → G7 → C7M** e **(B) F7M → G7 → C7M**. Ambas chegam em C, mas (A) soa mais jazz/bossa; (B) mais pop/plagal. Essa diferença é a escolha entre **ii** e **IV** como pré-dominante."
+    },
+    {
+      "type": "component",
+      "id": "snd-ii",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "Dm7",
+          "G7",
+          "C7M"
+        ],
+        "functions": [
+          "ii",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-iv",
+      "componentId": "progression",
+      "props": {
+        "key": "C",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "G7",
+          "C7M"
+        ],
+        "functions": [
+          "IV",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "ii-vs-iv",
+      "title": "ii versus IV",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "ii-vs-iv-text",
+      "markdown": "**ii (Dm7)** contém a 3ª e 7ª de G7 em embrião — preparação suave. **IV (F7M)** compartilha apenas a tônica com a subdominante clássica, mas soa mais aberta e \"folclórica\".\n\n| Caminho | Progressão | Uso típico |\n|---------|------------|------------|\n| ii→V→I | Dm7 G7 C7M | Jazz, bossa, choro |\n| IV→V→I | F7M G7 C7M | Rock, MPB direta |\n| IV→I | F7M C7M | Plagal — sem dominante |\n\nEm **Wave** (Ré maior), Jobim usa **Em7 → A7 → D7M** — ii→V→I no tom de Ré, com tensões 9 e 13 no voicing."
+    },
+    {
+      "type": "component",
+      "id": "lab-d",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "D",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Wave: pré-dominante com tensões",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-wave",
+      "workId": "wave",
+      "excerpt": "D7M(9)  G7(13)  C7M(9)\nEm7     A7      D7M",
+      "annotation": "ii–V–I em Ré com 9ª e 13ª — a pré-dominante Em7 ganha cor sofisticada antes do A7.",
+      "youtube": "JGqzKmp_5Bg",
+      "youtubeTitle": "Wave",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "wave"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "wave",
+        "title": "Wave — cifra completa",
+        "lessonId": "n3-m1-a4"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "**iiø (meio-diminuto)** em menor harmônico funciona como pré-dominante forte (Em7(b5)→A7→Dm). Veremos isso na análise de *Chega de Saudade*."
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Na bossa, **ii–V–I** é o molde default — *Garota* (Fá) e *Wave* (Ré) abrem com Em7–A7–D7M ou Gm7–C7–F7M. **IV–V–I** aparece em versos mais \"pop\" (ex. trechos de *Lilás*). Escolher ii ou IV muda a cor: ii soa jazz; IV soa aberto e pastoral."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Toque **ii→V→I** cinco vezes: Dm7→G7→C7M. 2. Toque **IV→V→I**: F7M→G7→C7M. 3. Alterne A e B sem parar — note qual \"puxa\" mais para o jazz. 4. Transponha ii–V–I para **Ré**: Em7→A7→D7M (intro de Wave)."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-mc",
+      "exerciseId": "ex-n3-m1a4-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Qual progressão é ii–V–I em Dó maior?",
+      "options": [
+        {
+          "label": "Dm7 → G7 → C7M",
+          "correct": true,
+          "feedbackOk": "ii, V, I — cadência jazz/bossa."
+        },
+        {
+          "label": "F7M → G7 → C7M",
+          "correct": false,
+          "feedbackErr": "Isso é IV–V–I, não ii–V–I."
+        },
+        {
+          "label": "Am7 → F7M → C7M",
+          "correct": false,
+          "feedbackErr": "vi–IV–I — outro caminho."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m1a4-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Associe o grau à função pré-dominante:",
+      "pairs": [
+        {
+          "left": "Dm7 em Dó",
+          "right": "ii — pré-dominante jazz"
+        },
+        {
+          "left": "F7M em Dó",
+          "right": "IV — subdominante aberta"
+        },
+        {
+          "left": "Em7 em Ré",
+          "right": "ii em Ré maior"
+        },
+        {
+          "left": "G7 em Dó",
+          "right": "V — dominante (não pré-dom.)"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m1a4-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Monte ii–V–I em Ré maior:",
+      "orderAnswer": [
+        "Em7",
+        "A7",
+        "D7M"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m1a4-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça: a pré-dominante foi ii ou IV?",
+      "playChords": [
+        "F7M",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "IV → V → I",
+          "correct": true,
+          "feedbackOk": "Começou em F7M — subdominante diatônica."
+        },
+        {
+          "label": "ii → V → I",
+          "correct": false,
+          "feedbackErr": "ii seria Dm7 no início."
+        },
+        {
+          "label": "Plagal IV → I",
+          "correct": false,
+          "feedbackErr": "Houve G7 no meio — dominante presente."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m1a4-self",
+      "kind": "self_check",
+      "question": "Consegue escolher de ouvido entre ii→V e IV→V ao harmonizar uma melodia simples?"
+    }
+  ]
+}

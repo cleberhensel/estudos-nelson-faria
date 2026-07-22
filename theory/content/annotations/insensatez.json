@@ -1,0 +1,25 @@
+{
+  "workId": "insensatez",
+  "key": "Dm",
+  "sections": [
+    {
+      "label": "A — line cliché menor (baixo cromático)",
+      "chords": [
+        { "symbol": "Dm", "degree": "Im", "function": "T" },
+        { "symbol": "Dm/C#", "degree": "Im(7M)", "function": "T" },
+        { "symbol": "Dm7/C", "degree": "Im7", "function": "T" },
+        { "symbol": "Bm7(b5)", "degree": "IIø/?", "function": "PD" },
+        { "symbol": "E7", "degree": "V7/V", "function": "D" },
+        { "symbol": "A7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Cadência",
+      "chords": [
+        { "symbol": "Gm7", "degree": "IVm", "function": "SD" },
+        { "symbol": "A7(b9)", "degree": "V7", "function": "D" },
+        { "symbol": "Dm", "degree": "Im", "function": "T" }
+      ]
+    }
+  ]
+}

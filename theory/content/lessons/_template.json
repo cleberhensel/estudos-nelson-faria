@@ -1,0 +1,172 @@
+{
+  "id": "nX-mY-aZ",
+  "slug": "slug-da-aula",
+  "level": 3,
+  "moduleId": "nX-mY",
+  "title": "Título da aula",
+  "subtitle": "Uma frase que resume o ganho pedagógico para quem toca por cifra.",
+  "durationMin": 20,
+  "prerequisites": ["nX-mY-aZ-anterior"],
+  "tags": ["tag1", "violao"],
+  "relatedWorks": ["obra-id"],
+  "relatedChords": ["C7M", "Dm7", "G7"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-nX-mYaZ-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão da aula anterior: pergunta de recuperação ativa.",
+      "options": [
+        { "label": "Resposta correta", "correct": true, "feedbackOk": "Feedback específico." },
+        { "label": "Distrator plausível", "correct": false, "feedbackErr": "Por que não — explicação curta." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Instrução para tocar/ouvir antes do conceito abstrato."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": { "title": "Ouça o exemplo", "chords": ["C7M", "Dm7", "G7"] }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Conceito-núcleo",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "Texto que **nomeia** o que o aluno acabou de ouvir/tocar."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": { "defaultKey": "C", "mode": "major" }
+    },
+    {
+      "type": "component",
+      "id": "fb",
+      "componentId": "fretboard-scale",
+      "props": { "root": "C", "scale": "major", "frets": 12 }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Detalhe opcional para quem quer ir além."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M  G7  Gm7  C7\n[Esqueleto harmônico]",
+      "annotation": "Comentário pedagógico sobre graus e funções.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Abrir cifra completa", "lessonId": "nX-mY-aZ" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Por que isso importa na MPB/bossa/choro."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Passo concreto no violão. 2. Segundo passo. 3. Repetir até sentir."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-nX-mYaZ-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Pergunta de compreensão.",
+      "options": [
+        { "label": "Correta", "correct": true, "feedbackOk": "Específico." },
+        { "label": "Errada", "correct": false, "feedbackErr": "Específico." }
+      ],
+      "review": { "concept": "conceito-chave", "intervalDays": 3 }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-nX-mYaZ-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Associe grau ↔ função:",
+      "pairs": [
+        { "left": "I", "right": "Tônica" },
+        { "left": "V", "right": "Dominante" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-nX-mYaZ-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a cadência:",
+      "orderAnswer": ["Dm7", "G7", "C7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-nX-mYaZ-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique:",
+      "playChords": ["Dm7", "G7", "C7M"],
+      "options": [
+        { "label": "II–V–I em Dó", "correct": true, "feedbackOk": "Certo." },
+        { "label": "I–IV–V", "correct": false, "feedbackErr": "Não — ouça o ii abrindo." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-nX-mYaZ-self",
+      "kind": "self_check",
+      "question": "Conseguiu aplicar o conceito no violão sem olhar a tabela?"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "n6-m2-a1",
+  "slug": "choro-ritmo-baixaria-e-forma",
+  "level": 6,
+  "moduleId": "n6-m2",
+  "title": "Choro — ritmo, baixaria e forma",
+  "subtitle": "Baixaria no polegar, frase nos dedos, forma AABB — a engrenagem do choro no violão solo.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n6-m1-a3"
+  ],
+  "tags": [
+    "ritmo",
+    "choro"
+  ],
+  "relatedWorks": [
+    "carinhoso",
+    "choro-noturno"
+  ],
+  "relatedChords": [
+    "C7M",
+    "A7",
+    "Dm7",
+    "G7",
+    "F7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m2a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m1-a3): no samba o tempo 2 é rei. No choro (2/4), quantos tempos tem o compasso?",
+      "options": [
+        {
+          "label": "Dois tempos — sensação mais 'corta'.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Choro clássico é 2/4, não 4/4 de marcha."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Grade **Choro (2/4)**: polegar faz baixaria (tônica-dominante alternada), dedos tocam frase em semicolcheias. Ouça **Carinhoso** e conte AABB."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Carinhoso — modulação C→F",
+        "chords": [
+          "F7M",
+          "G7",
+          "C7M",
+          "A7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Choro — ritmo, baixaria e forma",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "O **choro** nasceu no Rio do século XIX — violão, cavaquinho e flauta trocando **frases de 4 compassos**. No violão solo:\n\n- **Baixaria**: polegar alterna tônica e quinta/dominante\n- **Mão direita**: escalas e arpejos em semicolcheias\n- **Forma**: AABB (seção A duas vezes, B duas vezes)\n\n**Carinhoso** (Pixinguinha) modula de C para F — a baixaria anuncia cada mudança antes dos dedos."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "choro",
+        "bpm": 120
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Pixinguinha absorveu jazz em Paris e trouxe dominantes secundárias ao choro — Carinhoso tem A7 e Dm7 fora do campo puro de C."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "carinhoso",
+      "excerpt": "F7M  G7  C7M  A7  Dm7  G7  C7M",
+      "annotation": "Choro com modulação e dominantes secundárias.",
+      "youtube": "mGG3Di84wp8",
+      "youtubeTitle": "Carinhoso",
+      "youtubeArtist": "Pixinguinha"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "carinhoso"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "carinhoso",
+        "title": "Carinhoso",
+        "lessonId": "n6-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Choro é conservatório de rua: técnica clássica com ginga — sem baixaria estável, a frase vira exercício vazio."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Em C: polegar C–G–C–G (baixaria, 4 tempos). 2. Dedos: escala de C em semicolcheias por cima. 3. Toque 8 compassos de Carinhoso nomeando **A** e **B**."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m2a1-q1",
+      "kind": "mc",
+      "question": "Baixaria no choro é:",
+      "options": [
+        {
+          "label": "Linha de polegar alternando tônica e quinta/dominante",
+          "correct": true,
+          "feedbackOk": "Sustenta a frase melódica."
+        },
+        {
+          "label": "Só acordes fechados com pestana",
+          "correct": false,
+          "feedbackErr": "Baixaria é linha, não shape fixo."
+        },
+        {
+          "label": "Igual à levada bossa",
+          "correct": false,
+          "feedbackErr": "Choro tem mais semicolcheias e 2/4."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "choro-ritmo-baixaria-e-forma",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m2a1-match",
+      "kind": "match",
+      "question": "Elemento choro ↔ função:",
+      "pairs": [
+        {
+          "left": "Baixaria",
+          "right": "Polegar alternado"
+        },
+        {
+          "left": "Frase",
+          "right": "Semicolcheias nos dedos"
+        },
+        {
+          "left": "AABB",
+          "right": "Forma da composição"
+        },
+        {
+          "left": "Carinhoso",
+          "right": "Pixinguinha / modulação"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n6m2a1-order",
+      "kind": "order",
+      "question": "Ordene seção típica choro Carinhoso:",
+      "orderAnswer": [
+        "A",
+        "A",
+        "B",
+        "B"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — trecho de Carinhoso (choro):",
+      "playChords": [
+        "F7M",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "I → V7/V → V7 em Dó (modulação choro)",
+          "correct": true,
+          "feedbackOk": "Progressão típica Pixinguinha — dominantes encadeadas."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Resolução passa por G7, não C7 direto de ii."
+        },
+        {
+          "label": "Plagal IV → I",
+          "correct": false,
+          "feedbackErr": "Há dominante G7 no meio."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m2a1-self",
+      "kind": "self_check",
+      "question": "Consegue tocar baixaria + frase simples em C por 4 compassos?",
+      "tags": []
+    }
+  ]
+}

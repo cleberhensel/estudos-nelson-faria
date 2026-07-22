@@ -1,0 +1,30 @@
+{
+  "workId": "garota-de-ipanema",
+  "key": "F",
+  "sections": [
+    {
+      "label": "A — verso (Fá maior)",
+      "chords": [
+        { "symbol": "F7M", "degree": "I", "function": "T" },
+        { "symbol": "G7", "degree": "II7 (lídio-b7)", "function": "SD" },
+        { "symbol": "Gm7", "degree": "ii", "function": "SD" },
+        { "symbol": "C7", "degree": "V7", "function": "D" },
+        { "symbol": "F7M", "degree": "I", "function": "T" },
+        { "symbol": "Gb7", "degree": "SubV7", "function": "D" }
+      ]
+    },
+    {
+      "label": "B — ponte (modulação)",
+      "chords": [
+        { "symbol": "Gb7M", "degree": "bII7M (IVmaj7 emprestado)", "function": "SD" },
+        { "symbol": "B7", "degree": "SubV7/?", "function": "D" },
+        { "symbol": "F#m7", "degree": "iim (novo centro)", "function": "SD" },
+        { "symbol": "D7", "degree": "V7/?", "function": "D" },
+        { "symbol": "Gm7", "degree": "ii", "function": "SD" },
+        { "symbol": "Eb7", "degree": "SubV7", "function": "D" },
+        { "symbol": "Am7", "degree": "iii", "function": "T" },
+        { "symbol": "D7", "degree": "V7/ii", "function": "D" }
+      ]
+    }
+  ]
+}

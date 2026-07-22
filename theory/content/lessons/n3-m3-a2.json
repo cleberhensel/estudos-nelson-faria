@@ -1,0 +1,257 @@
+{
+  "id": "n3-m3-a2",
+  "slug": "analise-construcao-civilizacao",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Análise: Construção Civilização (Mi menor)",
+  "subtitle": "Line cliché menor, bVI emprestado e o B7 surpresa — a narrativa harmônica de Chico em Em.",
+  "durationMin": 22,
+  "prerequisites": [
+    "n3-m3-a1"
+  ],
+  "tags": [
+    "mpb",
+    "analise",
+    "menor"
+  ],
+  "relatedWorks": [
+    "construcao"
+  ],
+  "relatedChords": [
+    "Em",
+    "Em7M",
+    "Em7",
+    "C/E",
+    "Am7",
+    "B7",
+    "F7M/A"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (Chega de Saudade): o que é modulação homônima Ré menor → Ré maior?",
+      "options": [
+        {
+          "label": "Mesma tônica (Ré), modo diferente — menor depois maior",
+          "correct": true,
+          "feedbackOk": "Certo — Construção fica em Mi menor o tempo todo, mas com empréstimos."
+        },
+        {
+          "label": "Mudança de tom por intervalo de 4ª",
+          "correct": false,
+          "feedbackErr": "Isso seria modulação por intervalo, não homônima."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça o tema — line cliché",
+      "body": "Toque: **Em → Em7M → Em7 → C/E → Am7 → B7**. Repare: a melodia desce cromaticamente (Mi→Mi→Mi→Dó→Lá) enquanto a harmonia espessa o acorde menor antes de abrir para subdominante e dominante."
+    },
+    {
+      "type": "component",
+      "id": "snd-tema",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Tema — line cliché em Mi menor",
+        "chords": [
+          "Em",
+          "Em7M",
+          "Em7",
+          "C/E",
+          "Am7",
+          "B7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "tema",
+      "title": "Tema — graus e funções",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "tema-text",
+      "markdown": "**Em / Em7M / Em7** — três colorações da **tônica (Im)**, técnica clássica de line cliché: a 7ª desce (D→D♭→C) sobre a mesma raiz.\n\n**C/E** — **bVI** com baixo em Mi. Funciona como **subdominante** emprestada do modo frígio/f mixolígio — abre caminho sem ser IV nativo.\n\n**Am7** — **IVm** (subdominante menor diatônica).\n\n**B7** — **V7** surpresa! Em Mi menor natural seria **Bm** (v). Chico usa **B7** (menor harmônico) — dominante com 3ª maior que *exige* voltar a Em."
+    },
+    {
+      "type": "component",
+      "id": "prog-tema",
+      "componentId": "progression",
+      "props": {
+        "key": "E",
+        "mode": "minor",
+        "chords": [
+          "Em",
+          "Em7M",
+          "Em7",
+          "C/E",
+          "Am7",
+          "B7"
+        ],
+        "functions": [
+          "T",
+          "T",
+          "T",
+          "SD",
+          "SD",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "construcao"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "passagens",
+      "title": "Passagens — acordes emprestados",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "pass-text",
+      "markdown": "Fora do tema, Chico usa acordes **fora do campo diatônico**:\n\n- **F7M/A** — acorde napolitano (bII7M) — subdominante cromática\n- **D (bVII)** — empréstimo modal mixolídio\n- **G (bIII)** — tônica emprestada do modo relativo\n\nEsses acordes **não quebram** a sensação de Mi menor — coloram a narrativa."
+    },
+    {
+      "type": "component",
+      "id": "snd-pass",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Passagens — empréstimos",
+        "chords": [
+          "F7M/A",
+          "D",
+          "G",
+          "Bm7"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-construcao",
+      "workId": "construcao",
+      "excerpt": "Em  Em7M  Em7  C/E  Am7  B7\n\nF7M/A  D  G  Bm7",
+      "annotation": "Linha 1: line cliché + bVI + IVm + V7 harmônico. Linha 2: napolitano, bVII, bIII — paleta modal.",
+      "youtube": "wBfVsucRe1w",
+      "youtubeTitle": "Construção Civilização",
+      "youtubeArtist": "Chico Buarque"
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "construcao",
+        "title": "Construção — cifra completa",
+        "lessonId": "n3-m3-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto",
+      "body": "*Construção Civilização* (1971) mostra como a MPB usa o campo menor como **drama narrativo**: a tônica espessa, a subdominante emprestada (C/E) e o B7 como clímax antes de voltar ao verso."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (8 min)",
+      "body": "1. Line cliché: Em (0 2 2 0 0 0) → Em7M (0 2 2 0 0 3) → Em7 (0 2 0 0 0 0). 2. C/E (X 3 2 0 1 0) — sinta o baixo Mi. 3. Am7 → B7 (X 2 1 2 0 2) → Em. 4. Marque Im, bVI, IVm, V7 na cifra."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Em Construção, por que B7 (e não Bm) antes de Em?",
+      "options": [
+        {
+          "label": "B7 é V7 do menor harmônico — 3ª maior cria tensão de dominante",
+          "correct": true,
+          "feedbackOk": "Exato — o ouvido espera resolução em Em."
+        },
+        {
+          "label": "Bm e B7 soam igual na prática",
+          "correct": false,
+          "feedbackErr": "Bm é v fraco; B7 é dominante plena."
+        },
+        {
+          "label": "B7 é acorde emprestado de Dó maior",
+          "correct": false,
+          "feedbackErr": "B7 é nativo do menor harmônico de Mi."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m3a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue acorde ao grau em Mi menor:",
+      "pairs": [
+        {
+          "left": "Em",
+          "right": "Im"
+        },
+        {
+          "left": "C/E",
+          "right": "bVI"
+        },
+        {
+          "left": "Am7",
+          "right": "IVm"
+        },
+        {
+          "left": "B7",
+          "right": "V7"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene o line cliché do tema:",
+      "orderAnswer": [
+        "Em",
+        "Em7M",
+        "Em7",
+        "C/E",
+        "Am7",
+        "B7"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu mapear graus por verso na cifra e tocar o B7 sentindo a função dominante?"
+    }
+  ]
+}

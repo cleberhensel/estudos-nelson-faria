@@ -1,0 +1,198 @@
+{
+  "id": "n2-m3-a3",
+  "slug": "escalas-dentro-das-formas-caged",
+  "level": 2,
+  "moduleId": "n2-m3",
+  "title": "Escalas dentro das formas CAGED",
+  "durationMin": 16,
+  "prerequisites": [
+    "n2-m3-a2"
+  ],
+  "subtitle": "Cada shape CAGED embute uma região da escala — toque Dó maior sem sair da caixa de cada forma.",
+  "tags": [
+    "caged",
+    "escalas"
+  ],
+  "relatedWorks": [
+    "oceano"
+  ],
+  "relatedChords": [
+    "C",
+    "G",
+    "Am",
+    "F"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n2m3a3-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (aula anterior): na ordem ascendente CAGED, qual forma segue a forma C?",
+      "options": [
+        {
+          "label": "Forma A",
+          "correct": true,
+          "feedbackOk": "C→A — agora escalas dentro de cada caixa."
+        },
+        {
+          "label": "Forma D",
+          "correct": false,
+          "feedbackErr": "D é a última forma, não a segunda."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça dentro da caixa",
+      "body": "Toque só as notas da forma C (trastes 0–4), depois só a forma A (3–7). Mesma escala, 'janelas' diferentes no braço."
+    },
+    {
+      "type": "component",
+      "id": "snd-c",
+      "componentId": "play-scale",
+      "props": { "title": "Dó maior — ouça a escala completa", "root": "C", "scale": "major" }
+    },
+    {
+      "type": "component",
+      "id": "ch-c",
+      "componentId": "fretboard-chord",
+      "props": { "chord": "C", "title": "Forma C — caixa trastes 0–4" }
+    },
+    {
+      "type": "component",
+      "id": "fb-c",
+      "componentId": "fretboard-scale",
+      "props": {
+        "root": "C",
+        "scale": "major",
+        "frets": 12,
+        "labels": "degree"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "caixas",
+      "title": "Escalas nas caixas CAGED",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "caixa-text",
+      "markdown": "Cada forma delimita uma **região** da escala:\n\n| Forma | Graus na caixa | Trastes (C maior) |\n|-------|----------------|-------------------|\n| **C** | 1–4 | 0–4 |\n| **A** | 3–6 | 3–7 |\n| **G** | 5–1 | 5–9 |\n| **E** | 1–4 | 8–12 |\n| **D** | 2–5 | 10–14 |\n\nUse o botão **graus** no mapa para ver 1–2–3–4–5–6–7 em cada região."
+    },
+    {
+      "type": "prose",
+      "id": "oceano-text",
+      "markdown": "**Oceano** modula por quintas — improvisar nas caixas CAGED permite acompanhar **modulação** sem perder o mapa. Cada tônica nova reposiciona qual forma é **I**."
+    },
+    {
+      "type": "example",
+      "id": "ex-oceano",
+      "workId": "oceano",
+      "excerpt": "Bm7  E7  A7M  D7M",
+      "annotation": "Quatro tonalidades — caixas CAGED mudam de centro."
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "oceano",
+        "title": "Oceano",
+        "lessonId": "n2-m3-a3"
+      }
+    },
+    {
+      "type": "component",
+      "id": "chart-oceano",
+      "componentId": "song-chart",
+      "props": { "annotation": "oceano" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**Oceano** modula Bm→E→A→D — cada tônica nova pede uma caixa CAGED diferente. Improvisar 'dentro da forma' evita notas erradas quando Djavan muda de tom a cada 4 compassos."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Cada caixa contém 4–5 graus da escala — suficiente para frase melódica de 1 compasso. Ligar caixas (C→A→G) é o passo entre escala por forma e improviso fluido no braço inteiro."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Escala C só na forma C (trastes 0–4). 2. Só na forma A (3–7). 3. **G7M** (3 2 0 0 0 3) + escala G na forma G. 4. Ligue C→A sem pausa."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n2m3a3-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "Na forma C de Dó maior, quais trastes delimitam a caixa?",
+      "options": [
+        {
+          "label": "0–4 (região aberta)",
+          "correct": true,
+          "feedbackOk": "Forma C ancora nos trastes 0–4."
+        },
+        {
+          "label": "5–9",
+          "correct": false,
+          "feedbackErr": "5–9 é a caixa da forma G."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n2m3a3-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Forma CAGED → trastes (Dó maior):",
+      "pairs": [
+        { "left": "C", "right": "0–4" },
+        { "left": "A", "right": "3–7" },
+        { "left": "G", "right": "5–9" },
+        { "left": "E", "right": "8–12" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n2m3a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça Bm7→E7→A7M — quantas modulações de caixa CAGED?",
+      "playChords": ["Bm7", "E7", "A7M"],
+      "options": [
+        { "label": "3 centros tonais (B→E→A) — 3 caixas", "correct": true, "feedbackOk": "Oceano — cada V7 resolve numa caixa nova." },
+        { "label": "1 caixa só — sem modulação", "correct": false, "feedbackErr": "Ouça: Bm repousa, depois E, depois A — três tons." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n2m3a3-self",
+      "kind": "self_check",
+      "difficulty": "challenge",
+      "question": "Conseguiu tocar a escala de Dó confinada à forma C e depois à forma A?"
+    }
+  ]
+}

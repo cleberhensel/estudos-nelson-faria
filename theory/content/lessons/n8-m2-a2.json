@@ -1,0 +1,243 @@
+{
+  "id": "n8-m2-a2",
+  "slug": "escala-diminuta-choro",
+  "level": 8,
+  "moduleId": "n8-m2",
+  "title": "Escala diminuta — choro",
+  "subtitle": "Diminuta simétrica (t–s–t–s) — Carinhoso usa arpejos diminutos na passagem A→B.",
+  "durationMin": 16,
+  "prerequisites": [
+    "n8-m2-a1"
+  ],
+  "tags": [
+    "escalas",
+    "choro"
+  ],
+  "relatedWorks": [
+    "carinhoso"
+  ],
+  "relatedChords": [
+    "A7",
+    "C#dim7",
+    "Dm7",
+    "G7",
+    "C7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m2a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m2-a1): mixolídio tem b7. Escala diminuta alterna:",
+      "options": [
+        {
+          "label": "Tom-semitom (3 tons simétricos).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Diminuta = t–s–t–s a partir de qualquer nota."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Carinhoso: ouça passagem cromática/diminuta entre seções — Pixinguinha via choro clássico."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Carinhoso — passagem diminuta",
+        "chords": [
+          "A7",
+          "C#dim7",
+          "Dm7",
+          "G7"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Escala diminuta — choro",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Diminuta** divide oitava em 4 partes iguais (3 tons). Acorde **dim7** empilha terças menores — **simétrico** (C#dim7 = Edim7 = ...).\n\nNo **choro** (Carinhoso): arpejos diminutos ligam dominantes e acordes de passagem."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "C",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Pixinguinha estudou erudito — diminuta no choro vem de Wagner via Villa-Lobos."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "carinhoso",
+      "excerpt": "F7M  G7  C7M  A7  Dm7  G7  C7M",
+      "annotation": "Choro com modulação e dominantes secundárias.",
+      "youtube": "mGG3Di84wp8",
+      "youtubeTitle": "Carinhoso",
+      "youtubeArtist": "Pixinguinha"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "carinhoso"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "carinhoso",
+        "title": "Carinhoso",
+        "lessonId": "n8-m2-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "Carinhoso sem diminuta na ponte perde o 'plot twist' harmônico."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. C#dim7 arpejo (4 notas). 2. Resolver em Dm7. 3. Trecho Carinhoso A→B."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m2a2-q1",
+      "kind": "mc",
+      "question": "Dim7 é simétrico porque:",
+      "options": [
+        {
+          "label": "Terças menores repetem a cada 3 tons",
+          "correct": true,
+          "feedbackOk": "4 posições = mesmo acorde."
+        },
+        {
+          "label": "Só funciona em C",
+          "correct": false,
+          "feedbackErr": "Simetria = transposição igual."
+        },
+        {
+          "label": "Não existe no choro",
+          "correct": false,
+          "feedbackErr": "Carinhoso usa."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "escala-diminuta-choro",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m2a2-match",
+      "kind": "match",
+      "question": "Diminuta ↔ uso:",
+      "pairs": [
+        {
+          "left": "t–s–t–s",
+          "right": "Fórmula escala"
+        },
+        {
+          "left": "dim7",
+          "right": "Acorde simétrico"
+        },
+        {
+          "left": "Carinhoso",
+          "right": "Passagem A→B"
+        },
+        {
+          "left": "Choro",
+          "right": "Arpejos rápidos"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m2a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — dim7 simétrico (Carinhoso/choro):",
+      "playChords": [
+        "A7",
+        "Dm7",
+        "G7",
+        "C7M"
+      ],
+      "options": [
+        {
+          "label": "V7/ii → ii–V–I — dim7 implícito na passagem",
+          "correct": true,
+          "feedbackOk": "C#dim7 conecta A7 e Dm7 por simetria."
+        },
+        {
+          "label": "Blues I–IV–V",
+          "correct": false,
+          "feedbackErr": "Cadência choro com dominantes encadeadas."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m2a2-self",
+      "kind": "self_check",
+      "question": "Arpejou C#dim7 e resolveu em Dm7?",
+      "tags": []
+    }
+  ]
+}

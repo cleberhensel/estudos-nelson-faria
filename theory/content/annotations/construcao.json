@@ -1,0 +1,28 @@
+{
+  "workId": "construcao",
+  "key": "Em",
+  "sections": [
+    {
+      "label": "Tema — line cliché menor",
+      "chords": [
+        { "symbol": "Em", "degree": "Im", "function": "T" },
+        { "symbol": "Em7M", "degree": "Im(7M)", "function": "T" },
+        { "symbol": "Em7", "degree": "Im7", "function": "T" },
+        { "symbol": "C/E", "degree": "bVI", "function": "SD" },
+        { "symbol": "Am7", "degree": "IVm", "function": "SD" },
+        { "symbol": "Am7(9)/G", "degree": "IVm", "function": "SD" },
+        { "symbol": "B7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "Passagens",
+      "chords": [
+        { "symbol": "F7M/A", "degree": "bII7M (napolitano)", "function": "SD" },
+        { "symbol": "D", "degree": "bVII", "function": "SD" },
+        { "symbol": "G", "degree": "bIII", "function": "T" },
+        { "symbol": "Bm7", "degree": "vm", "function": "D" },
+        { "symbol": "F#m7", "degree": "iiø/?", "function": "PD" }
+      ]
+    }
+  ]
+}

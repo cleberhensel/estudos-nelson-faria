@@ -1,0 +1,177 @@
+{
+  "id": "n4-m3-a2",
+  "slug": "7-9-voicings-bossa",
+  "level": 4,
+  "moduleId": "n4-m3",
+  "title": "7(9), 7M(9), m7(9) — voicings de bossa",
+  "subtitle": "Omitir a fundamental no violão e deixar a 3ª, 7ª e 9ª cantarem — o segredo do Gm7 e C7(9) em Garota.",
+  "durationMin": 18,
+  "prerequisites": ["n4-m3-a1"],
+  "tags": ["acordes", "tensoes", "bossa"],
+  "relatedWorks": ["garota-de-ipanema"],
+  "relatedChords": ["Gm7", "C7(9)", "F7M(9)", "Dm7(9)", "Am7(9)"],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n4m3a2-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (tensões): qual nota é a 13ª sobre G7?",
+      "options": [
+        { "label": "Mi (6ª empilhada = 13ª)", "correct": true, "feedbackOk": "Agora focamos na 9ª — a cor mais usada na bossa." },
+        { "label": "Lá (9ª)", "correct": false, "feedbackErr": "Lá é a 9ª sobre G — a 13ª é Mi." }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Voicing bossa: sem fundamental",
+      "body": "Em **Garota**, o **Gm7** (3 5 3 3 3 1) e **C7(9)** (X 3 2 3 3 3) omitem a fundamental. O baixo (ou piano) toca Sol e Dó — o violão canta 3ª, 7ª e 9ª."
+    },
+    {
+      "type": "component",
+      "id": "voicing-bossa",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Gm7 e C7(9) — voicings de Garota",
+        "voicings": [
+          { "label": "Gm7 (sem Sol)", "chord": "Gm7", "shape": "3 5 3 3 3 1", "note": "3ª Bb + 7ª F + 5ª D" },
+          { "label": "C7(9) (sem Dó)", "chord": "C7(9)", "shape": "X 3 2 3 3 3", "note": "3ª E + 7ª Bb + 9ª D" },
+          { "label": "F7M(9)", "chord": "F7M(9)", "shape": "1 3 3 2 1 3", "note": "resolução em I" }
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "omitir",
+      "title": "Por que omitir a fundamental?",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "omitir-text",
+      "markdown": "No violão de acompanhamento bossa:\n\n1. **Fundamental** → baixo ou piano\n2. **3ª** → define maior/menor (essencial)\n3. **7ª** → define 7M vs 7 (essencial)\n4. **9ª** → cor bossa (desejável)\n5. **5ª** → muitas vezes omitida (redundante)\n\n**Gm7** em Garota: Si♭(3ª) + Fá(7ª) + Ré(5ª) — o Sol está implícito no contexto harmônico."
+    },
+    {
+      "type": "component",
+      "id": "prog-garota",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": ["Gm7", "C7(9)", "F7M"],
+        "functions": ["PD", "D", "T"]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-9",
+      "componentId": "play-chord",
+      "props": { "title": "Compare 7 vs 7(9)", "chords": ["C7", "C7(9)", "Cm7", "Cm7(9)"] }
+    },
+    { "type": "heading", "id": "mpb", "title": "Na música brasileira", "level": 2 },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": { "annotation": "garota-de-ipanema" }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": { "workId": "garota-de-ipanema", "title": "Garota de Ipanema", "lessonId": "n4-m3-a2" }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "**C7(9)** em **Garota** é o voicing que João Gilberto popularizou: 7ª + 9ª, fundamental omitida. Cifras brasileiras escrevem C7(9) ou C9 — no violão, o shape folheado (X 3 2 3 3 3) é mais comum que a tétrade completa."
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "João Gilberto popularizou voicings 'folheados' — poucas notas, máximo espaço. A 9ª no C7(9) substitui a fundamental no registro médio, criando o som que define a bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "Toque Gm7 → C7(9) → F7M em loop. Não toque a fundamental de Gm7 e C7(9) no baixo — deixe o contexto harmônico preencher."
+    },
+    { "type": "heading", "id": "exercicios", "title": "Exercícios", "level": 2 },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n4m3a2-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "No voicing bossa de C7(9), qual nota é mais segura omitir?",
+      "options": [
+        { "label": "Fundamental (Dó) — o baixo cobre", "correct": true, "feedbackOk": "3ª, 7ª e 9ª definem o acorde — a fundamental é redundante." },
+        { "label": "7ª (Si♭) — define dominante", "correct": false, "feedbackErr": "Sem a 7ª, vira C9 maior — perde a tensão." },
+        { "label": "3ª (Mi) — define maior/menor", "correct": false, "feedbackErr": "A 3ª é a nota mais importante após a fundamental." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n4m3a2-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Ligue o acorde à função em Fá (Garota):",
+      "pairs": [
+        { "left": "Gm7", "right": "ii — pré-dominante" },
+        { "left": "C7(9)", "right": "V — dominante com 9ª" },
+        { "left": "F7M", "right": "I — tônica" },
+        { "left": "Bb7M", "right": "IV — subdominante" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n4m3a2-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene o refrão de Garota (Gm7 → C7(9) → ?):",
+      "orderAnswer": ["Gm7", "C7(9)", "F7M"]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n4m3a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça e identifique o voicing bossa:",
+      "playChords": ["C7(9)"],
+      "options": [
+        { "label": "C7(9) — dominante com 9ª", "correct": true, "feedbackOk": "A 9ª (Ré) colora a dominante — som Garota." },
+        { "label": "C7M(9) — tônica com 9ª", "correct": false, "feedbackErr": "7M repousa — aqui há tensão de V7." },
+        { "label": "Cm7(9) — menor com 9ª", "correct": false, "feedbackErr": "3ª menor — som diferente." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n4m3a2-self",
+      "kind": "self_check",
+      "question": "Conseguiu tocar Gm7 e C7(9) omitindo a fundamental no baixo?"
+    }
+  ]
+}

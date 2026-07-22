@@ -1,0 +1,324 @@
+{
+  "id": "n3-m3-a1",
+  "slug": "analise-chega-de-saudade",
+  "level": 3,
+  "moduleId": "n3-m3",
+  "title": "Análise: Chega de Saudade (campo menor → maior)",
+  "subtitle": "A bossa que fundou um gênero — Ré menor com baixo cromático e modulação homônima para Ré maior.",
+  "durationMin": 25,
+  "prerequisites": [
+    "n3-m2-a3"
+  ],
+  "tags": [
+    "mpb",
+    "analise",
+    "bossa",
+    "modulacao"
+  ],
+  "relatedWorks": [
+    "chega-de-saudade"
+  ],
+  "relatedChords": [
+    "Dm",
+    "Dm/C",
+    "E7/B",
+    "Bb6",
+    "A7",
+    "Em7(b5)",
+    "A7(b9)",
+    "D6",
+    "Em7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n3-m3a1-warm",
+      "kind": "mc",
+      "difficulty": "intro",
+      "question": "Revisão (menor melódico): em Lá menor, qual grau elevado cria sensação \"espanhola\" na dominante?",
+      "options": [
+        {
+          "label": "7ª e 6ª graus elevados na descida",
+          "correct": true,
+          "feedbackOk": "Menor melódico — G# aparece perto da tônica."
+        },
+        {
+          "label": "b2 e b6 do frígio",
+          "correct": false,
+          "feedbackErr": "Isso é outro modo, não o melódico."
+        },
+        {
+          "label": "Apenas a 7ª harmônica",
+          "correct": false,
+          "feedbackErr": "Harmônico altera só a 7ª (G→G# ascendente)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça a Seção A inteira",
+      "body": "Toque devagar: **Dm → Dm/C → E7/B → Bb6 → A7**. Repare: o baixo desce cromaticamente (D→C→B) enquanto a harmonia gira entre tônica e dominantes secundárias. Depois ouça a mudança para **D6** — outro \"centro\" tonal."
+    },
+    {
+      "type": "component",
+      "id": "snd-a",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Seção A — Ré menor (annotation)",
+        "chords": [
+          "Dm",
+          "Dm/C",
+          "E7/B",
+          "Bb6",
+          "A7"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "snd-cad",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Cadência menor clássica",
+        "chords": [
+          "Em7(b5)",
+          "A7",
+          "Dm"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "secao-a",
+      "title": "Seção A — Ré menor e baixo cromático",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "secao-a-text",
+      "markdown": "**Dm** é **Im** (tônica). **Dm/C** mantém a tônica no acorde mas o baixo cai para Dó — sensação de suspensão sem mudar de tom.\n\n**E7/B** é **V7/V** — dominante secundária que quer resolver em **A7** (V de Dm). **Bb6** funciona como **bVI** (empréstimo modal, subdominante colorida). **A7** é **V7** com tensão máxima antes de voltar a Dm.\n\nEssa linguagem é **bossa**: cromatismo no baixo + acordes com 6ª/7ª/9ª sem perder o campo menor."
+    },
+    {
+      "type": "component",
+      "id": "prog-a",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "minor",
+        "chords": [
+          "Dm",
+          "Dm/C",
+          "E7/B",
+          "Bb6",
+          "A7"
+        ],
+        "functions": [
+          "T",
+          "T",
+          "D",
+          "SD",
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "chega-de-saudade"
+      }
+    },
+    {
+      "type": "heading",
+      "id": "modulacao",
+      "title": "Modulação homônima: Ré menor → Ré maior",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "modulacao-text",
+      "markdown": "Na **Seção B**, o centro tonal muda para **Ré maior** (mesma nota tônica, modo diferente — modulação homônima):\n\n**D6 (I) → Em7 (ii) → A7 (V7) → D6 (I)**\n\nÉ um **ii–V–I em Ré maior** — o mesmo molde que você treinou em Dó e Fá, agora como contraste luminoso após o Ré menor. Jobim **não muda a letra do tom** — muda a *cor* harmônica."
+    },
+    {
+      "type": "component",
+      "id": "snd-b",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Seção B — Ré maior",
+        "chords": [
+          "D6",
+          "Em7",
+          "A7",
+          "D6"
+        ]
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog-b",
+      "componentId": "progression",
+      "props": {
+        "key": "D",
+        "mode": "major",
+        "chords": [
+          "D6",
+          "Em7",
+          "A7",
+          "D6"
+        ],
+        "functions": [
+          "I",
+          "ii",
+          "V",
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "example",
+      "id": "ex-chega",
+      "workId": "chega-de-saudade",
+      "excerpt": "Dm  Dm/C  E7/B  Bb6  A7\n\nD6  Em7  A7  D6",
+      "annotation": "Linha 1: campo menor com cromatismo. Linha 2: ii–V–I em Ré maior — modulação homônima.",
+      "youtube": "Y0a0QuLEC8A",
+      "youtubeTitle": "Chega de Saudade",
+      "youtubeArtist": "João Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "chega-de-saudade",
+        "title": "Chega de Saudade — cifra completa",
+        "lessonId": "n3-m3-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto histórico",
+      "body": "Gravada em 1958 (João Gilberto + Jobim), *Chega de Saudade* codificou a harmonia da bossa: discrição rítmica + cromatismo sofisticado. Analisar por graus é entender por que a cifra \"assusta\" no papel mas flui no ouvido."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (8 min)",
+      "body": "1. Toque só o baixo: D (corda 4) → C (3ª casa) → B (2ª casa) sobre Dm/C e E7/B. 2. Cadência menor: Em7(b5) (X 7 8 7 8 X) → A7 → Dm. 3. Mude para Ré maior: D6 → Em7 → A7 → D6 — sinta o alívio. 4. Abra a cifra e marque Im, V7/V, bVI em lápis."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n3-m3a1-match",
+      "kind": "match",
+      "difficulty": "core",
+      "question": "Seção A (Ré menor) — associe acorde ao grau:",
+      "pairs": [
+        {
+          "left": "Dm",
+          "right": "Im"
+        },
+        {
+          "left": "E7/B",
+          "right": "V7/V"
+        },
+        {
+          "left": "Bb6",
+          "right": "bVI"
+        },
+        {
+          "left": "A7",
+          "right": "V7"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n3-m3a1-q1",
+      "kind": "mc",
+      "difficulty": "core",
+      "question": "O que caracteriza a modulação para a Seção B?",
+      "options": [
+        {
+          "label": "Mesma tônica Ré, mas de menor para maior (homônima)",
+          "correct": true,
+          "feedbackOk": "D6 em Ré maior após Dm em Ré menor."
+        },
+        {
+          "label": "Salto de trítono para Sol maior",
+          "correct": false,
+          "feedbackErr": "O centro permanece em Ré."
+        },
+        {
+          "label": "Apenas troca de voicing sem mudar tom",
+          "correct": false,
+          "feedbackErr": "O campo harmônico muda — ii–V–I maior."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n3-m3a1-order",
+      "kind": "order",
+      "difficulty": "challenge",
+      "question": "Ordene a cadência menor típica da música:",
+      "orderAnswer": [
+        "Em7(b5)",
+        "A7",
+        "Dm"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n3-m3a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça: está em Ré menor ou Ré maior?",
+      "playChords": [
+        "D6",
+        "Em7",
+        "A7",
+        "D6"
+      ],
+      "options": [
+        {
+          "label": "Ré maior — ii–V–I com D6",
+          "correct": true,
+          "feedbackOk": "Em7–A7–D6 é campo maior."
+        },
+        {
+          "label": "Ré menor — cadência em Dm",
+          "correct": false,
+          "feedbackErr": "O repouso foi D6 maior, não Dm."
+        },
+        {
+          "label": "Dó maior",
+          "correct": false,
+          "feedbackErr": "Tônica de resolução é Ré."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n3-m3a1-self",
+      "kind": "self_check",
+      "question": "Consegue tocar Seção A e B em sequência sentindo a mudança menor→maior?"
+    }
+  ]
+}

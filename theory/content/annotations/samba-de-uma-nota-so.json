@@ -1,0 +1,26 @@
+{
+  "workId": "samba-de-uma-nota-so",
+  "key": "D",
+  "sections": [
+    {
+      "label": "A — ciclo de quintas / baixo cromático",
+      "chords": [
+        { "symbol": "Dm7", "degree": "iim (eixo)", "function": "SD" },
+        { "symbol": "Db7", "degree": "SubV7", "function": "D" },
+        { "symbol": "C7M", "degree": "I (de Dó)", "function": "T" },
+        { "symbol": "B7", "degree": "SubV7", "function": "D" },
+        { "symbol": "Bb7M", "degree": "I (de Si♭)", "function": "T" },
+        { "symbol": "A7", "degree": "V7", "function": "D" }
+      ]
+    },
+    {
+      "label": "B — modulação ao relativo maior",
+      "chords": [
+        { "symbol": "F7M", "degree": "I (de Fá)", "function": "T" },
+        { "symbol": "Gm7", "degree": "ii", "function": "SD" },
+        { "symbol": "C7", "degree": "V7", "function": "D" },
+        { "symbol": "F7M", "degree": "I", "function": "T" }
+      ]
+    }
+  ]
+}

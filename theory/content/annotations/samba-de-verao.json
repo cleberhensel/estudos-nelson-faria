@@ -1,0 +1,23 @@
+{
+  "workId": "samba-de-verao",
+  "key": "Am",
+  "sections": [
+    {
+      "label": "Progressão principal",
+      "chords": [
+        { "symbol": "Am7", "degree": "Im", "function": "T" },
+        { "symbol": "D7", "degree": "IV7", "function": "SD" },
+        { "symbol": "G7M", "degree": "bVII", "function": "SD" },
+        { "symbol": "C7M", "degree": "bIII", "function": "SD" }
+      ]
+    },
+    {
+      "label": "Modulação por ciclo",
+      "chords": [
+        { "symbol": "F7M", "degree": "bVI", "function": "SD" },
+        { "symbol": "Bm7(b5)", "degree": "iiø", "function": "PD" },
+        { "symbol": "E7", "degree": "V7", "function": "D" }
+      ]
+    }
+  ]
+}

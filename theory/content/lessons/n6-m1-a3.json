@@ -1,0 +1,261 @@
+{
+  "id": "n6-m1-a3",
+  "slug": "samba-de-partido-alto-a-levada",
+  "level": 6,
+  "moduleId": "n6-m1",
+  "title": "Samba de partido-alto — a levada",
+  "subtitle": "Partido-alto: surdo no 2, tantã no contratempo — a levada que separa samba de marcha-rancho.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n6-m1-a2"
+  ],
+  "tags": [
+    "ritmo",
+    "samba",
+    "violao"
+  ],
+  "relatedWorks": [
+    "o-que-e-que-a-baiana-tem"
+  ],
+  "relatedChords": [
+    "A7",
+    "D7M",
+    "G7",
+    "C7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m1a3-warm",
+      "kind": "mc",
+      "question": "Revisão (n6-m1-a2): na bossa o polegar marca pulso. No samba de partido-alto, qual tempo recebe o surdo mais forte?",
+      "options": [
+        {
+          "label": "Tempo 2 (e resposta no contratempo).",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Bossa ancora 1 e 3; samba de roda/partido enfatiza 2."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ative a grade **Samba** e bata palmas: forte no 2, resposta no 4. Ouça **O Que É Que a Baiana Tem?** — a levada é mais 'redonda' que a bossa."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Baiana Tem (A7 → D7M)",
+        "chords": [
+          "A7",
+          "D7M",
+          "G7",
+          "C7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Samba de partido-alto — a levada",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Partido-alto** é samba de conversa e improviso — a levada tem mais **semicolcheias** e o corpo marca o **tempo 2**. No violão, você simula surdo (polegar forte no 2) e tantã (dedos no contratempo).\n\nDiferença prática: bossa = respiração no 1; samba = **empurrão no 2**. Mesma cifra, groove diferente — ouça Baiana Tem em A7–D7M e sinta o 2."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "samba",
+        "bpm": 100
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Cartola e Candeia escreveram partido-alto para roda — no violão solo, Caymmi popularizou levadas que cabem numa mão sem perder o 2."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "o-que-e-que-a-baiana-tem",
+      "excerpt": "A7  D7M  G7  C7M",
+      "annotation": "Samba com harmonia direta e ritmo marcante.",
+      "youtube": "ojo3I59Gn6c",
+      "youtubeTitle": "O Que É Que a Baiana Tem?",
+      "youtubeArtist": "Carmen Miranda"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "o-que-e-que-a-baiana-tem"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "o-que-e-que-a-baiana-tem",
+        "title": "O Que É Que a Baiana Tem?",
+        "lessonId": "n6-m1-a3"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "O samba carioca negocia com o tempo 2 o que a bossa negocia com o contratempo — dois jeitos brasileiros de 'atrasar' sem parar. **Baiana Tem** usa A7→D7M (dominante→tônica) com levada samba, não bossa."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Palmas samba: 2 forte, 4 médio (2 min). 2. Grade samba: polegar acentua células do tempo 2. 3. Toque **A7 → D7M** (Baiana Tem) com levada samba, não bossa."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m1a3-q1",
+      "kind": "mc",
+      "question": "Samba de partido-alto vs bossa — diferença central:",
+      "options": [
+        {
+          "label": "Samba enfatiza tempo 2; bossa ancora 1 e 3 com contratempo",
+          "correct": true,
+          "feedbackOk": "Groove diferente na mesma harmonia."
+        },
+        {
+          "label": "Samba só existe em tom maior",
+          "correct": false,
+          "feedbackErr": "Tom é independente do gênero."
+        },
+        {
+          "label": "Bossa é mais rápida que samba sempre",
+          "correct": false,
+          "feedbackErr": "Andamento varia — o feel é o que muda."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "samba-de-partido-alto-a-levada",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m1a3-match",
+      "kind": "match",
+      "question": "Gênero ↔ levada:",
+      "pairs": [
+        {
+          "left": "Bossa",
+          "right": "Polegar 1 e 3, dedos leves"
+        },
+        {
+          "left": "Samba",
+          "right": "Surdo no 2, tantã no 4"
+        },
+        {
+          "left": "Partido-alto",
+          "right": "Semicolcheias + improviso"
+        },
+        {
+          "left": "Baiana Tem",
+          "right": "Samba direto em A7"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n6m1a3-order",
+      "kind": "order",
+      "question": "Ordene do mais 'parado' ao mais 'cheio' de semicolcheias:",
+      "orderAnswer": [
+        "Bossa",
+        "Samba",
+        "Partido-alto",
+        "Choro"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m1a3-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — harmonia de Baiana Tem (samba):",
+      "playChords": [
+        "A7",
+        "D7M"
+      ],
+      "options": [
+        {
+          "label": "V7 → I em Ré maior",
+          "correct": true,
+          "feedbackOk": "Cadência direta — típica do samba carioca."
+        },
+        {
+          "label": "II–V–I em Fá",
+          "correct": false,
+          "feedbackErr": "Tom é Ré — resolução em D7M."
+        },
+        {
+          "label": "Backdoor bVII7 → I",
+          "correct": false,
+          "feedbackErr": "A7 é V7, não bVII7."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m1a3-self",
+      "kind": "self_check",
+      "question": "Consegue trocar de bossa para samba na mesma progressão sem mudar os acordes?",
+      "tags": []
+    }
+  ]
+}

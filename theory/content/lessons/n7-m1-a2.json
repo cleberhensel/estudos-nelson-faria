@@ -1,0 +1,247 @@
+{
+  "id": "n7-m1-a2",
+  "slug": "registros-grave-medio-e-agudo",
+  "level": 7,
+  "moduleId": "n7-m1",
+  "title": "Registros: grave, médio e agudo",
+  "subtitle": "Grave sustenta, médio harmoniza, agudo canta — Garota de Ipanema distribuída nos três registros.",
+  "durationMin": 14,
+  "prerequisites": [
+    "n7-m1-a1"
+  ],
+  "tags": [
+    "arranjo",
+    "violao"
+  ],
+  "relatedWorks": [
+    "garota-de-ipanema"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7(9)",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n7m1a2-warm",
+      "kind": "mc",
+      "question": "Revisão (n7-m1-a1): arranjo escolhe voicings além da cifra. Quantos registros principais no violão?",
+      "options": [
+        {
+          "label": "Três: grave, médio, agudo.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Registros organizam o braço verticalmente."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Toque **Garota** (F7M): grave = polegar/baixo, médio = acorde central, agudo = melodia ou tensão no topo."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Refrão Garota (F)",
+        "chords": [
+          "Gm7",
+          "C7(9)",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Registros: grave, médio e agudo",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Registro grave** (cordas 6–4): baixo independente ou fundamental. **Médio** (3–2): terças e sétimas. **Agudo** (1–2): melodia, 9ª, 11ª.\n\nEm **Garota de Ipanema**, o refrão Gm7→C7→F7M pede **Gm7 com 9ª no agudo** — o ouvido reconhece Jobim pelo registro superior, não pelo baixo."
+    },
+    {
+      "type": "component",
+      "id": "voicing",
+      "componentId": "voicing-grid",
+      "props": {
+        "title": "Garota — registros no F7M",
+        "voicings": [
+          {
+            "label": "Grave",
+            "chord": "F7M",
+            "shape": "1 X X X X X",
+            "note": "Fundamental 6ª corda"
+          },
+          {
+            "label": "Médio",
+            "chord": "F7M",
+            "shape": "X 3 2 0 1 0",
+            "note": "Shape aberto clássico"
+          },
+          {
+            "label": "Agudo (melodia)",
+            "chord": "F7M",
+            "shape": "X X 3 2 1 0",
+            "note": "Dupla aguda"
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Getz/Gilberto 1964: violão de João ocupa médio-grave; sax ocupa agudo — arranjo pensa em 'faixas'."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "garota-de-ipanema",
+      "excerpt": "F7M          G7\nGm7    C7(9)    F7M",
+      "annotation": "II–V–I em Fá maior — cadência bossa clássica.",
+      "youtube": "s61-e29Vr6Q",
+      "youtubeTitle": "Garota de Ipanema",
+      "youtubeArtist": "Getz/Gilberto"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "garota-de-ipanema"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "garota-de-ipanema",
+        "title": "Garota de Ipanema",
+        "lessonId": "n7-m1-a2"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB de gravação sempre negocia registros — violão solo precisa simular essas faixas."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. F7M: toque só cordas 6–4 (grave). 2. Adicione 3–2 (médio). 3. Adicione 1ª com 9ª (agudo)."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n7m1a2-q1",
+      "kind": "mc",
+      "question": "Em Garota, Gm7 com 9ª no topo ocupa:",
+      "options": [
+        {
+          "label": "Registro agudo — colorido Jobim",
+          "correct": true,
+          "feedbackOk": "Identidade sonora bossa."
+        },
+        {
+          "label": "Registro grave — baixo",
+          "correct": false,
+          "feedbackErr": "9ª no topo é agudo."
+        },
+        {
+          "label": "Apenas percussão",
+          "correct": false,
+          "feedbackErr": "É nota de tensão."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "registros-grave-medio-e-agudo",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n7m1a2-match",
+      "kind": "match",
+      "question": "Registro ↔ cordas típicas:",
+      "pairs": [
+        {
+          "left": "Grave",
+          "right": "6ª–4ª"
+        },
+        {
+          "left": "Médio",
+          "right": "4ª–2ª"
+        },
+        {
+          "left": "Agudo",
+          "right": "2ª–1ª"
+        },
+        {
+          "left": "Gm7(9)",
+          "right": "Pré-dominante colorida"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n7m1a2-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — cadência Garota (registro médio/agudo):",
+      "playChords": ["Gm7", "C7", "F7M"],
+      "options": [
+        { "label": "II–V–I em Fá — grave vs agudo muda timbre, não função", "correct": true, "feedbackOk": "Registros distribuem a mesma harmonia no braço." },
+        { "label": "II–V–I em Dó", "correct": false, "feedbackErr": "Resolução em F7M — tom Fá." }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n7m1a2-self",
+      "kind": "self_check",
+      "question": "Consegue tocar F7M isolando grave, depois médio, depois agudo?",
+      "tags": []
+    }
+  ]
+}

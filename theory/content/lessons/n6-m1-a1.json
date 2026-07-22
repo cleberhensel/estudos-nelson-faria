@@ -1,0 +1,254 @@
+{
+  "id": "n6-m1-a1",
+  "slug": "pulso-contratempo-e-sincope",
+  "level": 6,
+  "moduleId": "n6-m1",
+  "title": "Pulso, contratempo e síncope",
+  "subtitle": "Pulso no tempo 1, acentos no contratempo e síncope — três palavras que explicam por que a bossa 'flutua' sem correr.",
+  "durationMin": 16,
+  "prerequisites": [],
+  "tags": [
+    "ritmo"
+  ],
+  "relatedWorks": [
+    "so-danco-samba"
+  ],
+  "relatedChords": [
+    "F7M",
+    "Gm7",
+    "C7",
+    "Am7"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n6m1a1-warm",
+      "kind": "mc",
+      "question": "Revisão (entrada N6): antes de escolher uma levada, o que você precisa sentir no corpo?",
+      "options": [
+        {
+          "label": "O pulso forte nos tempos 1 e 3 — o resto é contratempo.",
+          "correct": true,
+          "feedbackOk": "Pulso nos tempos 1 e 3 — base de toda levada bossa e samba."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Sem pulso interno, qualquer batida vira barulho — bata palmas nos tempos 1–2–3–4 primeiro."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Bata palmas em **4/4** nos tempos 1 e 3. Nos tempos 2 e 4, só mova os dedos sem bater forte — isso é **contratempo**. Agora ouça **Só Danço Samba** e repare onde o violão 'cai' entre os tempos."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "II–V–I em Fá (Só Danço Samba)",
+        "chords": [
+          "Gm7",
+          "C7",
+          "F7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Pulso, contratempo e síncope",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Pulso** = batida que você não negocia (1 e 3 no 4/4). **Contratempo** = ataque entre os pulsos (2 e 4). **Síncope** = nota ou acorde que começa no contratempo e se estende sobre o pulso seguinte — o 'empurrão' da bossa.\n\nNo violão popular brasileiro, o polegar costuma marcar o pulso e os dedos preenchem contratempos. Quando você lê cifra sem ouvir o ritmo, perde metade da música."
+    },
+    {
+      "type": "component",
+      "id": "rhythm",
+      "componentId": "rhythm-grid",
+      "props": {
+        "pattern": "bossa",
+        "bpm": 120
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "João Gilberto disse que aprendeu a batida ouvindo **Só Danço Samba** devagar: o segredo não é velocidade, é **clareza do pulso** mesmo quando os dedos estão no contratempo."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "so-danco-samba",
+      "excerpt": "F7M  Gm7  C7  F7M",
+      "annotation": "Bossa com levada e II–V–I.",
+      "youtube": "YJMEu1oxLjA",
+      "youtubeTitle": "Só Danço Samba",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "so-danco-samba"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "so-danco-samba",
+        "title": "Só Danço Samba",
+        "lessonId": "n6-m1-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "A bossa nasceu quando o violão deixou de acompanhar samba de roda e passou a **sussurrar** o tempo — pulso firme na função rítmica, contratempo bossa no 2 e 4."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. Palmas: tempo 1 forte, 2 fraco, 3 forte, 4 fraco (2 min). 2. No violão mudo: polegar no 1 e 3, indicador no 2 e 4. 3. Toque **F7M** no tempo 1 de Só Danço Samba e deixe o Gm7 cair no contratempo do 2."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n6m1a1-q1",
+      "kind": "mc",
+      "question": "Síncope no violão bossa é:",
+      "options": [
+        {
+          "label": "Ataque no contratempo que 'atravessa' o pulso seguinte",
+          "correct": true,
+          "feedbackOk": "Ex.: acorde no '& de 2' segurando até o 3."
+        },
+        {
+          "label": "Tocar sempre no tempo 1",
+          "correct": false,
+          "feedbackErr": "Isso é pulso, não síncope."
+        },
+        {
+          "label": "Acelerar o metrônomo",
+          "correct": false,
+          "feedbackErr": "Síncope é posição, não velocidade."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "pulso-contratempo-e-sincope",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n6m1a1-match",
+      "kind": "match",
+      "question": "Termo ↔ definição rítmica:",
+      "pairs": [
+        {
+          "left": "Pulso",
+          "right": "Tempo 1 e 3 (âncora)"
+        },
+        {
+          "left": "Contratempo",
+          "right": "Entre os tempos (2 e 4)"
+        },
+        {
+          "left": "Síncope",
+          "right": "Contratempo que invade o pulso"
+        },
+        {
+          "left": "Levada",
+          "right": "Padrão polegar + dedos"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-order",
+      "exerciseId": "ex-n6m1a1-order",
+      "kind": "order",
+      "question": "Ordene do mais grave ao mais agudo (cordas violão PT):",
+      "orderAnswer": [
+        "Mi",
+        "Lá",
+        "Ré",
+        "Sol",
+        "Si",
+        "Mi"
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n6m1a1-dict",
+      "kind": "dictation",
+      "question": "Ouça — cadência de Só Danço Samba em Fá:",
+      "options": [
+        {
+          "label": "II–V–I em Fá",
+          "correct": true,
+          "feedbackOk": "Gm7(ii) → C7(V) → F7M(I)."
+        },
+        {
+          "label": "II–V–I em Dó",
+          "correct": false,
+          "feedbackErr": "Resolução em F7M — tom é Fá."
+        }
+      ],
+      "playChords": [
+        "Gm7",
+        "C7",
+        "F7M"
+      ],
+      "tags": [],
+      "difficulty": "challenge"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n6m1a1-self",
+      "kind": "self_check",
+      "question": "Consegue bater pulso/contratempo em palmas enquanto ouve Só Danço Samba sem perder o tempo 1?",
+      "tags": []
+    }
+  ]
+}

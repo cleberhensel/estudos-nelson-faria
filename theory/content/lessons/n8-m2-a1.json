@@ -1,0 +1,263 @@
+{
+  "id": "n8-m2-a1",
+  "slug": "dorico-e-mixolidio-quando-na-mpb",
+  "level": 8,
+  "moduleId": "n8-m2",
+  "title": "Dórico e mixolídio — quando na MPB",
+  "subtitle": "Dórico (6ª maior) e mixolídio (b7) — Ingênuo usa mixolídio na dominante antes de modulação.",
+  "durationMin": 18,
+  "prerequisites": [
+    "n8-m1-a3"
+  ],
+  "tags": [
+    "modos",
+    "avancado"
+  ],
+  "relatedWorks": [
+    "ingenuo"
+  ],
+  "relatedChords": [
+    "E7",
+    "Am7",
+    "D7",
+    "G7M",
+    "F7M"
+  ],
+  "blocks": [
+    {
+      "type": "exercise",
+      "id": "warm",
+      "exerciseId": "ex-n8m2a1-warm",
+      "kind": "mc",
+      "question": "Revisão (n8-m1-a3): empréstimo modal traz bVII/bVI. Mixolídio caracteriza-se por:",
+      "options": [
+        {
+          "label": "7ª menor (b7) sobre acorde maior — sensação dominante.",
+          "correct": true,
+          "feedbackOk": "Fluxo correto da trilha."
+        },
+        {
+          "label": "Não lembro — vou ler direto",
+          "correct": false,
+          "feedbackErr": "Mixolídio = maior com b7."
+        }
+      ],
+      "tags": [],
+      "difficulty": "intro"
+    },
+    {
+      "type": "callout",
+      "id": "ouca",
+      "variant": "ear",
+      "title": "Ouça antes de ler",
+      "body": "Ingênuo: E7 mixolídio (3ª maior + b7) preparando Am7 — ouça 'blues major' na dominante."
+    },
+    {
+      "type": "component",
+      "id": "snd",
+      "componentId": "play-chord",
+      "props": {
+        "title": "Ingênuo — dominante mixolídia",
+        "chords": [
+          "E7",
+          "Am7",
+          "D7",
+          "G7M"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "id": "nucleo",
+      "title": "Dórico e mixolídio — quando na MPB",
+      "level": 2
+    },
+    {
+      "type": "prose",
+      "id": "nucleo-text",
+      "markdown": "**Dórico** (m7 com 6ª maior): comum em **ii** (Dm dórico sobre C). **Mixolídio** (7M com b7): comum em **V** (G mixolídio).\n\nNa MPB:\n- **Ingênuo**: dominantes mixolídias (E7, A7)\n- **Partido alto**: melodia dórica ocasional\n\nModos = **paleta** sobre acordes, não escala solta."
+    },
+    {
+      "type": "component",
+      "id": "lab",
+      "componentId": "harmonic-lab",
+      "props": {
+        "defaultKey": "F",
+        "mode": "major"
+      }
+    },
+    {
+      "type": "component",
+      "id": "prog",
+      "componentId": "progression",
+      "props": {
+        "key": "F",
+        "mode": "major",
+        "chords": [
+          "F7M",
+          "E7",
+          "Am7",
+          "D7"
+        ],
+        "functions": [
+          "I",
+          "V/V",
+          "ii",
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "id": "deep",
+      "variant": "deep",
+      "title": "Aprofundamento",
+      "body": "Jazz modal dos anos 60 encontrou Jobim já usando mixolídio intuitivamente."
+    },
+    {
+      "type": "heading",
+      "id": "mpb",
+      "title": "Na música brasileira",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "id": "ex-obra",
+      "workId": "ingenuo",
+      "excerpt": "F7M  E7  Am7  D7  G7M",
+      "annotation": "Modulações elegantes típicas de Jobim.",
+      "youtube": "Nlom42TJTAg",
+      "youtubeTitle": "Ingênuo",
+      "youtubeArtist": "Tom Jobim"
+    },
+    {
+      "type": "component",
+      "id": "chart",
+      "componentId": "song-chart",
+      "props": {
+        "annotation": "ingenuo"
+      }
+    },
+    {
+      "type": "component",
+      "id": "wl",
+      "componentId": "work-link",
+      "props": {
+        "workId": "ingenuo",
+        "title": "Ingênuo",
+        "lessonId": "n8-m2-a1"
+      }
+    },
+    {
+      "type": "callout",
+      "id": "br",
+      "variant": "br",
+      "title": "Contexto brasileiro",
+      "body": "MPB não 'escolhe modo' abstrato — acorde sugere escala (E7 → mixolídio E)."
+    },
+    {
+      "type": "callout",
+      "id": "pratica",
+      "variant": "practice",
+      "title": "Prática agora (5 min)",
+      "body": "1. E mixolídio: E–F#–G#–A–B–C#–D sobre E7. 2. Am7 dórico: A–B–C–D–E–F#–G. 3. Ingênuo intro."
+    },
+    {
+      "type": "heading",
+      "id": "exercicios",
+      "title": "Exercícios",
+      "level": 2
+    },
+    {
+      "type": "exercise",
+      "id": "ex-q1",
+      "exerciseId": "ex-n8m2a1-q1",
+      "kind": "mc",
+      "question": "E7 mixolídio em Ingênuo tem:",
+      "options": [
+        {
+          "label": "3ª maior + 7ª menor (b7)",
+          "correct": true,
+          "feedbackOk": "Dominante mixolídia."
+        },
+        {
+          "label": "7ª maior como jônico",
+          "correct": false,
+          "feedbackErr": "b7 define mixolídio."
+        },
+        {
+          "label": "6ª menor",
+          "correct": false,
+          "feedbackErr": "Isso aproxima dórico/menor."
+        }
+      ],
+      "tags": [],
+      "difficulty": "core",
+      "review": {
+        "concept": "dorico-e-mixolidio-quando-na-mpb",
+        "intervalDays": 7
+      }
+    },
+    {
+      "type": "exercise",
+      "id": "ex-match",
+      "exerciseId": "ex-n8m2a1-match",
+      "kind": "match",
+      "question": "Modo ↔ acorde típico MPB:",
+      "pairs": [
+        {
+          "left": "Mixolídio",
+          "right": "V7 / dominante"
+        },
+        {
+          "left": "Dórico",
+          "right": "m7 / ii"
+        },
+        {
+          "left": "E7 Ingênuo",
+          "right": "Mixolídio"
+        },
+        {
+          "left": "Dm sobre C",
+          "right": "Dórico"
+        }
+      ],
+      "tags": [],
+      "difficulty": "core"
+    },
+    {
+      "type": "exercise",
+      "id": "ex-dict",
+      "exerciseId": "ex-n8m2a1-dict",
+      "kind": "dictation",
+      "difficulty": "challenge",
+      "question": "Ouça — E7 mixolídio em Ingênuo:",
+      "playChords": [
+        "F7M",
+        "E7",
+        "Am7"
+      ],
+      "options": [
+        {
+          "label": "I → V7/ii (mixolídio sobre E7) → ii",
+          "correct": true,
+          "feedbackOk": "Dórico/mixolídio na MPB — E7 pede escala mixolídia."
+        },
+        {
+          "label": "II–V–I em Lá menor",
+          "correct": false,
+          "feedbackErr": "Centro Fá maior — E7 é dominante secundária."
+        }
+      ],
+      "tags": []
+    },
+    {
+      "type": "exercise",
+      "id": "ex-self",
+      "exerciseId": "ex-n8m2a1-self",
+      "kind": "self_check",
+      "question": "Cantou escala mixolídia E sobre E7 de Ingênuo?",
+      "tags": []
+    }
+  ]
+}
